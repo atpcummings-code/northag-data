@@ -13,7 +13,6 @@
       "maxQty": 2,
       "points": 32,
       "br": 2,
-      "notes": "",
       "morale": "P",
       "unitComposition": [
         {
@@ -35,7 +34,6 @@
       "maxQty": 1,
       "points": 24,
       "br": 2,
-      "notes": "",
       "morale": "P",
       "unitComposition": [
         {
@@ -58,6 +56,50 @@
           "composition": []
         }
       ]
+    },
+    {
+      "id": "uk-northag-dismounted-infantry-platoon",
+      "name": "Dismounted Infantry Platoon",
+      "category": "Forward Screen Units",
+      "minQty": 0,
+      "maxQty": 1,
+      "points": 50,
+      "br": 7,
+      "morale": "P",
+      "unitComposition": [
+        {
+          "qty": 7,
+          "name": "Infantry Fire Teams in foxholes"
+        }
+      ],
+      "specialRules": [
+        {"name": "Dug-in"}
+      ],
+            "optionalSpecialRules": [],
+      "options": []
+    },
+    {
+      "id": "uk-northag-sas-patrol",
+      "name": "SAS Patrol",
+      "category": "Forward Screen Units",
+      "minQty": 0,
+      "maxQty": 1,
+      "points": 25,
+      "br": 1,
+      "morale": "E",
+      "unitComposition": [
+        {"qty": 1, "name": "Infantry Fire Teams"},
+         {"qty": 1, "name": "Land Rover"}
+      ],
+      "specialRules": [
+        {"name": "Dug-in"}
+      ],
+      "optionalSpecialRules": [
+        {"name": "Scout"},
+        {"name": "Artillery Spotter"},
+        {"name": "Behind Enemy Lines"}
+            ],
+      "options": []
     }
   ]
 }
