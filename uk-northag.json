@@ -314,7 +314,7 @@
       "maxQty": 2,
       "points": 15,
       "br": 0,
-      "notes": "Up to 10\" of ditch. The anti-tank ditch is impassable to all vehicles. ,
+      "notes": "Up to 10\" of ditch. The anti-tank ditch is impassable to all vehicles.",
       "unitComposition": [],
       "specialRules": [
         {"name": "Forward Deployed"}
@@ -330,7 +330,7 @@
       "maxQty": 2,
       "points": 10,
       "br": 0,
-      "notes": "Up to 10\" of ditch. The anti-tank ditch is impassable to all vehicles. ,
+      "notes": "" ,
       "unitComposition": [
          {"qty": 1, "name": "Infantry Weapons Team with a Blowpipe MANPAD in foxholes."}
         
