@@ -124,27 +124,41 @@
           "name": "Upgrade all Chieftains to 'Stillbrew'",
           "points": 12,
           "br": 0,
-          "addSpecialRules": "Stillbrew"
+          "addSpecialRules": "Stillbrew",
           "composition": [{"qty": 3, "name": "MK9 Chieftains (Stillbrew Armour) in tank scrapes"}]
         }
       ]
     },
     {
-      "id": "uk-northag-chieftain-tank-troop",
-      "name": "Chieftain Tank Troop",
+      "id": "uk-northag-fortified-building",
+      "name": "Fortified Building",
       "category": "Forward Screen Units",
       "minQty": 0,
-      "maxQty": 1,
-      "points": 147,
-      "br": 9,
+      "maxQty": 4,
+      "points": 20,
+      "br": 0,
+      "notes": "Place a single small building anywhere in your deployment. It has alredy been fortified for defence amd goives Infantry units inside a 3+ Cover Save
+      "unitComposition": [],
+      "specialRules": [],
+      "optionalSpecialRules": [],
+      "options": []
+    },
+    {
+      "id": "uk-northag-recce-tank-patrol",
+      "name": "Recce Tank Patrol",
+      "category": "Forward Screen Units",
+      "minQty": 0,
+      "maxQty": 2,
+      "points": 34,
+      "br": 2,
       "morale": "P",
       "unitComposition": [
-        {"qty": 3, "name": "MK9 Chieftains in tank scrapes"}
+        {"qty": 2, "name": "Scorpion or scimitar light tanks"},
+         {"qty": 1, "name": "Land Rover"}
       ],
       "specialRules": [
-        {"name": "Dug-in"},
-        {"name": "Advanced Gunnery"},
-        {"name": "Advanced Sights"}
+        {"name": "Scout"},
+        {"name": "Mortar Spotter"}
       ],
       "optionalSpecialRules": [],
       "options": [
@@ -153,8 +167,8 @@
           "name": "Upgrade all Chieftains to 'Stillbrew'",
           "points": 12,
           "br": 0,
-          "addSpecialRules": "Stillbrew"
-          "composition": []
+          "addSpecialRules": "Stillbrew",
+          "composition": [{"qty": 3, "name": "MK9 Chieftains (Stillbrew Armour) in tank scrapes"}]
         }
       ]
     }
