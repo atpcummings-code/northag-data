@@ -11,8 +11,8 @@
       "category": "Forward Screen Units",
       "points": 32,
       "br": 2,
-      "morale" "Professional",
-      "unitComposition": {["qauntity": 2, "name": "FV721 Fox Armoured Cars"]},
+      "morale": "Professional",
+      "unitComposition":["qauntity": 2, "name": "FV721 Fox Armoured Cars"],
       "specialRules": ["Scout","Mortar Spotter"],
       "notes": ""
     },
