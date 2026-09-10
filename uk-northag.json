@@ -6,13 +6,15 @@
   "colour": "#3F5C34",
   "units": [
     {
-      "id": "uk-bg-hq",
-      "name": "Battlegroup HQ (Chieftain)",
+      "id": "uk-northag-armoured-card-patrol",
+      "name": "Armoured Car Patrol",
       "category": "Forward Screen Units",
-      "points": 60,
+      "points": 32,
       "br": 2,
-      "stats": "2x Chieftain Mk10 | Armour 6 | FP 4",
-      "notes": "Compulsory. Commands the battlegroup and issues orders."
+      "morale" "Professional",
+      "unitComposition": {["qauntity": 2, "name": "FV721 Fox Armoured Cars"]},
+      "specialRules": ["Scout","Mortar Spotter"],
+      "notes": ""
     },
     {
       "id": "uk-recce-hq",
