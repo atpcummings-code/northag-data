@@ -125,7 +125,7 @@
           "points": 12,
           "br": 0,
           "addSpecialRules": "Stillbrew"
-          "composition": []
+          "composition": [{"qty": 3, "name": "MK9 Chieftains (Stillbrew Armour) in tank scrapes"}]
         }
       ]
     },
@@ -154,7 +154,7 @@
           "points": 12,
           "br": 0,
           "addSpecialRules": "Stillbrew"
-          "composition": ["qty": 3, "name": "MK9 Chieftains (Stillbrew Armour) in tank scrapes"]
+          "composition": []
         }
       ]
     }
