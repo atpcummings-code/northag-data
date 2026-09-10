@@ -5,6 +5,32 @@
   "year": "1985",
   "colour": "#3F5C34",
   "units": [
-    
+    {
+      "id": "uk-northag-armoured-car-patrol",
+      "name": "Armoured Car Patrol",
+      "category": "Forward Screen Units",
+      "points": 32,
+      "br": 2,
+      "notes": "Compulsory. Commands the battlegroup and issues orders.",
+      "morale": "P",
+      "unitComposition": [
+        {
+          "qty": 2,
+          "name": "FV721 Fox armoured cars"
+        }
+      ],
+      "specialRules": [
+        {
+          "name": ["Scout","Mortar Spotter"],
+          "text": ""
+        }
+      ],
+      "optionalSpecialRules": [
+        {
+         
+        }
+      ]
+    },
+
   ]
 }
