@@ -8,7 +8,7 @@
     {
       "id": "us-tf-hq",
       "name": "Task Force HQ (M1 Abrams)",
-      "category": "Headquarters",
+       "category": "Forward Screen Units",
       "points": 65,
       "br": 2,
       "stats": "2x M1 Abrams | Armour 7 | FP 4",
@@ -17,7 +17,7 @@
     {
       "id": "us-cav-hq",
       "name": "Cavalry Troop HQ (M3 Bradley)",
-      "category": "Headquarters",
+       "category": "Forward Screen Units",
       "points": 35,
       "br": 1,
       "stats": "2x M3 CFV | Armour 4 | Recce 4"
@@ -25,7 +25,7 @@
     {
       "id": "us-abrams-company",
       "name": "M1 Abrams Tank Company",
-      "category": "Combat",
+      "category": "Vanguard Unit",
       "points": 200,
       "br": 3,
       "stats": "4x M1 Abrams | Armour 7 | FP 4 | AT 16",
@@ -36,7 +36,7 @@
     {
       "id": "us-m60a3-company",
       "name": "M60A3 Tank Company",
-      "category": "Combat",
+      "category": "Vanguard Unit",
       "points": 140,
       "br": 3,
       "stats": "4x M60A3 | Armour 5 | FP 4 | AT 14"
@@ -44,7 +44,7 @@
     {
       "id": "us-bradley-platoon",
       "name": "M2 Bradley Mech Platoon",
-      "category": "Combat",
+      "category": "Vanguard Unit",
       "points": 130,
       "br": 2,
       "stats": "3x M2 Bradley + infantry squad | Armour 4 | AT 10 (TOW)"
@@ -52,7 +52,7 @@
     {
       "id": "us-m113-platoon",
       "name": "M113 Mech Infantry Platoon",
-      "category": "Combat",
+      "category": "Vanguard Unit",
       "points": 90,
       "br": 2,
       "stats": "3x M113 + infantry squad | Armour 2 | AT 6 (Dragon)"
@@ -60,7 +60,7 @@
     {
       "id": "us-cav-scout-patrol",
       "name": "M3 Bradley Scout Patrol",
-      "category": "Reconnaissance",
+       "category": "Main Column",
       "points": 80,
       "br": 1,
       "stats": "3x M3 CFV | Armour 4 | Recce 4 | TOW"
@@ -68,7 +68,7 @@
     {
       "id": "us-oh58-flight",
       "name": "OH-58 Kiowa Scout Flight",
-      "category": "Reconnaissance",
+       "category": "Main Column",
       "points": 55,
       "br": 1,
       "stats": "1x OH-58C | Recce 5 | Laser designation"
@@ -76,7 +76,7 @@
     {
       "id": "us-tow-platoon",
       "name": "TOW Anti-tank Platoon",
-      "category": "Combat Support",
+      "category": "Additional Fire Support",
       "points": 75,
       "br": 1,
       "stats": "3x M901 ITV | AT 11 | Range 20\""
@@ -84,7 +84,7 @@
     {
       "id": "us-m109a2-battery",
       "name": "M109A2 155mm Battery",
-      "category": "Combat Support",
+      "category": "Additional Fire Support",
       "points": 135,
       "br": 2,
       "stats": "4x M109A2 | Indirect FP 7 | Range 60\""
@@ -92,7 +92,7 @@
     {
       "id": "us-vulcan-section",
       "name": "M163 Vulcan AA Section",
-      "category": "Combat Support",
+      "category": "Additional Fire Support",
       "points": 60,
       "br": 1,
       "stats": "2x M163 Vulcan | AA 6 | 20mm Gatling"
@@ -100,7 +100,7 @@
     {
       "id": "us-engineer-platoon",
       "name": "Combat Engineer Platoon (AVLB)",
-      "category": "Combat Support",
+      "category": "Additional Fire Support",
       "points": 55,
       "br": 1,
       "stats": "2x AVLB + sappers | Bridging | Breach 1 use"
@@ -108,7 +108,7 @@
     {
       "id": "us-a10-flight",
       "name": "A-10 Thunderbolt II Flight",
-      "category": "Air Support",
+      "category": "(Optional) Reinforcement Requests",
       "points": 120,
       "br": 3,
       "stats": "2x A-10A | AT 18 (GAU-8) | 1 pass per game",
@@ -119,7 +119,7 @@
     {
       "id": "us-ah1-flight",
       "name": "AH-1S Cobra Flight",
-      "category": "Air Support",
+      "category": "(Optional) Reinforcement Requests",
       "points": 110,
       "br": 2,
       "stats": "2x AH-1S (TOW) | AT 15 | Pop-up attack"
