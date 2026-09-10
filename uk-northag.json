@@ -9,6 +9,8 @@
       "id": "uk-northag-armoured-car-patrol",
       "name": "Armoured Car Patrol",
       "category": "Forward Screen Units",
+      "minQty": 0,
+      "maxQty": 2,
       "points": 32,
       "br": 2,
       "notes": "Compulsory. Commands the battlegroup and issues orders.",
