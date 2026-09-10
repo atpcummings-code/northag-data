@@ -342,7 +342,7 @@
       "options": []
     },
     {
-      "id": "uk-northag-sgpmg-dug-out,
+      "id": "uk-northag-sgpmg-dug-out",
       "name": "sGPMG Dug-Out",
       "category": "Forward Screen Units",
       "minQty": 0,
@@ -363,7 +363,7 @@
       "options": []
     },
     {
-      "id": "uk-northag-bridge-demolition,
+      "id": "uk-northag-bridge-demolition",
       "name": "Bridge Demolition",
       "category": "Forward Screen Units",
       "minQty": 0,
@@ -378,7 +378,7 @@
       "options": []
     },
     {
-      "id": "uk-northag-road-block,
+      "id": "uk-northag-road-block",
       "name": "Road Block",
       "category": "Forward Screen Units",
       "minQty": 0,
