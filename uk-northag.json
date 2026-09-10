@@ -8,7 +8,7 @@
     {
       "id": "uk-bg-hq",
       "name": "Battlegroup HQ (Chieftain)",
-      "category": "Forward Screen Units"
+      "category": "Forward Screen Units",
       "points": 60,
       "br": 2,
       "stats": "2x Chieftain Mk10 | Armour 6 | FP 4",
@@ -17,7 +17,7 @@
     {
       "id": "uk-recce-hq",
       "name": "Recce Troop HQ (Scimitar)",
-      "category": "Forward Screen Units"
+      "category": "Forward Screen Units",
       "points": 30,
       "br": 1,
       "stats": "2x FV107 Scimitar | Armour 2 | Recce 3"
