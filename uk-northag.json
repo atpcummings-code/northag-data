@@ -22,10 +22,8 @@
         }
       ],
       "specialRules": [
-        {
-          "name": ["Scout","Mortar Spotter"],
-          "text": ""
-        }
+        {"name": "Scout"},
+        {"name": "Mortar Spotter"}
       ],
       "optionalSpecialRules": []
     },
