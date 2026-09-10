@@ -8,7 +8,7 @@
     {
       "id": "su-bg-hq",
       "name": "Regimental HQ (T-80B)",
-      "category": "Headquarters",
+       "category": "Forward Screen Units",
       "points": 60,
       "br": 2,
       "stats": "2x T-80B | Armour 8 | FP 4",
@@ -17,7 +17,7 @@
     {
       "id": "su-brdm-hq",
       "name": "Razvedka HQ (BRDM-2)",
-      "category": "Headquarters",
+       "category": "Forward Screen Units",
       "points": 25,
       "br": 1,
       "stats": "2x BRDM-2 | Armour 2 | Recce 3"
@@ -25,7 +25,7 @@
     {
       "id": "su-t80-company",
       "name": "T-80B Tank Company",
-      "category": "Combat",
+      "category": "Vanguard Unit",
       "points": 180,
       "br": 3,
       "stats": "5x T-80B | Armour 8 | FP 4 | AT 15"
@@ -33,7 +33,7 @@
     {
       "id": "su-t72-company",
       "name": "T-72A Tank Company",
-      "category": "Combat",
+      "category": "Vanguard Unit",
       "points": 150,
       "br": 3,
       "stats": "5x T-72A | Armour 6 | FP 4 | AT 14"
@@ -41,7 +41,7 @@
     {
       "id": "su-bmp2-platoon",
       "name": "BMP-2 Motor Rifle Platoon",
-      "category": "Combat",
+      "category": "Vanguard Unit",
       "points": 110,
       "br": 2,
       "stats": "3x BMP-2 + infantry section | Armour 3 | AT 9 (AT-5)"
@@ -49,7 +49,7 @@
     {
       "id": "su-btr-platoon",
       "name": "BTR-70 Motor Rifle Platoon",
-      "category": "Combat",
+      "category": "Vanguard Unit",
       "points": 80,
       "br": 2,
       "stats": "3x BTR-70 + infantry section | Armour 2 | AT 6 (RPG)"
@@ -57,7 +57,7 @@
     {
       "id": "su-brdm-patrol",
       "name": "BRDM-2 Razvedka Patrol",
-      "category": "Reconnaissance",
+      "category": "Main Column",
       "points": 55,
       "br": 1,
       "stats": "3x BRDM-2 | Armour 2 | Recce 4 | Amphibious"
@@ -65,7 +65,7 @@
     {
       "id": "su-mi2-flight",
       "name": "Mi-2 Observation Flight",
-      "category": "Reconnaissance",
+      "category": "Main Column",
       "points": 45,
       "br": 1,
       "stats": "1x Mi-2 | Recce 5 | Artillery spotting"
@@ -73,7 +73,7 @@
     {
       "id": "su-at5-section",
       "name": "AT-5 Spandrel Section",
-      "category": "Combat Support",
+      "category": "Additional Fire Support",
       "points": 65,
       "br": 1,
       "stats": "3x BRDM-2 (AT-5) | AT 12 | Range 20\""
@@ -81,7 +81,7 @@
     {
       "id": "su-2s1-battery",
       "name": "2S1 Gvozdika 122mm Battery",
-      "category": "Combat Support",
+      "category": "Additional Fire Support",
       "points": 105,
       "br": 2,
       "stats": "4x 2S1 | Indirect FP 6 | Range 50\""
@@ -89,7 +89,7 @@
     {
       "id": "su-shilka-section",
       "name": "ZSU-23-4 Shilka Section",
-      "category": "Combat Support",
+      "category": "Additional Fire Support",
       "points": 90,
       "br": 1,
       "stats": "2x ZSU-23-4 | AA 6 | Radar-guided quad 23mm"
@@ -97,7 +97,7 @@
     {
       "id": "su-mtu-troop",
       "name": "MTU-20 Engineer Troop",
-      "category": "Combat Support",
+      "category": "Additional Fire Support",
       "points": 50,
       "br": 1,
       "stats": "2x MTU-20 bridgelayer + sappers | Bridging | Breach 1 use"
@@ -105,7 +105,7 @@
     {
       "id": "su-su25-flight",
       "name": "Su-25 Frogfoot Flight",
-      "category": "Air Support",
+     "category": "(Optional) Reinforcement Requests",
       "points": 115,
       "br": 3,
       "stats": "2x Su-25 | AT 16 | 1 pass per game"
@@ -113,7 +113,7 @@
     {
       "id": "su-mi24-flight",
       "name": "Mi-24 Hind Flight",
-      "category": "Air Support",
+     "category": "(Optional) Reinforcement Requests",
       "points": 125,
       "br": 3,
       "stats": "2x Mi-24V | AT 16 | Rockets + AT-6 Spiral",
