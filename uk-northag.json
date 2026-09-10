@@ -8,7 +8,7 @@
     {
       "id": "uk-bg-hq",
       "name": "Battlegroup HQ (Chieftain)",
-      "category": "Headquarters",
+      "category": "Forward Screen Units"
       "points": 60,
       "br": 2,
       "stats": "2x Chieftain Mk10 | Armour 6 | FP 4",
@@ -17,7 +17,7 @@
     {
       "id": "uk-recce-hq",
       "name": "Recce Troop HQ (Scimitar)",
-      "category": "Headquarters",
+      "category": "Forward Screen Units"
       "points": 30,
       "br": 1,
       "stats": "2x FV107 Scimitar | Armour 2 | Recce 3"
@@ -25,7 +25,7 @@
     {
       "id": "uk-chieftain-sqn",
       "name": "Chieftain Mk10 Squadron",
-      "category": "Combat",
+       "category": "Vanguard Unit",
       "points": 145,
       "br": 3,
       "stats": "4x Chieftain Mk10 | Armour 6 | FP 4 | AT 14",
@@ -37,7 +37,7 @@
     {
       "id": "uk-challenger-sqn",
       "name": "Challenger 1 Squadron",
-      "category": "Combat",
+       "category": "Vanguard Unit",
       "points": 175,
       "br": 3,
       "stats": "4x Challenger 1 | Armour 8 | FP 4 | AT 16"
@@ -45,7 +45,7 @@
     {
       "id": "uk-warrior-platoon",
       "name": "Warrior Mechanised Platoon",
-      "category": "Combat",
+       "category": "Vanguard Unit",
       "points": 120,
       "br": 2,
       "stats": "3x Warrior + infantry section | Armour 3 | AT 8 (MILAN)"
@@ -53,7 +53,7 @@
     {
       "id": "uk-fv432-platoon",
       "name": "FV432 Rifle Platoon",
-      "category": "Combat",
+       "category": "Vanguard Unit",
       "points": 85,
       "br": 2,
       "stats": "3x FV432 + infantry section | Armour 2 | AT 6 (Carl Gustav)"
@@ -61,7 +61,7 @@
     {
       "id": "uk-scimitar-patrol",
       "name": "Scimitar/Scorpion Recce Patrol",
-      "category": "Reconnaissance",
+      "category": "Main Column",
       "points": 65,
       "br": 1,
       "stats": "3x CVR(T) | Armour 2 | Recce 4 | Speed 8"
@@ -69,7 +69,7 @@
     {
       "id": "uk-lynx-oph",
       "name": "Lynx AH.1 Observation Flight",
-      "category": "Reconnaissance",
+      "category": "Main Column",
       "points": 50,
       "br": 1,
       "stats": "1x Lynx AH.1 | Recce 5 | TOW spotting"
@@ -77,7 +77,7 @@
     {
       "id": "uk-milan-platoon",
       "name": "MILAN Anti-tank Platoon",
-      "category": "Combat Support",
+     "category": "Additional Fire Support",
       "points": 70,
       "br": 1,
       "stats": "3x MILAN posts | AT 10 | Range 18\""
@@ -85,7 +85,7 @@
     {
       "id": "uk-abbot-battery",
       "name": "Abbot 105mm SP Battery",
-      "category": "Combat Support",
+     "category": "Additional Fire Support",
       "points": 110,
       "br": 2,
       "stats": "4x Abbot SPG | Indirect FP 5 | Range 48\""
@@ -93,7 +93,7 @@
     {
       "id": "uk-m109-battery",
       "name": "M109 155mm SP Battery",
-      "category": "Combat Support",
+     "category": "Additional Fire Support",
       "points": 135,
       "br": 2,
       "stats": "4x M109 | Indirect FP 7 | Range 60\""
@@ -101,7 +101,7 @@
     {
       "id": "uk-blowpipe-section",
       "name": "Blowpipe AA Section",
-      "category": "Combat Support",
+     "category": "Additional Fire Support",
       "points": 45,
       "br": 1,
       "stats": "2x Blowpipe teams | AA 4 | Range 12\""
@@ -109,7 +109,7 @@
     {
       "id": "uk-engineer-troop",
       "name": "Royal Engineers Troop (CET)",
-      "category": "Combat Support",
+     "category": "Additional Fire Support",
       "points": 55,
       "br": 1,
       "stats": "2x CET + sappers | Breach 1 use | Bridging"
@@ -117,7 +117,7 @@
     {
       "id": "uk-harrier-flight",
       "name": "Harrier GR3 Strike Flight",
-      "category": "Air Support",
+     "category": "(Optional) Reinforcement Requests",
       "points": 90,
       "br": 2,
       "stats": "2x Harrier GR3 | AT 12 | 1 pass per game",
@@ -128,7 +128,7 @@
     {
       "id": "uk-lynx-tow",
       "name": "Lynx AH.1 TOW Flight",
-      "category": "Air Support",
+     "category": "(Optional) Reinforcement Requests",
       "points": 100,
       "br": 2,
       "stats": "2x Lynx AH.1 (TOW) | AT 14 | Pop-up attack"
