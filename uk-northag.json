@@ -13,7 +13,7 @@
       "maxQty": 2,
       "points": 32,
       "br": 2,
-      "notes": "Compulsory. Commands the battlegroup and issues orders.",
+      "notes": "",
       "morale": "P",
       "unitComposition": [
         {
@@ -26,6 +26,38 @@
         {"name": "Mortar Spotter"}
       ],
             "optionalSpecialRules": []
+    },
+    {
+      "id": "uk-northag-gazelle-scout-helicopter",
+      "name": "Gazelle Scout Helicopter",
+      "category": "Forward Screen Units",
+      "minQty": 0,
+      "maxQty": 1,
+      "points": 24,
+      "br": 2,
+      "notes": "",
+      "morale": "P",
+      "unitComposition": [
+        {
+          "qty": 1,
+          "name": "Gazelle Scout Helicopter"
+        }
+      ],
+      "specialRules": [
+        {"name": "Helicopter"},
+        {"name": "Scout3"},
+        {"name": "Artillery Spotter"}
+      ],
+            "optionalSpecialRules": [],
+      "options": [
+        {
+          "id": "uk-northag-gazelle-scout-helicopter-1",
+          "name": "1 Timed 105mm Artillery Strike",
+          "points": 12,
+          "br": 0,
+          "composition": []
+        }
+      ]
     }
   ]
 }
