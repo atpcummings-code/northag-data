@@ -124,7 +124,37 @@
           "name": "Upgrade all Chieftains to 'Stillbrew'",
           "points": 12,
           "br": 0,
+          "addSpecialRules": "Stillbrew"
           "composition": []
+        }
+      ]
+    },
+    {
+      "id": "uk-northag-chieftain-tank-troop",
+      "name": "Chieftain Tank Troop",
+      "category": "Forward Screen Units",
+      "minQty": 0,
+      "maxQty": 1,
+      "points": 147,
+      "br": 9,
+      "morale": "P",
+      "unitComposition": [
+        {"qty": 3, "name": "MK9 Chieftains in tank scrapes"}
+      ],
+      "specialRules": [
+        {"name": "Dug-in"},
+        {"name": "Advanced Gunnery"},
+        {"name": "Advanced Sights"}
+      ],
+      "optionalSpecialRules": [],
+      "options": [
+        {
+          "id": "uk-northag-chieftain-tank-troop-1",
+          "name": "Upgrade all Chieftains to 'Stillbrew'",
+          "points": 12,
+          "br": 0,
+          "addSpecialRules": "Stillbrew"
+          "composition": ["qty": 3, "name": "MK9 Chieftains (Stillbrew Armour) in tank scrapes"]
         }
       ]
     }
