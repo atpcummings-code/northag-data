@@ -109,8 +109,7 @@
       "br": 9,
       "morale": "P",
       "unitComposition": [
-        {"qty": 3, "name": "MK9 Chieftains in tank scrapes"},
-         {"qty": 1, "name": "Land Rover"}
+        {"qty": 3, "name": "MK9 Chieftains in tank scrapes"}
       ],
       "specialRules": [
         {"name": "Dug-in"},
@@ -153,7 +152,7 @@
       "br": 2,
       "morale": "P",
       "unitComposition": [
-        {"qty": 2, "name": "Scorpion or scimitar light tanks"},
+        {"qty": 2, "name": "Scorpion or Scimitar light tanks"},
          {"qty": 1, "name": "Land Rover"}
       ],
       "specialRules": [
@@ -161,16 +160,239 @@
         {"name": "Mortar Spotter"}
       ],
       "optionalSpecialRules": [],
-      "options": [
-        {
-          "id": "uk-northag-chieftain-tank-troop-1",
-          "name": "Upgrade all Chieftains to 'Stillbrew'",
-          "points": 12,
-          "br": 0,
-          "addSpecialRules": "Stillbrew",
-          "composition": [{"qty": 3, "name": "MK9 Chieftains (Stillbrew Armour) in tank scrapes"}]
-        }
-      ]
+      "options": []
+    },
+    {
+      "id": "uk-northag-fv102-striker-section",
+      "name": "FV102 Striker Section",
+      "category": "Forward Screen Units",
+      "minQty": 0,
+      "maxQty": 2,
+      "points": 58,
+      "br": 2,
+      "morale": "P",
+      "unitComposition": [
+        {"qty": 2, "name": "FV102 Strikers"}
+      ],
+      "specialRules": [
+        {"name": "Ambush"}
+      ],
+      "optionalSpecialRules": [],
+      "options": []
+    },
+    {
+      "id": "uk-northag-armoured-reconnaissance-patrol",
+      "name": "Armoured Reconnaissance Patrol",
+      "category": "Forward Screen Units",
+      "minQty": 0,
+      "maxQty": 3,
+      "points": 17,
+      "br": 2,
+      "morale": "P",
+      "unitComposition": [
+        {"qty": 1, "name": "Infantry Fire Team"},
+         {"qty": 1, "name": "FV103 Spartan"}
+      ],
+      "specialRules": [
+        {"name": "Scout"}
+      ],
+      "optionalSpecialRules": [],
+      "options": []
+    },
+    {
+      "id": "uk-northag-forward-observation-officer",
+      "name": "Forward Observation Officer",
+      "category": "Forward Screen Units",
+      "minQty": 0,
+      "maxQty": 1,
+      "points": 12,
+      "br": 2,
+      "morale": "P",
+      "unitComposition": [
+        {"qty": 1, "name": "Infantry Command Team in Foxholes"}
+      ],
+      "specialRules": [
+        {"name": "Officer"},
+         {"name": "Artillery Spotter"},
+         {"name": "Dug-in"}
+      ],
+      "optionalSpecialRules": [],
+      "options": []
+    },
+    {
+      "id": "uk-northag-sniper-hideout",
+      "name": "Sniper-Hideout",
+      "category": "Forward Screen Units",
+      "minQty": 0,
+      "maxQty": 1,
+      "points": 16,
+      "br": 1,
+      "morale": "P",
+      "unitComposition": [
+        {"qty": 1, "name": "Infantry Sniper Team concealed and deployed in Reinforced Cover."}
+      ],
+      "specialRules": [
+        {"name": "Sniper"},
+         {"name": "Behind Enemy Lines"},
+         {"name": "Forward Deployed"}
+      ],
+      "optionalSpecialRules": [],
+      "options": []
+    },
+    {
+      "id": "uk-northag-atgm-dug-out",
+      "name": "ATGM Dug-Out",
+      "category": "Forward Screen Units",
+      "minQty": 0,
+      "maxQty": 1,
+      "points": 28,
+      "br": 1,
+      "morale": "P",
+      "unitComposition": [
+        {"qty": 1, "name": "Infantry Weapons Team with a MILAN ATGM deployed in a dug-ou. The cover is lost of the unit moves."}
+      ],
+      "specialRules": [
+        {"name": "Ambush"},
+         {"name": "Dug-in"}
+      ],
+      "optionalSpecialRules": [],
+      "options": []
+    },
+    {
+      "id": "uk-northag-marked-minefield",
+      "name": "Marked Minefield",
+      "category": "Forward Screen Units",
+      "minQty": 0,
+      "maxQty": 1,
+      "points": 15,
+      "br": 0,
+      "notes": "A single, marked mixed minefield (anti-tank and anti-personel mines).",
+      "unitComposition": [],
+      "specialRules": [
+        {"name": "Forward Deployed"}
+      ],
+      "optionalSpecialRules": [],
+      "options": []
+    },
+    {
+      "id": "uk-northag-hidden-minefield",
+      "name": "Hidden Minefield",
+      "category": "Forward Screen Units",
+      "minQty": 0,
+      "maxQty": 1,
+      "points": 25,
+      "br": 0,
+      "notes": "A single, unmarked mixed minefield (anti-tank and anti-personel mines).",
+      "unitComposition": [],
+      "specialRules": [
+        {"name": "Forward Deployed"}
+      ],
+      "optionalSpecialRules": [],
+      "options": []
+    },
+     {
+      "id": "uk-northag-hidden-claymore-anti-personnel-minefield",
+      "name": "Hidden Claymore Anti-personnel Minefield",
+      "category": "Forward Screen Units",
+      "minQty": 0,
+      "maxQty": 1,
+      "points": 15,
+      "br": 0,
+      "notes": "A single, unmarked anti-personnel minefield . Note down on a sketch map where the centre of the claymore minefiled is.",
+      "unitComposition": [],
+      "specialRules": [
+        {"name": "Forward Deployed"}
+      ],
+      "optionalSpecialRules": [],
+      "options": []
+    },
+    {
+      "id": "uk-northag-anti-tank-ditch",
+      "name": "Anti-tank Ditch",
+      "category": "Forward Screen Units",
+      "minQty": 0,
+      "maxQty": 2,
+      "points": 15,
+      "br": 0,
+      "notes": "Up to 10\" of ditch. The anti-tank ditch is impassable to all vehicles. ,
+      "unitComposition": [],
+      "specialRules": [
+        {"name": "Forward Deployed"}
+      ],
+      "optionalSpecialRules": [],
+      "options": []
+    },
+     {
+      "id": "uk-northag-air-defence-team",
+      "name": "Air Defence Team",
+      "category": "Forward Screen Units",
+      "minQty": 0,
+      "maxQty": 2,
+      "points": 10,
+      "br": 0,
+      "notes": "Up to 10\" of ditch. The anti-tank ditch is impassable to all vehicles. ,
+      "unitComposition": [
+         {"qty": 1, "name": "Infantry Weapons Team with a Blowpipe MANPAD in foxholes."}
+        
+      ],
+      "specialRules": [
+        {"name": "Dug-in"}
+      ],
+      "optionalSpecialRules": [],
+      "options": []
+    },
+    {
+      "id": "uk-northag-sgpmg-dug-out,
+      "name": "sGPMG Dug-Out",
+      "category": "Forward Screen Units",
+      "minQty": 0,
+      "maxQty": 2,
+      "points": 9,
+      "morale": "P",
+      "br": 1,
+      "notes": "",
+      "unitComposition": [
+         {"qty": 1, "name": "Infantry Weapons Team with a sGPMG deploued in a dug-out. The cover is lost if the unit moves.."}
+        
+      ],
+      "specialRules": [
+        {"name": "Dug-in"},
+        {"name": "Ambush"}
+      ],
+      "optionalSpecialRules": [],
+      "options": []
+    },
+    {
+      "id": "uk-northag-bridge-demolition,
+      "name": "Bridge Demolition",
+      "category": "Forward Screen Units",
+      "minQty": 0,
+      "maxQty": 1,
+      "points": 10,
+      "morale": "",
+      "br": 0,
+      "notes": "A single bridge, anywhere on the table, has aleady been wired with a demolition charge. Before the start of the game write down which bridge has been wired. At teh start if any of his turns, the British player may detonate the bridge. Roll a dice. On a 2+ the bridge is destroyed. On a 1 teh demolition charge fails to go off.",
+      "unitComposition": [],
+      "specialRules": [],
+      "optionalSpecialRules": [],
+      "options": []
+    },
+    {
+      "id": "uk-northag-road-block,
+      "name": "Road Block",
+      "category": "Forward Screen Units",
+      "minQty": 0,
+      "maxQty": 1,
+      "points": 10,
+      "morale": "",
+      "br": 0,
+      "notes": "Rubble, trees, wrecks, tank traps, etc. that block a single road anywhere in your deployment zone or no-mans land. The road is impassable at the road-block unless the road-block is destoryed.",
+      "unitComposition": [],
+      "specialRules": [
+        {"name": "Forward Deployed"}
+      ],
+      "optionalSpecialRules": [],
+      "options": []
     }
   ]
 }
