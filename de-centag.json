@@ -1,0 +1,125 @@
+{
+  "id": "de-centag",
+  "name": "Bundeswehr Panzerbrigade",
+  "group": "CENTAG",
+  "year": "1985",
+  "colour": "#4A5A3A",
+  "units": [
+    {
+      "id": "de-bg-hq",
+      "name": "Brigade HQ (Leopard 1A3)",
+      "category": "Headquarters",
+      "points": 55,
+      "br": 2,
+      "stats": "2x Leopard 1A3 | Armour 5 | FP 4",
+      "notes": "Compulsory."
+    },
+    {
+      "id": "de-luchs-hq",
+      "name": "Spähtrupp HQ (Luchs)",
+      "category": "Headquarters",
+      "points": 30,
+      "br": 1,
+      "stats": "2x Spähpanzer Luchs | Armour 2 | Recce 4"
+    },
+    {
+      "id": "de-leopard2-kompanie",
+      "name": "Leopard 2 Kompanie",
+      "category": "Combat",
+      "points": 190,
+      "br": 3,
+      "stats": "4x Leopard 2 | Armour 9 | FP 4 | AT 17",
+      "upgrades": [
+        { "id": "de-leo2-thermal", "name": "EMES 15 thermal upgrade", "points": 10 }
+      ]
+    },
+    {
+      "id": "de-leopard1-kompanie",
+      "name": "Leopard 1A4 Kompanie",
+      "category": "Combat",
+      "points": 130,
+      "br": 3,
+      "stats": "4x Leopard 1A4 | Armour 4 | FP 4 | AT 13"
+    },
+    {
+      "id": "de-marder-zug",
+      "name": "Marder 1A2 Panzergrenadier Zug",
+      "category": "Combat",
+      "points": 115,
+      "br": 2,
+      "stats": "3x Marder 1A2 + grenadiers | Armour 3 | AT 9 (MILAN)"
+    },
+    {
+      "id": "de-jaguar-zug",
+      "name": "Jaguar 1 Panzerjäger Zug",
+      "category": "Combat",
+      "points": 95,
+      "br": 2,
+      "stats": "3x Jaguar 1 | AT 15 | HOT ATGM"
+    },
+    {
+      "id": "de-luchs-patrol",
+      "name": "Luchs Spähtrupp",
+      "category": "Reconnaissance",
+      "points": 70,
+      "br": 1,
+      "stats": "3x Spähpanzer Luchs | Armour 2 | Recce 5 | Amphibious"
+    },
+    {
+      "id": "de-bo105-flight",
+      "name": "BO-105P (PAH-1) Flight",
+      "category": "Reconnaissance",
+      "points": 60,
+      "br": 1,
+      "stats": "1x BO-105P | Recce 5 | HOT spotting"
+    },
+    {
+      "id": "de-milan-zug",
+      "name": "MILAN Panzerabwehr Zug",
+      "category": "Combat Support",
+      "points": 65,
+      "br": 1,
+      "stats": "3x MILAN posts (Wiesel-mounted) | AT 10"
+    },
+    {
+      "id": "de-m109g-battery",
+      "name": "M109G 155mm Battery",
+      "category": "Combat Support",
+      "points": 130,
+      "br": 2,
+      "stats": "4x M109G | Indirect FP 7 | Range 60\""
+    },
+    {
+      "id": "de-gepard-flak",
+      "name": "Gepard Flakpanzer Section",
+      "category": "Combat Support",
+      "points": 95,
+      "br": 1,
+      "stats": "2x Gepard | AA 7 | Radar-guided twin 35mm"
+    },
+    {
+      "id": "de-pionier-zug",
+      "name": "Pionier Zug (Biber)",
+      "category": "Combat Support",
+      "points": 55,
+      "br": 1,
+      "stats": "2x Biber AVLB + engineers | Bridging | Breach 1 use"
+    },
+    {
+      "id": "de-alphajet-flight",
+      "name": "Alpha Jet Strike Flight",
+      "category": "Air Support",
+      "points": 85,
+      "br": 2,
+      "stats": "2x Alpha Jet | AT 11 | 1 pass per game"
+    },
+    {
+      "id": "de-pah1-tank-hunter",
+      "name": "PAH-1 Anti-tank Flight",
+      "category": "Air Support",
+      "points": 105,
+      "br": 2,
+      "stats": "2x BO-105P (HOT) | AT 15 | Pop-up attack"
+    }
+  ]
+}
