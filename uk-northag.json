@@ -7,12 +7,12 @@
   "units": [
     {
       "id": "uk-northag-armoured-card-patrol",
-      "name": "Armoured Car Patrol",
+      "unitName": "Armoured Car Patrol",
       "category": "Forward Screen Units",
       "points": 32,
       "br": 2,
       "morale": "Professional",
-      "unitComposition":["qauntity": 2, "name": "FV721 Fox Armoured Cars"],
+      "unitComposition":{["qauntity": 2, "name": "FV721 Fox Armoured Cars"]},
       "specialRules": ["Scout","Mortar Spotter"],
       "notes": ""
     },
