@@ -1089,7 +1089,7 @@
 {
       "id": "uk-northag-orr-reinforcement-request",
       "name": "Reinforcement Request", 
-      "category": "(Optional) Reinforcement Request",
+      "category": "(Optional) Reinforcement Requests",
       "minQty": 1,
       "maxQty": 1,
       "points": 0,
@@ -1105,7 +1105,7 @@
     {
       "id": "uk-northag-orr-additional-reinforcement-request",
       "name": "Additional Reinforcement Request", 
-      "category": "(Optional) Reinforcement Request",
+      "category": "(Optional) Reinforcement Requests",
       "minQty": 1,
 
       "points": 30,
