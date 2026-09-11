@@ -681,7 +681,7 @@
       "points": 64,
       "br": 0,
       "morale": "",
-      "notes":" "Requires a unit with the Artillery Spotter rule to use.",
+      "notes": "Requires a unit with the Artillery Spotter rule to use.",
       "unitComposition": [
         {"qty": 4, "name": "105mm Abbot"}
       ],
