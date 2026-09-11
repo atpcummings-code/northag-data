@@ -125,7 +125,7 @@
           "name": "Upgrade all Chieftains to Stillbrew",
           "points": 12,
           "br": 0,
-          "composition": [{"qty": 3, "name": "Mk9 Chieftains (Stillbrew Armour) in tank scrapes"}]
+          "composition": [{"qty": 3, "name": "Mk9 Chieftains (Stillbrew Armour) in tank scrapes", "compositionMode": "replace"}]
         }
       ]
     },
