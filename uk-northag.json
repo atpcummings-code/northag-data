@@ -585,8 +585,114 @@
           "composition": [
               {"qty": 1, "name": "Ferret Armoured Car"}
             }
+          ]
         },
+{
+      "id": "uk-northag-mc-guided-weapons-carrier-section",
+      "name": "Guided Weapons Carrier Section", 
+      "category": "Main Column",
+      "minQty": 0,
+      "maxQty": 1,
+      "points": 56,
+      "br": 4,
+      "morale": "P",
+      "unitComposition": [
+        {"qty": 2, "name": "FV438 Swingfires"}
+      ],
+      "specialRules": [
+        {"name": "Ambush"}
+      ],
+      "optionalSpecialRules": [],
+      "options": []
+    },
+    {
+      "id": "uk-northag-mc-surface-to-air-missile-launcher",
+      "name": "Surface to Air Missile Launcher", 
+      "category": "Main Column",
+      "minQty": 0,
+      "maxQty": 1,
+      "points": 14,
+      "br": 1,
+      "morale": "P",
+      "unitComposition": [
+        {"qty": 1, "name": "Infantry Weapons Team"},
+        {"qty": 1, "name": "Towed Rapier SAM"},
+        {"qty": 1, "name": "Land Rover (1 tonne)"}
+      ],
+      "specialRules": [
+        {"name": "AA"}
+      ],
+      "optionalSpecialRules": [],
+      "options": [
+        {
+          "id": "uk-northag-mc-surface-to-air-missile-launcher-1",
+          "name": "Replace Infantry Weapon Team, Rapier SAM and Lover Rover with:",
+          "points": 2,
+          "type": "Restricted",
+          "br": 0,
+          "addSpecialRules": "",
+          "composition": [
+              {"qty": 1, "name": "Tracked Rapier"}
+            }
       ]
     },
+    {
+      "id": "uk-northag-mc-mine-clearance-vehicle",
+      "name": "Mine Clearance Vehicle", 
+      "category": "Main Column",
+      "minQty": 0,
+      "maxQty": 1,
+      "points": 12,
+      "br": 1,
+      "morale": "P",
+      "unitComposition": [
+        {"qty": 1, "name": "FV180 CET"},
+        {"qty": 1, "name": "Giant Viper"}
+      ],
+      "specialRules": [
+        {"name": "Engineer"}
+      ],
+      "optionalSpecialRules": [],
+      "options": []
+    },
+{
+      "id": "uk-northag-mc-81mm-mortar-battery",
+      "name": "81mm Mortar Battery", 
+      "category": "Main Column",
+      "minQty": 0,
+      "maxQty": 1,
+      "points": 48,
+      "br": 0,
+      "morale": "",
+      "notes":" "Requires a unit with the Mortar Spotter (or Artillery Spotter) rule to use.",
+      "unitComposition": [
+        {"qty": 6, "name": "81mm Mortar"}
+      ],
+      "specialRules": [
+        {"name": "Off-table"}
+      ],
+      "optionalSpecialRules": [],
+      "options": []
+    },
+{
+      "id": "uk-northag-mc-105mm-abbot-battery",
+      "name": "105mm Abbot Battery", 
+      "category": "Main Column",
+      "minQty": 0,
+      "maxQty": 1,
+      "points": 64,
+      "br": 0,
+      "morale": "",
+      "notes":" "Requires a unit with the Artillery Spotter rule to use.",
+      "unitComposition": [
+        {"qty": 4, "name": "105mm Abbot"}
+      ],
+      "specialRules": [
+        {"name": "Off-table"}
+      ],
+      "optionalSpecialRules": [],
+      "options": []
+    }
+    
   ]
 }
