@@ -112,7 +112,7 @@
       "br": 9,
       "morale": "P",
       "unitComposition": [
-        {"qty": 3, "name": "MK9 Chieftains in tank scrapes"}
+        {"qty": 3, "name": "Mk9 Chieftains in tank scrapes"}
       ],
       "specialRules": [
         {"name": "Dug-in"},
@@ -127,7 +127,7 @@
           "points": 12,
           "br": 0,
           "addSpecialRules": "Stillbrew",
-          "composition": [{"qty": 3, "name": "MK9 Chieftains (Stillbrew Armour) in tank scrapes"}]
+          "composition": [{"qty": 3, "name": "Mk9 Chieftains (Stillbrew Armour) in tank scrapes"}]
         }
       ]
     },
@@ -396,6 +396,42 @@
       ],
       "optionalSpecialRules": [],
       "options": []
+    },
+    {
+      "id": "uk-northag-chieftain-troop",
+      "name": "Chieftain Troop",
+      "category": "Vanguard Unit",
+      "minQty": 0,
+      "maxQty": 1,
+      "points": 129,
+      "br": 9,
+      "morale": "P",
+      "unitComposition": [
+        {"qty": 3, "name": "Mk9 Chieftains"}
+      ],
+      "specialRules": [
+        {"name": "Advanced Gunnery"},
+        {"name": "Advanced Sights"}
+      ],
+      "optionalSpecialRules": [],
+      "options": [
+        {
+          "id": "uk-northag-chieftain-troop-1",
+          "name": "Upgrade all Chieftains to 'Stillbrew'",
+          "points": 12,
+          "br": 0,
+          "addSpecialRules": "Stillbrew",
+          "composition": [{"qty": 3, "name": "Mk9 Chieftains (Stillbrew Armour)"}]
+        },
+        {
+          "id": "uk-northag-chieftain-troop-2",
+          "name": "Add 1 additional Mk9 Chieftain'",
+          "points": 43,
+          "br": 3,
+          "addSpecialRules": "",
+          "composition": [{"qty": 4, "name": "MK9 Chieftains"}]
+        }
+      ]
     }
   ]
 }
