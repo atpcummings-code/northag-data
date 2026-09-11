@@ -575,7 +575,7 @@
               {"qty": 1, "name": "FV432"}  
             ]
           },
-      {
+       {
           "id": "uk-northag-mc-forward-observation-officer-1",
           "name": "Replace Infantry Command Team and Land Rover with Ferret Armoured Car",
 
@@ -599,9 +599,7 @@
       "unitComposition": [
         {"qty": 2, "name": "FV438 Swingfires"}
       ],
-      "specialRules": [
-        {"name": "Ambush"}
-      ],
+      "specialRules": [{"name": "Ambush"}],
       "optionalSpecialRules": [],
       "options": []
     },
@@ -619,9 +617,7 @@
         {"qty": 1, "name": "Towed Rapier SAM"},
         {"qty": 1, "name": "Land Rover (1 tonne)"}
       ],
-      "specialRules": [
-        {"name": "AA"}
-      ],
+      "specialRules": [{"name": "AA"}],
       "optionalSpecialRules": [],
       "options": [
         {
