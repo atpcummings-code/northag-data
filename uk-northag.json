@@ -123,7 +123,7 @@
       "options": [
         {
           "id": "uk-northag-chieftain-tank-troop-1",
-          "name": "Upgrade all Chieftains to 'Stillbrew'",
+          "name": "Upgrade all Chieftains to Stillbrew",
           "points": 12,
           "br": 0,
           "addSpecialRules": "Stillbrew",
@@ -417,7 +417,7 @@
       "options": [
         {
           "id": "uk-northag-chieftain-troop-1",
-          "name": "Upgrade all Chieftains to 'Stillbrew'",
+          "name": "Upgrade all Chieftains to Stillbrew",
           "points": 12,
           "br": 0,
           "addSpecialRules": "Stillbrew",
@@ -431,6 +431,55 @@
           "addSpecialRules": "",
           "composition": [{"qty": 4, "name": "MK9 Chieftains"}]
         }
+      ]
+    },
+    {
+      "id": "uk-northag-mechanised-infantry-platoon",
+      "name": "Mechanised Infantry Platoon",
+      "category": "Vanguard Unit",
+      "minQty": 0,
+      "maxQty": 1,
+      "points": 69,
+      "br": 12,
+      "morale": "P",
+      "unitComposition": [
+        {"qty": 7, "name": "Infantry Fire Team"},
+         {"qty": 4, "name": "FV432"}
+      ],
+      "specialRules": [
+        {"name": "Advanced Gunnery"},
+        {"name": "Advanced Sights"}
+      ],
+      "optionalSpecialRules": [],
+       "upgrades": [
+        { "id": "uk-mechanised-infantry-platoon-u1", "name": "MILAN ATGM Weapons Team", "composition": [{"qty": 1, "name": "MILAN ATGM Weapons Team"}], "points": 16, "br": 2, "morale": "P", },{ "id": "uk-mechanised-infantry-platoon-u2", "name": "Blowpipe MANPAD Weapons Team", "composition": [{"qty": 1, "name": "Blowpipe MANPAD Weapons Team"}], "points": 11, "br": 2, "morale": "P", }
+      ],
+      "options": [
+        {
+          "id": "uk-mechanised-infantry-platoon-1",
+          "name": "sGPMG Weapons Team",
+          "points": 4,
+          "br": 0,
+          "addSpecialRules": "",
+          "composition": [{"qty": 1, "name": "sGPMG Weapons Team)"}]
+        },
+        {
+          "id": "uk-mechanised-infantry-platoon-2",
+          "name": "Sniper Team",
+          "points": 6,
+          "br": 0,
+          "addSpecialRules": "",
+          "composition": [{"qty": 1, "name": "Sniper Team"}]
+        },
+        {
+          "id": "uk-mechanised-infantry-platoon-3",
+          "name": "Carl gustav Weapons Team",
+          "points": 8,
+          "br": 0,
+          "addSpecialRules": "",
+          "composition": [{"qty": 1, "name": "Carl gustav Weapons Team"}]
+        }
+        
       ]
     }
   ]
