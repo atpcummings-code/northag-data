@@ -690,7 +690,320 @@
       ],
       "optionalSpecialRules": [],
       "options": []
+    },
+    {
+      "id": "uk-northag-afs-timed-harrier-gr3-air-strike",
+      "name": "Timed Harrier GR3 Air Strike", 
+      "category": "Additional Fire Support",
+      "minQty": 0,
+
+      "points": 20,
+      "br": 0,
+      "morale": "",
+      "notes": "A single air strike by a Harrier GR3 armed with four large bombs or four Marra 68mm multiple rocket pods",
+      "unitComposition": [
+        {"qty": 1, "name": "Harrier GR3"}
+      ],
+      "specialRules": [],
+      "optionalSpecialRules": [],
+      "options": [
+        {
+          "id": "uk-northag-afs-timed-harrier-gr3-air-strike-1",
+          "name": "Large Bombs",
+          "points": 0,
+          "br": 0,
+          "addSpecialRules": "",
+          "composition": [
+              {"qty": 1, "name": "Harrier GR3"},{"qty": 4, "name": "Large Bombs"}
+          ]
+        },
+        {
+          "id": "uk-northag-afs-timed-harrier-gr3-air-strike-1",
+          "name": "68mm Multiple Rocket Pods",
+          "points": 0,
+          "br": 0,
+          "addSpecialRules": "",
+          "composition": [
+              {"qty": 1, "name": "Harrier GR3"},{"qty": 4, "name": "68mm Multiple ROcket Pods"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "uk-northag-afs-timed-jaguar-gr1-air-strike",
+      "name": "Timed Jaguar GR1 Air Strike", 
+      "category": "Additional Fire Support",
+      "minQty": 0,
+
+      "points": 40,
+      "br": 0,
+      "morale": "",
+      "notes": "A single air strike by a Jaguar GR1 armed with eight large bombs",
+      "unitComposition": [
+        {"qty": 1, "name": "Jaguar GR1"},{"qty": 8, "name": "Large Bombs"}
+      ],
+      "specialRules": [],
+      "optionalSpecialRules": [],
+      "options": []
+    },
+    {
+      "id": "uk-northag-afs-timed-tornado-gr1-air-strike",
+      "name": "Timed Tornado GR1 Air Strike", 
+      "category": "Additional Fire Support",
+      "minQty": 0,
+
+      "points": 30,
+      "br": 0,
+      "morale": "",
+      "notes": "A single air strike by a Tornado GR1 armed with four very large bombs or four cluster bombs",
+      "unitComposition": [
+        {"qty": 1, "name": "Tornado GR1"}
+      ],
+      "specialRules": [],
+      "optionalSpecialRules": [],
+      "options": [
+        {
+          "id": "uk-northag-afs-timed-tornado-gr1-air-strike-1",
+          "name": "Very Large Bombs",
+          "points": 0,
+          "br": 0,
+          "addSpecialRules": "",
+          "composition": [
+              {"qty": 1, "name": "Tornado GR1"},{"qty": 8, "name": "Very Large Bombs"}
+          ]
+        },
+        {
+          "id": "uk-northag-afs-timed-tornado-gr1-air-strike-1",
+          "name": "Cluster Bombs",
+          "points": 0,
+          "br": 0,
+          "addSpecialRules": "",
+          "composition": [
+              {"qty": 1, "name": "Tornado GR1"},{"qty": 4, "name": "Cluster Bombs"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "uk-northag-afs-combat-air-patrol",
+      "name": "Combat Air Patrol", 
+      "category": "Additional Fire Support",
+      "minQty": 0,
+      "maxQty": 1,
+      "points": 30,
+      "br": 0,
+      "morale": "",
+      "notes": "",
+      "unitComposition": [],
+      "specialRules": [],
+      "optionalSpecialRules": [],
+      "options": []
+    },
+    {
+      "id": "uk-northag-afs-interdiction-air-strike",
+      "name": "Interdiction Air Strike", 
+      "category": "Additional Fire Support",
+      "minQty": 0,
+      "maxQty": 1,
+      "points": 30,
+      "br": 0,
+      "morale": "",
+      "notes": "",
+      "unitComposition": [],
+      "specialRules": [],
+      "optionalSpecialRules": [],
+      "options": []
+    },
+    {
+      "id": "uk-northag-afs-counter-battery-air-strike-3+",
+      "name": "Counter Battery Air Strike (3+)", 
+      "category": "Additional Fire Support",
+      "minQty": 0,
+      "maxQty": 1,
+      "points": 10,
+      "br": 0,
+      "morale": "",
+      "notes": "",
+      "unitComposition": [],
+      "specialRules": [],
+      "optionalSpecialRules": [],
+      "options": []
+    },
+    {
+      "id": "uk-northag-afs-off-table-sam-cover",
+      "name": "Off-table SAM Cover", 
+      "category": "Additional Fire Support",
+      "minQty": 0,
+      "maxQty": 3,
+      "points": 15,
+      "br": 0,
+      "morale": "",
+      "notes": "A Rapier Battery deployed well behind the front lines of the battle area",
+      "unitComposition": [],
+      "specialRules": [],
+      "optionalSpecialRules": [],
+      "options": [
+                {"name": "Off-table"},{"name": "AA (High)"}
+      ]
+    },
+{
+      "id": "uk-northag-afs-counter-battery-fire-mission",
+      "name": "Counter Battery Fire Mission (4+)", 
+      "category": "Additional Fire Support",
+      "minQty": 0,
+
+      "points": 5,
+      "br": 0,
+      "morale": "",
+      "notes": "",
+      "unitComposition": [],
+      "specialRules": [],
+      "optionalSpecialRules": [],
+      "options": []
+    },
+{
+      "id": "uk-northag-afs-timed-105mm-artillery-strike",
+      "name": "Timed 105mm Artillery Strike", 
+      "category": "Additional Fire Support",
+      "minQty": 0,
+      "maxQty": 4,
+      "points": 12,
+      "br": 0,
+      "morale": "",
+      "notes": "A single strike by a battery of 4 105mm Abbot self-propelled guns.",
+      "unitComposition": [],
+      "specialRules": [],
+      "optionalSpecialRules": [],
+      "options": []
+    },
+    {
+      "id": "uk-northag-afs-timed-155mm-artillery-strike",
+      "name": "Timed 155mm Artillery Strike", 
+      "category": "Additional Fire Support",
+      "minQty": 0,
+      "maxQty": 2,
+      "points": 18,
+      "br": 0,
+      "morale": "",
+      "notes": "A single strike by a battery of 4 155mm M109A2 self-propelled guns.",
+      "unitComposition": [],
+      "specialRules": [],
+      "optionalSpecialRules": [],
+      "options": []
+    },
+    {
+      "id": "uk-northag-afs-timed-175mm-artillery-strike",
+      "name": "Timed 175mm Artillery Strike", 
+      "category": "Additional Fire Support",
+      "minQty": 0,
+      "maxQty": 1,
+      "points": 24,
+      "br": 0,
+      "morale": "",
+      "notes": "A single strike by a battery of 4 175mm M107 self-propelled guns.",
+      "unitComposition": [],
+      "specialRules": [],
+      "optionalSpecialRules": [],
+      "options": []
+    },
+    {
+      "id": "uk-northag-afs-timed-203mm-artillery-strike",
+      "name": "Timed 203mm Artillery Strike", 
+      "category": "Additional Fire Support",
+      "minQty": 0,
+      "maxQty": 1,
+      "points": 30,
+      "br": 0,
+      "morale": "",
+      "notes": "A single strike by a battery of 4 203mm M110 self-propelled guns.",
+      "unitComposition": [],
+      "specialRules": [],
+      "optionalSpecialRules": [],
+      "options": []
+    },
+    {
+      "id": "uk-northag-afs-timed-dpicm-artillery-strike",
+      "name": "Timed DPICM Artillery Strike", 
+      "category": "Additional Fire Support",
+      "minQty": 0,
+      "maxQty": 1,
+      "points": 44,
+      "type": "Restricted",
+      "br": 0,
+      "morale": "",
+      "notes": "A single strike by a battery of 4 105mm M109A2 self-propelled guns firing DPICM ammunitions.",
+      "unitComposition": [],
+      "specialRules": [],
+      "optionalSpecialRules": [],
+      "options": []
+    },
+     {
+      "id": "uk-northag-afs-cleared-for-chemical-attack",
+      "name": "Cleared for Chemical Attack", 
+      "category": "Additional Fire Support",
+      "minQty": 0,
+      "maxQty": 1,
+      "points": 10,
+      "type": "",
+      "br": 0,
+      "morale": "",
+      "notes": "",
+      "unitComposition": [],
+      "specialRules": [],
+      "optionalSpecialRules": [],
+      "options": []
+    },
+    {
+      "id": "uk-northag-afs-critical-battlefield",
+      "name": "Critical Battlefield", 
+      "category": "Additional Fire Support",
+      "minQty": 0,
+      "maxQty": 1,
+      "points": 15,
+      "type": "",
+      "br": 0,
+      "morale": "",
+      "notes": "",
+      "unitComposition": [],
+      "specialRules": [],
+      "optionalSpecialRules": [],
+      "options": []
+    },
+    {
+      "id": "uk-northag-afs-deployed-smoke-screen",
+      "name": "Deployed Smoke Screen", 
+      "category": "Additional Fire Support",
+      "minQty": 0,
+      "maxQty": 1,
+      "points": 20,
+      "type": "",
+      "br": 0,
+      "morale": "",
+      "notes": "",
+      "unitComposition": [],
+      "specialRules": [],
+      "optionalSpecialRules": [],
+      "options": []
+    },
+     {
+      "id": "uk-northag-afs-vital-objective",
+      "name": "Vital Objective", 
+      "category": "Additional Fire Support",
+      "minQty": 0,
+      "maxQty": 1,
+      "points": 25,
+      "type": "",
+      "br": 0,
+      "morale": "",
+      "notes": "",
+      "unitComposition": [],
+      "specialRules": [],
+      "optionalSpecialRules": [],
+      "options": []
     }
+
+
+
     
   ]
 }
