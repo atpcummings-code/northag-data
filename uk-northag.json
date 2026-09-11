@@ -6,7 +6,7 @@
   "colour": "#3F5C34",
   "units": [
     {
-      "id": "uk-northag-armoured-car-patrol",
+      "id": "uk-northag-fsu-armoured-car-patrol",
       "name": "Armoured Car Patrol",
       "category": "Forward Screen Units",
       "minQty": 0,
@@ -27,7 +27,7 @@
             "optionalSpecialRules": []
     },
     {
-      "id": "uk-northag-gazelle-scout-helicopter",
+      "id": "uk-northag-fsu-gazelle-scout-helicopter",
       "name": "Gazelle Scout Helicopter",
       "category": "Forward Screen Units",
       "minQty": 0,
@@ -49,7 +49,7 @@
             "optionalSpecialRules": [],
       "options": [
         {
-          "id": "uk-northag-gazelle-scout-helicopter-1",
+          "id": "uk-northag-fsu-gazelle-scout-helicopter-1",
           "name": "1 Timed 105mm Artillery Strike",
           "points": 12,
           "br": 0,
@@ -61,7 +61,7 @@
       ]
     },
     {
-      "id": "uk-northag-dismounted-infantry-platoon",
+      "id": "uk-northag-fsu-dismounted-infantry-platoon",
       "name": "Dismounted Infantry Platoon",
       "category": "Forward Screen Units",
       "minQty": 0,
@@ -82,7 +82,7 @@
       "options": []
     },
     {
-      "id": "uk-northag-sas-patrol",
+      "id": "uk-northag-fsu-sas-patrol",
       "name": "SAS Patrol",
       "category": "Forward Screen Units",
       "minQty": 0,
@@ -103,7 +103,7 @@
       "options": []
     },
     {
-      "id": "uk-northag-chieftain-tank-troop",
+      "id": "uk-northag-fsu-chieftain-tank-troop",
       "name": "Chieftain Tank Troop",
       "category": "Forward Screen Units",
       "minQty": 0,
@@ -122,7 +122,7 @@
       "optionalSpecialRules": [],
       "options": [
         {
-          "id": "uk-northag-chieftain-tank-troop-1",
+          "id": "uk-northag-fsu-chieftain-tank-troop-1",
           "name": "Upgrade all Chieftains to Stillbrew",
           "points": 12,
           "br": 0,
@@ -132,7 +132,7 @@
       ]
     },
     {
-      "id": "uk-northag-fortified-building",
+      "id": "uk-northag-fsu-fortified-building",
       "name": "Fortified Building",
       "category": "Forward Screen Units",
       "minQty": 0,
@@ -146,7 +146,7 @@
       "options": []
     },
     {
-      "id": "uk-northag-recce-tank-patrol",
+      "id": "uk-northag-fsu-recce-tank-patrol",
       "name": "Recce Tank Patrol",
       "category": "Forward Screen Units",
       "minQty": 0,
@@ -166,7 +166,7 @@
       "options": []
     },
     {
-      "id": "uk-northag-fv102-striker-section",
+      "id": "uk-northag-fsu-fv102-striker-section",
       "name": "FV102 Striker Section",
       "category": "Forward Screen Units",
       "minQty": 0,
@@ -184,7 +184,7 @@
       "options": []
     },
     {
-      "id": "uk-northag-armoured-reconnaissance-patrol",
+      "id": "uk-northag-fsu-armoured-reconnaissance-patrol",
       "name": "Armoured Reconnaissance Patrol",
       "category": "Forward Screen Units",
       "minQty": 0,
@@ -203,7 +203,7 @@
       "options": []
     },
     {
-      "id": "uk-northag-forward-observation-officer",
+      "id": "uk-northag-fsu-forward-observation-officer",
       "name": "Forward Observation Officer",
       "category": "Forward Screen Units",
       "minQty": 0,
@@ -223,7 +223,7 @@
       "options": []
     },
     {
-      "id": "uk-northag-sniper-hideout",
+      "id": "uk-northag-fsu-sniper-hideout",
       "name": "Sniper-Hideout",
       "category": "Forward Screen Units",
       "minQty": 0,
@@ -243,7 +243,7 @@
       "options": []
     },
     {
-      "id": "uk-northag-atgm-dug-out",
+      "id": "uk-northag-fsu-atgm-dug-out",
       "name": "ATGM Dug-Out",
       "category": "Forward Screen Units",
       "minQty": 0,
@@ -262,7 +262,7 @@
       "options": []
     },
     {
-      "id": "uk-northag-marked-minefield",
+      "id": "uk-northag-fsu-marked-minefield",
       "name": "Marked Minefield",
       "category": "Forward Screen Units",
       "minQty": 0,
@@ -278,7 +278,7 @@
       "options": []
     },
     {
-      "id": "uk-northag-hidden-minefield",
+      "id": "uk-northag-fsu-hidden-minefield",
       "name": "Hidden Minefield",
       "category": "Forward Screen Units",
       "minQty": 0,
@@ -294,7 +294,7 @@
       "options": []
     },
      {
-      "id": "uk-northag-hidden-claymore-anti-personnel-minefield",
+      "id": "uk-northag-fsu-hidden-claymore-anti-personnel-minefield",
       "name": "Hidden Claymore Anti-personnel Minefield",
       "category": "Forward Screen Units",
       "minQty": 0,
@@ -310,7 +310,7 @@
       "options": []
     },
     {
-      "id": "uk-northag-anti-tank-ditch",
+      "id": "uk-northag-fsu-anti-tank-ditch",
       "name": "Anti-tank Ditch",
       "category": "Forward Screen Units",
       "minQty": 0,
@@ -326,7 +326,7 @@
       "options": []
     },
      {
-      "id": "uk-northag-air-defence-team",
+      "id": "uk-northag-fsu-air-defence-team",
       "name": "Air Defence Team",
       "category": "Forward Screen Units",
       "minQty": 0,
@@ -345,7 +345,7 @@
       "options": []
     },
     {
-      "id": "uk-northag-sgpmg-dug-out",
+      "id": "uk-northag-fsu-sgpmg-dug-out",
       "name": "sGPMG Dug-Out",
       "category": "Forward Screen Units",
       "minQty": 0,
@@ -366,7 +366,7 @@
       "options": []
     },
     {
-      "id": "uk-northag-bridge-demolition",
+      "id": "uk-northag-fsu-bridge-demolition",
       "name": "Bridge Demolition",
       "category": "Forward Screen Units",
       "minQty": 0,
@@ -381,7 +381,7 @@
       "options": []
     },
     {
-      "id": "uk-northag-road-block",
+      "id": "uk-northag-fsu-road-block",
       "name": "Road Block",
       "category": "Forward Screen Units",
       "minQty": 0,
@@ -398,7 +398,7 @@
       "options": []
     },
     {
-      "id": "uk-northag-chieftain-troop",
+      "id": "uk-northag-fsu-chieftain-troop",
       "name": "Chieftain Troop",
       "category": "Vanguard Unit",
       "minQty": 0,
@@ -416,7 +416,7 @@
       "optionalSpecialRules": [],
       "options": [
         {
-          "id": "uk-northag-chieftain-troop-1",
+          "id": "uk-northag-vu-chieftain-troop-1",
           "name": "Upgrade all Chieftains to Stillbrew",
           "points": 12,
           "br": 0,
@@ -424,7 +424,7 @@
           "composition": [{"qty": 3, "name": "Mk9 Chieftains (Stillbrew Armour)"}]
         },
         {
-          "id": "uk-northag-chieftain-troop-2",
+          "id": "uk-northag-vu-chieftain-troop-2",
           "name": "Add 1 additional Mk9 Chieftain'",
           "points": 43,
           "br": 3,
@@ -434,7 +434,7 @@
       ]
     },
     {
-      "id": "uk-northag-mechanised-infantry-platoon",
+      "id": "uk-northag-vu-mechanised-infantry-platoon",
       "name": "Mechanised Infantry Platoon",
       "category": "Vanguard Unit",
       "minQty": 0,
@@ -456,7 +456,7 @@
       ],
       "options": [
         {
-          "id": "uk-mechanised-infantry-platoon-1",
+          "id": "uk-mechanised-vu-infantry-platoon-1",
           "name": "sGPMG Weapons Team",
           "points": 4,
           "br": 0,
@@ -464,7 +464,7 @@
           "composition": [{"qty": 1, "name": "sGPMG Weapons Team)"}]
         },
         {
-          "id": "uk-mechanised-infantry-platoon-2",
+          "id": "uk-mechanised-vu-infantry-platoon-2",
           "name": "Sniper Team",
           "points": 6,
           "br": 0,
@@ -472,20 +472,20 @@
           "composition": [{"qty": 1, "name": "Sniper Team"}]
         },
         {
-          "id": "uk-mechanised-infantry-platoon-3",
+          "id": "uk-mechanised-vu-infantry-platoon-3",
           "name": "Carl gustav Weapons Team",
           "points": 8,
           "br": 0,
           "addSpecialRules": "",
           "composition": [{"qty": 1, "name": "Carl gustav Weapons Team"}]
         },
-         { "id": "uk-mechanised-infantry-platoon-u1", "name": "MILAN ATGM Weapons Team", "composition": [{"qty": 1, "name": "MILAN ATGM Weapons Team"}], "points": 16, "br": 2, "morale": "P"},
-        { "id": "uk-mechanised-infantry-platoon-u2", "name": "Blowpipe MANPAD Weapons Team", "composition": [{"qty": 1, "name": "Blowpipe MANPAD Weapons Team"}], "points": 11, "br": 2, "morale": "P" }
+         { "id": "uk-mechanised-vu-infantry-platoon-u1", "name": "MILAN ATGM Weapons Team", "composition": [{"qty": 1, "name": "MILAN ATGM Weapons Team"}], "points": 16, "br": 2, "morale": "P"},
+        { "id": "uk-mechanised-vu-infantry-platoon-u2", "name": "Blowpipe MANPAD Weapons Team", "composition": [{"qty": 1, "name": "Blowpipe MANPAD Weapons Team"}], "points": 11, "br": 2, "morale": "P" }
         
       ]
     },
     {
-      "id": "uk-northag-battlegroup-commander",
+      "id": "uk-northag-mc-battlegroup-commander",
       "name": "Battlegroup Commander",
       "category": "Main Column",
       "minQty": 0,
@@ -503,7 +503,7 @@
       "optionalSpecialRules": [],E
       "options": [
         {
-          "id": "uk-northag-battlegroup-commander-1",
+          "id": "uk-northag-mc-battlegroup-commander-1",
           "name": "Ferret Armoured Car",
           "points": 0,
           "br": 0,
@@ -514,7 +514,7 @@
           ]
         },
         {
-          "id": "uk-northag-battlegroup-commander-2",
+          "id": "uk-northag-mc-battlegroup-commander-2",
           "name": "Mk9 Chieftain (Stillbrew)",
           "points": 33,
           "br": 1,
@@ -524,7 +524,69 @@
             {"qty": 1, "name": "Mk9 Chieftain (Stillbrew)"}]
         }
       ]
-    }
-    
+    },
+     {
+      "id": "uk-northag-mc-military-police-team",
+      "name": "Military Police Team",
+      "category": "Main Column",
+      "minQty": 0,
+      "maxQty": 1,
+      "points": 18,
+      "br": 2,
+      "morale": "P",
+      "unitComposition": [
+        {"qty": 1, "name": "Infantry Command Team"},
+        {"qty": 1, "name": "Land Rover"}
+      ],
+      "specialRules": [
+        {"name": "Officer"},
+         {"name": "Traffic Control"}
+      ],
+      "optionalSpecialRules": [],
+      "options": []
+    },
+    {
+      "id": "uk-northag-mc-forward-observation-officer",
+      "name": "Forward Observation Officer",
+      "category": "Main Column",
+      "minQty": 0,
+      "maxQty": 1,
+      "points": 18,
+      "br": 2,
+      "morale": "P",
+      "unitComposition": [
+        {"qty": 1, "name": "Infantry Command Team"},
+        {"qty": 1, "name": "Land Rover"}
+      ],
+      "specialRules": [
+        {"name": "Officer"},
+         {"name": "Artillery Spotter"}
+      ],
+      "optionalSpecialRules": [],
+      "options": [
+        {
+          "id": "uk-northag-mc-forward-observation-officer-1",
+          "name": "Replace Land Rover with FV432",
+          "points": 4,
+          "br": 1,
+          "addSpecialRules": "",
+          "composition": [
+              {"qty": 1, "name": "Infantry Command Team"},
+              {"qty": 1, "name": "FV432"}  
+            }
+          ]
+      {
+          "id": "uk-northag-mc-forward-observation-officer-1",
+          "name": "Replace Infantry Command Team and Land Rover with Ferret Armoured Car",
+
+          "points": 0,
+          "br": 0,
+          "addSpecialRules": "",
+          "composition": [
+              {"qty": 1, "name": "Ferret Armoured Car"}
+            }
+        },
+      ]
+    },
   ]
 }
