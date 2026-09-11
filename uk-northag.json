@@ -1085,7 +1085,40 @@
       "specialRules": [],
       "optionalSpecialRules": [],
       "options": []
+    },
+{
+      "id": "uk-northag-orr-reinforcement-request",
+      "name": "Reinforcement Request", 
+      "category": "(Optional) Reinforcement Request",
+      "minQty": 1,
+      "maxQty": 1,
+      "points": 0,
+      "type": "",
+      "br": 0,
+      "morale": "",
+      "notes": "",
+      "unitComposition": [],
+      "specialRules": [],
+      "optionalSpecialRules": [],
+      "options": []
+    },
+    {
+      "id": "uk-northag-orr-additional-reinforcement-request",
+      "name": "Additional Reinforcement Request", 
+      "category": "(Optional) Reinforcement Request",
+      "minQty": 1,
+
+      "points": 30,
+      "type": "",
+      "br": 0,
+      "morale": "",
+      "notes": "",
+      "unitComposition": [],
+      "specialRules": [],
+      "optionalSpecialRules": [],
+      "options": []
     }
+
 
 
 
