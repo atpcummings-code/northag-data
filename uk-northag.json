@@ -573,8 +573,8 @@
           "composition": [
               {"qty": 1, "name": "Infantry Command Team"},
               {"qty": 1, "name": "FV432"}  
-            }
-          ]
+            ]
+          },
       {
           "id": "uk-northag-mc-forward-observation-officer-1",
           "name": "Replace Infantry Command Team and Land Rover with Ferret Armoured Car",
@@ -633,7 +633,8 @@
           "addSpecialRules": "",
           "composition": [
               {"qty": 1, "name": "Tracked Rapier"}
-            }
+          ]
+        }
       ]
     },
     {
