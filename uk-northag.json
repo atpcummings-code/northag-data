@@ -442,8 +442,8 @@
       "morale": "P",
       "optionGroupLimit": [
 
-{ "ids": ["uk-mechanised-vu-infantry-platoon-1", "uk-mechanised-vu-infantry-platoon-2", "uk-mechanised-vu-infantry-platoon-3"], "min": 1, "max": 1 }, 
-{ "ids": ["uk-mechanised-vu-infantry-platoon-4", "uk-mechanised-vu-infantry-platoon-5"], "min": 0, "max": 1 } 
+{ "ids": ["uk-northag-vu-mechanised-infantry-platoon-1", "uk-northag-vu-mechanised-infantry-platoon-2", "uk-northag-vu-mechanised-infantry-platoon-3"], "min": 1, "max": 1 }, 
+{ "ids": ["uk-northag-vu-mechanised-infantry-platoon-4", "uk-northag-vu-mechanised-infantry-platoon-5"], "min": 0, "max": 1 } 
 
 ],
       "unitComposition": [
@@ -460,7 +460,7 @@
       ],
       "options": [
         {
-          "id": "uk-mechanised-vu-infantry-platoon-1",
+          "id": "uk-northag-vu-mechanised-infantry-platoon-1",
           "name": "sGPMG Weapons Team",
           "points": 4,
           "br": 0,
@@ -468,7 +468,7 @@
                     "composition": [{"qty": 1, "name": "sGPMG Weapons Team)"}]
         },
         {
-          "id": "uk-mechanised-vu-infantry-platoon-2",
+          "id": "uk-northag-vu-mechanised-infantry-platoon-2",
           "name": "Sniper Team",
           "points": 6,
           "br": 0,
@@ -476,15 +476,15 @@
           "composition": [{"qty": 1, "name": "Sniper Team"}]
         },
         {
-          "id": "uk-mechanised-vu-infantry-platoon-3",
+          "id": "uk-northag-vu-mechanised-infantry-platoon-3",
           "name": "Carl gustav Weapons Team",
           "points": 8,
           "br": 0,
           "addSpecialRules": "",
           "composition": [{"qty": 1, "name": "Carl gustav Weapons Team"}]
         },
-         { "id": "uk-mechanised-vu-infantry-platoon-4", "name": "MILAN ATGM Weapons Team", "composition": [{"qty": 1, "name": "MILAN ATGM Weapons Team"}], "points": 16, "br": 2, "morale": "P"},
-        { "id": "uk-mechanised-vu-infantry-platoon-5", "name": "Blowpipe MANPAD Weapons Team", "composition": [{"qty": 1, "name": "Blowpipe MANPAD Weapons Team"}], "points": 11, "br": 2, "morale": "P" }
+         { "id": "uk-northag-vu-mechanised-infantry-platoon-4", "name": "MILAN ATGM Weapons Team", "composition": [{"qty": 1, "name": "MILAN ATGM Weapons Team"}], "points": 16, "br": 2, "morale": "P"},
+        { "id": "uk-northag-vu-mechanised-infantry-platoon-5", "name": "Blowpipe MANPAD Weapons Team", "composition": [{"qty": 1, "name": "Blowpipe MANPAD Weapons Team"}], "points": 11, "br": 2, "morale": "P" }
         
       ]
     },
