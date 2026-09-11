@@ -465,7 +465,9 @@
           "points": 4,
           "br": 0,
           "addSpecialRules": "",
-                    "composition": [{"qty": 1, "name": "sGPMG Weapons Team)"}]
+          "composition": [ 
+          {"qty": 1, "name": "sGPMG Weapons Team)"}
+          ]
         },
         {
           "id": "uk-northag-vu-mechanised-infantry-platoon-2",
@@ -473,18 +475,22 @@
           "points": 6,
           "br": 0,
           "addSpecialRules": "",
-          "composition": [{"qty": 1, "name": "Sniper Team"}]
+          "composition": [
+            {"qty": 1, "name": "Sniper Team"}
+          ]
         },
         {
           "id": "uk-northag-vu-mechanised-infantry-platoon-3",
-          "name": "Carl gustav Weapons Team",
+          "name": "Carl Gustav Weapons Team",
           "points": 8,
           "br": 0,
           "addSpecialRules": "",
-          "composition": [{"qty": 1, "name": "Carl gustav Weapons Team"}]
+          "composition": [
+            {"qty": 1, "name": "Carl gustav Weapons Team"}
+          ]
         },
-         { "id": "uk-northag-vu-mechanised-infantry-platoon-4", "name": "MILAN ATGM Weapons Team", "composition": [{"qty": 1, "name": "MILAN ATGM Weapons Team"}], "points": 16, "br": 2, "morale": "P"},
-        { "id": "uk-northag-vu-mechanised-infantry-platoon-5", "name": "Blowpipe MANPAD Weapons Team", "composition": [{"qty": 1, "name": "Blowpipe MANPAD Weapons Team"}], "points": 11, "br": 2, "morale": "P" }
+         { "id": "uk-northag-vu-mechanised-infantry-platoon-4", "name": "MILAN ATGM Weapons Team", "composition": [{"qty": 1, "name": "MILAN ATGM Weapons Team"}, {"qty": 1, "name": "FV103 Spartan"}], "points": 16, "br": 2, "morale": "P"},
+        { "id": "uk-northag-vu-mechanised-infantry-platoon-5", "name": "Blowpipe MANPAD Weapons Team", "composition": [{"qty": 1, "name": "Blowpipe MANPAD Weapons Team"},{"qty": 1, "name": "FV103 Spartan"}], "points": 11, "br": 2, "morale": "P" }
         
       ]
     },
