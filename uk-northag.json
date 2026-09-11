@@ -662,7 +662,7 @@
       "points": 48,
       "br": 0,
       "morale": "",
-      "notes":" "Requires a unit with the Mortar Spotter (or Artillery Spotter) rule to use.",
+      "notes": "Requires a unit with the Mortar Spotter (or Artillery Spotter) rule to use.",
       "unitComposition": [
         {"qty": 6, "name": "81mm Mortar"}
       ],
