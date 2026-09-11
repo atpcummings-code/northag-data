@@ -452,7 +452,7 @@
       ],
       "optionalSpecialRules": [],
        "upgrades": [
-        { "id": "uk-mechanised-infantry-platoon-u1", "name": "MILAN ATGM Weapons Team", "composition": [{"qty": 1, "name": "MILAN ATGM Weapons Team"}], "points": 16, "br": 2, "morale": "P"},{ "id": "uk-mechanised-infantry-platoon-u2", "name": "Blowpipe MANPAD Weapons Team", "composition": [{"qty": 1, "name": "Blowpipe MANPAD Weapons Team"}], "points": 11, "br": 2, "morale": "P" }
+       
       ],
       "options": [
         {
@@ -478,44 +478,10 @@
           "br": 0,
           "addSpecialRules": "",
           "composition": [{"qty": 1, "name": "Carl gustav Weapons Team"}]
-        }
-        
-      ]
-    },
-    {
-      "id": "uk-northag-chieftain-troop-mc",
-      "name": "Chieftain Troop",
-      "category": "Main Column",
-      "minQty": 0,
-      "maxQty": 1,
-      "points": 129,
-      "br": 9,
-      "morale": "P",
-      "unitComposition": [
-        {"qty": 3, "name": "Mk9 Chieftains"}
-      ],
-      "specialRules": [
-        {"name": "Advanced Gunnery"},
-        {"name": "Advanced Sights"}
-      ],
-      "optionalSpecialRules": [],
-      "options": [
-        {
-          "id": "uk-northag-chieftain-troop-1",
-          "name": "Upgrade all Chieftains to Stillbrew",
-          "points": 12,
-          "br": 0,
-          "addSpecialRules": "Stillbrew",
-          "composition": [{"qty": 3, "name": "Mk9 Chieftains (Stillbrew Armour)"}]
         },
-        {
-          "id": "uk-northag-chieftain-troop-2",
-          "name": "Add 1 additional Mk9 Chieftain",
-          "points": 43,
-          "br": 3,
-          "addSpecialRules": "",
-          "composition": [{"qty": 4, "name": "MK9 Chieftains"}]
-        }
+         { "id": "uk-mechanised-infantry-platoon-u1", "name": "MILAN ATGM Weapons Team", "composition": [{"qty": 1, "name": "MILAN ATGM Weapons Team"}], "points": 16, "br": 2, "morale": "P"},
+        { "id": "uk-mechanised-infantry-platoon-u2", "name": "Blowpipe MANPAD Weapons Team", "composition": [{"qty": 1, "name": "Blowpipe MANPAD Weapons Team"}], "points": 11, "br": 2, "morale": "P" }
+        
       ]
     },
     {
@@ -534,7 +500,7 @@
       "specialRules": [
         {"name": "Senior Officer"}
       ],
-      "optionalSpecialRules": [],
+      "optionalSpecialRules": [],E
       "options": [
         {
           "id": "uk-northag-battlegroup-commander-1",
