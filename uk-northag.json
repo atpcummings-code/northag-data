@@ -481,6 +481,84 @@
         }
         
       ]
-    }
+    },
+    {
+      "id": "uk-northag-chieftain-troop-mc",
+      "name": "Chieftain Troop",
+      "category": "Main Column",
+      "minQty": 0,
+      "maxQty": 1,
+      "points": 129,
+      "br": 9,
+      "morale": "P",
+      "unitComposition": [
+        {"qty": 3, "name": "Mk9 Chieftains"}
+      ],
+      "specialRules": [
+        {"name": "Advanced Gunnery"},
+        {"name": "Advanced Sights"}
+      ],
+      "optionalSpecialRules": [],
+      "options": [
+        {
+          "id": "uk-northag-chieftain-troop-1",
+          "name": "Upgrade all Chieftains to Stillbrew",
+          "points": 12,
+          "br": 0,
+          "addSpecialRules": "Stillbrew",
+          "composition": [{"qty": 3, "name": "Mk9 Chieftains (Stillbrew Armour)"}]
+        },
+        {
+          "id": "uk-northag-chieftain-troop-2",
+          "name": "Add 1 additional Mk9 Chieftain",
+          "points": 43,
+          "br": 3,
+          "addSpecialRules": "",
+          "composition": [{"qty": 4, "name": "MK9 Chieftains"}]
+        }
+      ]
+    },
+    {
+      "id": "uk-northag-battlegroup-commander",
+      "name": "Battlegroup Commander",
+      "category": "Main Column",
+      "minQty": 0,
+      "maxQty": 1,
+      "points": 22,
+      "br": 4,
+      "morale": "P",
+      "unitComposition": [
+        {"qty": 1, "name": "Infantry Command Team"},
+        {"qty": 1, "name": "FV432"}
+      ],
+      "specialRules": [
+        {"name": "Senior Officer"}
+      ],
+      "optionalSpecialRules": [],
+      "options": [
+        {
+          "id": "uk-northag-battlegroup-commander-1",
+          "name": "Ferret Armoured Car",
+          "points": 0,
+          "br": 0,
+          "addSpecialRules": "",
+          "composition": [
+              {"qty": 1, "name": "Infantry Command Team"},
+              {"qty": 1, "name": "Ferret Armoured Car"}  
+          ]
+        },
+        {
+          "id": "uk-northag-battlegroup-commander-2",
+          "name": "Mk9 Chieftain (Stillbrew)",
+          "points": 33,
+          "br": 1,
+          "addSpecialRules": "",
+          "composition": [
+            {"qty": 1, "name": "Infantry Command Team"},
+            {"qty": 1, "name": "Mk9 Chieftain (Stillbrew)"}]
+        }
+      ]
+    },
+    
   ]
 }
