@@ -927,11 +927,9 @@
       "morale": "",
       "notes": "A Rapier Battery deployed well behind the front lines of the battle area",
       "unitComposition": [],
-      "specialRules": [],
+      "specialRules": [{"name": "Off-table"},{"name": "AA (High)"}],
       "optionalSpecialRules": [],
-      "options": [
-                {"name": "Off-table"},{"name": "AA (High)"}
-      ]
+      "options": []
     },
 {
       "id": "uk-northag-afs-counter-battery-fire-mission",
