@@ -1106,7 +1106,7 @@
       "id": "uk-northag-orr-additional-reinforcement-request",
       "name": "Additional Reinforcement Request", 
       "category": "(Optional) Reinforcement Requests",
-      "minQty": 1,
+      "minQty": 0,
 
       "points": 30,
       "type": "",
