@@ -440,6 +440,12 @@
       "points": 69,
       "br": 12,
       "morale": "P",
+      "optionGroupLimit": [
+
+{ "ids": ["uk-mechanised-vu-infantry-platoon-1", "uk-mechanised-vu-infantry-platoon-2", "uk-mechanised-vu-infantry-platoon-3"], "min": 1, "max": 1 }, 
+{ "ids": ["uk-mechanised-vu-infantry-platoon-4", "uk-mechanised-vu-infantry-platoon-5"], "min": 0, "max": 1 } 
+
+],
       "unitComposition": [
         {"qty": 7, "name": "Infantry Fire Team"},
          {"qty": 4, "name": "FV432"}
@@ -459,13 +465,7 @@
           "points": 4,
           "br": 0,
           "addSpecialRules": "",
-          "optionGroupLimit": [
-
-{ "ids": ["uk-mechanised-vu-infantry-platoon-1", "uk-mechanised-vu-infantry-platoon-2", "uk-mechanised-vu-infantry-platoon-3"], "min": 1, "max": 1 }, 
-{ "ids": ["uk-mechanised-vu-infantry-platoon-4", "uk-mechanised-vu-infantry-platoon-5"], "min": 0, "max": 1 } 
-
-],
-          "composition": [{"qty": 1, "name": "sGPMG Weapons Team)"}]
+                    "composition": [{"qty": 1, "name": "sGPMG Weapons Team)"}]
         },
         {
           "id": "uk-mechanised-vu-infantry-platoon-2",
