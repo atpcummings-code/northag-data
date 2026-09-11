@@ -126,7 +126,6 @@
           "name": "Upgrade all Chieftains to Stillbrew",
           "points": 12,
           "br": 0,
-          "addSpecialRules": "Stillbrew",
           "composition": [{"qty": 3, "name": "Mk9 Chieftains (Stillbrew Armour) in tank scrapes"}]
         }
       ]
@@ -420,7 +419,6 @@
           "name": "Upgrade all Chieftains to Stillbrew",
           "points": 12,
           "br": 0,
-          "addSpecialRules": "Stillbrew",
           "composition": [{"qty": 3, "name": "Mk9 Chieftains (Stillbrew Armour)"}]
         },
         {
@@ -461,6 +459,12 @@
           "points": 4,
           "br": 0,
           "addSpecialRules": "",
+          "optionGroupLimit": [
+
+{ "ids": ["uk-mechanised-vu-infantry-platoon-1", "uk-mechanised-vu-infantry-platoon-2", "uk-mechanised-vu-infantry-platoon-3"], "min": 1, "max": 1 }, 
+{ "ids": ["uk-mechanised-vu-infantry-platoon-4", "uk-mechanised-vu-infantry-platoon-5"], "min": 0, "max": 1 } 
+
+],
           "composition": [{"qty": 1, "name": "sGPMG Weapons Team)"}]
         },
         {
@@ -479,8 +483,8 @@
           "addSpecialRules": "",
           "composition": [{"qty": 1, "name": "Carl gustav Weapons Team"}]
         },
-         { "id": "uk-mechanised-vu-infantry-platoon-u1", "name": "MILAN ATGM Weapons Team", "composition": [{"qty": 1, "name": "MILAN ATGM Weapons Team"}], "points": 16, "br": 2, "morale": "P"},
-        { "id": "uk-mechanised-vu-infantry-platoon-u2", "name": "Blowpipe MANPAD Weapons Team", "composition": [{"qty": 1, "name": "Blowpipe MANPAD Weapons Team"}], "points": 11, "br": 2, "morale": "P" }
+         { "id": "uk-mechanised-vu-infantry-platoon-4", "name": "MILAN ATGM Weapons Team", "composition": [{"qty": 1, "name": "MILAN ATGM Weapons Team"}], "points": 16, "br": 2, "morale": "P"},
+        { "id": "uk-mechanised-vu-infantry-platoon-5", "name": "Blowpipe MANPAD Weapons Team", "composition": [{"qty": 1, "name": "Blowpipe MANPAD Weapons Team"}], "points": 11, "br": 2, "morale": "P" }
         
       ]
     },
@@ -507,7 +511,6 @@
           "name": "Add 1 additional Mk9 Chieftain",
           "points": 43,
           "br": 0,
-          "addSpecialRules": "",
           "composition": [{"qty": 4, "name": "Mk9 Chieftains"}]
         },
         {
@@ -515,7 +518,6 @@
           "name": "Upgrade all Chieftains to Stillbrew",
           "points": 4,
           "br": 0,
-          "addSpecialRules": "Stillbrew",
           "composition": [{"qty": 3, "name": "Mk9 Chieftains (Stillbrew Armour)"}]
         }
       ]
@@ -554,7 +556,6 @@
           "name": "Mk9 Chieftain (Stillbrew)",
           "points": 33,
           "br": 1,
-          "addSpecialRules": "",
           "composition": [
             {"qty": 1, "name": "Infantry Command Team"},
             {"qty": 1, "name": "Mk9 Chieftain (Stillbrew)"}]
@@ -1087,7 +1088,7 @@
       "options": []
     },
 {
-      "id": "uk-northag-orr-reinforcement-request",
+      "id": "reinforcement-request",
       "name": "Reinforcement Request", 
       "category": "(Optional) Reinforcement Requests",
       "minQty": 1,
