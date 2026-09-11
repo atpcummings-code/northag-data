@@ -452,7 +452,7 @@
       ],
       "optionalSpecialRules": [],
        "upgrades": [
-        { "id": "uk-mechanised-infantry-platoon-u1", "name": "MILAN ATGM Weapons Team", "composition": [{"qty": 1, "name": "MILAN ATGM Weapons Team"}], "points": 16, "br": 2, "morale": "P", },{ "id": "uk-mechanised-infantry-platoon-u2", "name": "Blowpipe MANPAD Weapons Team", "composition": [{"qty": 1, "name": "Blowpipe MANPAD Weapons Team"}], "points": 11, "br": 2, "morale": "P", }
+        { "id": "uk-mechanised-infantry-platoon-u1", "name": "MILAN ATGM Weapons Team", "composition": [{"qty": 1, "name": "MILAN ATGM Weapons Team"}], "points": 16, "br": 2, "morale": "P"},{ "id": "uk-mechanised-infantry-platoon-u2", "name": "Blowpipe MANPAD Weapons Team", "composition": [{"qty": 1, "name": "Blowpipe MANPAD Weapons Team"}], "points": 11, "br": 2, "morale": "P" }
       ],
       "options": [
         {
