@@ -1523,42 +1523,42 @@
     "type": "infantry", 
     "infantryName": "Infantry Fire Team", 
     "movement": [{"cat": "Infantry", "move": "4/4"}], 
-    "weapons": [{"rof": "Medium", "range": 30,}] 
+    "weapons": [{"rof": "Medium", "range": 30}] 
   },
   { 
     "equipmentId": "uk-northag-infantry-command-team", 
     "type": "infantry", 
     "infantryName": "Infantry Command Team", 
     "movement": [{"cat": "Infantry", "move": "4/4"}], 
-    "weapons": [{"rof": "Low", "range": 20,}] 
+    "weapons": [{"rof": "Low", "range": 20}] 
   },
   { 
     "equipmentId": "uk-northag-infantry-Weapons-team", 
     "type": "infantry", 
     "infantryName": "Infantry Command Team (without wepaon)", 
     "movement": [{"cat": "Infantry", "move": "4/4"}], 
-    "weapons": [{"rof": "Low", "range": 20,}] 
+    "weapons": [{"rof": "Low", "range": 20}] 
   },
   { 
     "equipmentId": "uk-northag-infantry-sgpmg-team", 
     "type": "infantry", 
     "infantryName": "Infantry sGPMG Team", 
     "movement": [{"cat": "Infantry", "move": "4/4"}], 
-    "weapons": [{"rof": "High", "range": 40,}] 
+    "weapons": [{"rof": "High", "range": 40}] 
   },
   { 
     "equipmentId": "uk-northag-infantry-sniper-team", 
     "type": "infantry", 
     "infantryName": "Infantry Sniper Team", 
     "movement": [{"cat": "Infantry", "move": "4/4"}], 
-    "weapons": [{"rof": "Low", "range": 30,}] 
+    "weapons": [{"rof": "Low", "range": 30}] 
   },
   { 
     "equipmentId": "uk-northag-vehicle-mg", 
     "type": "infantry", 
     "infantryName": "Vehicle MG", 
     "movement": [{"cat": "Infantry", "move": "4/4"}], 
-    "weapons": [{"rof": "Low", "range": 30,}] 
+    "weapons": [{"rof": "Low", "range": 30}] 
   },
   { 
     "equipmentId": "uk-northag-land-rover", 
