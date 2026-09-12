@@ -657,7 +657,7 @@
       "name": "Surface to Air Missile Launcher", 
       "category": "Main Column",
       "minQty": 0,
-      "maxQty": 10,
+      "maxQty": 1,
       "points": 14,
       "br": 1,
       "morale": "P",
