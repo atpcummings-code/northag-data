@@ -1124,7 +1124,7 @@
   "helicopterName": "Infantry Fire Team",
   "movement": [{"cat": "Infantry", "move": "4/4"}],
   "hits": 2,
-  "weapons": [{"rof": "Low", "range": "30/""]
+  "weapons": [{"rof": "Low", "range": 30]
 
 } 
 ]
@@ -1135,7 +1135,7 @@
     "vehicleName": "FV701 Ferret", 
     "movement": [{"cat": "Wheel AT", "move": "8/16"}], 
     "armour": [{"Front": 0, "Side": 0, "Rear": 0}], 
-    "weapons": [{"weapon": "MG", "mount": "Turret", "rof": "Low", "range": 30 }],
+    "weapons": [{"weapon": "MG", "mount": "Turret", "rof": "Low", "range": 30}],
     "specialRules": ["Scout"] 
   }, 
   { 
