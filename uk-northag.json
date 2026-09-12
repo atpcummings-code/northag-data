@@ -1091,13 +1091,13 @@
   "movement": [{"cat": "Wheel AT", "move": "8/16"}],
   "armour": [{"Front": 0, "Side": 0, "Rear": 0}],
   "weapons": [{"weapon": "MG", "mount": "Turret", "ROF": "Low"}],
-  "specialRules": ["Scout"],
+  "specialRules": ["Scout"]
 },
 {
   "id": "uk-northag-30mm-rarden",
   "type": "weapon",
   "weaponName": "30mm Rarden",
-  "ammo": ["AP": "2,2,1,1,-", "HE":"Light, 1,1,1,1,-"],
+  "ammo": ["AP": "2,2,1,1,-", "HE":"Light, 1,1,1,1,-"]
 },
 {
   "id": "uk-northag-gazelle",
@@ -1106,7 +1106,7 @@
   "movement": [{"cat": "Helo", "move": "60/60",}],
   "armour": ["Softskin"],
   "weapons": [{"weapon": "", "mount": "", "rof": ""}],
-  "specialRules": ["Scout3", "Artillery Spotter", "Helicopter"],
+  "specialRules": ["Scout3", "Artillery Spotter", "Helicopter"]
 
 },
 {
@@ -1209,7 +1209,7 @@
     "movement": [{"cat": "Med Track", "move": "8/12"}], 
     "armour": [{"Front": 1, "Side": 0, "Rear": 0}], 
     "weapons": [{"weapon": "Swingfire (7)", "mount": "Hull"},{"weapon": "MG", "mount": "Pintle", "rof": "Medium", "range": 30}],
-    "specialRules": ["ATGM","Ambush","Unreliable"],
+    "specialRules": ["ATGM","Ambush","Unreliable"]
   },
   { 
     "equipmentId": "uk-northag-fv439", 
@@ -1218,7 +1218,7 @@
     "movement": [{"cat": "Med Track", "move": "8/12"}], 
     "armour": [{"Front": 1, "Side": 0, "Rear": 0}], 
     "weapons": [{"weapon": "MG", "mount": "Pintle", "rof": "Medium", "range": 30}],
-    "specialRules": ["Capacity 1","Comms","Unreliable"],
+    "specialRules": ["Capacity 1","Comms","Unreliable"]
   },
   { 
     "equipmentId": "uk-northag-fv432-ambulance", 
@@ -1226,7 +1226,7 @@
     "vehicleName": "FV432 Ambulance", 
     "movement": [{"cat": "Med Track", "move": "8/12"}], 
     "armour": [{"Front": 1, "Side": 0, "Rear": 0}], 
-    "specialRules": ["Ambulance","Unreliable"],
+    "specialRules": ["Ambulance","Unreliable"]
   },
   { 
     "equipmentId": "uk-northag-fv103-spartan", 
@@ -1260,7 +1260,7 @@
     "vehicleName": "FV432 Ambulance", 
     "movement": [{"cat": "Fast Track", "move": "10/14"}], 
     "armour": [{"Front": 1, "Side": 0, "Rear": 0}], 
-    "specialRules": ["Ambulance"],
+    "specialRules": ["Ambulance"]
   },
   { 
     "equipmentId": "uk-northag-m2-alligator", 
