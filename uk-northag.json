@@ -504,7 +504,7 @@
 
 ]
     },
-    
+    {
       "id": "uk-northag-mc-mechanised-infantry-platoon",
       "name": "Mechanised Infantry Platoon",
       "category": "main Column",
@@ -666,9 +666,9 @@
       "options": [
         {
           "id": "uk-northag-mc-surface-to-air-missile-launcher-1",
-          "name": "Replace Infantry Weapon Team, Rapier SAM and Lover Rover with:",
+          "name": "Replace Infantry Weapon Team, Towed Rapier SAM and Land Rover (1 tonne) with:",
           "points": 2,
-          "type": "Restricted",
+          "restricted": "yes",
           "br": 0,
           "addSpecialRules": "",
           "composition": [
@@ -969,7 +969,7 @@
       "minQty": 0,
       "maxQty": 1,
       "points": 44,
-      "type": "Restricted",
+      "restricted": "yes",
       "br": 0,
       "morale": "",
       "notes": "A single strike by a battery of 4 105mm M109A2 self-propelled guns firing DPICM ammunitions.",
@@ -985,7 +985,7 @@
       "minQty": 0,
       "maxQty": 1,
       "points": 10,
-      "type": "",
+      
       "br": 0,
       "morale": "",
       "notes": "",
@@ -1001,7 +1001,7 @@
       "minQty": 0,
       "maxQty": 1,
       "points": 15,
-      "type": "",
+      
       "br": 0,
       "morale": "",
       "notes": "",
@@ -1017,7 +1017,7 @@
       "minQty": 0,
       "maxQty": 1,
       "points": 20,
-      "type": "",
+      
       "br": 0,
       "morale": "",
       "notes": "",
@@ -1033,7 +1033,7 @@
       "minQty": 0,
       "maxQty": 1,
       "points": 25,
-      "type": "",
+      
       "br": 0,
       "morale": "",
       "notes": "",
@@ -1049,7 +1049,7 @@
       "minQty": 1,
       "maxQty": 1,
       "points": 0,
-      "type": "",
+      
       "br": 0,
       "morale": "",
       "notes": "",
@@ -1065,7 +1065,7 @@
       "minQty": 0,
 
       "points": 30,
-      "type": "",
+      
       "br": 0,
       "morale": "",
       "notes": "",
