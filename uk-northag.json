@@ -1097,7 +1097,7 @@
   "id": "uk-northag-30mm-rarden",
   "type": "weapon",
   "weaponName": "30mm Rarden",
-  "ammo": ["AP": "2,2,1,1,-", "HE":"Light, 1,1,1,1,-"]
+  "ammo": [{"AP": "2,2,1,1,-"}, {"HE":"Light, 1,1,1,1,-"}]
 },
 {
   "id": "uk-northag-gazelle",
