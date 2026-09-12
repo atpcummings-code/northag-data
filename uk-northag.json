@@ -35,24 +35,10 @@
       "points": 24,
       "br": 2,
       "morale": "P",
-      "unitComposition": [
-        {
-          "qty": 1,
-          "name": "Gazelle Scout Helicopter"
-        }
-      ],
-      "specialRules": [
-        {"name": "Helicopter"},
-        {"name": "Scout3"},
-        {"name": "Artillery Spotter"}
-      ],
-            "optionalSpecialRules": [],
-      "options": [
-        {
-          "id": "uk-northag-fsu-gazelle-scout-helicopter-1",
-          "name": "Add 1 Timed 105mm Artillery Strike",
-          "points": 12,
-          "br": 0,
+      "unitComposition": [{"qty": 1,"name": "Gazelle Scout Helicopter"}],
+      "specialRules": [{"name": "Helicopter"},{"name": "Scout3"},{"name": "Artillery Spotter"}],
+      "optionalSpecialRules": [],
+      "options": [{"id": "uk-northag-fsu-gazelle-scout-helicopter-1","name": "Add 1 Timed 105mm Artillery Strike","points": 12,"br": 0,
           "composition": [
             {"qty": 1,"name": "Timed 105mm Artillery Strike"}
           ]
@@ -404,19 +390,14 @@
       "points": 129,
       "br": 9,
       "morale": "P",
-      "unitComposition": [
-        {"qty": 3, "name": "Mk9 Chieftains"}
-      ],
-      "specialRules": [
-        {"name": "Advanced Gunnery"},
-        {"name": "Advanced Sights"}
-      ],
+      "unitComposition": [{"qty": 3, "name": "Mk9 Chieftains"}],
+      "specialRules": [{"name": "Advanced Gunnery"},{"name": "Advanced Sights"}],
       "optionalSpecialRules": [],
       "options": [
         {
           "id": "uk-northag-vu-chieftain-troop-1",
           "name": "Upgrade all Chieftains to Stillbrew",
-          "points": 12,
+          "pointsPerQty": 4,
           "br": 0,
           "composition": [{"qty": 3, "name": "Mk9 Chieftains (Stillbrew Armour)"}]
         },
