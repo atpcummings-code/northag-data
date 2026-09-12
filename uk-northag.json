@@ -1153,7 +1153,7 @@
     "vehicleName": "FV432", 
     "movement": [{"cat": "Med Track", "move": "8/12"}], 
     "armour": [{"Front": 1, "Side": 0, "Rear": 0}], 
-    "weapons": [{"weapon": "MG", "mount": "Pintle", "rof": "Low",, "range": 30}],
+    "weapons": [{"weapon": "MG", "mount": "Pintle", "rof": "Low", "range": 30}],
     "specialRules": ["Capacity 2","Unreliable"],
     "notes": "FV432 Special Rule: Once the infantry disembark from an FV432 it no longer counts as being equipped with a pintle mounted MG. It now has no wepaons."  
   },
