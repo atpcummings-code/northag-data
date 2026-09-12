@@ -495,8 +495,8 @@
       ],
       "specialRules": [{"name": "Senior Officer"}],
      "options": [
-        { "id": "uk-northag-mc-battlegroup-commander-1", "name": "Ferret Armoured Car", "points": 0, "br": 0, "composition": [{"qty": 1, "name": "Ferret Armoured Car", "mode": "replace"}] }, 
-        { "id": "uk-northag-mc-battlegroup-commander-2", "name": "Mk9 Chieftain (Stillbrew)", "points": 33, "br": 1, "composition": [{"qty": 1, "name": "Mk9 Chieftain (Stillbrew)","mode": "replace"}] }
+        { "id": "uk-northag-mc-battlegroup-commander-1", "name": "Ferret Armoured Car", "points": 0, "br": 0, "composition": [{"qty": 1, "name": "Ferret Armoured Car"}] }, 
+        { "id": "uk-northag-mc-battlegroup-commander-2", "name": "Mk9 Chieftain (Stillbrew)", "points": 33, "br": 1, "composition": [{"qty": 1, "name": "Mk9 Chieftain (Stillbrew)"}] }
       ],
 "optionGroupLimit": [
 
