@@ -606,6 +606,11 @@
          {"name": "Artillery Spotter"}
       ],
       "optionalSpecialRules": [],
+      "optionGroupLimit": [
+
+{ "ids": ["uk-northag-mc-forward-observation-officer-1", "uk-northag-mc-forward-observation-officer-2"], "min": 0, "max": 1 }
+
+],
       "options": [
         {
           "id": "uk-northag-mc-forward-observation-officer-1",
