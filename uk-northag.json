@@ -18,6 +18,7 @@
         {
           "qty": 2,
           "name": "FV721 Fox armoured cars"
+          "equipmentId": "uk-northag-fv721-fox"
         }
       ],
       "specialRules": [
