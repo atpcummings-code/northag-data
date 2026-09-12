@@ -497,9 +497,8 @@
         {"name": "Senior Officer"}
       ],
       "optionalSpecialRules": [],
-     "optionGroupLimit": [
-
-{
+"Options": [
+  {
           "id": "uk-northag-mc-battlegroup-commander-1",
           "name": "Ferret Armoured Car",
           "points": 0,
@@ -519,7 +518,12 @@
             {"qty": 1, "name": "Mk9 Chieftain (Stillbrew)"}], "min": 0, "max": 1
         }
 
-]
+],      
+"optionGroupLimit": [
+
+{ "ids": ["uk-northag-mc-battlegroup-commander-1", "uk-northag-mc-battlegroup-commander-2"], "min": 0, "max": 1 }
+
+],
     },
     {
       "id": "uk-northag-mc-mechanised-infantry-platoon",
