@@ -1103,7 +1103,7 @@
   "id": "uk-northag-gazelle",
   "type": "helicopter",
   "helicopterName": "Gazelle",
-  "movement": [{"cat": "Helo", "move": "60/60",}],
+  "movement": [{"cat": "Helo", "move": "60/60"}],
   "armour": ["Softskin"],
   "weapons": [{"weapon": "", "mount": "", "rof": ""}],
   "specialRules": ["Scout3", "Artillery Spotter", "Helicopter"]
@@ -1113,7 +1113,7 @@
   "id": "uk-northag-harrier-gr3",
   "type": "aircraft",
   "helicopterName": "Harrier GR3",
-  "movement": [{"cat": "Fighter", "move": "Unlimited",}],
+  "movement": [{"cat": "Fighter", "move": "Unlimited"}],
   "hits": 2,
   "weapons": ["4 Large Bombs or 4 Matra rocket pads"]
 
