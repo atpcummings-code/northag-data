@@ -481,20 +481,8 @@
       ],
       "optionalSpecialRules": [],
       "options": [
-        {
-          "id": "uk-northag-mc-chieftain-tank-troop-1",
-          "name": "Add 1 additional Mk9 Chieftain",
-          "points": 43,
-          "br": 0,
-          "composition": [{"qty": 4, "name": "Mk9 Chieftains"}]
-        },
-        {
-          "id": "uk-northag-mc-chieftain-tank-troop-1",
-          "name": "Upgrade all Chieftains to Stillbrew",
-          "points": 4,
-          "br": 0,
-          "composition": [{"qty": 3, "name": "Mk9 Chieftains (Stillbrew Armour)"}]
-        }
+          { "id": "uk-northag-vu-chieftain-troop-1", "name": "Upgrade all Chieftains to Stillbrew", "pointsPerQty": 4, "br": 0, "composition": [{"qty": 3, "name": "Mk9 Chieftains (Stillbrew Armour)", "mode": "modify", "replaces": "Mk9 Chieftains"}] }, 
+        { "id": "uk-northag-vu-chieftain-troop-2", "name": "Add 1 additional Mk9 Chieftain", "points": 43, "br": 3, "composition": [{"qtyChange": 1, "mode": "modify"}] }
       ]
     },
     {
