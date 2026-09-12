@@ -104,7 +104,8 @@
       "specialRules": [
         {"name": "Dug-in"},
         {"name": "Advanced Gunnery"},
-        {"name": "Advanced Sights"}
+        {"name": "Advanced Sights"},
+        {"name": "Unreliable"}
       ],
       "optionalSpecialRules": [],
       "options": [
@@ -393,7 +394,8 @@
       "br": 9,
       "morale": "P",
       "unitComposition": [{"qty": 3, "name": "Mk9 Chieftains"}],
-      "specialRules": [{"name": "Advanced Gunnery"},{"name": "Advanced Sights"}],
+      "specialRules": [{"name": "Advanced Gunnery"},{"name": "Advanced Sights"},
+        {"name": "Unreliable"}],
       "optionalSpecialRules": [],
       "options": [
         { "id": "uk-northag-vu-chieftain-troop-1", "name": "Upgrade all Chieftains to Stillbrew", "pointsPerQty": 4, "br": 0, "composition": [{"qty": 3, "name": "Mk9 Chieftains (Stillbrew Armour)", "mode": "modify", "replaces": "Mk9 Chieftains"}] }, 
