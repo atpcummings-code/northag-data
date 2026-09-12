@@ -1088,8 +1088,8 @@
   "id": "uk-northag-fv701-ferret",
   "type": "vehicle",
   "vehicleName": "FV701 Ferret",
-  "movement": [{"cat": "Wheel AT", "move": "8/16",}],
-  "armour": [{"Front": 0, "Side": 0, "Rear": 0,}],
+  "movement": [{"cat": "Wheel AT", "move": "8/16"}],
+  "armour": [{"Front": 0, "Side": 0, "Rear": 0}],
   "weapons": [{"weapon": "MG", "mount": "Turret", "ROF": "Low"}],
   "specialRules": ["Scout"],
 },
@@ -1122,7 +1122,7 @@
   "id": "uk-northag-infantry-fire-team",
   "type": "infantry",
   "helicopterName": "Infantry Fire Team",
-  "movement": [{"cat": "Infantry", "move": "4/4",}],
+  "movement": [{"cat": "Infantry", "move": "4/4"}],
   "hits": 2,
   "weapons": [{"rof": "Low", "range": "30/""]
 
