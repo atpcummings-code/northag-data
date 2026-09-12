@@ -250,7 +250,7 @@
       "br": 1,
       "morale": "P",
       "unitComposition": [
-        {"qty": 1, "name": "Infantry Weapons Team with a MILAN ATGM deployed in a dug-ou. The cover is lost of the unit moves."}
+        {"qty": 1, "name": "Infantry Weapons Team with a MILAN ATGM deployed in a dug-out. The cover is lost of the unit moves."}
       ],
       "specialRules": [
         {"name": "Ambush"},
