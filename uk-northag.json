@@ -1546,7 +1546,7 @@
     "movement": [{"cat": "Wheel AT", "move": "8/16"}], 
     "armour": "Soft Skin", 
     "specialRules": ["Capacity 2","Amphibious"] 
-  },
+  }
 
 
   
