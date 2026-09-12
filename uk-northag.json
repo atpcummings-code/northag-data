@@ -1083,51 +1083,6 @@
       "options": []
     }  
   ],
-  "equipment": [
-{
-  "id": "uk-northag-fv701-ferret",
-  "type": "vehicle",
-  "vehicleName": "FV701 Ferret",
-  "movement": [{"cat": "Wheel AT", "move": "8/16"}],
-  "armour": [{"Front": 0, "Side": 0, "Rear": 0}],
-  "weapons": [{"weapon": "MG", "mount": "Turret", "ROF": "Low"}],
-  "specialRules": ["Scout"]
-},
-{
-  "id": "uk-northag-30mm-rarden",
-  "type": "weapon",
-  "weaponName": "30mm Rarden",
-  "ammo": [{"AP": "2,2,1,1,-"}, {"HE":"Light, 1,1,1,1,-"}]
-},
-{
-  "id": "uk-northag-gazelle",
-  "type": "helicopter",
-  "helicopterName": "Gazelle",
-  "movement": [{"cat": "Helo", "move": "60/60"}],
-  "armour": ["Softskin"],
-  "weapons": [{"weapon": "", "mount": "", "rof": ""}],
-  "specialRules": ["Scout3", "Artillery Spotter", "Helicopter"]
-
-},
-{
-  "id": "uk-northag-harrier-gr3",
-  "type": "aircraft",
-  "helicopterName": "Harrier GR3",
-  "movement": [{"cat": "Fighter", "move": "Unlimited"}],
-  "hits": 2,
-  "weapons": ["4 Large Bombs or 4 Matra rocket pads"]
-
-},
-  {
-  "id": "uk-northag-infantry-fire-team",
-  "type": "infantry",
-  "helicopterName": "Infantry Fire Team",
-  "movement": [{"cat": "Infantry", "move": "4/4"}],
-  "hits": 2,
-  "weapons": [{"rof": "Low", "range": 30}]
-
-} 
-]
 "equipment": [ 
   { 
     "equipmentId": "uk-northag-fv701-ferret", 
