@@ -1124,7 +1124,7 @@
   "helicopterName": "Infantry Fire Team",
   "movement": [{"cat": "Infantry", "move": "4/4"}],
   "hits": 2,
-  "weapons": [{"rof": "Low", "range": 30]
+  "weapons": [{"rof": "Low", "range": 30}]
 
 } 
 ]
