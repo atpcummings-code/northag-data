@@ -70,12 +70,12 @@
   
   "equipment": [ 
   { 
-    "equipmentId": "uk-northag-fv701-ferret", 
+    "equipmentId": "uk-northag-t-64a", 
     "type": "vehicle", 
-    "vehicleName": "FV701 Ferret", 
-    "movement": [{"cat": "Wheel AT", "move": "8\"/16\""}], 
-    "armour": [{"Front": 0, "Side": 0, "Rear": 0}], 
-    "weapons": [{"weapon": "MG", "mount": "Turret", "rof": "Low", "range": 30}],
+    "vehicleName": "T-64A", 
+    "movement": [{"cat": "Med Track", "move": "8\"/12\""}], 
+    "armour": [{"Front": 5, "Side": 3, "Rear": 1}], 
+    "weapons": [{"weapon": "125mmD81", "mount": "Turret","equipmentId": "uk-northag-125mmd81"  },{"weapon": "MG", "mount": "Co-axial", "rof": "Low", "range": 30},{"weapon": "MG", "mount": "Pintle", "rof": "Medium", "range": 30}],
     "specialRules": ["Scout"] 
   }, 
   { 
@@ -381,10 +381,10 @@
     "ammo": [{"AP": "2,2,1,1,1"}, {"HE": "Light, 1,1,1,1,1"}] 
   },
   { 
-    "equipmentId": "uk-northag-120mml55", 
+    "equipmentId": "uk-northag-125d81", 
     "type": "weapon", 
-    "weaponName": "120mmL55", 
-    "ammo": [{"AP": "9,9,8,7,6"}, {"HE": "Medium, 4,4,4,4,4"}] 
+    "weaponName": "125D81", 
+    "ammo": [{"AP": "8,7,6,5,4"}, {"HE": "Medium, 4,4,4,4,4"}] 
   },
   { 
     "equipmentId": "uk-northag-165mml9", 
