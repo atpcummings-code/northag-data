@@ -49,7 +49,7 @@
           
           "composition": 
           [ 
-          {"qty": 2, "name": "T-80)","equipmentId": "su-northag-t-80"}
+          {"qty": 2, "name": "T-80","equipmentId": "su-northag-t-80"}
           ]
 },
 {
@@ -60,7 +60,7 @@
           
           "composition": 
           [ 
-          {"qty": 2, "name": "T-80B)","equipmentId": "su-northag-t-80b"}
+          {"qty": 2, "name": "T-80B","equipmentId": "su-northag-t-80b"}
           ]
 }
 
