@@ -985,7 +985,7 @@
       "notes": "A single air strike by a Harrier GR3 armed with four large bombs or four Marra 68mm multiple rocket pods",
       "unitComposition": [ ],
       "specialRules": [],
-      
+      "optionGroupLimit": [{ "ids": ["uk-northag-afs-timed-harrier-gr3-air-strike-1", "uk-northag-afs-timed-harrier-gr3-air-strike-2"], "min": 0, "max": 1 }],
       "options": [
         {
           "id": "uk-northag-afs-timed-harrier-gr3-air-strike-1",
@@ -1020,7 +1020,7 @@
       "morale": "",
       "notes": "A single air strike by a Jaguar GR1 armed with eight large bombs",
       "unitComposition": [
-        {"qty": 1, "name": "Jaguar GR1","equipmentId": "uk-northag-jaguar-gr1" },{"qty": 8, "name": "Large Bombs"}
+        {"qty": 1, "name": "Jaguar GR1","equipmentId": "uk-northag-jaguar-gr1" },{"qty": 4, "name": "Large Bombs"}
       ],
       "specialRules": [],
       
@@ -1038,7 +1038,7 @@
       "notes": "A single air strike by a Tornado GR1 armed with four very large bombs or four cluster bombs",
       "unitComposition": [],
       "specialRules": [],
-      
+      "optionGroupLimit": [{ "ids": ["uk-northag-afs-timed-tornado-gr1-air-strike-1", "uk-northag-afs-timed-tornado-gr1-air-strike-2"], "min": 0, "max": 1 }],
       "options": [
         {
           "id": "uk-northag-afs-timed-tornado-gr1-air-strike-1",
