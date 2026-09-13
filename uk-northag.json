@@ -673,7 +673,7 @@
       "br": 3,
       "morale": "P",
       "unitComposition": [
-        {"qty": 1, "name": "Infantry Command Team","equipmentId": "uk-northag-infantry-command-team"},
+        {"qty": 1, "name": "Infantry Command Team","equipmentId": "uk-northag-infantry-command-team"}
        ],
       "specialRules": [
         {"name": "Officer"},
@@ -753,7 +753,7 @@
       "br": 0,
       "morale": "P",
       "unitComposition": [
-        {"qty": 1, "name": "Infantry Command Team","equipmentId": "uk-northag-infantry-command-team"},
+        {"qty": 1, "name": "Infantry Command Team","equipmentId": "uk-northag-infantry-command-team"}
        ],
       "specialRules": [
         {"name": "Ambulance"},
