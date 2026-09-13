@@ -19,7 +19,7 @@
         {
           "qty": 2,
           "name": "T-64A",
-          "equipmentId": "su-northag-t64a"
+          "equipmentId": "uk-northag-t-64a"
         }
       ],
       "specialRules": [
@@ -75,7 +75,7 @@
     "vehicleName": "T-64A", 
     "movement": [{"cat": "Med Track", "move": "8\"/12\""}], 
     "armour": [{"Front": 5, "Side": 3, "Rear": 1}], 
-    "weapons": [{"weapon": "125mmD81", "mount": "Turret","equipmentId": "uk-northag-125mmd81"  },{"weapon": "MG", "mount": "Co-axial", "rof": "Low", "range": 30},{"weapon": "MG", "mount": "Pintle", "rof": "Medium", "range": 30}],
+    "weapons": [{"weapon": "125mmD81", "mount": "Turret","equipmentId": "su-northag-125mmd81"  },{"weapon": "MG", "mount": "Co-axial", "rof": "Low", "range": 30},{"weapon": "MG", "mount": "Pintle", "rof": "Medium", "range": 30}],
     "specialRules": ["Scout"] 
   }, 
   { 
