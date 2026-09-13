@@ -570,7 +570,215 @@
         
       ]
     },
-    
+    {
+      "id": "uk-northag-mc-tactical-command-centre",
+      "name": "Tactical Command Centre",
+      "category": "Main Column",
+      "minQty": 0,
+      "maxQty": 1,
+      "points": 16,
+      "br": 3,
+      "morale": "P",
+      "unitComposition": [
+        {"qty": 1, "name": "Infantry Command Team","equipmentId": "uk-northag-infantry-command-team"},
+      ],
+      "specialRules": [
+        {"name": "Officer"},
+         {"name": "Communications"}
+      ],
+      "unlocks": ["special-agent", "heavy-arty"],
+      "optionGroupLimit": [
+
+{ "ids": ["uk-northag-mc-tactical-command-centre-1", "uk-northag-mc-tactical-command-centre-2"], "min": 0, "max": 1 }
+
+],
+      "options": [
+        {
+          "id": "uk-northag-mc-tactical-command-centre-1",
+          "name": "Infantry Command Team rides in FV439",
+          "points": 4,
+          "br": 1,
+          "composition": [
+              {"qty": 1, "name": "FV439", "mode": "append","equipmentId": "uk-northag-fv439" }  
+            ]
+          },
+       {
+          "id": "uk-northag-mc-forward-observation-officer-2",
+          "name": "Infantry Command Team rides in FV105 Sultan",
+          "points": 0,
+          "br": 0,
+          "composition": [
+              {"qty": 1, "name": "FV105 Sultan","mode": "append","equipmentId": "uk-northag-fv105-sultan"}
+          ]
+            }
+          ]
+        },
+  {
+      "id": "uk-northag-mc-forward-air-controller",
+      "name": "Forward-Air-Controller",
+      "category": "Main Column",
+    "hiddenUntilUnlocked": true,
+      "minQty": 0,
+      "maxQty": 1,
+      "points": 13,
+      "br": 2,
+      "morale": "P",
+      "unitComposition": [
+        {"qty": 1, "name": "Infantry Command Team","equipmentId": "uk-northag-infantry-command-team"},
+        {"qty": 1, "name": "Land Rover","equipmentId": "uk-northag-land-rover"}
+      ],
+      "specialRules": [
+        {"name": "Officer"},
+         {"name": "Air Spotter"}
+      ],
+      "optionGroupLimit": [
+
+{ "ids": ["uk-northag-mc-forward-air-controller-1", "uk-northag-mc-forward-air-controller-2"], "min": 0, "max": 1 }
+
+],
+      "options": [
+        {
+          "id": "uk-northag-mc-forward-air-controller-1",
+          "name": "Replace Infantry Command Team and Land Rover with FV105 Sultam",
+          "points": 8,
+          "br": 1,
+          "composition": [
+              {"qty": 1, "name": "FV105", "mode": "append","equipmentId": "uk-northag-fv105-sultan" }  
+            ]
+          },
+       {
+          "id": "uk-northag-mc-forward-air-controller-2",
+          "name": "Replace Land Rover with Ferret Armoured Car",
+          "points": 0,
+          "br": 0,
+          "composition": [
+              {"qty": 1, "name": "Ferret Armoured Car","equipmentId": "uk-northag-fv701-ferret" }
+          ]
+            }
+          ]
+  },
+{
+      "id": "uk-northag-mc-electronic-warfare-team",
+      "name": "Electronic Warfare Team",
+      "category": "Main Column",
+      "hiddenUntilUnlocked": true,
+      "minQty": 0,
+      "maxQty": 1,
+      "points": 16,
+      "br": 3,
+      "morale": "P",
+      "unitComposition": [
+        {"qty": 1, "name": "Infantry Command Team","equipmentId": "uk-northag-infantry-command-team"},
+       ],
+      "specialRules": [
+        {"name": "Officer"},
+         {"name": "Electronic Warfare"}
+      ],
+      "optionGroupLimit": [
+
+{ "ids": ["uk-northag-mc-electronic-warfare-team-1", "uk-northag-mc-electronic-warfare-team-2"], "min": 0, "max": 1 }
+
+],
+      "options": [
+    {
+          "id": "uk-northag-mc-electronic-warfare-team-1",
+          "name": "Infantry Command Team rides in FV439",
+          "points": 0,
+          "br": 0,
+          "composition": [
+              {"qty": 1, "name": "FV439", "mode": "append","equipmentId": "uk-northag-fv439" }  
+            ]
+          },
+       {
+          "id": "uk-northag-mc-electronic-warfare-team-2",
+          "name": "Infantry Command Team rides in FV105 Sultan",
+          "points": 0,
+          "br": 0,
+          "composition": [
+              {"qty": 1, "name": "FV105 Sultan","mode": "append","equipmentId": "uk-northag-fv105-sultan" }
+          ]
+            }
+          ]
+},
+{
+      "id": "uk-northag-mc-ground-surveillance-radar-team",
+      "name": "Ground Surveillance Radar Team",
+      "category": "Main Column",
+      "hiddenUntilUnlocked": true,
+      "minQty": 0,
+      "maxQty": 1,
+      "points": 16,
+      "br": 3,
+      "morale": "P",
+      "unitComposition": [
+        {"qty": 1, "name": "Infantry Command Team","equipmentId": "uk-northag-infantry-command-team"},
+        {"qty": 1, "name": "Surveillance Radar Team", "equipmentId": "uk-northag-infantry-command-team"},
+        {"qty": 1, "name": "SFV103 Spartan","equipmentId": "uk-northag-fv103-spartan" }
+       ],
+      "specialRules": [
+        {"name": "Officer"},
+         {"name": "Electronic Warfare"}
+      ],
+},
+{
+      "id": "uk-northag-mc-supply-truck",
+      "name": "Ground Surveillance Radar Team",
+      "category": "Main Column",
+      "hiddenUntilUnlocked": true,
+      "minQty": 0,
+      "maxQty": 1,
+      "points": 9,
+      "br": 0,
+      "morale": "P",
+      "unitComposition": [
+        {"qty": 1, "name": "Truck", "equipmentId": "uk-northag-bedford-mk4-truck"}
+       ],
+      "specialRules": [
+        {"name": "Resupply"}}
+      ],
+},
+{
+      "id": "uk-northag-mc-ambulance",
+      "name": "Ambulance",
+      "category": "Main Column",
+      "hiddenUntilUnlocked": true,
+      "minQty": 0,
+      "maxQty": 1,
+      "points": 10,
+      "br": 0,
+      "morale": "P",
+      "unitComposition": [
+        {"qty": 1, "name": "Infantry Command Team","equipmentId": "uk-northag-infantry-command-team"},
+       ],
+      "specialRules": [
+        {"name": "Ambulance"},
+      ],
+      "optionGroupLimit": [
+
+{ "ids": ["uk-northag-mc-ambulance-1", "uk-northag-mc-ambulance-2"], "min": 0, "max": 1 }
+
+],
+      "options": [
+    {
+          "id": "uk-northag-mc-ambulance-1",
+          "name": "FV104 Samaritan",
+          "points": 0,
+          "br": 0,
+          "composition": [
+              {"qty": 1, "name": "FV104 Samaritan", "equipmentId": "uk-northag-fv104-samaritan"}  
+            ]
+          },
+       {
+          "id": "uk-northag-mc-ambulance-2",
+          "name": "FV432 Ambulance",
+          "points": 0,
+          "br": 0,
+          "composition": [
+              {"qty": 1, "name": "FV432 Ambulance", "equipmentId": "uk-northag-fv432-ambulance"}
+          ]
+            }
+          ]
+},
     {
       "id": "uk-northag-mc-military-police-team",
       "name": "Military Police Team",
@@ -740,7 +948,7 @@
       ],
       "optionalSpecialRules": [],
       "options": []
-    },
+    },  
     {
       "id": "uk-northag-afs-timed-harrier-gr3-air-strike",
       "name": "Timed Harrier GR3 Air Strike", 
