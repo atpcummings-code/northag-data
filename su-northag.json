@@ -6,7 +6,7 @@
   "year": "1985",
   "colour": "#5C3A2E",
  "units": [
-
+{
       "id": "su-northag-fsu-tank-recce-patrol",
       "name": "Tank Recce Patrol",
       "category": "Forward Screen Units",
@@ -66,7 +66,7 @@
 
 ]
     }
-   
+ ] 
   
   "equipment": [ 
   { 
