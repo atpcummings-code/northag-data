@@ -586,7 +586,7 @@
           ]
         },
          { "id": "uk-northag-mc-mechanised-infantry-platoon-4", "name": "MILAN ATGM Weapons Team", "composition": [{"qty": 1, "name": "MILAN ATGM Weapons Team", "mode": "append","equipmentId": "uk-northag-milan"},  {"qty": 1, "name": "FV103 Spartan","equipmentId": "uk-northag-fv103-spartan"}], "points": 16, "br": 2, "morale": "P"},
-        { "id": "uk-northag-mc-mechanised-infantry-platoon-5", "name": "Blowpipe MANPAD Weapons Team", "composition": [{"qty": 1, "name": "Blowpipe MANPAD Weapons Team","mode": "append","equipmentId": "uk-northag-blowpipe" },{"qty": 1, "name": "FV103 Spartan","equipmentId": "uk-northag-fv103-spartan"}}], "points": 11, "br": 2, "morale": "P" }
+        { "id": "uk-northag-mc-mechanised-infantry-platoon-5", "name": "Blowpipe MANPAD Weapons Team", "composition": [{"qty": 1, "name": "Blowpipe MANPAD Weapons Team","mode": "append","equipmentId": "uk-northag-blowpipe" },{"qty": 1, "name": "FV103 Spartan","equipmentId": "uk-northag-fv103-spartan"}], "points": 11, "br": 2, "morale": "P" }
         
       ]
     },
