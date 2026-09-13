@@ -381,9 +381,9 @@
     "ammo": [{"AP": "2,2,1,1,1"}, {"HE": "Light, 1,1,1,1,1"}] 
   },
   { 
-    "equipmentId": "su-northag-125d81", 
+    "equipmentId": "su-northag-125mmd81", 
     "type": "weapon", 
-    "weaponName": "125D81", 
+    "weaponName": "125mmD81", 
     "ammo": [{"AP": "8,7,6,5,4"}, {"HE": "Medium, 4,4,4,4,4"}] 
   },
   { 
