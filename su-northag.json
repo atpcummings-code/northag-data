@@ -18,15 +18,19 @@
       "unitComposition": [
         {
           "qty": 2,
-          "name": "T64A",
+          "name": "T-64A",
           "equipmentId": "su-northag-t64a"
         }
       ],
       "specialRules": [
         {"name": "Scout"}
       ],
-            "optionalSpecialRules": []
-    },
+  "optionGroupLimit": [
+
+{ "ids": ["su-northag-fsu-tank-recce-patrol-1", "su-northag-fsu-tank-recce-patrol-2", "su-northag-fsu-tank-recce-patrol-3"], "min": 1, "max": 1 }, 
+
+],
+    }
    
  ],
   
