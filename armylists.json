@@ -1,0 +1,7 @@
+{ 
+  "armyList": 
+  [ 
+  { "id": "uk-northag", "name": "British Army of the Rhine (BAOR)", "supplement": "NORTHAG", "year": "1985", "url": "https://raw.githubusercontent.com/atpcummings-code/northag-data/refs/heads/main/uk-northag.json" },
+  { "id": "su-northag", "name": "Soviet Forces Germany", "supplement": "NORTHAG", "year": "1985", "url": "https://raw.githubusercontent.com/atpcummings-code/northag-data/refs/heads/main/su-northag.json" }
+  ]   
+} 
