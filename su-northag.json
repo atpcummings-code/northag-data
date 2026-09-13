@@ -5,7 +5,31 @@
   "group": "NORTHAG",
   "year": "1985",
   "colour": "#5C3A2E",
- "units": [],
+ "units": [
+
+      "id": "uk-northag-fsu-armoured-car-patrol",
+      "name": "Armoured Car Patrol",
+      "category": "Forward Screen Units",
+      "minQty": 0,
+      "maxQty": 2,
+      "points": 32,
+      "br": 2,
+      "morale": "P",
+      "unitComposition": [
+        {
+          "qty": 2,
+          "name": "FV721 Fox armoured cars",
+          "equipmentId": "uk-northag-fv721-fox"
+        }
+      ],
+      "specialRules": [
+        {"name": "Scout"},
+        {"name": "Mortar Spotter"}
+      ],
+            "optionalSpecialRules": []
+    },
+   
+ ],
   
   "equipment": [ 
   { 
