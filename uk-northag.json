@@ -739,7 +739,7 @@
         {"qty": 1, "name": "Truck", "equipmentId": "uk-northag-bedford-mk4-truck"}
        ],
       "specialRules": [
-        {"name": "Resupply"}}
+        {"name": "Resupply"}
       ]
 },
 {
