@@ -1321,7 +1321,7 @@
     "equipmentId": "uk-northag-fv701-ferret", 
     "type": "vehicle", 
     "vehicleName": "FV701 Ferret", 
-    "movement": [{"cat": "Wheel AT", "move": "8/16"}], 
+    "movement": [{"cat": "Wheel AT", "move": "8\"/16\""}], 
     "armour": [{"Front": 0, "Side": 0, "Rear": 0}], 
     "weapons": [{"weapon": "MG", "mount": "Turret", "rof": "Low", "range": 30}],
     "specialRules": ["Scout"] 
@@ -1330,7 +1330,7 @@
      "equipmentId": "uk-northag-fv721-fox", 
     "type": "vehicle", 
     "vehicleName": "FV721 Fox", 
-    "movement": [{"cat": "Wheel AT", "move": "8/16"}], 
+    "movement": [{"cat": "Wheel AT", "move": "8\"/16\""}], 
     "armour": [{"Front": 1, "Side": 0, "Rear": 0}], 
     "weapons": [{"weapon": "30mm Rarden", "mount": "Turret", "rof": "High","equipmentId": "uk-northag-30mm-rarden" },{"weapon": "MG", "mount": "Co-axial", "rof": "Low", "range": 30}],
     "specialRules": ["Scout"] 
@@ -1339,7 +1339,7 @@
     "equipmentId": "uk-northag-fv101-scorpion", 
     "type": "vehicle", 
     "vehicleName": "FV101 Scorpion", 
-    "movement": [{"cat": "Fast Track", "move": "10/14"}], 
+    "movement": [{"cat": "Fast Track", "move": "10\"/14\""}], 
     "armour": [{"Front": 1, "Side": 1, "Rear": 0}], 
     "weapons": [{"weapon": "76mmL23", "mount": "Turret","equipmentId": "uk-northag-76mml23" },{"weapon": "MG", "mount": "Co-axial", "rof": "Low", "range": 30}],
     "specialRules": ["Scout"] 
@@ -1348,7 +1348,7 @@
     "equipmentId": "uk-northag-fv107-scimitar", 
     "type": "vehicle", 
     "vehicleName": "FV107 Scimitar", 
-    "movement": [{"cat": "Fast Track", "move": "10/14"}], 
+    "movement": [{"cat": "Fast Track", "move": "10\"/14\""}], 
     "armour": [{"Front": 1, "Side": 1, "Rear": 0}], 
     "weapons": [{"weapon": "30mm Rarden", "mount": "Turret", "rof": "High","equipmentId": "uk-northag-30mm-rarden"},{"weapon": "MG", "mount": "Co-axial", "rof": "Low", "range": 30}],
     "specialRules": ["Scout"] 
@@ -1357,7 +1357,7 @@
     "equipmentId": "uk-northag-mk9-chiftain", 
     "type": "vehicle", 
     "vehicleName": "Mk9 Chieftain", 
-    "movement": [{"cat": "Med Track", "move": "8/12"}], 
+    "movement": [{"cat": "Med Track", "move": "8\"/12\""}], 
     "armour": [{"Front": 7, "Side": 5, "Rear": 3}], 
     "weapons": [{"weapon": "120mmL55", "mount": "Turret","equipmentId": "uk-northag-120mml55"  },{"weapon": "MG", "mount": "Co-axial", "rof": "Low", "range": 30},{"weapon": "MG", "mount": "Pintle", "rof": "Medium", "range": 30}],
     "specialRules": ["Advanced Sights", "Advanced Gunnery","Unreliable"] 
@@ -1366,7 +1366,7 @@
     "equipmentId": "uk-northag-mk9-chiftain-stillbrew", 
     "type": "vehicle", 
     "vehicleName": "Mk9 Chieftain (Stillbrew Armour)", 
-    "movement": [{"cat": "Med Track", "move": "8/12"}], 
+    "movement": [{"cat": "Med Track", "move": "8\"/12\""}], 
     "armour": [{"Front": 8, "Side": 5, "Rear": 3}], 
     "weapons": [{"weapon": "120mmL55", "mount": "Turret","equipmentId": "uk-northag-120mml55"  },{"weapon": "MG", "mount": "Co-axial", "rof": "Low", "range": 30},{"weapon": "MG", "mount": "Pintle", "rof": "Medium", "range": 30}],
     "specialRules": ["Advanced Sights", "Advanced Gunnery","Unreliable"] 
@@ -1375,7 +1375,7 @@
     "equipmentId": "uk-northag-challenger", 
     "type": "vehicle", 
     "vehicleName": "Challenger", 
-    "movement": [{"cat": "Fast Track", "move": "10/14"}], 
+    "movement": [{"cat": "Fast Track", "move": "10\"/14\""}], 
     "armour": [{"Front": 10, "Side": 6, "Rear": 4}], 
     "weapons": [{"weapon": "120mmL55", "mount": "Turret","equipmentId": "uk-northag-120mml55"},{"weapon": "MG", "mount": "Co-axial", "rof": "Low", "range": 30},{"weapon": "MG", "mount": "Pintle", "rof": "Medium", "range": 30}],
     "specialRules": ["Advanced Sights", "Advanced Gunnery"] 
@@ -1384,7 +1384,7 @@
     "equipmentId": "uk-northag-fv432", 
     "type": "vehicle", 
     "vehicleName": "FV432", 
-    "movement": [{"cat": "Med Track", "move": "8/12"}], 
+    "movement": [{"cat": "Med Track", "move": "8\"/12\""}], 
     "armour": [{"Front": 1, "Side": 0, "Rear": 0}], 
     "weapons": [{"weapon": "MG", "mount": "Pintle", "rof": "Low", "range": 30}],
     "specialRules": ["Capacity 2","Unreliable"],
@@ -1394,7 +1394,7 @@
     "equipmentId": "uk-northag-fv438-swingfire", 
     "type": "vehicle", 
     "vehicleName": "FV438 Swingfire", 
-    "movement": [{"cat": "Med Track", "move": "8/12"}], 
+    "movement": [{"cat": "Med Track", "move": "8\"/12\""}], 
     "armour": [{"Front": 1, "Side": 0, "Rear": 0}], 
     "weapons": [{"weapon": "Swingfire (7)", "mount": "Hull","equipmentId": "uk-northag-swingfire"},{"weapon": "MG", "mount": "Pintle", "rof": "Medium", "range": 30}],
     "specialRules": ["ATGM","Ambush","Unreliable"]
@@ -1403,7 +1403,7 @@
     "equipmentId": "uk-northag-fv439", 
     "type": "vehicle", 
     "vehicleName": "FV439", 
-    "movement": [{"cat": "Med Track", "move": "8/12"}], 
+    "movement": [{"cat": "Med Track", "move": "8\"/12\""}], 
     "armour": [{"Front": 1, "Side": 0, "Rear": 0}], 
     "weapons": [{"weapon": "MG", "mount": "Pintle", "rof": "Medium", "range": 30}],
     "specialRules": ["Capacity 1","Comms","Unreliable"]
@@ -1412,7 +1412,7 @@
     "equipmentId": "uk-northag-fv432-ambulance", 
     "type": "vehicle", 
     "vehicleName": "FV432 Ambulance", 
-    "movement": [{"cat": "Med Track", "move": "8/12"}], 
+    "movement": [{"cat": "Med Track", "move": "8\"/12\""}], 
     "armour": [{"Front": 1, "Side": 0, "Rear": 0}], 
     "specialRules": ["Ambulance","Unreliable"]
   },
@@ -1420,7 +1420,7 @@
     "equipmentId": "uk-northag-fv103-spartan", 
     "type": "vehicle", 
     "vehicleName": "FV103 Spartan", 
-    "movement": [{"cat": "Fast Track", "move": "10/14"}], 
+    "movement": [{"cat": "Fast Track", "move": "10\"/14\""}], 
     "armour": [{"Front": 1, "Side": 0, "Rear": 0}], 
     "weapons": [{"weapon": "MG", "mount": "Pintle", "rof": "Medium", "range": 30}],
     "specialRules": ["Capacity 1"] 
@@ -1429,7 +1429,7 @@
     "equipmentId": "uk-northag-fv102-striker", 
     "type": "vehicle", 
     "vehicleName": "FV102 Striker", 
-    "movement": [{"cat": "Fast Track", "move": "10/14"}], 
+    "movement": [{"cat": "Fast Track", "move": "10\"/14\""}], 
     "armour": [{"Front": 1, "Side": 0, "Rear": 0}], 
     "weapons": [{"weapon": "Swingfire (5)", "mount": "Hull","equipmentId": "uk-northag-swingfire"},{"weapon": "MG", "mount": "Pintle", "rof": "Medium", "range": 30}],
     "specialRules": ["ATGM", "Ambush"] 
@@ -1438,7 +1438,7 @@
     "equipmentId": "uk-northag-fv105-sultan", 
     "type": "vehicle", 
     "vehicleName": "FV105 Sultan", 
-    "movement": [{"cat": "Fast Track", "move": "10/14"}], 
+    "movement": [{"cat": "Fast Track", "move": "10\"/14\""}], 
     "armour": [{"Front": 1, "Side": 0, "Rear": 0}], 
     "weapons": [{"weapon": "MG", "mount": "Pintle", "rof": "Medium", "range": 30}],
     "specialRules": ["Capacity 1","Comms"] 
@@ -1446,7 +1446,7 @@
   { "equipmentId": "uk-northag-fv104-samaritan", 
     "type": "vehicle", 
     "vehicleName": "FV432 Ambulance", 
-    "movement": [{"cat": "Fast Track", "move": "10/14"}], 
+    "movement": [{"cat": "Fast Track", "move": "10\"/14\""}], 
     "armour": [{"Front": 1, "Side": 0, "Rear": 0}], 
     "specialRules": ["Ambulance"]
   },
@@ -1454,7 +1454,7 @@
     "equipmentId": "uk-northag-m2-alligator", 
     "type": "vehicle", 
     "vehicleName": "M2 Alligator", 
-    "movement": [{"cat": "Wheel AT", "move": "8/16"}], 
+    "movement": [{"cat": "Wheel AT", "move": "8\"/16\""}], 
     "armour": "Soft Skin", 
     "weapons": [],
     "specialRules": ["Bridging"] 
@@ -1463,7 +1463,7 @@
     "equipmentId": "uk-northag-chieftain-avlb", 
     "type": "vehicle", 
     "vehicleName": "Chieftain AVLB", 
-    "movement": [{"cat": "Med Track", "move": "8/12"}], 
+    "movement": [{"cat": "Med Track", "move": "8\"/12\""}], 
     "armour": [{"Front": 5, "Side": 4, "Rear": 3}],  
     "weapons": [{"weapon": "MG", "mount": "Pintle", "rof": "Medium", "range": 30}],
     "specialRules": ["Bridging"] 
@@ -1472,7 +1472,7 @@
     "equipmentId": "uk-northag-fv106-samson", 
     "type": "vehicle", 
     "vehicleName": "FV106 Samson", 
-    "movement": [{"cat": "Fast Track", "move": "10/14"}], 
+    "movement": [{"cat": "Fast Track", "move": "10\"/14\""}], 
     "armour": [{"Front": 1, "Side": 0, "Rear": 0}],  
     "weapons": [{"weapon": "MG", "mount": "Pintle", "rof": "Medium", "range": 30}],
     "specialRules": ["Repair","Recovery"] 
@@ -1481,7 +1481,7 @@
     "equipmentId": "uk-northag-fv434", 
     "type": "vehicle", 
     "vehicleName": "FV434n", 
-    "movement": [{"cat": "Med Track", "move": "8/12"}], 
+    "movement": [{"cat": "Med Track", "move": "8\"/12\""}], 
     "armour": [{"Front": 1, "Side": 0, "Rear": 0}],  
     "weapons": [{"weapon": "MG", "mount": "Pintle", "rof": "Medium", "range": 30}],
     "specialRules": ["Repair","Recovery"] 
@@ -1490,7 +1490,7 @@
     "equipmentId": "uk-northag-m578", 
     "type": "vehicle", 
     "vehicleName": "M578", 
-    "movement": [{"cat": "Med Track", "move": "8/12"}], 
+    "movement": [{"cat": "Med Track", "move": "8\"/12\""}], 
     "armour": [{"Front": 0, "Side": 0, "Rear": 0}],  
     "weapons": [{"weapon": "MG", "mount": "Pintle", "rof": "Medium", "range": 30}],
     "specialRules": ["Repair","Recovery"] 
@@ -1499,7 +1499,7 @@
     "equipmentId": "uk-northag-chieftain-arrv", 
     "type": "vehicle", 
     "vehicleName": "Chieftain ARRV", 
-    "movement": [{"cat": "Med Track", "move": "8/12"}], 
+    "movement": [{"cat": "Med Track", "move": "8\"/12\""}], 
     "armour": [{"Front": 5, "Side": 4, "Rear": 3}],  
     "weapons": [{"weapon": "MG", "mount": "Pintle", "rof": "Medium", "range": 30}],
     "specialRules": ["Repair","Recovery"] 
@@ -1508,7 +1508,7 @@
     "equipmentId": "uk-northag-centurion-avre", 
     "type": "vehicle", 
     "vehicleName": "Centurion AVRE", 
-    "movement": [{"cat": "Slow Track", "move": "6/10"}], 
+    "movement": [{"cat": "Slow Track", "move": "6\"/10\""}], 
     "armour": [{"Front": 5, "Side": 3, "Rear": 1}],  
     "weapons": [{"weapon": "165mmL9", "mount": "Turret","equipmentId": "uk-northag-165mml9"},{"weapon": "MG", "mount": "Co-axial", "rof": "Low", "range": 30},{"weapon": "MG", "mount": "Pintle", "rof": "Medium", "range": 30}],
     "specialRules": ["Engineer"] 
@@ -1517,7 +1517,7 @@
     "equipmentId": "uk-northag-fv180-cet", 
     "type": "vehicle", 
     "vehicleName": "FV180 CET", 
-    "movement": [{"cat": "Med Track", "move": "6/10"}], 
+    "movement": [{"cat": "Med Track", "move": "6\"/10\""}], 
     "armour": [{"Front": 0, "Side": 0, "Rear": 0}],  
     "weapons": [{"weapon": "MG", "mount": "Pintle", "rof": "Medium", "range": 30}],
     "specialRules": ["Engineer","Recovery","Amphibious"] 
@@ -1526,7 +1526,7 @@
     "equipmentId": "uk-northag-tracked-rapier", 
     "type": "vehicle", 
     "vehicleName": "Tracked Rapier", 
-    "movement": [{"cat": "Fast Track", "move": "6/10"}], 
+    "movement": [{"cat": "Fast Track", "move": "6\"/10\""}], 
     "armour": [{"Front": 0, "Side": 0, "Rear": 0}],  
     "weapons": [{"weapon": "Rapier (4)", "mount": "Turret","equipmentId": "uk-northag-rapier" }],
     "specialRules": ["AA"] 
@@ -1535,7 +1535,7 @@
     "equipmentId": "uk-northag-gazelle", 
     "type": "helicopter", 
     "helicopterName": "Gazelle", 
-    "movement": [{"cat": "Helo", "move": "60/60"}],
+    "movement": [{"cat": "Helo", "move": "60\"/60\""}],
     "armour": "Soft Skin", 
     "weapons": [{"weapon": "", "mount": "", "rof": ""}], 
     "specialRules": ["Scout3", "Artillery Spotter", "Helicopter"] 
@@ -1544,7 +1544,7 @@
     "equipmentId": "uk-northag-puma", 
     "type": "helicopter", 
     "helicopterName": "Puma", 
-    "movement": [{"cat": "Helo", "move": "60/60"}],
+    "movement": [{"cat": "Helo", "move": "60\"/60\""}],
     "armour": "Soft Skin", 
     "weapons": [{"weapon": "MG", "mount": "Door", "rof": "Medium", "range": 30}], 
     "specialRules": ["Capacity 4", "Helicopter"] 
@@ -1553,7 +1553,7 @@
     "equipmentId": "uk-northag-lynx", 
     "type": "helicopter", 
     "helicopterName": "Lynx  (TOW)", 
-    "movement": [{"cat": "Helo", "move": "60/60"}],
+    "movement": [{"cat": "Helo", "move": "60\"/60\""}],
     "armour": "Soft Skin", 
     "weapons": [{"weapon": "TOW Missiles (4)", "mount": "Hull","equipmentId": "uk-northag-tow" }], 
     "specialRules": ["Helicopter"] 
@@ -1562,7 +1562,7 @@
     "equipmentId": "uk-northag-lynx-transport", 
     "type": "helicopter", 
     "helicopterName": "Lynx  (Transport)", 
-    "movement": [{"cat": "Helo", "move": "60/60"}],
+    "movement": [{"cat": "Helo", "move": "60\"/60\""}],
     "armour": "Soft Skin", 
     "weapons": [{"weapon": "MG)", "mount": "Door", "rof": "Medium", "range": 30}], 
     "specialRules": ["Capacity 2","Helicopter"] 
@@ -1571,7 +1571,7 @@
     "equipmentId": "uk-northag-chinook", 
     "type": "helicopter", 
     "helicopterName": "chinook", 
-    "movement": [{"cat": "Helo", "move": "60/60"}],
+    "movement": [{"cat": "Helo", "move": "60\"/60\""}],
     "armour": "Soft Skin", 
     "weapons": [{"weapon": "MG)", "mount": "Door", "rof": "Medium", "range": 30}], 
     "specialRules": ["Capacity 8","Helicopter"] 
@@ -1726,49 +1726,49 @@
     "equipmentId": "uk-northag-infantry-fire-team", 
     "type": "infantry", 
     "infantryName": "Infantry Fire Team", 
-    "movement": [{"cat": "Infantry", "move": "4/4"}], 
+    "movement": [{"cat": "Infantry", "move": "4\"/4\""}], 
     "weapons": [{"rof": "Medium", "range": 30}] 
   },
   { 
     "equipmentId": "uk-northag-infantry-command-team", 
     "type": "infantry", 
     "infantryName": "Infantry Command Team", 
-    "movement": [{"cat": "Infantry", "move": "4/4"}], 
+    "movement": [{"cat": "Infantry", "move": "4\"/4\""}], 
     "weapons": [{"rof": "Low", "range": 20}] 
   },
   { 
     "equipmentId": "uk-northag-infantry-Weapons-team", 
     "type": "infantry", 
     "infantryName": "Infantry Command Team (without wepaon)", 
-    "movement": [{"cat": "Infantry", "move": "4/4"}], 
+    "movement": [{"cat": "Infantry", "move": "4\"/4\""}], 
     "weapons": [{"rof": "Low", "range": 20}] 
   },
   { 
     "equipmentId": "uk-northag-infantry-sgpmg-team", 
     "type": "infantry", 
     "infantryName": "Infantry sGPMG Team", 
-    "movement": [{"cat": "Infantry", "move": "4/4"}], 
+    "movement": [{"cat": "Infantry", "move": "4\"/4\""}], 
     "weapons": [{"rof": "High", "range": 40}] 
   },
   { 
     "equipmentId": "uk-northag-infantry-sniper-team", 
     "type": "infantry", 
     "infantryName": "Infantry Sniper Team", 
-    "movement": [{"cat": "Infantry", "move": "4/4"}], 
+    "movement": [{"cat": "Infantry", "move": "4\"/4\""}], 
     "weapons": [{"rof": "Low", "range": 30}] 
   },
   { 
     "equipmentId": "uk-northag-vehicle-mg", 
     "type": "infantry", 
     "infantryName": "Vehicle MG", 
-    "movement": [{"cat": "Infantry", "move": "4/4"}], 
+    "movement": [{"cat": "Infantry", "move": "4\"/4\""}], 
     "weapons": [{"rof": "Low", "range": 30}] 
   },
   { 
     "equipmentId": "uk-northag-land-rover", 
     "type": "vehicle", 
     "vehicleName": "Land Rover", 
-    "movement": [{"cat": "Wheel AT", "move": "8/16"}], 
+    "movement": [{"cat": "Wheel AT", "move": "8\"/16\""}], 
     "armour": "Soft Skin", 
     "specialRules": ["Capacity 1"] 
   },
@@ -1776,7 +1776,7 @@
     "equipmentId": "uk-northag-land-rover-1-tonne", 
     "type": "vehicle", 
     "vehicleName": "Land Rover (1 tonne)", 
-    "movement": [{"cat": "Wheel AT", "move": "8/16"}], 
+    "movement": [{"cat": "Wheel AT", "move": "8\"/16\""}], 
     "armour": "Soft Skin", 
     "specialRules": ["Capacity 1 + 1 towed gun"] 
   },
@@ -1784,7 +1784,7 @@
     "equipmentId": "uk-northag-bedford-mk4-truck", 
     "type": "vehicle", 
     "vehicleName": "Bedford Mk4 Truck", 
-    "movement": [{"cat": "Wheel Roadster", "move": "4/20"}], 
+    "movement": [{"cat": "Wheel Roadster", "move": "4\"/20\""}], 
     "armour": "Soft Skin", 
     "specialRules": ["Capacity 4"] 
   },
@@ -1792,7 +1792,7 @@
     "equipmentId": "uk-northag-stalwart-truck", 
     "type": "vehicle", 
     "vehicleName": "Stalwart Truck", 
-    "movement": [{"cat": "Wheel AT", "move": "8/16"}], 
+    "movement": [{"cat": "Wheel AT", "move": "8\"/16\""}], 
     "armour": "Soft Skin", 
     "specialRules": ["Capacity 2","Amphibious"] 
   }
