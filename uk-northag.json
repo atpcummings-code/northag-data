@@ -1004,7 +1004,7 @@
           "br": 0,
           
           "composition": [
-              {"qty": 1, "name": "Harrier GR3","equipmentId": "uk-northag-harrier-gr3-2"},{"qty": 4, "name": "68mm Multiple ROcket Pods"}
+              {"qty": 1, "name": "Harrier GR3","equipmentId": "uk-northag-harrier-gr3-2"},{"qty": 4, "name": "68mm Multiple Rocket Pods"}
           ]
         }
       ]
