@@ -38,7 +38,7 @@
       "morale": "P",
       "unitComposition": [{"qty": 1,"name": "Gazelle Scout Helicopter","equipmentId": "uk-northag-gazelle"}],
       "specialRules": [{"name": "Helicopter"},{"name": "Scout3"},{"name": "Artillery Spotter"}],
-      "optionalSpecialRules": [],
+      
       "options": [
       {
 "id": "uk-northag-fsu-gazelle-scout-helicopter-1",
@@ -66,7 +66,7 @@
       "specialRules": [
         {"name": "Dug-in"}
       ],
-            "optionalSpecialRules": [],
+            
       "options": []
     },
     {
@@ -87,7 +87,7 @@
         {"name": "Artillery Spotter"},
         {"name": "Behind Enemy Lines"}
       ],
-      "optionalSpecialRules": [],
+      
       "options": []
     },
     {
@@ -108,7 +108,7 @@
         {"name": "Advanced Sights"},
         {"name": "Unreliable"}
       ],
-      "optionalSpecialRules": [],
+      
       "options": [
         {
           "id": "uk-northag-fsu-chieftain-tank-troop-1",
@@ -130,7 +130,7 @@
       "notes": "Place a single small building anywhere in your deployment. It has alredy been fortified for defence amd gives Infantry units inside a 3+ Cover Save",
       "unitComposition": [],
       "specialRules": [],
-      "optionalSpecialRules": [],
+      
       "options": []
     },
     {
@@ -150,7 +150,7 @@
         {"name": "Scout"},
         {"name": "Mortar Spotter"}
       ],
-      "optionalSpecialRules": [],
+      
       "options": []
     },
     {
@@ -168,7 +168,7 @@
       "specialRules": [
         {"name": "Ambush"}
       ],
-      "optionalSpecialRules": [],
+      
       "options": []
     },
     {
@@ -187,7 +187,7 @@
       "specialRules": [
         {"name": "Scout"}
       ],
-      "optionalSpecialRules": [],
+      
       "options": []
     },
     {
@@ -207,7 +207,7 @@
          {"name": "Artillery Spotter"},
          {"name": "Dug-in"}
       ],
-      "optionalSpecialRules": [],
+      
       "options": []
     },
     {
@@ -227,7 +227,7 @@
          {"name": "Behind Enemy Lines"},
          {"name": "Forward Deployed"}
       ],
-      "optionalSpecialRules": [],
+      
       "options": []
     },
     {
@@ -246,7 +246,7 @@
         {"name": "Ambush"},
          {"name": "Dug-in"}
       ],
-      "optionalSpecialRules": [],
+      
       "options": []
     },
     {
@@ -262,7 +262,7 @@
       "specialRules": [
         {"name": "Forward Deployed"}
       ],
-      "optionalSpecialRules": [],
+      
       "options": []
     },
     {
@@ -278,7 +278,7 @@
       "specialRules": [
         {"name": "Forward Deployed"}
       ],
-      "optionalSpecialRules": [],
+      
       "options": []
     },
      {
@@ -294,7 +294,7 @@
       "specialRules": [
         {"name": "Forward Deployed"}
       ],
-      "optionalSpecialRules": [],
+      
       "options": []
     },
     {
@@ -310,7 +310,7 @@
       "specialRules": [
         {"name": "Forward Deployed"}
       ],
-      "optionalSpecialRules": [],
+      
       "options": []
     },
      {
@@ -329,7 +329,7 @@
       "specialRules": [
         {"name": "Dug-in"}
       ],
-      "optionalSpecialRules": [],
+      
       "options": []
     },
     {
@@ -350,7 +350,7 @@
         {"name": "Dug-in"},
         {"name": "Ambush"}
       ],
-      "optionalSpecialRules": [],
+      
       "options": []
     },
     {
@@ -365,7 +365,7 @@
       "notes": "A single bridge, anywhere on the table, has aleady been wired with a demolition charge. Before the start of the game write down which bridge has been wired. At teh start if any of his turns, the British player may detonate the bridge. Roll a dice. On a 2+ the bridge is destroyed. On a 1 teh demolition charge fails to go off.",
       "unitComposition": [],
       "specialRules": [],
-      "optionalSpecialRules": [],
+      
       "options": []
     },
     {
@@ -382,7 +382,7 @@
       "specialRules": [
         {"name": "Forward Deployed"}
       ],
-      "optionalSpecialRules": [],
+      
       "options": []
     },
     {
@@ -397,7 +397,7 @@
       "unitComposition": [{"qty": 3, "name": "Mk9 Chieftains"}],
       "specialRules": [{"name": "Advanced Gunnery"},{"name": "Advanced Sights"},
         {"name": "Unreliable"}],
-      "optionalSpecialRules": [],
+      
       "options": [
         { "id": "uk-northag-vu-chieftain-troop-1", "name": "Upgrade all Chieftains to Stillbrew", "pointsPerQty": 4, "br": 0, "composition": [{"qty": 3, "name": "Mk9 Chieftains (Stillbrew Armour)", "mode": "modify", "replaces": "Mk9 Chieftains"}] }, 
         { "id": "uk-northag-vu-chieftain-troop-2", "name": "Add 1 additional Mk9 Chieftain", "points": 43, "br": 3, "composition": [{"qtyChange": 1, "mode": "modify"}] }
@@ -426,7 +426,7 @@
         {"name": "Advanced Gunnery"},
         {"name": "Advanced Sights"}
       ],
-      "optionalSpecialRules": [],
+      
        "upgrades": [
        
       ],
@@ -477,7 +477,7 @@
       "morale": "P",
       "unitComposition": [{"qty": 3, "name": "Mk9 Chieftains"}],
       "specialRules": [{"name": "Advanced Gunnery"},{"name": "Advanced Sights"}],
-      "optionalSpecialRules": [],
+      
       "options": [
         { "id": "uk-northag-mc-chieftain-troop-1", "name": "Upgrade all Chieftains to Stillbrew", "pointsPerQty": 4, "br": 0, "composition": [{"qty": 3, "name": "Mk9 Chieftains (Stillbrew Armour)", "mode": "modify", "replaces": "Mk9 Chieftains"}] }, 
         { "id": "uk-northag-mc-chieftain-troop-2", "name": "Add 1 additional Mk9 Chieftain", "points": 43, "br": 3, "composition": [{"qtyChange": 1, "mode": "modify"}] }
@@ -530,7 +530,7 @@
         {"name": "Advanced Gunnery"},
         {"name": "Advanced Sights"}
       ],
-      "optionalSpecialRules": [],
+      
        "upgrades": [
        
       ],
@@ -723,7 +723,7 @@
       "specialRules": [
         {"name": "Officer"},
          {"name": "Electronic Warfare"}
-      ],
+      ]
 },
 {
       "id": "uk-northag-mc-supply-truck",
@@ -740,7 +740,7 @@
        ],
       "specialRules": [
         {"name": "Resupply"}}
-      ],
+      ]
 },
 {
       "id": "uk-northag-mc-ambulance",
@@ -801,7 +801,7 @@
         {"name": "Officer"},
          {"name": "Traffic Control"}
       ],
-      "optionalSpecialRules": [],
+      
       "options": []
     },
     {
@@ -821,7 +821,7 @@
         {"name": "Officer"},
          {"name": "Artillery Spotter"}
       ],
-      "optionalSpecialRules": [],
+      
       "optionGroupLimit": [
 
 { "ids": ["uk-northag-mc-forward-observation-officer-1", "uk-northag-mc-forward-observation-officer-2"], "min": 0, "max": 1 }
@@ -864,7 +864,7 @@
         {"qty": 2, "name": "FV438 Swingfires"}
       ],
       "specialRules": [{"name": "Ambush"}],
-      "optionalSpecialRules": [],
+      
       "options": []
     },
     {
@@ -882,7 +882,7 @@
         {"qty": 1, "name": "Land Rover (1 tonne)"}
       ],
       "specialRules": [{"name": "AA"}],
-      "optionalSpecialRules": [],
+      
       "options": [
         {
           "id": "uk-northag-mc-surface-to-air-missile-launcher-1",
@@ -913,7 +913,7 @@
       "specialRules": [
         {"name": "Engineer"}
       ],
-      "optionalSpecialRules": [],
+      
       "options": []
     },
 {
@@ -932,7 +932,7 @@
       "specialRules": [
         {"name": "Off-table"}
       ],
-      "optionalSpecialRules": [],
+      
       "options": []
     },
 {
@@ -951,7 +951,7 @@
       "specialRules": [
         {"name": "Off-table"}
       ],
-      "optionalSpecialRules": [],
+      
       "options": []
     },  
     {
@@ -968,7 +968,7 @@
         {"qty": 1, "name": "Harrier GR3"}
       ],
       "specialRules": [],
-      "optionalSpecialRules": [],
+      
       "options": [
         {
           "id": "uk-northag-afs-timed-harrier-gr3-air-strike-1",
@@ -1006,7 +1006,7 @@
         {"qty": 1, "name": "Jaguar GR1"},{"qty": 8, "name": "Large Bombs"}
       ],
       "specialRules": [],
-      "optionalSpecialRules": [],
+      
       "options": []
     },
     {
@@ -1023,7 +1023,7 @@
         {"qty": 1, "name": "Tornado GR1"}
       ],
       "specialRules": [],
-      "optionalSpecialRules": [],
+      
       "options": [
         {
           "id": "uk-northag-afs-timed-tornado-gr1-air-strike-1",
@@ -1059,7 +1059,7 @@
       "notes": "",
       "unitComposition": [],
       "specialRules": [],
-      "optionalSpecialRules": [],
+      
       "options": []
     },
     {
@@ -1074,7 +1074,7 @@
       "notes": "",
       "unitComposition": [],
       "specialRules": [],
-      "optionalSpecialRules": [],
+      
       "options": []
     },
     {
@@ -1089,7 +1089,7 @@
       "notes": "",
       "unitComposition": [],
       "specialRules": [],
-      "optionalSpecialRules": [],
+      
       "options": []
     },
     {
@@ -1104,7 +1104,7 @@
       "notes": "A Rapier Battery deployed well behind the front lines of the battle area",
       "unitComposition": [],
       "specialRules": [{"name": "Off-table"},{"name": "AA (High)"}],
-      "optionalSpecialRules": [],
+      
       "options": []
     },
 {
@@ -1119,7 +1119,7 @@
       "notes": "",
       "unitComposition": [],
       "specialRules": [],
-      "optionalSpecialRules": [],
+      
       "options": []
     },
 {
@@ -1134,7 +1134,7 @@
       "notes": "A single strike by a battery of 4 105mm Abbot self-propelled guns.",
       "unitComposition": [],
       "specialRules": [],
-      "optionalSpecialRules": [],
+      
       "options": []
     },
     {
@@ -1149,7 +1149,7 @@
       "notes": "A single strike by a battery of 4 155mm M109A2 self-propelled guns.",
       "unitComposition": [],
       "specialRules": [],
-      "optionalSpecialRules": [],
+      
       "options": []
     },
     {
@@ -1164,7 +1164,7 @@
       "notes": "A single strike by a battery of 4 175mm M107 self-propelled guns.",
       "unitComposition": [],
       "specialRules": [],
-      "optionalSpecialRules": [],
+      
       "options": []
     },
     {
@@ -1179,7 +1179,7 @@
       "notes": "A single strike by a battery of 4 203mm M110 self-propelled guns.",
       "unitComposition": [],
       "specialRules": [],
-      "optionalSpecialRules": [],
+      
       "options": []
     },
     {
@@ -1195,7 +1195,7 @@
       "notes": "A single strike by a battery of 4 105mm M109A2 self-propelled guns firing DPICM ammunitions.",
       "unitComposition": [],
       "specialRules": [],
-      "optionalSpecialRules": [],
+      
       "options": []
     },
      {
@@ -1211,7 +1211,7 @@
       "notes": "",
       "unitComposition": [],
       "specialRules": [],
-      "optionalSpecialRules": [],
+      
       "options": []
     },
     {
@@ -1227,7 +1227,7 @@
       "notes": "",
       "unitComposition": [],
       "specialRules": [],
-      "optionalSpecialRules": [],
+      
       "options": []
     },
     {
@@ -1243,7 +1243,7 @@
       "notes": "",
       "unitComposition": [],
       "specialRules": [],
-      "optionalSpecialRules": [],
+      
       "options": []
     },
      {
@@ -1259,7 +1259,7 @@
       "notes": "",
       "unitComposition": [],
       "specialRules": [],
-      "optionalSpecialRules": [],
+      
       "options": []
     },
 {
@@ -1275,7 +1275,7 @@
       "notes": "",
       "unitComposition": [],
       "specialRules": [],
-      "optionalSpecialRules": [],
+      
       "options": []
     },
     {
@@ -1291,7 +1291,7 @@
       "notes": "",
       "unitComposition": [],
       "specialRules": [],
-      "optionalSpecialRules": [],
+      
       "options": []
     }  
   ],
