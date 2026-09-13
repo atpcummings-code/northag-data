@@ -1201,7 +1201,7 @@
     "specialRules": ["ATGM", "Ambush"] 
   },
   { 
-    "equipmentId": "uk-northag-fv103-sultan", 
+    "equipmentId": "uk-northag-fv105-sultan", 
     "type": "vehicle", 
     "vehicleName": "FV105 Sultan", 
     "movement": [{"cat": "Fast Track", "move": "10/14"}], 
