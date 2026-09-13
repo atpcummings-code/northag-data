@@ -456,7 +456,7 @@
           "name": "sGPMG Weapons Team",
           "points": 4,
           "br": 0,
-          "addSpecialRules": "",
+          
           "composition": [ 
           {"qty": 1, "name": "sGPMG Weapons Team)", "mode": "append","equipmentId": "uk-northag-infantry-sgpmg-team"}
           ]
@@ -466,7 +466,7 @@
           "name": "Sniper Team",
           "points": 6,
           "br": 0,
-          "addSpecialRules": "",
+          
           "composition": [
             {"qty": 1, "name": "Sniper Team", "mode": "append","equipmentId": "uk-northag-infantry-sniper-team"}
           ]
@@ -476,7 +476,7 @@
           "name": "Carl Gustav Weapons Team",
           "points": 8,
           "br": 0,
-          "addSpecialRules": "",
+          
           "composition": [
             {"qty": 1, "name": "Carl gustav Weapons Team", "mode": "append","equipmentId": "uk-northag-carl-gustav"}
           ]
@@ -560,7 +560,7 @@
           "name": "sGPMG Weapons Team",
           "points": 4,
           "br": 0,
-          "addSpecialRules": "",
+          
           "composition": [ 
           {"qty": 1, "name": "sGPMG Weapons Team)", "mode": "append","equipmentId": "uk-northag-infantry-sgpmg-team"}
           ]
@@ -570,7 +570,7 @@
           "name": "Sniper Team",
           "points": 6,
           "br": 0,
-          "addSpecialRules": "",
+          
           "composition": [
             {"qty": 1, "name": "Sniper Team", "mode": "append","equipmentId": "uk-northag-infantry-sniper-team"}
           ]
@@ -580,7 +580,7 @@
           "name": "Carl Gustav Weapons Team",
           "points": 8,
           "br": 0,
-          "addSpecialRules": "",
+          
           "composition": [
             {"qty": 1, "name": "Carl gustav Weapons Team", "mode": "append","equipmentId": "uk-northag-carl-gustav"}
           ]
@@ -853,7 +853,7 @@
           "name": "Replace Land Rover with FV432",
           "points": 4,
           "br": 1,
-          "addSpecialRules": "",
+          
           "composition": [
               {"qty": 1, "name": "FV432", "modify", "replaces": "Land Rover","equipmentId": "uk-northag-fv432" }  
             ]
@@ -864,7 +864,7 @@
 
           "points": 0,
           "br": 0,
-          "addSpecialRules": "",
+          
           "composition": [
               {"qty": 1, "name": "Ferret Armoured Car","equipmentId": "uk-northag-fv701-ferret" }
           ]
@@ -910,7 +910,7 @@
           "points": 2,
           "restricted": "yes",
           "br": 0,
-          "addSpecialRules": "",
+          
           "composition": [
               {"qty": 1, "name": "Tracked Rapier"}
           ]
@@ -993,7 +993,7 @@
           "name": "Large Bombs",
           "points": 0,
           "br": 0,
-          "addSpecialRules": "",
+          
           "composition": [
               {"qty": 1, "name": "Harrier GR3","equipmentId": "uk-northag-harrier-gr3-1"},{"qty": 4, "name": "Large Bombs"}
           ]
@@ -1003,7 +1003,7 @@
           "name": "68mm Multiple Rocket Pods",
           "points": 0,
           "br": 0,
-          "addSpecialRules": "",
+          
           "composition": [
               {"qty": 1, "name": "Harrier GR3","equipmentId": "uk-northag-harrier-gr3-2"},{"qty": 4, "name": "68mm Multiple ROcket Pods"}
           ]
@@ -1046,7 +1046,7 @@
           "name": "Very Large Bombs",
           "points": 0,
           "br": 0,
-          "addSpecialRules": "",
+          
           "composition": [
               {"qty": 1, "name": "Tornado GR1","equipmentId": "uk-northag-tornado-gr1-1" },{"qty": 8, "name": "Very Large Bombs"}
           ]
@@ -1056,7 +1056,7 @@
           "name": "Cluster Bombs",
           "points": 0,
           "br": 0,
-          "addSpecialRules": "",
+          
           "composition": [
               {"qty": 1, "name": "Tornado GR1","equipmentId": "uk-northag-tornado-gr1-2"},{"qty": 4, "name": "Cluster Bombs"}
           ]
