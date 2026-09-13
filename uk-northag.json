@@ -580,13 +580,18 @@
       "br": 3,
       "morale": "P",
       "unitComposition": [
-        {"qty": 1, "name": "Infantry Command Team","equipmentId": "uk-northag-infantry-command-team"},
+        {"qty": 1, "name": "Infantry Command Team","equipmentId": "uk-northag-infantry-command-team"}
       ],
       "specialRules": [
         {"name": "Officer"},
          {"name": "Communications"}
       ],
-      "unlocks": ["special-agent", "heavy-arty"],
+      "unlocks": ["uk-northag-mc-ambulance",
+"uk-northag-mc-supply-truck",
+"uk-northag-mc-ground-surveillance-radar-team",
+"uk-northag-mc-electronic-warfare-team",
+"uk-northag-mc-forward-air-controller"
+      ],
       "optionGroupLimit": [
 
 { "ids": ["uk-northag-mc-tactical-command-centre-1", "uk-northag-mc-tactical-command-centre-2"], "min": 0, "max": 1 }
