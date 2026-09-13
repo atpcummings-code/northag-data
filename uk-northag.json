@@ -668,7 +668,7 @@
           "points": 8,
           "br": 1,
           "composition": [
-              {"qty": 1, "name": "FV105", "mode": "append","equipmentId": "uk-northag-fv105-sultan" }  
+              {"qty": 1, "name": "FV105", "mode": "modify", "replaces": "Land Rover",  "equipmentId": "uk-northag-fv105-sultan" }  
             ]
           },
        {
