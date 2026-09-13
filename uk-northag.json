@@ -640,7 +640,7 @@
         },
   {
       "id": "uk-northag-mc-forward-air-controller",
-      "name": "Forward-Air-Controller",
+      "name": "Forward Air Controller",
       "category": "Main Column",
     "hiddenUntilUnlocked": true,
       "minQty": 0,
