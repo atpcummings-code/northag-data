@@ -855,7 +855,7 @@
           "br": 1,
           
           "composition": [
-              {"qty": 1, "name": "FV432", "modify", "replaces": "Land Rover","equipmentId": "uk-northag-fv432" }  
+              {"qty": 1, "name": "FV432", "mode": "modify", "replaces": "Land Rover","equipmentId": "uk-northag-fv432" }  
             ]
           },
        {
