@@ -19,7 +19,7 @@
         {
           "qty": 2,
           "name": "T-64A",
-          "equipmentId": "uk-northag-t-64a"
+          "equipmentId": "su-northag-t-64a"
         }
       ],
       "specialRules": [
@@ -38,7 +38,7 @@
           
           "composition": 
           [ 
-          {"qty": 2, "name": "T-64B)","equipmentId": "su-northag-t64b"}
+          {"qty": 2, "name": "T-64B)","equipmentId": "su-northag-t-64b"}
           ]
 },
 {
@@ -49,7 +49,7 @@
           
           "composition": 
           [ 
-          {"qty": 2, "name": "T-80)","equipmentId": "su-northag-t80"}
+          {"qty": 2, "name": "T-80)","equipmentId": "su-northag-t-80"}
           ]
 },
 {
@@ -60,7 +60,7 @@
           
           "composition": 
           [ 
-          {"qty": 2, "name": "T-80B)","equipmentId": "su-northag-t80b"}
+          {"qty": 2, "name": "T-80B)","equipmentId": "su-northag-t-80b"}
           ]
 }
 
