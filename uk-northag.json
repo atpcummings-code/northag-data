@@ -622,8 +622,7 @@
           "br": 1,
           "addSpecialRules": "",
           "composition": [
-              {"qty": 1, "name": "Infantry Command Team"},
-              {"qty": 1, "name": "FV432"}  
+              {"qty": 1, "name": "FV432", "modify": "Land Rover"}  
             ]
           },
        {
