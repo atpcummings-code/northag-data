@@ -756,7 +756,7 @@
         {"qty": 1, "name": "Infantry Command Team","equipmentId": "uk-northag-infantry-command-team"}
        ],
       "specialRules": [
-        {"name": "Ambulance"},
+        {"name": "Ambulance"}
       ],
       "optionGroupLimit": [
 
