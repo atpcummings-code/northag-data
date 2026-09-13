@@ -1047,7 +1047,7 @@
           "br": 0,
           
           "composition": [
-              {"qty": 1, "name": "Tornado GR1","equipmentId": "uk-northag-tornado-gr1-1" },{"qty": 8, "name": "Very Large Bombs"}
+              {"qty": 1, "name": "Tornado GR1","equipmentId": "uk-northag-tornado-gr1-1" },{"qty": 4, "name": "Very Large Bombs"}
           ]
         },
         {
