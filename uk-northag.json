@@ -60,7 +60,8 @@
       "unitComposition": [
         {
           "qty": 7,
-          "name": "Infantry Fire Teams in foxholes"
+          "name": "Infantry Fire Teams in foxholes",
+          "equipmentId": "uk-northag-infantry-fire-team" 
         }
       ],
       "specialRules": [
@@ -79,8 +80,8 @@
       "br": 1,
       "morale": "E",
       "unitComposition": [
-        {"qty": 1, "name": "Infantry Fire Teams"},
-         {"qty": 1, "name": "Land Rover"}
+        {"qty": 1, "name": "Infantry Fire Teams","equipmentId": "uk-northag-infantry-fire-team" },
+         {"qty": 1, "name": "Land Rover","equipmentId": "uk-northag-land-rover"}
       ],
       "specialRules": [
         {"name": "Scout"},
@@ -100,7 +101,7 @@
       "br": 9,
       "morale": "P",
       "unitComposition": [
-        {"qty": 3, "name": "Mk9 Chieftains in tank scrapes"}
+        {"qty": 3, "name": "Mk9 Chieftains in tank scrapes","equipmentId": "uk-northag-mk9-chiftain" }
       ],
       "specialRules": [
         {"name": "Dug-in"},
@@ -115,8 +116,7 @@
           "name": "Upgrade all Chieftains to Stillbrew",
           "points": 12,
           "br": 0,
-         "composition": [{"qty": 3, "name": "Mk9 Chieftains (Stillbrew Armour) in tank scrapes"}],"compositionMode": "replace"
-        }
+         "composition": [{"qty": 3, "name": "Mk9 Chieftains (Stillbrew Armour) in tank scrapes"}],"compositionMode": "replace","equipmentId": "uk-northag-mk9-chiftain-stillbrew" }
       ]
     },
     {
@@ -143,15 +143,35 @@
       "br": 2,
       "morale": "P",
       "unitComposition": [
-        {"qty": 2, "name": "Scorpion or Scimitar light tanks"},
-         {"qty": 1, "name": "Land Rover"}
+        {"qty": 2, "name": "Scorpion or Scimitar light tanks"}
       ],
       "specialRules": [
         {"name": "Scout"},
         {"name": "Mortar Spotter"}
       ],
+      "optionGroupLimit": [{ "ids": ["uk-northag-fsu-recce-tank-patrol-1", "uk-northag-fsu-recce-tank-patrol-2"], "min": 1, "max": 1 }],
       
-      "options": []
+      "options": [
+{
+          "id": "uk-northag-fsu-recce-tank-patrol-1",
+          "name": "FV101 Scorpion",
+          "points": 8,
+          "br": 1,
+          "composition": [
+              {"qty": 2, "name": "FV101 Scorpion","equipmentId": "uk-northag-fv101-scorpion"  }  
+            ]
+          },
+       {
+          "id": "uk-northag-fsu-recce-tank-patrol-2",
+          "name": "FV107 Scimitar
+          "points": 0,
+          "br": 0,
+          "composition": [
+              {"qty": 2, "name": "FV107 Scimitar","equipmentId": "uk-northag-fv107-scimitar" }
+          ]
+            }
+        
+      ]
     },
     {
       "id": "uk-northag-fsu-fv102-striker-section",
@@ -163,7 +183,7 @@
       "br": 2,
       "morale": "P",
       "unitComposition": [
-        {"qty": 2, "name": "FV102 Strikers"}
+        {"qty": 2, "name": "FV102 Striker","equipmentId": "uk-northag-fv102-striker" }
       ],
       "specialRules": [
         {"name": "Ambush"}
@@ -181,8 +201,8 @@
       "br": 2,
       "morale": "P",
       "unitComposition": [
-        {"qty": 1, "name": "Infantry Fire Team"},
-         {"qty": 1, "name": "FV103 Spartan"}
+        {"qty": 1, "name": "Infantry Fire Team","equipmentId": "uk-northag-infantry-fire-team" },
+         {"qty": 1, "name": "FV103 Spartan","equipmentId": "uk-northag-fv103-spartan" }
       ],
       "specialRules": [
         {"name": "Scout"}
@@ -200,7 +220,7 @@
       "br": 2,
       "morale": "P",
       "unitComposition": [
-        {"qty": 1, "name": "Infantry Command Team in Foxholes"}
+        {"qty": 1, "name": "Infantry Command Team in Foxholes","equipmentId": "uk-northag-infantry-command-team" }
       ],
       "specialRules": [
         {"name": "Officer"},
@@ -220,7 +240,7 @@
       "br": 1,
       "morale": "P",
       "unitComposition": [
-        {"qty": 1, "name": "Infantry Sniper Team concealed and deployed in Reinforced Cover."}
+        {"qty": 1, "name": "Infantry Sniper Team concealed and deployed in Reinforced Cover.","equipmentId": "uk-northag-infantry-sniper-team"}
       ],
       "specialRules": [
         {"name": "Sniper"},
@@ -240,7 +260,7 @@
       "br": 1,
       "morale": "P",
       "unitComposition": [
-        {"qty": 1, "name": "Infantry Weapons Team with a MILAN ATGM deployed in a dug-out. The cover is lost of the unit moves."}
+        {"qty": 1, "name": "Infantry Weapons Team with a MILAN ATGM deployed in a dug-out. The cover is lost of the unit moves.","equipmentId": "uk-northag-milan"}
       ],
       "specialRules": [
         {"name": "Ambush"},
@@ -305,7 +325,7 @@
       "maxQty": 2,
       "points": 15,
       "br": 0,
-      "notes": "Up to 10inches of ditch. The anti-tank ditch is impassable to all vehicles.",
+      "notes": "Up to 10\" of ditch. The anti-tank ditch is impassable to all vehicles.",
       "unitComposition": [],
       "specialRules": [
         {"name": "Forward Deployed"}
@@ -323,7 +343,7 @@
       "br": 0,
       "notes": "" ,
       "unitComposition": [
-         {"qty": 1, "name": "Infantry Weapons Team with a Blowpipe MANPAD in foxholes."}
+         {"qty": 1, "name": "Infantry Weapons Team with a Blowpipe MANPAD in foxholes.","equipmentId": "uk-northag-blowpipe" }
         
       ],
       "specialRules": [
@@ -343,7 +363,7 @@
       "br": 1,
       "notes": "",
       "unitComposition": [
-         {"qty": 1, "name": "Infantry Weapons Team with a sGPMG deploued in a dug-out. The cover is lost if the unit moves.."}
+         {"qty": 1, "name": "Infantry Weapons Team with a sGPMG deployed in a dug-out. The cover is lost if the unit moves.","equipmentId": "uk-northag-infantry-sgpmg-team"}
         
       ],
       "specialRules": [
@@ -394,12 +414,12 @@
       "points": 129,
       "br": 9,
       "morale": "P",
-      "unitComposition": [{"qty": 3, "name": "Mk9 Chieftains"}],
+      "unitComposition": [{"qty": 3, "name": "Mk9 Chieftains","equipmentId": "uk-northag-mk9-chiftain"}],
       "specialRules": [{"name": "Advanced Gunnery"},{"name": "Advanced Sights"},
         {"name": "Unreliable"}],
       
       "options": [
-        { "id": "uk-northag-vu-chieftain-troop-1", "name": "Upgrade all Chieftains to Stillbrew", "pointsPerQty": 4, "br": 0, "composition": [{"qty": 3, "name": "Mk9 Chieftains (Stillbrew Armour)", "mode": "modify", "replaces": "Mk9 Chieftains"}] }, 
+        { "id": "uk-northag-vu-chieftain-troop-1", "name": "Upgrade all Chieftains to Stillbrew", "pointsPerQty": 4, "br": 0, "composition": [{"qty": 3, "name": "Mk9 Chieftains (Stillbrew Armour)", "mode": "modify", "replaces": "Mk9 Chieftains"},"equipmentId": "uk-northag-mk9-chiftain-stillbrew" ] }, 
         { "id": "uk-northag-vu-chieftain-troop-2", "name": "Add 1 additional Mk9 Chieftain", "points": 43, "br": 3, "composition": [{"qtyChange": 1, "mode": "modify"}] }
       ]
     },
@@ -419,8 +439,8 @@
 
 ],
       "unitComposition": [
-        {"qty": 7, "name": "Infantry Fire Team"},
-         {"qty": 4, "name": "FV432"}
+        {"qty": 7, "name": "Infantry Fire Team","equipmentId": "uk-northag-infantry-fire-team" },
+         {"qty": 4, "name": "FV432","equipmentId": "uk-northag-fv432" }
       ],
       "specialRules": [
         {"name": "Advanced Gunnery"},
@@ -438,7 +458,7 @@
           "br": 0,
           "addSpecialRules": "",
           "composition": [ 
-          {"qty": 1, "name": "sGPMG Weapons Team)", "mode": "append"}
+          {"qty": 1, "name": "sGPMG Weapons Team)", "mode": "append","equipmentId": "uk-northag-infantry-sgpmg-team"}
           ]
         },
         {
@@ -448,7 +468,7 @@
           "br": 0,
           "addSpecialRules": "",
           "composition": [
-            {"qty": 1, "name": "Sniper Team", "mode": "append"}
+            {"qty": 1, "name": "Sniper Team", "mode": "append","equipmentId": "uk-northag-infantry-sniper-team"}
           ]
         },
         {
@@ -458,11 +478,11 @@
           "br": 0,
           "addSpecialRules": "",
           "composition": [
-            {"qty": 1, "name": "Carl gustav Weapons Team", "mode": "append"}
+            {"qty": 1, "name": "Carl gustav Weapons Team", "mode": "append","equipmentId": "uk-northag-carl-gustav"}
           ]
         },
-         { "id": "uk-northag-vu-mechanised-infantry-platoon-4", "name": "MILAN ATGM Weapons Team", "composition": [{"qty": 1, "name": "MILAN ATGM Weapons Team", "mode": "append"},  {"qty": 1, "name": "FV103 Spartan"}], "points": 16, "br": 2, "morale": "P"},
-        { "id": "uk-northag-vu-mechanised-infantry-platoon-5", "name": "Blowpipe MANPAD Weapons Team", "composition": [{"qty": 1, "name": "Blowpipe MANPAD Weapons Team","mode": "append"},{"qty": 1, "name": "FV103 Spartan"}], "points": 11, "br": 2, "morale": "P" }
+         { "id": "uk-northag-vu-mechanised-infantry-platoon-4", "name": "MILAN ATGM Weapons Team", "composition": [{"qty": 1, "name": "MILAN ATGM Weapons Team", "mode": "append","equipmentId": "uk-northag-milan"},  {"qty": 1, "name": "FV103 Spartan","equipmentId": "uk-northag-fv103-spartan" }], "points": 16, "br": 2, "morale": "P"},
+        { "id": "uk-northag-vu-mechanised-infantry-platoon-5", "name": "Blowpipe MANPAD Weapons Team", "composition": [{"qty": 1, "name": "Blowpipe MANPAD Weapons Team","mode": "append","equipmentId": "uk-northag-blowpipe" },{"qty": 1, "name": "FV103 Spartan","equipmentId": "uk-northag-fv103-spartan"}], "points": 11, "br": 2, "morale": "P" }
         
       ]
     },
@@ -475,11 +495,11 @@
       "points": 129,
       "br": 9,
       "morale": "P",
-      "unitComposition": [{"qty": 3, "name": "Mk9 Chieftains"}],
+      "unitComposition": [{"qty": 3, "name": "Mk9 Chieftains","equipmentId": "uk-northag-mk9-chiftain" }],
       "specialRules": [{"name": "Advanced Gunnery"},{"name": "Advanced Sights"}],
       
       "options": [
-        { "id": "uk-northag-mc-chieftain-troop-1", "name": "Upgrade all Chieftains to Stillbrew", "pointsPerQty": 4, "br": 0, "composition": [{"qty": 3, "name": "Mk9 Chieftains (Stillbrew Armour)", "mode": "modify", "replaces": "Mk9 Chieftains"}] }, 
+        { "id": "uk-northag-mc-chieftain-troop-1", "name": "Upgrade all Chieftains to Stillbrew", "pointsPerQty": 4, "br": 0, "composition": [{"qty": 3, "name": "Mk9 Chieftains (Stillbrew Armour)", "mode": "modify", "replaces": "Mk9 Chieftains","equipmentId": "uk-northag-mk9-chiftain-stillbrew" }] }, 
         { "id": "uk-northag-mc-chieftain-troop-2", "name": "Add 1 additional Mk9 Chieftain", "points": 43, "br": 3, "composition": [{"qtyChange": 1, "mode": "modify"}] }
       ]
     },
@@ -493,8 +513,8 @@
       "br": 4,
       "morale": "P",
       "unitComposition": [
-        {"qty": 1, "name": "Infantry Command Team"},
-        {"qty": 1, "name": "FV432"}
+        {"qty": 1, "name": "Infantry Command Team","equipmentId": "uk-northag-infantry-command-team" },
+        {"qty": 1, "name": "FV432","equipmentId": "uk-northag-fv432" }
       ],
       "specialRules": [{"name": "Senior Officer"}],
      "options": [
@@ -523,8 +543,8 @@
 
 ],
       "unitComposition": [
-        {"qty": 7, "name": "Infantry Fire Team"},
-         {"qty": 4, "name": "FV432"}
+        {"qty": 7, "name": "Infantry Fire Team","equipmentId": "uk-northag-infantry-fire-team" },
+         {"qty": 4, "name": "FV432","equipmentId": "uk-northag-fv432" }
       ],
       "specialRules": [
         {"name": "Advanced Gunnery"},
@@ -542,7 +562,7 @@
           "br": 0,
           "addSpecialRules": "",
           "composition": [ 
-          {"qty": 1, "name": "sGPMG Weapons Team)", "mode": "append"}
+          {"qty": 1, "name": "sGPMG Weapons Team)", "mode": "append","equipmentId": "uk-northag-infantry-sgpmg-team"}
           ]
         },
         {
@@ -552,7 +572,7 @@
           "br": 0,
           "addSpecialRules": "",
           "composition": [
-            {"qty": 1, "name": "Sniper Team", "mode": "append"}
+            {"qty": 1, "name": "Sniper Team", "mode": "append","equipmentId": "uk-northag-infantry-sniper-team"}
           ]
         },
         {
@@ -562,11 +582,11 @@
           "br": 0,
           "addSpecialRules": "",
           "composition": [
-            {"qty": 1, "name": "Carl gustav Weapons Team", "mode": "append"}
+            {"qty": 1, "name": "Carl gustav Weapons Team", "mode": "append","equipmentId": "uk-northag-carl-gustav"}
           ]
         },
-         { "id": "uk-northag-mc-mechanised-infantry-platoon-4", "name": "MILAN ATGM Weapons Team", "composition": [{"qty": 1, "name": "MILAN ATGM Weapons Team", "mode": "append"},  {"qty": 1, "name": "FV103 Spartan"}], "points": 16, "br": 2, "morale": "P"},
-        { "id": "uk-northag-mc-mechanised-infantry-platoon-5", "name": "Blowpipe MANPAD Weapons Team", "composition": [{"qty": 1, "name": "Blowpipe MANPAD Weapons Team","mode": "append"},{"qty": 1, "name": "FV103 Spartan"}], "points": 11, "br": 2, "morale": "P" }
+         { "id": "uk-northag-mc-mechanised-infantry-platoon-4", "name": "MILAN ATGM Weapons Team", "composition": [{"qty": 1, "name": "MILAN ATGM Weapons Team", "mode": "append","equipmentId": "uk-northag-milan"},  {"qty": 1, "name": "FV103 Spartan","equipmentId": "uk-northag-fv103-spartan"}], "points": 16, "br": 2, "morale": "P"},
+        { "id": "uk-northag-mc-mechanised-infantry-platoon-5", "name": "Blowpipe MANPAD Weapons Team", "composition": [{"qty": 1, "name": "Blowpipe MANPAD Weapons Team","mode": "append","equipmentId": "uk-northag-blowpipe" },{"qty": 1, "name": "FV103 Spartan","equipmentId": "uk-northag-fv103-spartan"}}], "points": 11, "br": 2, "morale": "P" }
         
       ]
     },
@@ -794,8 +814,8 @@
       "br": 2,
       "morale": "P",
       "unitComposition": [
-        {"qty": 1, "name": "Infantry Command Team"},
-        {"qty": 1, "name": "Land Rover"}
+        {"qty": 1, "name": "Infantry Command Team","equipmentId": "uk-northag-infantry-command-team" },
+        {"qty": 1, "name": "Land Rover","equipmentId": "uk-northag-land-rover"}
       ],
       "specialRules": [
         {"name": "Officer"},
@@ -814,8 +834,8 @@
       "br": 2,
       "morale": "P",
       "unitComposition": [
-        {"qty": 1, "name": "Infantry Command Team"},
-        {"qty": 1, "name": "Land Rover"}
+        {"qty": 1, "name": "Infantry Command Team","equipmentId": "uk-northag-infantry-command-team" },
+        {"qty": 1, "name": "Land Rover","equipmentId": "uk-northag-land-rover"}
       ],
       "specialRules": [
         {"name": "Officer"},
@@ -835,7 +855,7 @@
           "br": 1,
           "addSpecialRules": "",
           "composition": [
-              {"qty": 1, "name": "FV432", "modify", "replaces": "Land Rover"}  
+              {"qty": 1, "name": "FV432", "modify", "replaces": "Land Rover","equipmentId": "uk-northag-fv432" }  
             ]
           },
        {
@@ -846,7 +866,7 @@
           "br": 0,
           "addSpecialRules": "",
           "composition": [
-              {"qty": 1, "name": "Ferret Armoured Car"}
+              {"qty": 1, "name": "Ferret Armoured Car","equipmentId": "uk-northag-fv701-ferret" }
           ]
             }
           ]
@@ -861,7 +881,7 @@
       "br": 4,
       "morale": "P",
       "unitComposition": [
-        {"qty": 2, "name": "FV438 Swingfires"}
+        {"qty": 2, "name": "FV438 Swingfires","equipmentId": "uk-northag-fv438-swingfire" }
       ],
       "specialRules": [{"name": "Ambush"}],
       
@@ -877,9 +897,9 @@
       "br": 1,
       "morale": "P",
       "unitComposition": [
-        {"qty": 1, "name": "Infantry Weapons Team"},
-        {"qty": 1, "name": "Towed Rapier SAM"},
-        {"qty": 1, "name": "Land Rover (1 tonne)"}
+        {"qty": 1, "name": "Infantry Weapons Team","equipmentId": "uk-northag-infantry-Weapons-team" },
+        {"qty": 1, "name": "Towed Rapier SAM","equipmentId": "uk-northag-rapier" },
+        {"qty": 1, "name": "Land Rover (1 tonne)","equipmentId": "uk-northag-land-rover-1-tonne"}
       ],
       "specialRules": [{"name": "AA"}],
       
@@ -907,7 +927,7 @@
       "br": 1,
       "morale": "P",
       "unitComposition": [
-        {"qty": 1, "name": "FV180 CET"},
+        {"qty": 1, "name": "FV180 CET","equipmentId": "uk-northag-fv180-cet" },
         {"qty": 1, "name": "Giant Viper"}
       ],
       "specialRules": [
@@ -927,7 +947,7 @@
       "morale": "",
       "notes": "Requires a unit with the Mortar Spotter (or Artillery Spotter) rule to use.",
       "unitComposition": [
-        {"qty": 6, "name": "81mm Mortar"}
+        {"qty": 6, "name": "81mm Mortar","equipmentId": "uk-northag-81mm-mortar" }
       ],
       "specialRules": [
         {"name": "Off-table"}
@@ -946,7 +966,7 @@
       "morale": "",
       "notes": "Requires a unit with the Artillery Spotter rule to use.",
       "unitComposition": [
-        {"qty": 4, "name": "105mm Abbot"}
+        {"qty": 4, "name": "105mm Abbot","equipmentId": "uk-northag-105mm" }
       ],
       "specialRules": [
         {"name": "Off-table"}
@@ -964,9 +984,7 @@
       "br": 0,
       "morale": "",
       "notes": "A single air strike by a Harrier GR3 armed with four large bombs or four Marra 68mm multiple rocket pods",
-      "unitComposition": [
-        {"qty": 1, "name": "Harrier GR3"}
-      ],
+      "unitComposition": [ ],
       "specialRules": [],
       
       "options": [
@@ -977,7 +995,7 @@
           "br": 0,
           "addSpecialRules": "",
           "composition": [
-              {"qty": 1, "name": "Harrier GR3"},{"qty": 4, "name": "Large Bombs"}
+              {"qty": 1, "name": "Harrier GR3","equipmentId": "uk-northag-harrier-gr3-1"},{"qty": 4, "name": "Large Bombs"}
           ]
         },
         {
@@ -987,7 +1005,7 @@
           "br": 0,
           "addSpecialRules": "",
           "composition": [
-              {"qty": 1, "name": "Harrier GR3"},{"qty": 4, "name": "68mm Multiple ROcket Pods"}
+              {"qty": 1, "name": "Harrier GR3","equipmentId": "uk-northag-harrier-gr3-2"},{"qty": 4, "name": "68mm Multiple ROcket Pods"}
           ]
         }
       ]
@@ -1003,7 +1021,7 @@
       "morale": "",
       "notes": "A single air strike by a Jaguar GR1 armed with eight large bombs",
       "unitComposition": [
-        {"qty": 1, "name": "Jaguar GR1"},{"qty": 8, "name": "Large Bombs"}
+        {"qty": 1, "name": "Jaguar GR1","equipmentId": "uk-northag-jaguar-gr1" },{"qty": 8, "name": "Large Bombs"}
       ],
       "specialRules": [],
       
@@ -1019,9 +1037,7 @@
       "br": 0,
       "morale": "",
       "notes": "A single air strike by a Tornado GR1 armed with four very large bombs or four cluster bombs",
-      "unitComposition": [
-        {"qty": 1, "name": "Tornado GR1"}
-      ],
+      "unitComposition": [],
       "specialRules": [],
       
       "options": [
@@ -1032,7 +1048,7 @@
           "br": 0,
           "addSpecialRules": "",
           "composition": [
-              {"qty": 1, "name": "Tornado GR1"},{"qty": 8, "name": "Very Large Bombs"}
+              {"qty": 1, "name": "Tornado GR1","equipmentId": "uk-northag-tornado-gr1-1" },{"qty": 8, "name": "Very Large Bombs"}
           ]
         },
         {
@@ -1042,7 +1058,7 @@
           "br": 0,
           "addSpecialRules": "",
           "composition": [
-              {"qty": 1, "name": "Tornado GR1"},{"qty": 4, "name": "Cluster Bombs"}
+              {"qty": 1, "name": "Tornado GR1","equipmentId": "uk-northag-tornado-gr1-2"},{"qty": 4, "name": "Cluster Bombs"}
           ]
         }
       ]
@@ -1094,6 +1110,7 @@
     },
     {
       "id": "uk-northag-afs-off-table-sam-cover",
+      "equipmentId": "uk-northag-rapier" 
       "name": "Off-table SAM Cover", 
       "category": "Additional Fire Support",
       "minQty": 0,
@@ -1124,6 +1141,7 @@
     },
 {
       "id": "uk-northag-afs-timed-105mm-artillery-strike",
+  "equipmentId": "uk-northag-175mm",
       "name": "Timed 105mm Artillery Strike", 
       "category": "Additional Fire Support",
       "minQty": 0,
@@ -1139,6 +1157,7 @@
     },
     {
       "id": "uk-northag-afs-timed-155mm-artillery-strike",
+      "equipmentId": "uk-northag-155mm", 
       "name": "Timed 155mm Artillery Strike", 
       "category": "Additional Fire Support",
       "minQty": 0,
@@ -1154,6 +1173,7 @@
     },
     {
       "id": "uk-northag-afs-timed-175mm-artillery-strike",
+      "equipmentId": "uk-northag-175mm", 
       "name": "Timed 175mm Artillery Strike", 
       "category": "Additional Fire Support",
       "minQty": 0,
@@ -1169,6 +1189,7 @@
     },
     {
       "id": "uk-northag-afs-timed-203mm-artillery-strike",
+      "equipmentId": "uk-northag-203mm",
       "name": "Timed 203mm Artillery Strike", 
       "category": "Additional Fire Support",
       "minQty": 0,
@@ -1315,7 +1336,7 @@
     "specialRules": ["Scout"] 
   },
   { 
-    "equipmentId": "uk-northag-fv202-scorpion", 
+    "equipmentId": "uk-northag-fv101-scorpion", 
     "type": "vehicle", 
     "vehicleName": "FV101 Scorpion", 
     "movement": [{"cat": "Fast Track", "move": "10/14"}], 
@@ -1556,12 +1577,20 @@
     "specialRules": ["Capacity 8","Helicopter"] 
   },
   { 
-    "equipmentId": "uk-northag-harrier-gr3", 
+    "equipmentId": "uk-northag-harrier-gr3-1", 
     "type": "aircraft", 
     "aircraftName": "Harrier GR3", 
     "movement": [{"cat": "Fighter", "move": "Unlimited"}], 
     "hits": 2, 
-    "weapons": ["4 Large Bombs OR 4 Matra rocket pads"] 
+    "weapons": ["4 Large Bombs"] 
+  },
+   { 
+    "equipmentId": "uk-northag-harrier-gr3-2", 
+    "type": "aircraft", 
+    "aircraftName": "Harrier GR3", 
+    "movement": [{"cat": "Fighter", "move": "Unlimited"}], 
+    "hits": 2, 
+    "weapons": ["4 Matra rocket pads"] 
   },
   { 
     "equipmentId": "uk-northag-jaguar-gr1", 
@@ -1572,12 +1601,20 @@
     "weapons": ["8 Large Bombs"] 
   },
   { 
-    "equipmentId": "uk-northag-tornado-gr1", 
+    "equipmentId": "uk-northag-tornado-gr1-1", 
     "type": "aircraft", 
     "aircraftName": "Tornado GR1", 
     "movement": [{"cat": "Fighter-Bomber", "move": "Unlimited"}], 
     "hits": 4, 
-    "weapons": ["2 very Large Bombs OR 4 Cluster Bombs"] 
+    "weapons": ["4 very Large Bombs"] 
+  },
+  { 
+    "equipmentId": "uk-northag-tornado-gr1-2", 
+    "type": "aircraft", 
+    "aircraftName": "Tornado GR1", 
+    "movement": [{"cat": "Fighter-Bomber", "move": "Unlimited"}], 
+    "hits": 4, 
+    "weapons": ["4 Cluster Bombs"] 
   },
   { 
     "equipmentId": "uk-northag-30mm-rarden", 
@@ -1673,7 +1710,7 @@
     "ammo": [{"HE": "Heavy, 5,5,5,5,5"}] 
   },
   { 
-    "equipmentId": "uk-northag-175", 
+    "equipmentId": "uk-northag-175mm", 
     "type": "weapon", 
     "weaponName": "175mm", 
     "ammo": [{"HE": "Heavy, 6,6,6,6,6"}] 
