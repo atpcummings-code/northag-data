@@ -1,8 +1,8 @@
 {
   "id": "su-northag",
   "factionLogo": "https://raw.githubusercontent.com/atpcummings-code/northag-data/refs/heads/main/su-northag.svg",
-  "name": "Russian Armed Battlegroup",
-  "group": "OPFOR",
+  "name": "Soviet Armoured Battlegroup",
+  "group": "NORTHAG",
   "year": "1985",
   "colour": "#5C3A2E",
   "units": [
