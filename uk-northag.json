@@ -1110,7 +1110,7 @@
     },
     {
       "id": "uk-northag-afs-off-table-sam-cover",
-      "equipmentId": "uk-northag-rapier" 
+      "equipmentId": "uk-northag-rapier", 
       "name": "Off-table SAM Cover", 
       "category": "Additional Fire Support",
       "minQty": 0,
