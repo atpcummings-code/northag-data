@@ -747,7 +747,7 @@
 },
 {
       "id": "uk-northag-mc-supply-truck",
-      "name": "Ground Surveillance Radar Team",
+      "name": "Supply Truck",
       "category": "Main Column",
       "hiddenUntilUnlocked": true,
       "minQty": 0,
