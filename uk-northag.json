@@ -622,7 +622,7 @@
           "br": 1,
           "addSpecialRules": "",
           "composition": [
-              {"qty": 1, "name": "FV432", "modify": "Land Rover"}  
+              {"qty": 1, "name": "FV432", "modify", "replaces": "Land Rover"}  
             ]
           },
        {
