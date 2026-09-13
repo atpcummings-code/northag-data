@@ -5,6 +5,8 @@
   "group": "NORTHAG",
   "year": "1985",
   "colour": "#5C3A2E",
+ "units": [],
+  
   "equipment": [ 
   { 
     "equipmentId": "uk-northag-fv701-ferret", 
