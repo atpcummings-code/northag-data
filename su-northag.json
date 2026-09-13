@@ -38,7 +38,7 @@
           
           "composition": 
           [ 
-          {"qty": 2, "name": "T-64B)","equipmentId": "su-northag-t-64b"}
+          {"qty": 2, "name": "T-64B","equipmentId": "su-northag-t-64b"}
           ]
 },
 {
