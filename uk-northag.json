@@ -1332,7 +1332,7 @@
     "vehicleName": "FV721 Fox", 
     "movement": [{"cat": "Wheel AT", "move": "8/16"}], 
     "armour": [{"Front": 1, "Side": 0, "Rear": 0}], 
-    "weapons": [{"weapon": "30mm Rarden", "mount": "Turret", "rof": "High"},{"weapon": "MG", "mount": "Co-axial", "rof": "Low", "range": 30}],
+    "weapons": [{"weapon": "30mm Rarden", "mount": "Turret", "rof": "High","equipmentId": "uk-northag-30mm-rarden" },{"weapon": "MG", "mount": "Co-axial", "rof": "Low", "range": 30}],
     "specialRules": ["Scout"] 
   },
   { 
@@ -1341,7 +1341,7 @@
     "vehicleName": "FV101 Scorpion", 
     "movement": [{"cat": "Fast Track", "move": "10/14"}], 
     "armour": [{"Front": 1, "Side": 1, "Rear": 0}], 
-    "weapons": [{"weapon": "76mmL23", "mount": "Turret"},{"weapon": "MG", "mount": "Co-axial", "rof": "Low", "range": 30}],
+    "weapons": [{"weapon": "76mmL23", "mount": "Turret","equipmentId": "uk-northag-76mml23" },{"weapon": "MG", "mount": "Co-axial", "rof": "Low", "range": 30}],
     "specialRules": ["Scout"] 
   },
   { 
@@ -1350,7 +1350,7 @@
     "vehicleName": "FV107 Scimitar", 
     "movement": [{"cat": "Fast Track", "move": "10/14"}], 
     "armour": [{"Front": 1, "Side": 1, "Rear": 0}], 
-    "weapons": [{"weapon": "30mm Rarden", "mount": "Turret", "rof": "High"},{"weapon": "MG", "mount": "Co-axial", "rof": "Low", "range": 30}],
+    "weapons": [{"weapon": "30mm Rarden", "mount": "Turret", "rof": "High","equipmentId": "uk-northag-30mm-rarden"},{"weapon": "MG", "mount": "Co-axial", "rof": "Low", "range": 30}],
     "specialRules": ["Scout"] 
   },
   { 
@@ -1359,7 +1359,7 @@
     "vehicleName": "Mk9 Chieftain", 
     "movement": [{"cat": "Med Track", "move": "8/12"}], 
     "armour": [{"Front": 7, "Side": 5, "Rear": 3}], 
-    "weapons": [{"weapon": "120mmL55", "mount": "Turret" },{"weapon": "MG", "mount": "Co-axial", "rof": "Low", "range": 30},{"weapon": "MG", "mount": "Pintle", "rof": "Medium", "range": 30}],
+    "weapons": [{"weapon": "120mmL55", "mount": "Turret","equipmentId": "uk-northag-120mml55"  },{"weapon": "MG", "mount": "Co-axial", "rof": "Low", "range": 30},{"weapon": "MG", "mount": "Pintle", "rof": "Medium", "range": 30}],
     "specialRules": ["Advanced Sights", "Advanced Gunnery","Unreliable"] 
   },
   {
@@ -1368,7 +1368,7 @@
     "vehicleName": "Mk9 Chieftain (Stillbrew Armour)", 
     "movement": [{"cat": "Med Track", "move": "8/12"}], 
     "armour": [{"Front": 8, "Side": 5, "Rear": 3}], 
-    "weapons": [{"weapon": "120mmL55", "mount": "Turret" },{"weapon": "MG", "mount": "Co-axial", "rof": "Low", "range": 30},{"weapon": "MG", "mount": "Pintle", "rof": "Medium", "range": 30}],
+    "weapons": [{"weapon": "120mmL55", "mount": "Turret","equipmentId": "uk-northag-120mml55"  },{"weapon": "MG", "mount": "Co-axial", "rof": "Low", "range": 30},{"weapon": "MG", "mount": "Pintle", "rof": "Medium", "range": 30}],
     "specialRules": ["Advanced Sights", "Advanced Gunnery","Unreliable"] 
   },
   { 
@@ -1377,7 +1377,7 @@
     "vehicleName": "Challenger", 
     "movement": [{"cat": "Fast Track", "move": "10/14"}], 
     "armour": [{"Front": 10, "Side": 6, "Rear": 4}], 
-    "weapons": [{"weapon": "120mmL55", "mount": "Turret"},{"weapon": "MG", "mount": "Co-axial", "rof": "Low", "range": 30},{"weapon": "MG", "mount": "Pintle", "rof": "Medium", "range": 30}],
+    "weapons": [{"weapon": "120mmL55", "mount": "Turret","equipmentId": "uk-northag-120mml55"},{"weapon": "MG", "mount": "Co-axial", "rof": "Low", "range": 30},{"weapon": "MG", "mount": "Pintle", "rof": "Medium", "range": 30}],
     "specialRules": ["Advanced Sights", "Advanced Gunnery"] 
   },
   { 
@@ -1396,7 +1396,7 @@
     "vehicleName": "FV438 Swingfire", 
     "movement": [{"cat": "Med Track", "move": "8/12"}], 
     "armour": [{"Front": 1, "Side": 0, "Rear": 0}], 
-    "weapons": [{"weapon": "Swingfire (7)", "mount": "Hull"},{"weapon": "MG", "mount": "Pintle", "rof": "Medium", "range": 30}],
+    "weapons": [{"weapon": "Swingfire (7)", "mount": "Hull","equipmentId": "uk-northag-swingfire"},{"weapon": "MG", "mount": "Pintle", "rof": "Medium", "range": 30}],
     "specialRules": ["ATGM","Ambush","Unreliable"]
   },
   { 
@@ -1431,7 +1431,7 @@
     "vehicleName": "FV102 Striker", 
     "movement": [{"cat": "Fast Track", "move": "10/14"}], 
     "armour": [{"Front": 1, "Side": 0, "Rear": 0}], 
-    "weapons": [{"weapon": "Swingfire (5)", "mount": "Hull"},{"weapon": "MG", "mount": "Pintle", "rof": "Medium", "range": 30}],
+    "weapons": [{"weapon": "Swingfire (5)", "mount": "Hull","equipmentId": "uk-northag-swingfire"},{"weapon": "MG", "mount": "Pintle", "rof": "Medium", "range": 30}],
     "specialRules": ["ATGM", "Ambush"] 
   },
   { 
@@ -1510,7 +1510,7 @@
     "vehicleName": "Centurion AVRE", 
     "movement": [{"cat": "Slow Track", "move": "6/10"}], 
     "armour": [{"Front": 5, "Side": 3, "Rear": 1}],  
-    "weapons": [{"weapon": "165mmL9", "mount": "Turret" },{"weapon": "MG", "mount": "Co-axial", "rof": "Low", "range": 30},{"weapon": "MG", "mount": "Pintle", "rof": "Medium", "range": 30}],
+    "weapons": [{"weapon": "165mmL9", "mount": "Turret","equipmentId": "uk-northag-165mml9"},{"weapon": "MG", "mount": "Co-axial", "rof": "Low", "range": 30},{"weapon": "MG", "mount": "Pintle", "rof": "Medium", "range": 30}],
     "specialRules": ["Engineer"] 
   },
   { 
@@ -1528,7 +1528,7 @@
     "vehicleName": "Tracked Rapier", 
     "movement": [{"cat": "Fast Track", "move": "6/10"}], 
     "armour": [{"Front": 0, "Side": 0, "Rear": 0}],  
-    "weapons": [{"weapon": "Rapier (4)", "mount": "Turret"}],
+    "weapons": [{"weapon": "Rapier (4)", "mount": "Turret","equipmentId": "uk-northag-rapier" }],
     "specialRules": ["AA"] 
   },
   { 
@@ -1555,7 +1555,7 @@
     "helicopterName": "Lynx  (TOW)", 
     "movement": [{"cat": "Helo", "move": "60/60"}],
     "armour": "Soft Skin", 
-    "weapons": [{"weapon": "TOW Missiles (4)", "mount": "Hull"}], 
+    "weapons": [{"weapon": "TOW Missiles (4)", "mount": "Hull","equipmentId": "uk-northag-tow" }], 
     "specialRules": ["Helicopter"] 
   },
   { 
@@ -1568,9 +1568,9 @@
     "specialRules": ["Capacity 2","Helicopter"] 
   },
    { 
-    "equipmentId": "uk-northag-chinnokt", 
+    "equipmentId": "uk-northag-chinook", 
     "type": "helicopter", 
-    "helicopterName": "Chinnok", 
+    "helicopterName": "chinook", 
     "movement": [{"cat": "Helo", "move": "60/60"}],
     "armour": "Soft Skin", 
     "weapons": [{"weapon": "MG)", "mount": "Door", "rof": "Medium", "range": 30}], 
