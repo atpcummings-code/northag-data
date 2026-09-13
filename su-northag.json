@@ -284,89 +284,76 @@
     "specialRules": ["AA"] 
   },
   { 
-    "equipmentId": "uk-northag-gazelle", 
+    "equipmentId": "su-northag-mi8-hip", 
     "type": "helicopter", 
-    "helicopterName": "Gazelle", 
+    "helicopterName": "Mi,8 Hip", 
     "movement": [{"cat": "Helo", "move": "60\"/60\""}],
     "armour": "Soft Skin", 
     "weapons": [{"weapon": "", "mount": "", "rof": ""}], 
-    "specialRules": ["Scout3", "Artillery Spotter", "Helicopter"] 
+    "specialRules": ["Capacity 6", "Helicopter"] 
   },
   { 
-    "equipmentId": "uk-northag-puma", 
+    "equipmentId": "su-northag-mi24d-hind", 
     "type": "helicopter", 
-    "helicopterName": "Puma", 
+    "helicopterName": "Mi.24D Hind", 
     "movement": [{"cat": "Helo", "move": "60\"/60\""}],
     "armour": "Soft Skin", 
-    "weapons": [{"weapon": "MG", "mount": "Door", "rof": "Medium", "range": 30}], 
-    "specialRules": ["Capacity 4", "Helicopter"] 
+    "weapons": [
+      {"weapon": "Gatling MG", "mount": "Hull", "rof": "High*", "range": 30},
+      {"weapon": "UB-32 rockets (2)", "mount": "Hull"},
+      {"weapon": "S24 Missiles (2)", "mount": "Hull"},
+      {"weapon": "AT-6 Spiral", "mount": "Hull"},
+      {"weapon": "MG", "mount": "Hull", "rof": "Medium", "range": 30}
+    ], 
+    "specialRules": ["Capacity 2", "Helicopter","ATGM"] 
   },
   { 
-    "equipmentId": "uk-northag-lynx", 
-    "type": "helicopter", 
-    "helicopterName": "Lynx  (TOW)", 
-    "movement": [{"cat": "Helo", "move": "60\"/60\""}],
-    "armour": "Soft Skin", 
-    "weapons": [{"weapon": "TOW Missiles (4)", "mount": "Hull","equipmentId": "uk-northag-tow" }], 
-    "specialRules": ["Helicopter"] 
-  },
-  { 
-    "equipmentId": "uk-northag-lynx-transport", 
-    "type": "helicopter", 
-    "helicopterName": "Lynx  (Transport)", 
-    "movement": [{"cat": "Helo", "move": "60\"/60\""}],
-    "armour": "Soft Skin", 
-    "weapons": [{"weapon": "MG)", "mount": "Door", "rof": "Medium", "range": 30}], 
-    "specialRules": ["Capacity 2","Helicopter"] 
-  },
-   { 
-    "equipmentId": "uk-northag-chinook", 
-    "type": "helicopter", 
-    "helicopterName": "chinook", 
-    "movement": [{"cat": "Helo", "move": "60\"/60\""}],
-    "armour": "Soft Skin", 
-    "weapons": [{"weapon": "MG)", "mount": "Door", "rof": "Medium", "range": 30}], 
-    "specialRules": ["Capacity 8","Helicopter"] 
-  },
-  { 
-    "equipmentId": "uk-northag-harrier-gr3-1", 
+    "equipmentId": "su-northag-su25-1", 
     "type": "aircraft", 
-    "aircraftName": "Harrier GR3", 
-    "movement": [{"cat": "Fighter", "move": "Unlimited"}], 
-    "hits": 2, 
-    "weapons": ["4 Large Bombs"] 
-  },
-   { 
-    "equipmentId": "uk-northag-harrier-gr3-2", 
-    "type": "aircraft", 
-    "aircraftName": "Harrier GR3", 
-    "movement": [{"cat": "Fighter", "move": "Unlimited"}], 
-    "hits": 2, 
-    "weapons": ["4 Matra rocket pads"] 
-  },
-  { 
-    "equipmentId": "uk-northag-jaguar-gr1", 
-    "type": "aircraft", 
-    "aircraftName": "Jaguar GR1", 
+    "aircraftName": "SU25", 
     "movement": [{"cat": "Fighter-Bomber", "move": "Unlimited"}], 
     "hits": 3, 
-    "weapons": ["8 Large Bombs"] 
+    "weapons": ["8 Medium Bombs"] 
+  },
+   { 
+    "equipmentId": "su-northag-su25-2", 
+    "type": "aircraft", 
+    "aircraftName": "SU25", 
+    "movement": [{"cat": "Fighter-Bomber", "move": "Unlimited"}], 
+    "hits": 3, 
+    "weapons": ["4 UB 32 rocket pods"] 
   },
   { 
-    "equipmentId": "uk-northag-tornado-gr1-1", 
+    "equipmentId": "su-northag-su17-1", 
     "type": "aircraft", 
-    "aircraftName": "Tornado GR1", 
+    "aircraftName": "SU17", 
     "movement": [{"cat": "Fighter-Bomber", "move": "Unlimited"}], 
-    "hits": 4, 
-    "weapons": ["4 very Large Bombs"] 
+    "hits": 3, 
+    "weapons": ["12 Medium Bombs"] 
   },
   { 
-    "equipmentId": "uk-northag-tornado-gr1-2", 
+    "equipmentId": "su-northag-su17-2", 
     "type": "aircraft", 
-    "aircraftName": "Tornado GR1", 
+    "aircraftName": "SU17", 
     "movement": [{"cat": "Fighter-Bomber", "move": "Unlimited"}], 
-    "hits": 4, 
+    "hits": 3, 
     "weapons": ["4 Cluster Bombs"] 
+  },
+  { 
+    "equipmentId": "su-northag-su23-1", 
+    "type": "aircraft", 
+    "aircraftName": "SU23", 
+    "movement": [{"cat": "Fighter", "move": "Unlimited"}], 
+    "hits": 4, 
+    "weapons": ["2 Large Bombs"] 
+  },
+  { 
+    "equipmentId": "su-northag-su23-2", 
+    "type": "aircraft", 
+    "aircraftName": "SU23", 
+    "movement": [{"cat": "Fighter", "move": "Unlimited"}], 
+    "hits": 4, 
+    "weapons": ["1 UB-32 rocket pods"] 
   },
   { 
     "equipmentId": "uk-northag-30mm-rarden", 
