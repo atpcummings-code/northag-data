@@ -242,14 +242,16 @@
       "morale": "C",
       "unitComposition": [
         {"qty": 1, "name": "Infantry Fire Teams","equipmentId": "su-northag-infantry-fire-team" }
-         {"qty": 1, "name": "Land Rover","equipmentId": "su-northag-land-rover"}
       ],
       "specialRules": [
         {"name": "Scout"},
         {"name": "Mortar Spotter"},
         {"name": "Behind Enemy Lines"}
       ],
-    "options": [
+  "optionGroupLimit": [
+{ "ids": ["su-northag-fsu-spetnatz-long-range-patrol-1", "su-northag-fsu-spetnatz-long-range-patrol-2"], "min": 0, "max": 1 } 
+],    
+  "options": [
         {
           "id": "su-northag-fsu-spetnatz-long-range-patrol-1",
           "name": "Rides in IuAZ-967",
@@ -290,7 +292,7 @@
         {"name": "Scout"}
       ], 
       "optionGroupLimit": [
-{ "ids": ["su-northag-fsu-armoured-reconnaissance-patrol-1", "su-northag-fsu-armoured-reconnaissance-patrol-2"], "min": 0, "max": 1 } 
+{ "ids": ["su-northag-fsu-armoured-reconnaissance-patrol-1", "su-northag-fsu-armoured-reconnaissance-patrol-2","su-northag-fsu-armoured-reconnaissance-patrol-3","su-northag-fsu-armoured-reconnaissance-patrol-4"], "min": 0, "max": 1 } 
 ],  
   "options": [
 {
