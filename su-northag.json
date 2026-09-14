@@ -585,9 +585,11 @@
           "points": 108,
           "br": 0,
           "composition": [
-            {"qty": 9,"name": "BMP-1", "mode": "append","equipmentId": "su-northag-bmp-1"}
+            { "name": "BMP-1", "mode": "replace", "replaces": ["BTR-60", "BTR-70"], "keepQty": true }
           ]
         },
+
+        
          {
           "id": "su-northag-vu-motor-rifle-company-4",
           "name": "sPKM GPMG Weapons Team",
