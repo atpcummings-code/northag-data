@@ -872,7 +872,7 @@
 {
       "id": "su-northag-mc-forward-observation-officer",
       "name": "Forward Observation Officer",
-      "category": "Forward Screen Units",
+      "category": "Main Column",
       "minQty": 0,
       "maxQty": 1,
       "points": 12,
@@ -913,7 +913,155 @@
 
       ]
     },
-   
+   {
+      "id": "su-northag-mc-air-defence-tank",
+      "name": "Air Defence Tank",
+      "category": "Main Column",
+      "minQty": 0,
+      "maxQty": 2,
+      "points": 12,
+      "br": 1,
+      "morale": "C",
+      "unitComposition": [
+        {"qty": 1, "name": "ZSU-23-4 Shilka","equipmentId": "su-northag-zsu-234-shilka" }
+      ],
+      "specialRules": [
+        {"name": "AA"}
+      ]
+},
+{
+      "id": "su-northag-mc-motor-rifle-platoon",
+      "name": "Motor Rifle Platoon",
+      "category": "Main Column",
+      "minQty": 0,
+      "maxQty": 4,
+      "points": 44,
+      "br": 10,
+      "morale": "C",
+      "notes": "3 Infantry Fire Teams and 3 Infantry Anti-Tank Teams. in 3 BTR-60 or BTR-70.",
+      "optionGroupLimits": [
+
+{ "groupName": "Choose Platoon Transports:", "options": ["su-northag-mc-motor-rifle-platoon-1", "su-northag-mc-motor-rifle-platoon-2"], "min": 1, "max": 1 }, 
+{ "groupName": "Add up to 2 Infantry Weapons Teams:", "options": ["su-northag-mc-motor-rifle-platoon-4", "su-northag-mc-motor-rifle-platoon-5", "su-northag-mc-motor-rifle-platoon-6", "su-northag-mc-motor-rifle-platoon-7", "su-northag-mc-motor-rifle-platoon-8", "su-northag-mc-motor-rifle-platoon-9"], "min": 0, "max": 2 },
+{ "groupName": "Choose Transports for Platoon 1 Weapons Teams", "options": ["su-northag-mc-motor-rifle-platoon-1c", "su-northag-mc-motor-rifle-platoon-2c"], "min": 1, "max": 1 }, 
+ 
+{ "groupName": "Replace all BTRs with:", "options": ["su-northag-mc-motor-rifle-platoon-3"], "min": 0, "max": 1 }
+],
+      "unitComposition": [
+        {"qty": 9, "name": "Infantry Fire Teams","equipmentId": "su-northag-infantry-fire-team" },
+        {"qty": 9, "name": "Infantry Anti-Tank Teams","equipmentId": "su-northag-infantry-anti-tank-team" }
+      ],
+      "specialRules": [],
+      "options": [
+        {
+          "id": "su-northag-mc-motor-rifle-platoon-1",
+          "name": "BTR-60",
+          "points": 0,
+          "br": 0,
+          "composition": [ 
+          {"qty": 3, "name": "BTR-60", "mode": "append","equipmentId": "su-northag-btr-60"}
+          ]
+        },
+        {
+          "id": "su-northag-mc-motor-rifle-platoon-1c",
+          "name": "BTR-60",
+          "points": 0,
+          "br": 0,
+          "requiresAny": ["su-northag-mc-motor-rifle-platoon-4", "su-northag-mc-motor-rifle-platoon-5", "su-northag-mc-motor-rifle-platoon-6", "su-northag-mc-motor-rifle-platoon-7", "su-northag-mc-motor-rifle-platoon-8", "su-northag-mc-motor-rifle-platoon-9"],
+          "composition": [ 
+          {"qty": 1, "name": "BTR-60", "mode": "append","equipmentId": "su-northag-btr-60"}
+          ]
+        },
+        {
+          "id": "su-northag-mc-motor-rifle-platoon-2",
+          "name": "BTR-70",
+          "points": 0,
+          "br": 0,
+          "composition": [
+            {"qty": 3, "name": "BTR-70", "mode": "append","equipmentId": "su-northag-btr-70"}
+          ]
+        },
+        {
+          "id": "su-northag-mc-motor-rifle-platoon-2c",
+          "name": "BTR-70",
+          "points": 0,
+          "br": 0,
+          "requiresAny": ["su-northag-mc-motor-rifle-platoon-4", "su-northag-mc-motor-rifle-platoon-5", "su-northag-mc-motor-rifle-platoon-6", "su-northag-mc-motor-rifle-platoon-7", "su-northag-mc-motor-rifle-platoon-8", "su-northag-mc-motor-rifle-platoon-9"],
+          "composition": [
+            {"qty": 1, "name": "BTR-70", "mode": "append","equipmentId": "su-northag-btr-70"}
+          ]
+        },
+         
+        {
+          "id": "su-northag-mc-motor-rifle-platoon-3",
+          "name": "BMP-1",
+          "points": 108,
+          "br": 0,
+          "composition": [
+            { "name": "BMP-1", "mode": "replace", "replaces": ["BTR-60", "BTR-70"], "keepQty": true }
+          ]
+        },
+
+        
+         {
+          "id": "su-northag-mc-motor-rifle-platoon-4",
+          "name": "sPKM GPMG Weapons Team",
+          "points": 4,
+          "br": 0,
+          "composition": [
+           {"qty": 1, "name": "sPKM Weapons Team", "mode": "append","equipmentId": "su-northag-infantry-spkm-team"}  
+          ]
+        },
+{
+          "id": "su-northag-mc-motor-rifle-platoon-5",
+          "name": "AT-3 Sagger ATGM Weapons Team",
+          "points": 10,
+          "br": 0,
+          "composition": [
+           {"qty": 1, "name": "AT-3 Sagger ATGM Weapons Team", "mode": "append","equipmentId": "su-northag-at-3-sagger"} 
+          ]
+        },
+        {
+          "id": "su-northag-mc-motor-rifle-platoon-6",
+          "name": "AT-4 Spigot ATGM Weapons Team",
+          "points": 10,
+          "br": 0,    
+          "composition": [
+           {"qty": 1, "name": "AT-4 Spigot ATGM Weapons Team", "mode": "append","equipmentId": "su-northag-at-4-spigot"}  
+          ]
+        },
+{
+          "id": "su-northag-mc-motor-rifle-platoon-7",
+          "name": "AGS-17 AGL Weapons Team",
+          "points": 5,
+          "br": 0,
+          "composition": [
+           {"qty": 1, "name": "AGS-17 AGL Weapons Team", "mode": "append","equipmentId": "su-northag-ags-17"}  
+          ]
+        },
+        {
+          "id": "su-northag-mc-motor-rifle-platoon-8",
+          "name": "SA-7 Grail AA Weapons Team",
+          "points": 8,
+          "br": 0, 
+          "composition": [
+           {"qty": 1, "name": "SA-7 Grail AA Weapons Team", "mode": "append","equipmentId": "su-northag-sa-7-grail"}  
+          ]
+        },
+        {
+          "id": "su-northag-mc-motor-rifle-platoon-9",
+          "name": "Sniper Team",
+          "points": 6,
+          "br": 0,  
+          "composition": [
+           {"qty": 1, "name": "Sniper Team", "mode": "append","equipmentId": "su-northag-sniper-team"}  
+          ]
+         }
+        
+      ]
+    },
+
+	 
     {
       "id": "su-northag-mc-mechanised-infantry-platoon",
       "name": "Mechanised Infantry Platoon",
