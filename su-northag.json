@@ -704,7 +704,7 @@
           "points": 6,
           "br": 0,  
           "composition": [
-           {"qty": 1, "name": "Sniper Team", "mode": "append","equipmentId": "su-northag-sniper-team"}  
+           {"qty": 1, "name": "Sniper Team", "mode": "append","equipmentId": "su-northag-infantry-sniper-team"}  
           ]
          },
         {
@@ -758,7 +758,7 @@
           "points": 6,
           "br": 0,  
           "composition": [
-           {"qty": 1, "name": "Sniper Team", "mode": "append","equipmentId": "su-northag-sniper-team"}  
+           {"qty": 1, "name": "Sniper Team", "mode": "append","equipmentId": "su-northag-infantry-sniper-team"}  
           ]
          },
 {
@@ -812,7 +812,7 @@
           "points": 6,
           "br": 0,  
           "composition": [
-           {"qty": 1, "name": "Sniper Team", "mode": "append","equipmentId": "su-northag-sniper-team"}  
+           {"qty": 1, "name": "Sniper Team", "mode": "append","equipmentId": "su-northag-infantry-sniper-team"}  
           ]
          }
       ]
@@ -1066,7 +1066,7 @@
           "points": 6,
           "br": 0,  
           "composition": [
-           {"qty": 1, "name": "Sniper Team", "mode": "append","equipmentId": "su-northag-sniper-team"}  
+           {"qty": 1, "name": "Sniper Team", "mode": "append","equipmentId": "su-northag-infantry-sniper-team"}  
           ]
          }
         
