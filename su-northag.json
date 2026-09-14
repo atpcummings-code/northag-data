@@ -539,7 +539,7 @@
      { 
     "equipmentId": "su-northag-infantry-anti-tank-team", 
     "type": "infantry", 
-    "infantryName": "Infantry Anti-tank Team", 
+    "infantryName": "Infantry Anti-Tank Team", 
     "movement": [{"cat": "Infantry", "move": "4\"/4\""}], 
     "weapons": [{"rof": "Low", "range": 30}] 
   },
