@@ -1265,7 +1265,7 @@
       "morale": "C",
       "unitComposition": [],
 	"optionGroupLimits": [
-	{ "groupName": "Choose Truck:","options": ["su-northag-mc-supply-truck-1", "su-northag-mc-supply-truck-2"], "min": 0, "max": 1 }
+	{ "groupName": "Choose Truck:","options": ["su-northag-mc-supply-truck-1", "su-northag-mc-supply-truck-2"], "min": 1, "max": 1 }
 
 ],
       "options": [
@@ -1401,7 +1401,7 @@
           "points": 10,
           "br": 0,
           "composition": [
-              {"qty": 1, "name": "T-62 with KMT Mine Plough", "mode": "append","equipmentId": "su-northag-t-62" }  
+              {"qty": 1, "name": "T-62 with KMT Mine Plough","equipmentId": "su-northag-t-62" }  
             ]
           },
       {
@@ -1410,7 +1410,7 @@
           "points": 22,
           "br": 0,
           "composition": [
-              {"qty": 1, "name": "T-64A with KMT Mine Plough", "mode": "append","equipmentId": "su-northag-t-64a" }  
+              {"qty": 1, "name": "T-64A with KMT Mine Plough", "equipmentId": "su-northag-t-64a" }  
             ]
           }
 		  
