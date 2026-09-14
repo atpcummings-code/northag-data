@@ -69,7 +69,7 @@
   {
       "id": "su-northag-fsu-air-defence-battery",
       "name": "Air Defence Battery",
-      "name": "Armoured Car Patrol",",
+      "name": "Armoured Car Patrol",
       "category": "Forward Screen Units",
       "minQty": 0,
       "maxQty": 1,
