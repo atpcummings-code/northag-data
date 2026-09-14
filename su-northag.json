@@ -869,6 +869,49 @@
 { "groupName": "Replace Infantry Command Team and BMP with:","options": ["su-northag-mc-battlegroup-commander-3", "su-northag-mc-battlegroup-commander-4", "su-northag-mc-battlegroup-commander-5", "su-northag-mc-battlegroup-commander-6", "su-northag-mc-battlegroup-commander-7"], "min": 0, "max": 1 }
 ]
     },
+{
+      "id": "su-northag-mc-forward-observation-officer",
+      "name": "Forward Observation Officer",
+      "category": "Forward Screen Units",
+      "minQty": 0,
+      "maxQty": 1,
+      "points": 12,
+      "br": 2,
+      "morale": "C",
+      "unitComposition": [
+        {"qty": 1, "name": "Infantry Command Team","equipmentId": "su-northag-infantry-command-team" },
+	{"qty": 1, "name": "UAZ 469","equipmentId": "su-northag-uaz-469" }
+      ],
+      "specialRules": [
+        {"name": "Officer"},
+         {"name": "Mortar Spotter"}
+      ],
+      "optionGroupLimits": [
+
+{ "groupName": "Replace Infantry Command TEam and UAZ 469 with:", "options": ["su-northag-mc-forward-observation-officer-1", "su-northag-mc-forward-observation-officer-1"], "min": 0, "max": 1 }
+
+],
+      "options": [
+        {
+          "id": "su-northag-mc-forward-observation-officer-1",
+          "name": "BTR-60",
+          "points": 4,
+          "br": 1,
+           "composition": [ 
+          {"qty": 1, "name": "BTR-60", "mode": "modify", "replaces": "UAZ 469","equipmentId": "su-northag-btr-60"}    
+        },
+
+          "id": "su-northag-mc-forward-observation-officer-1",
+          "name": "ACRV-2",
+          "points": 4,
+          "br": 1,
+           "composition": [ 
+          {"qty": 1, "name": "ACRV-2", "mode": "modify", "replaces": "UAZ 469","equipmentId": "su-northag-acrv-2"}    
+        }
+
+      ]
+    },
+   
     {
       "id": "su-northag-mc-mechanised-infantry-platoon",
       "name": "Mechanised Infantry Platoon",
