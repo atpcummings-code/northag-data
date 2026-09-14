@@ -150,7 +150,7 @@
         {"name": "Scout"},
         {"name": "Mortar Spotter"}
       ],
-      "optionGroupLimits": [{ "ids": ["uk-northag-fsu-recce-tank-patrol-1", "uk-northag-fsu-recce-tank-patrol-2"], "min": 1, "max": 1 }],
+      "optionGroupLimits": [{ "groupName": "Choose Light Tank:","options": ["uk-northag-fsu-recce-tank-patrol-1", "uk-northag-fsu-recce-tank-patrol-2"], "min": 1, "max": 1 }],
       
       "options": [
 {
