@@ -6,7 +6,7 @@
   "year": "1985",
   "colour": "#5C3A2E",
  "units": [
-{
+  {
       "id": "su-northag-fsu-tank-recce-patrol",
       "name": "Tank Recce Patrol",
       "category": "Forward Screen Units",
@@ -65,8 +65,1328 @@
 }
 
 ]
-    }
- ],
+    },  
+  {
+      "id": "su-northag-fsu-air-defence-battery",
+      "name": "Air Defence Battery",
+      "name": "Armoured Car Patrol",",
+      "category": "Forward Screen Units",
+      "minQty": 0,
+      "maxQty": 1,
+      "points": 22,
+      "br": 2,
+      "morale": "C",
+      "unitComposition": [
+        {
+          "qty": 1,
+          "name": "SA-9 Gaskin launcher",
+          "equipmentId": "su-northag-sa-9-gaskin"
+        },
+        {
+          "qty": 1,
+          "name": "ZSU-23-4 Shilka",
+          "equipmentId": "su-northag-szsu-23-4-shilka"
+        }
+      ],
+      "specialRules": [
+        {"name": "AA"}
+      ],
+       "optionGroupLimit": [
+{ "ids": ["su-northag-fsu-air-defence-battery-1", "su-northag-fsu-air-defence-battery-2"], "min": 0, "max": 1 } 
+
+],  
+    "options": [
+{
+          "id": "su-northag-fsu-air-defence-battery-1",
+          "name": "Replace both SA-9 and ZSU-23-4 with two SA-8 Gecko",
+          "points": 6,
+          "br": 0,
+          
+          "composition": 
+          [ 
+          {"qty": 2, "name": "SA-8 Gecko","equipmentId": "su-northag-sa-8-gecko"}
+          ]
+},
+{
+          "id": "su-northag-fsu-air-defence-battery-2",
+          "name": "Replace SA-9 with SA-13 Gopher",
+          "points": 0,
+          "br": 0,
+          
+          "composition": 
+          [ 
+          {"qty": 2, "name": "SA-13 Gopher","equipmentId": "su-northag-sa-13-gopher", "mode": "modify", "replaces": "SA-9 Gaskin launcher"}
+          ]
+}
+
+]
+    },
+    {
+      "id": "su-northag-fsu-dismounted-motor-rifle-platoon",
+      "name": "Dismounted Motor Rifle Platoon",
+      "category": "Forward Screen Units",
+      "minQty": 0,
+      "maxQty": 2,
+      "points": 30,
+      "br": 6,
+      "morale": "C",
+      "unitComposition": [
+        {
+          "qty": 3,
+          "name": "Infantry Fire Teams in foxholes",
+          "equipmentId": "su-northag-infantry-fire-team" 
+        },
+        {
+          "qty": 3,
+          "name": "Infantry Anti-Tank Teams in foxholes",
+          "equipmentId": "su-northag-infantry-anti-tank-team" 
+        }
+      ],
+      "specialRules": [
+        {"name": "Dug-in"}
+      ],
+            
+      "options": []
+    },
+   {
+      "id": "su-northag-fsu-forward-observation-officer",
+      "name": "Forward Observation Officer",
+      "category": "Forward Screen Units",
+      "minQty": 0,
+      "maxQty": 1,
+      "points": 12,
+      "br": 2,
+      "morale": "C",
+      "unitComposition": [
+        {"qty": 1, "name": "Infantry Command Team in Foxholes","equipmentId": "su-northag-infantry-command-team" }
+      ],
+      "specialRules": [
+        {"name": "Officer"},
+         {"name": "Mortar Spotter"},
+         {"name": "Dug-in"}
+      ],
+      
+      "options": [
+        {
+          "id": "su-northag-fsu-forward-observation-officer-1",
+          "name": "Upgrade to Artillery Spotter",
+          "points": 5,
+          "br": 0,
+          "specialRules": { "mode": "replace", "rules": ["Mortar Spotter"] },
+          
+},
+      ]
+    },
+{
+      "id": "su-northag-fsu-sniper-hideout",
+      "name": "Sniper-Hideout",
+      "category": "Forward Screen Units",
+      "minQty": 0,
+      "maxQty": 1,
+      "points": 15,
+      "br": 1,
+      "morale": "C",
+      "unitComposition": [
+        {"qty": 1, "name": "Infantry Sniper Team concealed and deployed in Reinforced Cover.","equipmentId": "su-northag-infantry-sniper-team"}
+      ],
+      "specialRules": [
+        {"name": "Sniper"},
+         {"name": "Behind Enemy Lines"},
+         {"name": "Forward Deployed"}
+      ],
+      
+      "options": []
+    },
+{
+      "id": "su-northag-fsu-armoured-car-patrol",
+      "name": "Armoured Car Patrol",
+      "category": "Forward Screen Units",
+      "minQty": 0,
+      "maxQty": 3,
+      "points": 24,
+      "br": 2,
+      "morale": "C",
+      "unitComposition": [
+        {"qty": 2, "name": "BRDM-2","equipmentId": "su-northag-brdm-2" }
+      ],
+      "specialRules": [
+        {"name": "Scout"},
+        {"name": "Mortar Spotter"}
+      ], 
+},
+  {
+      "id": "su-northag-fsu-brm-1-patrol",
+      "name": "BRM-1 Patrol",
+      "category": "Forward Screen Units",
+      "minQty": 0,
+      "maxQty": 1,
+      "points": 22,
+      "br": 3,
+      "morale": "C",
+      "unitComposition": [
+        {"qty": 1, "name": "Infantry Anti-Tank Team","equipmentId": "su-northag-infantry-anti-tank-team" },
+        {"qty": 1, "name": "BRM-1","equipmentId": "su-northag-brm-1" }
+      ],
+      "specialRules": [
+        {"name": "Scout"},
+        {"name": "Ground Surveillance Radar"}
+      ], 
+},
+{
+      "id": "su-northag-fsu-spetnatz-long-range-patrol",
+      "name": "Spetnatz Long Range Patrol",
+      "category": "Forward Screen Units",
+      "minQty": 0,
+      "maxQty": 1,
+      "points": 20,
+      "br": 1,
+      "morale": "C",
+      "unitComposition": [
+        {"qty": 1, "name": "Infantry Fire Teams","equipmentId": "su-northag-infantry-fire-team" }
+         {"qty": 1, "name": "Land Rover","equipmentId": "su-northag-land-rover"}
+      ],
+      "specialRules": [
+        {"name": "Scout"},
+        {"name": "Mortar Spotter"},
+        {"name": "Behind Enemy Lines"}
+      ],
+    "options": [
+        {
+          "id": "su-northag-fsu-spetnatz-long-range-patrol-1",
+          "name": "Rides in IuAZ-967",
+          "points": 0,
+          "br": 0,
+          "composition": 
+          [ 
+          {"qty": 1, "name": "Land Rover","equipmentId": "su-northag-land-rover", "mode": "append"}
+          
+},
+      {
+          "id": "su-northag-fsu-spetnatz-long-range-patrol-2",
+          "name": "Rides in IuAZ-967",
+          "points": 0,
+          "br": 0,
+          "composition": 
+          [ 
+            {"qty": 1, "name": "IuAZ-967","equipmentId": "su-northag-iuaz-967", "mode": "append"}
+          ]
+          
+}
+      ]
+},
+{
+      "id": "su-northag-fsu-armoured-reconnaissance-patrol",
+      "name": "Armoured Reconnaissance Patrol",
+      "category": "Forward Screen Units",
+      "minQty": 0,
+      "maxQty": 3,
+      "points": 18,
+      "br": 2,
+      "morale": "C",
+      "unitComposition": [
+        {"qty": 1, "name": "Infantry Fire Team","equipmentId": "su-northag-infantry-fire-team" },
+        {"qty": 1, "name": "Infantry Anti-Tank Team","equipmentId": "su-northag-infantry-anti-tank-team" }
+      ],
+      "specialRules": [
+        {"name": "Scout"}
+      ], 
+      "optionGroupLimit": [
+{ "ids": ["su-northag-fsu-armoured-reconnaissance-patrol-1", "su-northag-fsu-armoured-reconnaissance-patrol-2"], "min": 0, "max": 1 } 
+],  
+  "options": [
+{
+          "id": "su-northag-fsu-armoured-reconnaissance-patrol-1",
+          "name": "Infantry Teams ride in BTR-60",
+          "points": 0,
+          "br": 0,
+          
+          "composition": 
+          [ 
+          {"qty": 1, "name": "BTR-60","equipmentId": "su-northag-btr-60", "mode": "append"}
+          ]
+},
+{
+          "id": "su-northag-fsu-armoured-reconnaissance-patrol-2",
+          "name": "Infantry Teams ride in BTR-70",
+          "points": 0,
+          "br": 0,
+          
+          "composition": 
+          [ 
+          {"qty": 1, "name": "BTR-70","equipmentId": "su-northag-btr-70", "mode": "append"}
+          ]
+},
+    {
+          "id": "su-northag-fsu-armoured-reconnaissance-patrol-3",
+          "name": "Infantry Teams ride in BMP-1",
+          "points": 9,
+          "br": 0,
+          
+          "composition": 
+          [ 
+          {"qty": 1, "name": "BMP-1","equipmentId": "su-northag-bmp-1", "mode": "append"}
+          ]
+},
+    {
+          "id": "su-northag-fsu-armoured-reconnaissance-patrol-4",
+          "name": "Infantry Teams ride in BMP-2",
+          "points": 13,
+          "br": 0,
+          
+          "composition": 
+          [ 
+          {"qty": 1, "name": "BMP-2","equipmentId": "su-northag-bmp-2", "mode": "append"}
+          ]
+}
+]
+},
+{
+      "id": "su-northag-fsu-marked-minefield",
+      "name": "Marked Minefield",
+      "category": "Forward Screen Units",
+      "minQty": 0,
+      "maxQty": 1,
+      "points": 15,
+      "br": 0,
+      "notes": "A single, marked mixed minefield (anti-tank and anti-personel mines).",
+      "unitComposition": [],
+      "specialRules": [
+        {"name": "Forward Deployed"}
+      ],
+  "options": []
+    },
+{
+      "id": "su-northag-fsu-hidden-minefield",
+      "name": "Hidden Minefield",
+      "category": "Forward Screen Units",
+      "minQty": 0,
+      "maxQty": 1,
+      "points": 30,
+      "br": 0,
+      "notes": "A single, unmarked mixed minefield (anti-tank and anti-personel mines).",
+      "unitComposition": [],
+      "specialRules": [
+        {"name": "Forward Deployed"}
+      ],
+  "options": []
+    },
+{
+      "id": "su-northag-fsu-bridge-demolition",
+      "name": "Bridge Demolition",
+      "category": "Forward Screen Units",
+      "minQty": 0,
+      "maxQty": 1,
+      "points": 10,
+      "morale": "",
+      "br": 0,
+      "notes": "A single bridge, anywhere on the table, has aleady been wired with a demolition charge. Before the start of the game write down which bridge has been wired. At teh start if any of his turns, the British player may detonate the bridge. Roll a dice. On a 2+ the bridge is destroyed. On a 1 teh demolition charge fails to go off.",
+      "unitComposition": [],
+      "specialRules": [],
+      
+      "options": []
+    },
+{
+      "id": "su-northag-fsu-atgm-dug-out",
+      "name": "ATGM Dug-Out",
+      "category": "Forward Screen Units",
+      "minQty": 0,
+      "maxQty": 1,
+      "points": 17,
+      "br": 1,
+      "morale": "C",
+      "Notes":"The cover is lost of the unit moves.", 
+      "unitComposition": [
+        {"qty": 1, "name": "Infantry Weapons Team ","equipmentId": "su-northag-infantry-weapons-team"},
+        {"qty": 1, "name": "AT-3 Sagger","equipmentId": "su-northag-at-3-sagger"}
+      ],
+  
+      "specialRules": [
+        {"name": "Ambush"},
+         {"name": "Dug-in"}
+      ],
+      
+      "options": [
+{
+          "id": "su-northag-fsu-atgm-dug-out-1",
+          "name": "Replace AT-3 Sagger with AT-4 Spigot",
+          "points": 4,
+          "br": 0,
+          
+          "composition": 
+          [ 
+          {"qty": 1, "name": "AT-4 Spigot","equipmentId": "su-northag-at-4-spigot", "mode": "modify", "replaces": "AT-3 Sagger"}
+          ]
+}
+]
+    },
+{
+      "id": "su-northag-fsu-anti-tank-gun-battery-dug-out",
+      "name": "Anti-Tank Gun Battery Dug-Out",
+      "category": "Forward Screen Units",
+      "minQty": 0,
+      "maxQty": 2,
+      "points": 26,
+      "br": 2,
+      "morale": "C",
+      "unitComposition": [
+        {"qty": 2, "name": "T-12 100mm anti-tank guns","equipmentId": "su-northag-100mm-t-12" }
+      ],
+      "specialRules": [
+        {"name": "Ambush"},
+        {"name": "Dug-in"}
+      ], 
+},
+{
+      "id": "su-northag-fsu-fortified-building",
+      "name": "Fortified Building",
+      "category": "Forward Screen Units",
+      "minQty": 0,
+      "maxQty": 3,
+      "points": 20,
+      "br": 0,
+      "notes": "Place a single small building anywhere in your deployment. It has alredy been fortified for defence amd gives Infantry units inside a 3+ Cover Save",
+      "unitComposition": [],
+      "specialRules": [],
+      
+      "options": []
+    },
+        {
+      "id": "su-northag-fsu-smg-dug-out",
+      "name": "sMG Dug-Out",
+      "category": "Forward Screen Units",
+      "minQty": 0,
+      "maxQty": 2,
+      "points": 9,
+      "morale": "C",
+      "br": 1,
+      "notes": "",
+      "unitComposition": [
+         {"qty": 1, "name": "Infantry Weapons Team with a tripod PKM (Infantry sPKM Team) deployed in a dug-out. The cover is lost if the unit moves.","equipmentId": "su-northag-infantry-spkm-team"}
+        
+      ],
+      "specialRules": [
+        {"name": "Ambush"},
+        {"name": "Dug-in"}
+      ],
+      "options": []
+    },
+    
+
+
+
+
+
+  
+    {
+      "id": "su-northag-vu-chieftain-troop",
+      "name": "Chieftain Troop",
+      "category": "Vanguard Unit",
+      "minQty": 0,
+      "maxQty": 1,
+      "points": 129,
+      "br": 9,
+      "morale": "C",
+      "unitComposition": [{"qty": 3, "name": "Mk9 Chieftains","equipmentId": "su-northag-mk9-chiftain"}],
+      "specialRules": [{"name": "Advanced Gunnery"},{"name": "Advanced Sights"},
+        {"name": "Unreliable"}],
+      
+      "options": [
+        { "id": "su-northag-vu-chieftain-troop-1", "name": "Upgrade all Chieftains to Stillbrew", "pointsPerQty": 4, "br": 0, "composition": [{"qty": 3, "name": "Mk9 Chieftains (Stillbrew Armour)", "mode": "modify", "replaces": "Mk9 Chieftains","equipmentId": "su-northag-mk9-chiftain-stillbrew" }] }, 
+        { "id": "su-northag-vu-chieftain-troop-2", "name": "Add 1 additional Mk9 Chieftain", "points": 43, "br": 3, "composition": [{"qtyChange": 1, "mode": "modify"}] }
+      ]
+    },
+    {
+      "id": "su-northag-vu-mechanised-infantry-platoon",
+      "name": "Mechanised Infantry Platoon",
+      "category": "Vanguard Unit",
+      "minQty": 0,
+      "maxQty": 1,
+      "points": 69,
+      "br": 12,
+      "morale": "C",
+      "optionGroupLimit": [
+
+{ "ids": ["su-northag-vu-mechanised-infantry-platoon-1", "su-northag-vu-mechanised-infantry-platoon-2", "su-northag-vu-mechanised-infantry-platoon-3"], "min": 1, "max": 1 }, 
+{ "ids": ["su-northag-vu-mechanised-infantry-platoon-4", "su-northag-vu-mechanised-infantry-platoon-5"], "min": 0, "max": 1 } 
+
+],
+      "unitComposition": [
+        {"qty": 7, "name": "Infantry Fire Team","equipmentId": "su-northag-infantry-fire-team" },
+         {"qty": 4, "name": "FV432","equipmentId": "su-northag-fv432" }
+      ],
+      "specialRules": [
+        {"name": "Advanced Gunnery"},
+        {"name": "Advanced Sights"}
+      ],
+      
+       "upgrades": [
+       
+      ],
+      "options": [
+        {
+          "id": "su-northag-vu-mechanised-infantry-platoon-1",
+          "name": "sGPMG Weapons Team",
+          "points": 4,
+          "br": 0,
+          
+          "composition": [ 
+          {"qty": 1, "name": "sGPMG Weapons Team)", "mode": "append","equipmentId": "su-northag-infantry-sgpmg-team"}
+          ]
+        },
+        {
+          "id": "su-northag-vu-mechanised-infantry-platoon-2",
+          "name": "Sniper Team",
+          "points": 6,
+          "br": 0,
+          
+          "composition": [
+            {"qty": 1, "name": "Sniper Team", "mode": "append","equipmentId": "su-northag-infantry-sniper-team"}
+          ]
+        },
+        {
+          "id": "su-northag-vu-mechanised-infantry-platoon-3",
+          "name": "Carl Gustav Weapons Team",
+          "points": 8,
+          "br": 0,
+          
+          "composition": [
+            {"qty": 1, "name": "Carl gustav Weapons Team", "mode": "append","equipmentId": "su-northag-carl-gustav"}
+          ]
+        },
+         { "id": "su-northag-vu-mechanised-infantry-platoon-4", "name": "MILAN ATGM Weapons Team", "composition": [{"qty": 1, "name": "MILAN ATGM Weapons Team", "mode": "append","equipmentId": "su-northag-milan"},  {"qty": 1, "name": "FV103 Spartan","equipmentId": "su-northag-fv103-spartan" }], "points": 16, "br": 2, "morale": "C"},
+        { "id": "su-northag-vu-mechanised-infantry-platoon-5", "name": "Blowpipe MANPAD Weapons Team", "composition": [{"qty": 1, "name": "Blowpipe MANPAD Weapons Team","mode": "append","equipmentId": "su-northag-blowpipe" },{"qty": 1, "name": "FV103 Spartan","equipmentId": "su-northag-fv103-spartan"}], "points": 11, "br": 2, "morale": "C" }
+        
+      ]
+    },
+    {
+      "id": "su-northag-mc-chieftain-troop",
+      "name": "Chieftain Troop",
+      "category": "Main Column",
+      "minQty": 0,
+      "maxQty": 1,
+      "points": 129,
+      "br": 9,
+      "morale": "C",
+      "unitComposition": [{"qty": 3, "name": "Mk9 Chieftains","equipmentId": "su-northag-mk9-chiftain" }],
+      "specialRules": [{"name": "Advanced Gunnery"},{"name": "Advanced Sights"}],
+      
+      "options": [
+        { "id": "su-northag-mc-chieftain-troop-1", "name": "Upgrade all Chieftains to Stillbrew", "pointsPerQty": 4, "br": 0, "composition": [{"qty": 3, "name": "Mk9 Chieftains (Stillbrew Armour)", "mode": "modify", "replaces": "Mk9 Chieftains","equipmentId": "su-northag-mk9-chiftain-stillbrew" }] }, 
+        { "id": "su-northag-mc-chieftain-troop-2", "name": "Add 1 additional Mk9 Chieftain", "points": 43, "br": 3, "composition": [{"qtyChange": 1, "mode": "modify"}] }
+      ]
+    },
+    {
+      "id": "su-northag-mc-battlegroup-commander",
+      "name": "Battlegroup Commander",
+      "category": "Main Column",
+      "minQty": 0,
+      "maxQty": 1,
+      "points": 22,
+      "br": 4,
+      "morale": "C",
+      "unitComposition": [
+        {"qty": 1, "name": "Infantry Command Team","equipmentId": "su-northag-infantry-command-team" },
+        {"qty": 1, "name": "FV432","equipmentId": "su-northag-fv432" }
+      ],
+      "specialRules": [{"name": "Senior Officer"}],
+     "options": [
+        { "id": "su-northag-mc-battlegroup-commander-1", "name": "Ferret Armoured Car", "points": 0, "br": 0, "composition": [{"qty": 1, "name": "Ferret Armoured Car", "equipmentId": "su-northag-fv701-ferret"}] }, 
+        { "id": "su-northag-mc-battlegroup-commander-2", "name": "Mk9 Chieftain (Stillbrew)", "points": 33, "br": 1, "composition": [{"qty": 1, "name": "Mk9 Chieftain (Stillbrew)","equipmentId": "su-northag-mk9-chiftain-stillbrew" }] }
+      ],
+"optionGroupLimit": [
+
+{ "ids": ["su-northag-mc-battlegroup-commander-1", "su-northag-mc-battlegroup-commander-2"], "min": 0, "max": 1 }
+
+]
+    },
+    {
+      "id": "su-northag-mc-mechanised-infantry-platoon",
+      "name": "Mechanised Infantry Platoon",
+      "category": "main Column",
+      "minQty": 0,
+      "maxQty": 1,
+      "points": 69,
+      "br": 12,
+      "morale": "C",
+      "optionGroupLimit": [
+
+{ "ids": ["su-northag-mc-mechanised-infantry-platoon-1", "su-northag-mc-mechanised-infantry-platoon-2", "su-northag-mc-mechanised-infantry-platoon-3"], "min": 1, "max": 1 }, 
+{ "ids": ["su-northag-mc-mechanised-infantry-platoon-4", "su-northag-mc-mechanised-infantry-platoon-5"], "min": 0, "max": 1 } 
+
+],
+      "unitComposition": [
+        {"qty": 7, "name": "Infantry Fire Team","equipmentId": "su-northag-infantry-fire-team" },
+         {"qty": 4, "name": "FV432","equipmentId": "su-northag-fv432" }
+      ],
+      "specialRules": [
+        {"name": "Advanced Gunnery"},
+        {"name": "Advanced Sights"}
+      ],
+      
+       "upgrades": [
+       
+      ],
+      "options": [
+        {
+          "id": "su-northag-mc-mechanised-infantry-platoon-1",
+          "name": "sGPMG Weapons Team",
+          "points": 4,
+          "br": 0,
+          
+          "composition": [ 
+          {"qty": 1, "name": "sGPMG Weapons Team)", "mode": "append","equipmentId": "su-northag-infantry-sgpmg-team"}
+          ]
+        },
+        {
+          "id": "su-northag-mc-mechanised-infantry-platoon-2",
+          "name": "Sniper Team",
+          "points": 6,
+          "br": 0,
+          
+          "composition": [
+            {"qty": 1, "name": "Sniper Team", "mode": "append","equipmentId": "su-northag-infantry-sniper-team"}
+          ]
+        },
+        {
+          "id": "su-northag-mc-mechanised-infantry-platoon-3",
+          "name": "Carl Gustav Weapons Team",
+          "points": 8,
+          "br": 0,
+          
+          "composition": [
+            {"qty": 1, "name": "Carl gustav Weapons Team", "mode": "append","equipmentId": "su-northag-carl-gustav"}
+          ]
+        },
+         { "id": "su-northag-mc-mechanised-infantry-platoon-4", "name": "MILAN ATGM Weapons Team", "composition": [{"qty": 1, "name": "MILAN ATGM Weapons Team", "mode": "append","equipmentId": "su-northag-milan"},  {"qty": 1, "name": "FV103 Spartan","equipmentId": "su-northag-fv103-spartan"}], "points": 16, "br": 2, "morale": "C"},
+        { "id": "su-northag-mc-mechanised-infantry-platoon-5", "name": "Blowpipe MANPAD Weapons Team", "composition": [{"qty": 1, "name": "Blowpipe MANPAD Weapons Team","mode": "append","equipmentId": "su-northag-blowpipe" },{"qty": 1, "name": "FV103 Spartan","equipmentId": "su-northag-fv103-spartan"}], "points": 11, "br": 2, "morale": "C" }
+        
+      ]
+    },
+    {
+      "id": "su-northag-mc-tactical-command-centre",
+      "name": "Tactical Command Centre",
+      "category": "Main Column",
+      "minQty": 0,
+      "maxQty": 1,
+      "points": 16,
+      "br": 3,
+      "morale": "C",
+      "unitComposition": [
+        {"qty": 1, "name": "Infantry Command Team","equipmentId": "su-northag-infantry-command-team"}
+      ],
+      "specialRules": [
+        {"name": "Officer"},
+         {"name": "Communications"}
+      ],
+      "unlocks": ["su-northag-mc-ambulance",
+"su-northag-mc-supply-truck",
+"su-northag-mc-ground-surveillance-radar-team",
+"su-northag-mc-electronic-warfare-team",
+"su-northag-mc-forward-air-controller"
+      ],
+      "optionGroupLimit": [
+
+{ "ids": ["su-northag-mc-tactical-command-centre-1", "su-northag-mc-tactical-command-centre-2"], "min": 0, "max": 1 }
+
+],
+      "options": [
+        {
+          "id": "su-northag-mc-tactical-command-centre-1",
+          "name": "Infantry Command Team rides in FV439",
+          "points": 0,
+          "br": 0,
+          "composition": [
+              {"qty": 1, "name": "FV439", "mode": "append","equipmentId": "su-northag-fv439" }  
+            ]
+          },
+       {
+          "id": "su-northag-mc-tactical-command-centre-2",
+          "name": "Infantry Command Team rides in FV105 Sultan",
+          "points": 0,
+          "br": 0,
+          "composition": [
+              {"qty": 1, "name": "FV105 Sultan","mode": "append","equipmentId": "su-northag-fv105-sultan"}
+          ]
+            }
+          ]
+        },
+  {
+      "id": "su-northag-mc-forward-air-controller",
+      "name": "Forward Air Controller",
+      "category": "Main Column",
+    "hiddenUntilUnlocked": true,
+      "minQty": 0,
+      "maxQty": 1,
+      "points": 13,
+      "br": 2,
+      "morale": "C",
+      "unitComposition": [
+        {"qty": 1, "name": "Infantry Command Team","equipmentId": "su-northag-infantry-command-team"},
+        {"qty": 1, "name": "Land Rover","equipmentId": "su-northag-land-rover"}
+      ],
+      "specialRules": [
+        {"name": "Officer"},
+         {"name": "Air Spotter"}
+      ],
+      "optionGroupLimit": [
+
+{ "ids": ["su-northag-mc-forward-air-controller-1", "su-northag-mc-forward-air-controller-2"], "min": 0, "max": 1 }
+
+],
+      "options": [
+        {
+          "id": "su-northag-mc-forward-air-controller-1",
+          "name": "Replace Infantry Command Team and Land Rover with FV105 Sultam",
+          "points": 8,
+          "br": 1,
+          "composition": [
+              {"qty": 1, "name": "FV105", "mode": "modify", "replaces": "Land Rover",  "equipmentId": "su-northag-fv105-sultan" }  
+            ]
+          },
+       {
+          "id": "su-northag-mc-forward-air-controller-2",
+          "name": "Replace Land Rover with Ferret Armoured Car",
+          "points": 0,
+          "br": 0,
+          "composition": [
+              {"qty": 1, "name": "Ferret Armoured Car","equipmentId": "su-northag-fv701-ferret" }
+          ]
+            }
+          ]
+  },
+{
+      "id": "su-northag-mc-electronic-warfare-team",
+      "name": "Electronic Warfare Team",
+      "category": "Main Column",
+      "hiddenUntilUnlocked": true,
+      "minQty": 0,
+      "maxQty": 1,
+      "points": 16,
+      "br": 3,
+      "morale": "C",
+      "unitComposition": [
+        {"qty": 1, "name": "Infantry Command Team","equipmentId": "su-northag-infantry-command-team"}
+       ],
+      "specialRules": [
+        {"name": "Officer"},
+         {"name": "Electronic Warfare"}
+      ],
+      "optionGroupLimit": [
+
+{ "ids": ["su-northag-mc-electronic-warfare-team-1", "su-northag-mc-electronic-warfare-team-2"], "min": 0, "max": 1 }
+
+],
+      "options": [
+    {
+          "id": "su-northag-mc-electronic-warfare-team-1",
+          "name": "Infantry Command Team rides in FV439",
+          "points": 0,
+          "br": 0,
+          "composition": [
+              {"qty": 1, "name": "FV439", "mode": "append","equipmentId": "su-northag-fv439" }  
+            ]
+          },
+       {
+          "id": "su-northag-mc-electronic-warfare-team-2",
+          "name": "Infantry Command Team rides in FV105 Sultan",
+          "points": 0,
+          "br": 0,
+          "composition": [
+              {"qty": 1, "name": "FV105 Sultan","mode": "append","equipmentId": "su-northag-fv105-sultan" }
+          ]
+            }
+          ]
+},
+{
+      "id": "su-northag-mc-ground-surveillance-radar-team",
+      "name": "Ground Surveillance Radar Team",
+      "category": "Main Column",
+      "hiddenUntilUnlocked": true,
+      "minQty": 0,
+      "maxQty": 1,
+      "points": 16,
+      "br": 3,
+      "morale": "C",
+      "unitComposition": [
+        {"qty": 1, "name": "Infantry Command Team","equipmentId": "su-northag-infantry-command-team"},
+        {"qty": 1, "name": "Surveillance Radar Team", "equipmentId": "su-northag-infantry-command-team"},
+        {"qty": 1, "name": "SFV103 Spartan","equipmentId": "su-northag-fv103-spartan" }
+       ],
+      "specialRules": [
+        {"name": "Officer"},
+         {"name": "Electronic Warfare"}
+      ]
+},
+{
+      "id": "su-northag-mc-supply-truck",
+      "name": "Supply Truck",
+      "category": "Main Column",
+      "hiddenUntilUnlocked": true,
+      "minQty": 0,
+      "maxQty": 1,
+      "points": 9,
+      "br": 0,
+      "morale": "C",
+      "unitComposition": [
+        {"qty": 1, "name": "Truck", "equipmentId": "su-northag-bedford-mk4-truck"}
+       ],
+      "specialRules": [
+        {"name": "Resupply"}
+      ]
+},
+{
+      "id": "su-northag-mc-ambulance",
+      "name": "Ambulance",
+      "category": "Main Column",
+      "hiddenUntilUnlocked": true,
+      "minQty": 0,
+      "maxQty": 1,
+      "points": 10,
+      "br": 0,
+      "morale": "C",
+      "unitComposition": [
+       ],
+      "specialRules": [
+        {"name": "Ambulance"}
+      ],
+      "optionGroupLimit": [
+
+{ "ids": ["su-northag-mc-ambulance-1", "su-northag-mc-ambulance-2"], "min": 0, "max": 1 }
+
+],
+      "options": [
+    {
+          "id": "su-northag-mc-ambulance-1",
+          "name": "FV104 Samaritan",
+          "points": 0,
+          "br": 0,
+          "composition": [
+              {"qty": 1, "name": "FV104 Samaritan", "equipmentId": "su-northag-fv104-samaritan"}  
+            ]
+          },
+       {
+          "id": "su-northag-mc-ambulance-2",
+          "name": "FV432 Ambulance",
+          "points": 0,
+          "br": 0,
+          "composition": [
+              {"qty": 1, "name": "FV432 Ambulance", "equipmentId": "su-northag-fv432-ambulance"}
+          ]
+            }
+          ]
+},
+    {
+      "id": "su-northag-mc-military-police-team",
+      "name": "Military Police Team",
+      "category": "Main Column",
+      "minQty": 0,
+      "maxQty": 1,
+      "points": 18,
+      "br": 2,
+      "morale": "C",
+      "unitComposition": [
+        {"qty": 1, "name": "Infantry Command Team","equipmentId": "su-northag-infantry-command-team" },
+        {"qty": 1, "name": "Land Rover","equipmentId": "su-northag-land-rover"}
+      ],
+      "specialRules": [
+        {"name": "Officer"},
+         {"name": "Traffic Control"}
+      ],
+      
+      "options": []
+    },
+    {
+      "id": "su-northag-mc-forward-observation-officer",
+      "name": "Forward Observation Officer",
+      "category": "Main Column",
+      "minQty": 0,
+      "maxQty": 1,
+      "points": 18,
+      "br": 2,
+      "morale": "C",
+      "unitComposition": [
+        {"qty": 1, "name": "Infantry Command Team","equipmentId": "su-northag-infantry-command-team" },
+        {"qty": 1, "name": "Land Rover","equipmentId": "su-northag-land-rover"}
+      ],
+      "specialRules": [
+        {"name": "Officer"},
+         {"name": "Artillery Spotter"}
+      ],
+      
+      "optionGroupLimit": [
+
+{ "ids": ["su-northag-mc-forward-observation-officer-1", "su-northag-mc-forward-observation-officer-2"], "min": 0, "max": 1 }
+
+],
+      "options": [
+        {
+          "id": "su-northag-mc-forward-observation-officer-1",
+          "name": "Replace Land Rover with FV432",
+          "points": 4,
+          "br": 1,
+          
+          "composition": [
+              {"qty": 1, "name": "FV432", "mode": "modify", "replaces": "Land Rover","equipmentId": "su-northag-fv432" }  
+            ]
+          },
+       {
+          "id": "su-northag-mc-forward-observation-officer-2",
+          "name": "Replace Infantry Command Team and Land Rover with Ferret Armoured Car",
+
+          "points": 0,
+          "br": 0,
+          
+          "composition": [
+              {"qty": 1, "name": "Ferret Armoured Car","equipmentId": "su-northag-fv701-ferret" }
+          ]
+            }
+          ]
+        },
+{
+      "id": "su-northag-mc-guided-weapons-carrier-section",
+      "name": "Guided Weapons Carrier Section", 
+      "category": "Main Column",
+      "minQty": 0,
+      "maxQty": 1,
+      "points": 56,
+      "br": 4,
+      "morale": "C",
+      "unitComposition": [
+        {"qty": 2, "name": "FV438 Swingfires","equipmentId": "su-northag-fv438-swingfire" }
+      ],
+      "specialRules": [{"name": "Ambush"}],
+      
+      "options": []
+    },
+    {
+      "id": "su-northag-mc-surface-to-air-missile-launcher",
+      "name": "Surface to Air Missile Launcher", 
+      "category": "Main Column",
+      "minQty": 0,
+      "maxQty": 1,
+      "points": 14,
+      "br": 1,
+      "morale": "C",
+      "unitComposition": [
+        {"qty": 1, "name": "Infantry Weapons Team","equipmentId": "su-northag-infantry-Weapons-team" },
+        {"qty": 1, "name": "Towed Rapier SAM","equipmentId": "su-northag-rapier" },
+        {"qty": 1, "name": "Land Rover (1 tonne)","equipmentId": "su-northag-land-rover-1-tonne"}
+      ],
+      "specialRules": [{"name": "AA"}],
+      
+      "options": [
+        {
+          "id": "su-northag-mc-surface-to-air-missile-launcher-1",
+          "name": "Replace Infantry Weapon Team, Towed Rapier SAM and Land Rover (1 tonne) with Tracked Rapier",
+          "points": 2,
+          "restricted": "yes",
+          "br": 0,
+          
+          "composition": [
+              {"qty": 1, "name": "Tracked Rapier"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "su-northag-mc-mine-clearance-vehicle",
+      "name": "Mine Clearance Vehicle", 
+      "category": "Main Column",
+      "minQty": 0,
+      "maxQty": 1,
+      "points": 12,
+      "br": 1,
+      "morale": "C",
+      "unitComposition": [
+        {"qty": 1, "name": "FV180 CET","equipmentId": "su-northag-fv180-cet" },
+        {"qty": 1, "name": "Giant Viper"}
+      ],
+      "specialRules": [
+        {"name": "Engineer"}
+      ],
+      
+      "options": []
+    },
+{
+      "id": "su-northag-mc-81mm-mortar-battery",
+      "name": "81mm Mortar Battery", 
+      "category": "Main Column",
+      "minQty": 0,
+      "maxQty": 1,
+      "points": 48,
+      "br": 0,
+      "morale": "",
+      "notes": "Requires a unit with the Mortar Spotter (or Artillery Spotter) rule to use.",
+      "unitComposition": [
+        {"qty": 6, "name": "81mm Mortar","equipmentId": "su-northag-81mm-mortar" }
+      ],
+      "specialRules": [
+        {"name": "Off-table"}
+      ],
+      
+      "options": []
+    },
+{
+      "id": "su-northag-mc-105mm-abbot-battery",
+      "name": "105mm Abbot Battery", 
+      "category": "Main Column",
+      "minQty": 0,
+      "maxQty": 1,
+      "points": 64,
+      "br": 0,
+      "morale": "",
+      "notes": "Requires a unit with the Artillery Spotter rule to use.",
+      "unitComposition": [
+        {"qty": 4, "name": "105mm Abbot","equipmentId": "su-northag-105mm" }
+      ],
+      "specialRules": [
+        {"name": "Off-table"}
+      ],
+      
+      "options": []
+    },  
+    {
+      "id": "su-northag-afs-timed-harrier-gr3-air-strike",
+      "name": "Timed Harrier GR3 Air Strike", 
+      "category": "Additional Fire Support",
+      "minQty": 0,
+
+      "points": 20,
+      "br": 0,
+      "morale": "",
+      "notes": "A single air strike by a Harrier GR3 armed with four large bombs or four Marra 68mm multiple rocket pods",
+      "unitComposition": [ ],
+      "specialRules": [],
+      "optionGroupLimit": [{ "ids": ["su-northag-afs-timed-harrier-gr3-air-strike-1", "su-northag-afs-timed-harrier-gr3-air-strike-2"], "min": 0, "max": 1 }],
+      "options": [
+        {
+          "id": "su-northag-afs-timed-harrier-gr3-air-strike-1",
+          "name": "Large Bombs",
+          "points": 0,
+          "br": 0,
+          
+          "composition": [
+              {"qty": 1, "name": "Harrier GR3","equipmentId": "su-northag-harrier-gr3-1"},{"qty": 4, "name": "Large Bombs"}
+          ]
+        },
+        {
+          "id": "su-northag-afs-timed-harrier-gr3-air-strike-2",
+          "name": "68mm Multiple Rocket Pods",
+          "points": 0,
+          "br": 0,
+          
+          "composition": [
+              {"qty": 1, "name": "Harrier GR3","equipmentId": "su-northag-harrier-gr3-2"},{"qty": 4, "name": "68mm Multiple Rocket Pods"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "su-northag-afs-timed-jaguar-gr1-air-strike",
+      "name": "Timed Jaguar GR1 Air Strike", 
+      "category": "Additional Fire Support",
+      "minQty": 0,
+
+      "points": 40,
+      "br": 0,
+      "morale": "",
+      "notes": "A single air strike by a Jaguar GR1 armed with eight large bombs",
+      "unitComposition": [
+        {"qty": 1, "name": "Jaguar GR1","equipmentId": "su-northag-jaguar-gr1" },{"qty": 4, "name": "Large Bombs"}
+      ],
+      "specialRules": [],
+      
+      "options": []
+    },
+    {
+      "id": "su-northag-afs-timed-tornado-gr1-air-strike",
+      "name": "Timed Tornado GR1 Air Strike", 
+      "category": "Additional Fire Support",
+      "minQty": 0,
+
+      "points": 30,
+      "br": 0,
+      "morale": "",
+      "notes": "A single air strike by a Tornado GR1 armed with four very large bombs or four cluster bombs",
+      "unitComposition": [],
+      "specialRules": [],
+      "optionGroupLimit": [{ "ids": ["su-northag-afs-timed-tornado-gr1-air-strike-1", "su-northag-afs-timed-tornado-gr1-air-strike-2"], "min": 0, "max": 1 }],
+      "options": [
+        {
+          "id": "su-northag-afs-timed-tornado-gr1-air-strike-1",
+          "name": "Very Large Bombs",
+          "points": 0,
+          "br": 0,
+          
+          "composition": [
+              {"qty": 1, "name": "Tornado GR1","equipmentId": "su-northag-tornado-gr1-1" },{"qty": 4, "name": "Very Large Bombs"}
+          ]
+        },
+        {
+          "id": "su-northag-afs-timed-tornado-gr1-air-strike-2",
+          "name": "Cluster Bombs",
+          "points": 0,
+          "br": 0,
+          
+          "composition": [
+              {"qty": 1, "name": "Tornado GR1","equipmentId": "su-northag-tornado-gr1-2"},{"qty": 4, "name": "Cluster Bombs"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "su-northag-afs-combat-air-patrol",
+      "name": "Combat Air Patrol", 
+      "category": "Additional Fire Support",
+      "minQty": 0,
+      "maxQty": 1,
+      "points": 30,
+      "br": 0,
+      "morale": "",
+      "notes": "",
+      "unitComposition": [],
+      "specialRules": [],
+      
+      "options": []
+    },
+    {
+      "id": "su-northag-afs-interdiction-air-strike",
+      "name": "Interdiction Air Strike", 
+      "category": "Additional Fire Support",
+      "minQty": 0,
+      "maxQty": 1,
+      "points": 30,
+      "br": 0,
+      "morale": "",
+      "notes": "",
+      "unitComposition": [],
+      "specialRules": [],
+      
+      "options": []
+    },
+    {
+      "id": "su-northag-afs-counter-battery-air-strike-3+",
+      "name": "Counter Battery Air Strike (3+)", 
+      "category": "Additional Fire Support",
+      "minQty": 0,
+      "maxQty": 1,
+      "points": 10,
+      "br": 0,
+      "morale": "",
+      "notes": "",
+      "unitComposition": [],
+      "specialRules": [],
+      
+      "options": []
+    },
+    {
+      "id": "su-northag-afs-off-table-sam-cover",
+      "equipmentId": "su-northag-rapier", 
+      "name": "Off-table SAM Cover", 
+      "category": "Additional Fire Support",
+      "minQty": 0,
+      "maxQty": 3,
+      "points": 15,
+      "br": 0,
+      "morale": "",
+      "notes": "A Rapier Battery deployed well behind the front lines of the battle area",
+      "unitComposition": [],
+      "specialRules": [{"name": "Off-table"},{"name": "AA (High)"}],
+      
+      "options": []
+    },
+{
+      "id": "su-northag-afs-counter-battery-fire-mission",
+      "name": "Counter Battery Fire Mission (4+)", 
+      "category": "Additional Fire Support",
+      "minQty": 0,
+
+      "points": 5,
+      "br": 0,
+      "morale": "",
+      "notes": "",
+      "unitComposition": [],
+      "specialRules": [],
+      
+      "options": []
+    },
+{
+      "id": "su-northag-afs-timed-105mm-artillery-strike",
+  "equipmentId": "su-northag-175mm",
+      "name": "Timed 105mm Artillery Strike", 
+      "category": "Additional Fire Support",
+      "minQty": 0,
+      "maxQty": 4,
+      "points": 12,
+      "br": 0,
+      "morale": "",
+      "notes": "A single strike by a battery of 4 105mm Abbot self-propelled guns.",
+      "unitComposition": [],
+      "specialRules": [],
+      
+      "options": []
+    },
+    {
+      "id": "su-northag-afs-timed-155mm-artillery-strike",
+      "equipmentId": "su-northag-155mm", 
+      "name": "Timed 155mm Artillery Strike", 
+      "category": "Additional Fire Support",
+      "minQty": 0,
+      "maxQty": 2,
+      "points": 18,
+      "br": 0,
+      "morale": "",
+      "notes": "A single strike by a battery of 4 155mm M109A2 self-propelled guns.",
+      "unitComposition": [],
+      "specialRules": [],
+      
+      "options": []
+    },
+    {
+      "id": "su-northag-afs-timed-175mm-artillery-strike",
+      "equipmentId": "su-northag-175mm", 
+      "name": "Timed 175mm Artillery Strike", 
+      "category": "Additional Fire Support",
+      "minQty": 0,
+      "maxQty": 1,
+      "points": 24,
+      "br": 0,
+      "morale": "",
+      "notes": "A single strike by a battery of 4 175mm M107 self-propelled guns.",
+      "unitComposition": [],
+      "specialRules": [],
+      
+      "options": []
+    },
+    {
+      "id": "su-northag-afs-timed-203mm-artillery-strike",
+      "equipmentId": "su-northag-203mm",
+      "name": "Timed 203mm Artillery Strike", 
+      "category": "Additional Fire Support",
+      "minQty": 0,
+      "maxQty": 1,
+      "points": 30,
+      "br": 0,
+      "morale": "",
+      "notes": "A single strike by a battery of 4 203mm M110 self-propelled guns.",
+      "unitComposition": [],
+      "specialRules": [],
+      
+      "options": []
+    },
+    {
+      "id": "su-northag-afs-timed-dpicm-artillery-strike",
+      "name": "Timed DPICM Artillery Strike", 
+      "category": "Additional Fire Support",
+      "minQty": 0,
+      "maxQty": 1,
+      "points": 44,
+      "restricted": "yes",
+      "br": 0,
+      "morale": "",
+      "notes": "A single strike by a battery of 4 105mm M109A2 self-propelled guns firing DPICM ammunitions.",
+      "unitComposition": [],
+      "specialRules": [],
+      
+      "options": []
+    },
+     {
+      "id": "su-northag-afs-cleared-for-chemical-attack",
+      "name": "Cleared for Chemical Attack", 
+      "category": "Additional Fire Support",
+      "minQty": 0,
+      "maxQty": 1,
+      "points": 10,
+      
+      "br": 0,
+      "morale": "",
+      "notes": "",
+      "unitComposition": [],
+      "specialRules": [],
+      
+      "options": []
+    },
+    {
+      "id": "su-northag-afs-critical-battlefield",
+      "name": "Critical Battlefield", 
+      "category": "Additional Fire Support",
+      "minQty": 0,
+      "maxQty": 1,
+      "points": 15,
+      
+      "br": 0,
+      "morale": "",
+      "notes": "",
+      "unitComposition": [],
+      "specialRules": [],
+      
+      "options": []
+    },
+    {
+      "id": "su-northag-afs-deployed-smoke-screen",
+      "name": "Deployed Smoke Screen", 
+      "category": "Additional Fire Support",
+      "minQty": 0,
+      "maxQty": 1,
+      "points": 20,
+      
+      "br": 0,
+      "morale": "",
+      "notes": "",
+      "unitComposition": [],
+      "specialRules": [],
+      
+      "options": []
+    },
+     {
+      "id": "su-northag-afs-vital-objective",
+      "name": "Vital Objective", 
+      "category": "Additional Fire Support",
+      "minQty": 0,
+      "maxQty": 1,
+      "points": 25,
+      
+      "br": 0,
+      "morale": "",
+      "notes": "",
+      "unitComposition": [],
+      "specialRules": [],
+      
+      "options": []
+    },
+{
+      "id": "reinforcement-request",
+      "name": "Reinforcement Request", 
+      "category": "(Optional) Reinforcement Requests",
+      "minQty": 1,
+      "maxQty": 1,
+      "points": 0,
+      
+      "br": 0,
+      "morale": "",
+      "notes": "",
+      "unitComposition": [],
+      "specialRules": [],
+      
+      "options": []
+    },
+    {
+      "id": "su-northag-orr-additional-reinforcement-request",
+      "name": "Additional Reinforcement Request", 
+      "category": "(Optional) Reinforcement Requests",
+      "minQty": 0,
+
+      "points": 30,
+      
+      "br": 0,
+      "morale": "",
+      "notes": "",
+      "unitComposition": [],
+      "specialRules": [],
+      
+      "options": []
+    }  
+  ],
   
   "equipment": [ 
   { 
