@@ -857,10 +857,10 @@
         { "id": "su-northag-mc-battlegroup-commander-1", "name": "BMP-1K", "points": 0, "br": 0, "composition": [{"qty": 1, "name": "BMP-1k", "equipmentId": "su-northag-bmp-1k"}] }, 
         { "id": "su-northag-mc-battlegroup-commander-2", "name": "BMP-2K", "points": 0, "br": 0, "composition": [{"qty": 1, "name": "BMP-2k", "equipmentId": "su-northag-bmp-2k"}] },
        { "id": "su-northag-mc-battlegroup-commander-3", "name": "T-62k", "points": 2, "br": 1, "composition": [{"qty": 1, "name": "T-62K", "mode": "modify", "replaces": ["BMP-1K","BMP-2k"],"equipmentId": "su-northag-t-62k" }] }, 
-        { "id": "su-northag-mc-battlegroup-commander-4", "name": "T-64AK", "points": 5, "br": 1, "composition": [{"qty": 1, "name": "T-64AK", "mode": "modify", replaces": ["BMP-1K","BMP-2k"],"equipmentId": "su-northag-t-64ak" }] },
-{ "id": "su-northag-mc-battlegroup-commander-5", "name": "T-64BK", "points": 14, "br": 1, "composition": [{"qty": 1, "name": "T-64BK", "mode": "modify", replaces": ["BMP-1K","BMP-2k"],"equipmentId": "su-northag-t-64bk" }] },
-        { "id": "su-northag-mc-battlegroup-commander-6", "name": "T-80K", "points": 8, "br": 1, "restricted": "yes", "composition": [{"qty": 1, "name": "T-80K", "mode": "modify", replaces": ["BMP-1K","BMP-2k"], "equipmentId": "su-northag-t-80k" }] },
-        { "id": "su-northag-mc-battlegroup-commander-7", "name": "T-80BK", "points": 20, "br": 0, "restricted": "yes", "composition": [{"qty": 1, "name": "T-80BK", "mode": "modify", replaces": ["BMP-1K","BMP-2k"],"equipmentId": "su-northag-t-80bk" }] }
+        { "id": "su-northag-mc-battlegroup-commander-4", "name": "T-64AK", "points": 5, "br": 1, "composition": [{"qty": 1, "name": "T-64AK", "mode": "modify", "replaces": ["BMP-1K","BMP-2k"],"equipmentId": "su-northag-t-64ak" }] },
+{ "id": "su-northag-mc-battlegroup-commander-5", "name": "T-64BK", "points": 14, "br": 1, "composition": [{"qty": 1, "name": "T-64BK", "mode": "modify", "replaces": ["BMP-1K","BMP-2k"],"equipmentId": "su-northag-t-64bk" }] },
+        { "id": "su-northag-mc-battlegroup-commander-6", "name": "T-80K", "points": 8, "br": 1, "restricted": "yes", "composition": [{"qty": 1, "name": "T-80K", "mode": "modify", "replaces": ["BMP-1K","BMP-2k"], "equipmentId": "su-northag-t-80k" }] },
+        { "id": "su-northag-mc-battlegroup-commander-7", "name": "T-80BK", "points": 20, "br": 0, "restricted": "yes", "composition": [{"qty": 1, "name": "T-80BK", "mode": "modify", "replaces": ["BMP-1K","BMP-2k"],"equipmentId": "su-northag-t-80bk" }] }
        
       ],
 "optionGroupLimits": [
