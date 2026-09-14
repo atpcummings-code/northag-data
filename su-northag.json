@@ -1220,7 +1220,7 @@
       ],
       "optionGroupLimits": [
 
-{ "groupName": "Choose Transport:","options": ["su-northag-mc-electronic-warfare-team-1", "su-northag-mc-electronic-warfare-team-2", "su-northag-mc-electronic-warfare-team-2"], "min": 0, "max": 1 }
+{ "groupName": "Choose Transport:","options": ["su-northag-mc-electronic-warfare-team-1", "su-northag-mc-electronic-warfare-team-2", "su-northag-mc-electronic-warfare-team-3"], "min": 0, "max": 1 }
 
 ],
       "options": [
@@ -1243,7 +1243,7 @@
             ]
           },
 		  {
-          "id": "su-northag-mc-electronic-warfare-team-2",
+          "id": "su-northag-mc-electronic-warfare-team-3",
           "name": "BTR-60PU",
           "points": 0,
           "br": 0,
