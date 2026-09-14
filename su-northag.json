@@ -8,10 +8,10 @@
  "units": [
   {
       "id": "su-northag-fsu-tank-recce-patrol",
-      "name": "Tank Recce Patrol",
+      "name": "Tank Recce Patrol", 
       "category": "Forward Screen Units",
       "minQty": 0,
-      "maxQty": 1,
+      "maxQty": 1,EE
       "points": 52,
       "br": 4,
       "morale": "C",
@@ -1980,35 +1980,35 @@
     "equipmentId": "su-northag-at-3-sagger", 
     "type": "weapon", 
     "weaponName": "AT-3 Sagger", 
-    "ammo": [{"AP": "-*,-*,5,5,5"}],
+    "ammo": [{"AP": "-,-,5,5,5"}],
     "notes": "*No effect under 30\"" 
   },
   { 
     "equipmentId": "su-northag-at-4-spigot", 
     "type": "weapon", 
     "weaponName": "AT-4 Spigot", 
-    "ammo": [{"AP": "-*,6,6,6,6"}],
+    "ammo": [{"AP": "-,6,6,6,6"}],
     "notes": "No effect under 30\""
   },
   { 
     "equipmentId": "su-northag-at-5-spandrel", 
     "type": "weapon", 
     "weaponName": "AT-5 Spandrel", 
-    "ammo": [{"AP": "-**,7,7,7,7"}],
+    "ammo": [{"AP": "-,7,7,7,7"}],
     "notes": "**No effect under 20\""
   },
   { 
     "equipmentId": "su-northag-at-6-spiral", 
     "type": "weapon", 
     "weaponName": "AT-6 Spiral", 
-    "ammo": [{"AP": "-**,8,8,8,8"}],
+    "ammo": [{"AP": "-,8,8,8,8"}],
     "notes": "**No effect under 20\""
   },
   { 
     "equipmentId": "su-northag-at-8-songster", 
     "type": "weapon", 
     "weaponName": "AT-8 Songster", 
-    "ammo": [{"AP": "-**,7,7,7,7"}],
+    "ammo": [{"AP": "-,7,7,7,7"}],
     "notes": "**No effect under 20\""
   },
   { 
