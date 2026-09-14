@@ -1007,6 +1007,7 @@
           "name": "BMP-2",
           "points": 16,
           "br": 0,
+		"requiresAny": ["su-northag-mc-motor-rifle-platoon-3"],
 		  "instanceLimit": 1,  
           "composition": [
             { "name": "BMP-2", "mode": "replace", "replaces": ["BTR-60", "BTR-70","BMP-1"], "keepQty": true }
