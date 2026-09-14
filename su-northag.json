@@ -615,7 +615,7 @@
           "composition": [
            {"qty": 1, "name": "Sniper Team", "mode": "append","equipmentId": "su-northag-sniper-team"}  
           ]
-         }, 
+         }
       ]
     },     
     {
