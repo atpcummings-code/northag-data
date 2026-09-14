@@ -566,7 +566,7 @@
           "name": "AT-3 Sagger ATGM Weapons Team",
           "points": 10,
           "br": 0,
-  "maxQty": 3,
+          "maxQty": 3,
           
           "composition": [
            {"qty": 1, "name": "AT-3 Sagger ATGM Weapons Team", "mode": "append","equipmentId": "su-northag-at-3-sagger"} 
@@ -584,7 +584,7 @@
           ]
         },
 {
-          "id": "su-northag-vu-motor-rifle-company-6",
+          "id": "su-northag-vu-motor-rifle-company-7",
           "name": "AGS-17 AGL Weapons Team",
           "points": 5,
           "br": 0,
@@ -595,7 +595,7 @@
           ]
         },
         {
-          "id": "su-northag-vu-motor-rifle-company-7",
+          "id": "su-northag-vu-motor-rifle-company-8",
           "name": "SA-7 Grail AA Weapons Team",
           "points": 8,
           "br": 0,
@@ -605,8 +605,8 @@
            {"qty": 1, "name": "SA-7 Grail AA Weapons Team", "mode": "append","equipmentId": "su-northag-sa-7-grail"}  
           ]
         },
-        
-          "id": "su-northag-vu-motor-rifle-company-7",
+        {
+          "id": "su-northag-vu-motor-rifle-company-9",
           "name": "Sniper Team",
           "points": 6,
           "br": 0,
@@ -615,10 +615,9 @@
           "composition": [
            {"qty": 1, "name": "Sniper Team", "mode": "append","equipmentId": "su-northag-sniper-team"}  
           ]
-        
+         }, 
       ]
-    }, 
-    
+    },     
     {
       "id": "su-northag-mc-chieftain-troop",
       "name": "Chieftain Troop",
