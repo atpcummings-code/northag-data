@@ -614,13 +614,13 @@
       ],
       "optionGroupLimits": [
 
-{ "groupName": "Choose vehicle:","options": ["uk-northag-mc-tactical-command-centre-1", "uk-northag-mc-tactical-command-centre-2"], "min": 0, "max": 1 }
+{ "groupName": "Choose vehicle Infantry Command Team rides is::","options": ["uk-northag-mc-tactical-command-centre-1", "uk-northag-mc-tactical-command-centre-2"], "min": 0, "max": 1 }
 
 ],
       "options": [
         {
           "id": "uk-northag-mc-tactical-command-centre-1",
-          "name": "Infantry Command Team rides in FV439",
+          "name": "FV439",
           "points": 0,
           "br": 0,
           "composition": [
@@ -629,7 +629,7 @@
           },
        {
           "id": "uk-northag-mc-tactical-command-centre-2",
-          "name": "Infantry Command Team rides in FV105 Sultan",
+          "name": "FV105 Sultan",
           "points": 0,
           "br": 0,
           "composition": [
@@ -779,7 +779,7 @@
       ],
       "optionGroupLimits": [
 
-{"groupName": "Choose vehicle","options": ["uk-northag-mc-ambulance-1", "uk-northag-mc-ambulance-2"], "min": 0, "max": 1 }
+{"groupName": "Choose vehicle", "options": ["uk-northag-mc-ambulance-1", "uk-northag-mc-ambulance-2"], "min": 0, "max": 1 }
 
 ],
       "options": [
