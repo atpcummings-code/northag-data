@@ -1723,7 +1723,7 @@
     "type": "weapon", 
     "weaponName": "AT-3 Sagger", 
     "ammo": [{"AP": "-*,-*,5,5,5"}],
-    "notes": "No effect under 30\"" 
+    "notes": "*No effect under 30\"" 
   },
   { 
     "equipmentId": "su-northag-at-4-spigot", 
