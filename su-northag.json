@@ -508,25 +508,18 @@
       "points": 132,
       "br": 30,
       "morale": "C",
-      "notes": "3 Motorised Rifle Platoons",
+      "notes": "3 Motorised Rifle Platoons. Each with 3 Infantry Fire Teams and 3 Infantry Anti-Tank Teams. in 3 BTR-60 or BTR-70",
       "optionGroupLimit": [
 
 { "ids": ["su-northag-vu-motor-rifle-company-1", "su-northag-vu-motor-rifle-company-2", "su-northag-vu-motor-rifle-company-3"], "min": 1, "max": 1 }, 
-{ "ids": ["su-northag-vu-mechanised-infantry-platoon-4", "su-northag-vu-mechanised-infantry-platoon-5"], "min": 0, "max": 1 } 
+{ "ids": ["su-northag-vu-motor-rifle-company-4", "su-northag-vu-motor-rifle-company-5", "su-northag-vu-motor-rifle-company-6", "su-northag-vu-motor-rifle-company-7", "su-northag-vu-motor-rifle-company-8", "su-northag-vu-motor-rifle-company-9"], "min": 0, "max": 6 } 
 
 ],
       "unitComposition": [
-        {"qty": 3, "name": "x3 Infantry Fire Teams","equipmentId": "su-northag-infantry-fire-team" },
-        {"qty": 3, "name": "x3 Infantry Anti-Tank Teams","equipmentId": "su-northag-infantry-anti-tank-team" }
+        {"qty": 9, "name": "Infantry Fire Teams","equipmentId": "su-northag-infantry-fire-team" },
+        {"qty": 9, "name": "Infantry Anti-Tank Teams","equipmentId": "su-northag-infantry-anti-tank-team" }
       ],
-      "specialRules": [
-        {"name": "Advanced Gunnery"},
-        {"name": "Advanced Sights"}
-      ],
-      
-       "upgrades": [
-       
-      ],
+      "specialRules": [],
       "options": [
         {
           "id": "su-northag-vu-motor-rifle-company-1",
@@ -535,17 +528,17 @@
           "br": 0,
           
           "composition": [ 
-          {"qty": 1, "name": "BTR-60)", "mode": "append","equipmentId": "su-northag-btr-60"}
+          {"qty": 9, "name": "BTR-60)", "mode": "append","equipmentId": "su-northag-btr-60"}
           ]
         },
         {
           "id": "su-northag-vu-motor-rifle-company-2",
           "name": "BTR-70",
-          "points": 6,
+          "points": 0,
           "br": 0,
           
           "composition": [
-            {"qty": 1, "name": "BTR-70", "mode": "append","equipmentId": "su-northag-btr-70"}
+            {"qty": 9, "name": "BTR-70", "mode": "append","equipmentId": "su-northag-btr-70"}
           ]
         },
         {
@@ -555,11 +548,73 @@
           "br": 0,
           
           "composition": [
-            {"qty": 1, "name": "BMP-1", "mode": "append","equipmentId": "su-northag-bmp-1"}
+            {"name": "BMP-1", "mode": "append","equipmentId": "su-northag-bmp-1"}
           ]
         },
-         { "id": "su-northag-vu-mechanised-infantry-platoon-4", "name": "MILAN ATGM Weapons Team", "composition": [{"qty": 1, "name": "MILAN ATGM Weapons Team", "mode": "append","equipmentId": "su-northag-milan"},  {"qty": 1, "name": "FV103 Spartan","equipmentId": "su-northag-fv103-spartan" }], "points": 16, "br": 2, "morale": "C"},
-        { "id": "su-northag-vu-mechanised-infantry-platoon-5", "name": "Blowpipe MANPAD Weapons Team", "composition": [{"qty": 1, "name": "Blowpipe MANPAD Weapons Team","mode": "append","equipmentId": "su-northag-blowpipe" },{"qty": 1, "name": "FV103 Spartan","equipmentId": "su-northag-fv103-spartan"}], "points": 11, "br": 2, "morale": "C" }
+         {
+          "id": "su-northag-vu-motor-rifle-company-4",
+          "name": sPKM GPMG Weapons Team",
+          "points": 4,
+          "br": 0,
+          "maxQty": 3,
+          "composition": [
+           {"qty": 1, "name": "sPKM Weapons Team", "mode": "append","equipmentId": "su-northag-infantry-spkm-team"},  
+          ]
+        },
+{
+          "id": "su-northag-vu-motor-rifle-company-5",
+          "name": "AT-3 Sagger ATGM Weapons Team",
+          "points": 10,
+          "br": 0,
+  "maxQty": 3,
+          
+          "composition": [
+           {"qty": 1, "name": "AT-3 Sagger ATGM Weapons Team", "mode": "append","equipmentId": "su-northag-at-3-sagger"},  
+          ]
+        },
+        {
+          "id": "su-northag-vu-motor-rifle-company-6",
+          "name": "AT-4 Spigot ATGM Weapons Team",
+          "points": 10,
+          "br": 0,
+          "maxQty": 3,
+          
+          "composition": [
+           {"qty": 1, "name": "AT-4 Spigot ATGM Weapons Team", "mode": "append","equipmentId": "su-northag-at-4-spigot"},  
+          ]
+        },
+{
+          "id": "su-northag-vu-motor-rifle-company-6",
+          "name": "AGS-17 AGL Weapons Team",
+          "points": 5,
+          "br": 0,
+  "maxQty": 3,
+          
+          "composition": [
+           {"qty": 1, "name": "AGS-17 AGL Weapons Team", "mode": "append","equipmentId": "su-northag-ags-17"},  
+          ]
+        },
+        {
+          "id": "su-northag-vu-motor-rifle-company-7",
+          "name": "SA-7 Grail AA Weapons Team",
+          "points": 8,
+          "br": 0,
+          "maxQty": 3,
+          
+          "composition": [
+           {"qty": 1, "name": "SA-7 Grail AA Weapons Team", "mode": "append","equipmentId": "su-northag-sa-7-grail"},  
+          ]
+        },
+        
+          "id": "su-northag-vu-motor-rifle-company-7",
+          "name": "Sniper Team",
+          "points": 6,
+          "br": 0,
+        "maxQty": 3,
+          
+          "composition": [
+           {"qty": 1, "name": "Sniper Team", "mode": "append","equipmentId": "su-northag-sniper-team"},  
+          ]
         
       ]
     }, 
