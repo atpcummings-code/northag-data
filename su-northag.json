@@ -508,7 +508,7 @@
       "points": 132,
       "br": 30,
       "morale": "C",
-      "notes": "3 Motorised Rifle Platoons"
+      "notes": "3 Motorised Rifle Platoons",
       "optionGroupLimit": [
 
 { "ids": ["su-northag-vu-motor-rifle-company-1", "su-northag-vu-motor-rifle-company-2", "su-northag-vu-motor-rifle-company-3"], "min": 1, "max": 1 }, 
