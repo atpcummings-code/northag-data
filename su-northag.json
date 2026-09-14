@@ -944,8 +944,9 @@
 { "groupName": "Choose Platoon Transports:", "options": ["su-northag-mc-motor-rifle-platoon-1", "su-northag-mc-motor-rifle-platoon-2"], "min": 1, "max": 1 }, 
 { "groupName": "Add up to 2 Infantry Weapons Teams:", "options": ["su-northag-mc-motor-rifle-platoon-4", "su-northag-mc-motor-rifle-platoon-5", "su-northag-mc-motor-rifle-platoon-6", "su-northag-mc-motor-rifle-platoon-7", "su-northag-mc-motor-rifle-platoon-8", "su-northag-mc-motor-rifle-platoon-9"], "min": 0, "max": 2 },
 { "groupName": "Choose Transports for Platoon 1 Weapons Teams", "options": ["su-northag-mc-motor-rifle-platoon-1c", "su-northag-mc-motor-rifle-platoon-2c"], "min": 1, "max": 1 }, 
- 
-{ "groupName": "Replace all BTRs with:", "options": ["su-northag-mc-motor-rifle-platoon-3"], "min": 0, "max": 1 }
+{ "groupName": "Replace all BTRs with:", "options": ["su-northag-mc-motor-rifle-platoon-3"], "min": 0, "max": 1 },
+{ "groupName": "Replace BMP-1s with BMP-2 (max 1 platoon):", "options": ["su-northag-mc-motor-rifle-platoon-3a"], "min": 0, "max": 1 }
+
 ],
       "unitComposition": [
         {"qty": 9, "name": "Infantry Fire Teams","equipmentId": "su-northag-infantry-fire-team" },
