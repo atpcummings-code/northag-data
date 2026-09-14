@@ -516,8 +516,8 @@
 
 ],
       "unitComposition": [
-        {"qty": 9, "name": "Infantry Fire Teams","equipmentId": "su-northag-infantry-fire-team" },
-        {"qty": 9, "name": "Infantry Anti-Tank Teams","equipmentId": "su-northag-infantry-anti-tank-team" }
+        {"qty": 3, "name": "x3 Infantry Fire Teams","equipmentId": "su-northag-infantry-fire-team" },
+        {"qty": 3, "name": "x3 Infantry Anti-Tank Teams","equipmentId": "su-northag-infantry-anti-tank-team" }
       ],
       "specialRules": [
         {"name": "Advanced Gunnery"},
