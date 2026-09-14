@@ -603,6 +603,114 @@
           "composition": [
            {"qty": 1, "name": "Sniper Team", "mode": "append","equipmentId": "su-northag-sniper-team"}  
           ]
+         },
+        {
+          "id": "su-northag-vu-motor-rifle-company-10",
+          "name": "sPKM GPMG Weapons Team",
+          "points": 4,
+          "br": 0,
+          "composition": [
+           {"qty": 1, "name": "sPKM Weapons Team", "mode": "append","equipmentId": "su-northag-infantry-spkm-team"}  
+          ]
+        },
+{
+          "id": "su-northag-vu-motor-rifle-company-11",
+          "name": "AT-3 Sagger ATGM Weapons Team",
+          "points": 10,
+          "br": 0,
+          "composition": [
+           {"qty": 1, "name": "AT-3 Sagger ATGM Weapons Team", "mode": "append","equipmentId": "su-northag-at-3-sagger"} 
+          ]
+        },
+        {
+          "id": "su-northag-vu-motor-rifle-company-12",
+          "name": "AT-4 Spigot ATGM Weapons Team",
+          "points": 10,
+          "br": 0,    
+          "composition": [
+           {"qty": 1, "name": "AT-4 Spigot ATGM Weapons Team", "mode": "append","equipmentId": "su-northag-at-4-spigot"}  
+          ]
+        },
+{
+          "id": "su-northag-vu-motor-rifle-company-13",
+          "name": "AGS-17 AGL Weapons Team",
+          "points": 5,
+          "br": 0,
+          "composition": [
+           {"qty": 1, "name": "AGS-17 AGL Weapons Team", "mode": "append","equipmentId": "su-northag-ags-17"}  
+          ]
+        },
+        {
+          "id": "su-northag-vu-motor-rifle-company-14",
+          "name": "SA-7 Grail AA Weapons Team",
+          "points": 8,
+          "br": 0, 
+          "composition": [
+           {"qty": 1, "name": "SA-7 Grail AA Weapons Team", "mode": "append","equipmentId": "su-northag-sa-7-grail"}  
+          ]
+        },
+        {
+          "id": "su-northag-vu-motor-rifle-company-15",
+          "name": "Sniper Team",
+          "points": 6,
+          "br": 0,  
+          "composition": [
+           {"qty": 1, "name": "Sniper Team", "mode": "append","equipmentId": "su-northag-sniper-team"}  
+          ]
+         },
+{
+          "id": "su-northag-vu-motor-rifle-company-16",
+          "name": "sPKM GPMG Weapons Team",
+          "points": 4,
+          "br": 0,
+          "composition": [
+           {"qty": 1, "name": "sPKM Weapons Team", "mode": "append","equipmentId": "su-northag-infantry-spkm-team"}  
+          ]
+        },
+{
+          "id": "su-northag-vu-motor-rifle-company-17",
+          "name": "AT-3 Sagger ATGM Weapons Team",
+          "points": 10,
+          "br": 0,
+          "composition": [
+           {"qty": 1, "name": "AT-3 Sagger ATGM Weapons Team", "mode": "append","equipmentId": "su-northag-at-3-sagger"} 
+          ]
+        },
+        {
+          "id": "su-northag-vu-motor-rifle-company-18",
+          "name": "AT-4 Spigot ATGM Weapons Team",
+          "points": 10,
+          "br": 0,    
+          "composition": [
+           {"qty": 1, "name": "AT-4 Spigot ATGM Weapons Team", "mode": "append","equipmentId": "su-northag-at-4-spigot"}  
+          ]
+        },
+{
+          "id": "su-northag-vu-motor-rifle-company-19",
+          "name": "AGS-17 AGL Weapons Team",
+          "points": 5,
+          "br": 0,
+          "composition": [
+           {"qty": 1, "name": "AGS-17 AGL Weapons Team", "mode": "append","equipmentId": "su-northag-ags-17"}  
+          ]
+        },
+        {
+          "id": "su-northag-vu-motor-rifle-company-20",
+          "name": "SA-7 Grail AA Weapons Team",
+          "points": 8,
+          "br": 0, 
+          "composition": [
+           {"qty": 1, "name": "SA-7 Grail AA Weapons Team", "mode": "append","equipmentId": "su-northag-sa-7-grail"}  
+          ]
+        },
+        {
+          "id": "su-northag-vu-motor-rifle-company-21",
+          "name": "Sniper Team",
+          "points": 6,
+          "br": 0,  
+          "composition": [
+           {"qty": 1, "name": "Sniper Team", "mode": "append","equipmentId": "su-northag-sniper-team"}  
+          ]
          }
       ]
     },     
