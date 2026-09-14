@@ -820,7 +820,7 @@
     {
       "id": "su-northag-mc-tank-company",
       "name": "Tank Company",
-      "category": "Vanguard Unit",
+      "category": "Main Column",
       "minQty": 0,
       "maxQty": 1,
       "points": 180,
@@ -834,7 +834,7 @@
       "options": [
         { "id": "su-northag-mc-tank-company-1", "name": "Replace all T-62 with T-64A", "points": 30, "br": 0, "composition": [{"qty": 10, "name": "T-64A", "mode": "modify", "replaces": "T-62","equipmentId": "su-northag-t-64a" }] }, 
         { "id": "su-northag-mc-tank-company-2", "name": "Replace all T-62 with T-64B", "points": 120, "br": 0, "composition": [{"qty": 10, "name": "T-64B", "mode": "modify", "replaces": "T-62","equipmentId": "su-northag-t-64b" }] },
-        { "id": "su-northag-mc-tank-company-3", "name": "Replace all T-62 with T-80", "points": 60, "br": 0, "restricted": "yes", "composition": [{"qty": 10, "name": "T-80", "mode": "modify", "replaces": "T-62","equipmentId": "su-northag-t-80" }] },
+        { "id": "su-noErthag-mc-tank-company-3", "name": "Replace all T-62 with T-80", "points": 60, "br": 0, "restricted": "yes", "composition": [{"qty": 10, "name": "T-80", "mode": "modify", "replaces": "T-62","equipmentId": "su-northag-t-80" }] },
         { "id": "su-northag-mc-tank-company-4", "name": "Replace all T-62 with T-80B", "points": 180, "br": 0, "restricted": "yes", "composition": [{"qty": 10, "name": "T-80B", "mode": "modify", "replaces": "T-62","equipmentId": "su-northag-t-80b" }] },
         { "id": "su-northag-mc-tank-company-5", "name": "Upgrade one tank with KMT Mine Plough", "points": 5, "br": 0, "composition": [{"qty": 1, "name": "Tank with KMT Mine Plough", "mode": "append"}] }
       ]
