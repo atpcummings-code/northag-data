@@ -172,7 +172,7 @@
           "name": "Upgrade to Artillery Spotter",
           "points": 5,
           "br": 0,
-          "specialRules": { "mode": "replace", "rules": ["Mortar Spotter"] }          
+          "specialRules": { "mode": "modify", "rules": ["Artillery Spotter"], "replaces": "Mortar Spotter" }       
         }
       ]
     },
