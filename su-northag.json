@@ -632,6 +632,14 @@
     "armour": "Soft Skin", 
     "specialRules": ["Capacity 1"] 
   },
+     { 
+    "equipmentId": "su-northag-land-rover", 
+    "type": "vehicle", 
+    "vehicleName": "Land Rover", 
+    "movement": [{"cat": "Wheel AT", "move": "8\"/16\""}], 
+    "armour": "Soft Skin", 
+    "specialRules": ["Capacity 1"] 
+  },
     { 
     "equipmentId": "su-northag-uaz-469", 
     "type": "vehicle", 
