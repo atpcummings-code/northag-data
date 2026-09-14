@@ -523,8 +523,7 @@
         { "id": "uk-northag-mc-battlegroup-commander-2", "name": "Mk9 Chieftain (Stillbrew)", "points": 33, "br": 1, "composition": [{"qty": 1, "name": "Mk9 Chieftain (Stillbrew)","equipmentId": "uk-northag-mk9-chiftain-stillbrew" }] }
       ],
 "optionGroupLimits": [
-
-{ "ids": ["uk-northag-mc-battlegroup-commander-1", "uk-northag-mc-battlegroup-commander-2"], "min": 0, "max": 1 }
+{ "groupName": "Replace Infantry Command Team and FV432 with:","options": ["uk-northag-mc-battlegroup-commander-1", "uk-northag-mc-battlegroup-commander-2"], "min": 0, "max": 1 }
 
 ]
     },
@@ -539,8 +538,8 @@
       "morale": "P",
       "optionGroupLimits": [
 
-{ "ids": ["uk-northag-mc-mechanised-infantry-platoon-1", "uk-northag-mc-mechanised-infantry-platoon-2", "uk-northag-mc-mechanised-infantry-platoon-3"], "min": 1, "max": 1 }, 
-{ "ids": ["uk-northag-mc-mechanised-infantry-platoon-4", "uk-northag-mc-mechanised-infantry-platoon-5"], "min": 0, "max": 1 } 
+{ "groupName": "Add 1 of the following Infantry Weapons Teams:", "options": ["uk-northag-mc-mechanised-infantry-platoon-1", "uk-northag-mc-mechanised-infantry-platoon-2", "uk-northag-mc-mechanised-infantry-platoon-3"], "min": 1, "max": 1 }, 
+{ "groupName": "May add 1 of the following Infantry Weapons Teams, mounted in FV103 Soaratn:","options": ["uk-northag-mc-mechanised-infantry-platoon-4", "uk-northag-mc-mechanised-infantry-platoon-5"], "min": 0, "max": 1 }
 
 ],
       "unitComposition": [
@@ -615,7 +614,7 @@
       ],
       "optionGroupLimits": [
 
-{ "ids": ["uk-northag-mc-tactical-command-centre-1", "uk-northag-mc-tactical-command-centre-2"], "min": 0, "max": 1 }
+{ "groupName": "Choose vehicle:","options": ["uk-northag-mc-tactical-command-centre-1", "uk-northag-mc-tactical-command-centre-2"], "min": 0, "max": 1 }
 
 ],
       "options": [
@@ -659,7 +658,7 @@
       ],
       "optionGroupLimits": [
 
-{ "ids": ["uk-northag-mc-forward-air-controller-1", "uk-northag-mc-forward-air-controller-2"], "min": 0, "max": 1 }
+{ "options": ["uk-northag-mc-forward-air-controller-1", "uk-northag-mc-forward-air-controller-2"], "min": 0, "max": 1 }
 
 ],
       "options": [
@@ -702,7 +701,7 @@
       ],
       "optionGroupLimits": [
 
-{ "ids": ["uk-northag-mc-electronic-warfare-team-1", "uk-northag-mc-electronic-warfare-team-2"], "min": 0, "max": 1 }
+{ "groupName": "Choose vehicle","options": ["uk-northag-mc-electronic-warfare-team-1", "uk-northag-mc-electronic-warfare-team-2"], "min": 0, "max": 1 }
 
 ],
       "options": [
@@ -780,7 +779,7 @@
       ],
       "optionGroupLimits": [
 
-{ "ids": ["uk-northag-mc-ambulance-1", "uk-northag-mc-ambulance-2"], "min": 0, "max": 1 }
+{ "groupName": "Choose vehicle**",**"options": ["uk-northag-mc-ambulance-1", "uk-northag-mc-ambulance-2"], "min": 0, "max": 1 }
 
 ],
       "options": [
@@ -844,7 +843,7 @@
       
       "optionGroupLimits": [
 
-{ "ids": ["uk-northag-mc-forward-observation-officer-1", "uk-northag-mc-forward-observation-officer-2"], "min": 0, "max": 1 }
+{ "options": ["uk-northag-mc-forward-observation-officer-1", "uk-northag-mc-forward-observation-officer-2"], "min": 0, "max": 1 }
 
 ],
       "options": [
@@ -986,7 +985,9 @@
       "notes": "A single air strike by a Harrier GR3 armed with four large bombs or four Marra 68mm multiple rocket pods",
       "unitComposition": [ ],
       "specialRules": [],
-      "optionGroupLimits": [{ "ids": ["uk-northag-afs-timed-harrier-gr3-air-strike-1", "uk-northag-afs-timed-harrier-gr3-air-strike-2"], "min": 0, "max": 1 }],
+      "optionGroupLimits": [
+        { "groupName": "Choose payload:","options": ["uk-northag-afs-timed-harrier-gr3-air-strike-1", "uk-northag-afs-timed-harrier-gr3-air-strike-2"], "min": 0, "max": 1 }
+      ],
       "options": [
         {
           "id": "uk-northag-afs-timed-harrier-gr3-air-strike-1",
@@ -1039,7 +1040,9 @@
       "notes": "A single air strike by a Tornado GR1 armed with four very large bombs or four cluster bombs",
       "unitComposition": [],
       "specialRules": [],
-      "optionGroupLimits": [{ "ids": ["uk-northag-afs-timed-tornado-gr1-air-strike-1", "uk-northag-afs-timed-tornado-gr1-air-strike-2"], "min": 0, "max": 1 }],
+      "optionGroupLimits": [
+         { "groupName": "Choose payload:","options": ["uk-northag-afs-timed-tornado-gr1-air-strike-1", "uk-northag-afs-timed-tornado-gr1-air-strike-2"], "min": 0, "max": 1 }
+      ],
       "options": [
         {
           "id": "uk-northag-afs-timed-tornado-gr1-air-strike-1",
