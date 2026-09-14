@@ -297,7 +297,7 @@
   "options": [
 {
           "id": "su-northag-fsu-armoured-reconnaissance-patrol-1",
-          "name": "Infantry Teams ride in BTR-60",
+          "name": "BTR-60",
           "points": 0,
           "br": 0,
           
@@ -308,7 +308,7 @@
 },
 {
           "id": "su-northag-fsu-armoured-reconnaissance-patrol-2",
-          "name": "Infantry Teams ride in BTR-70",
+          "name": "BTR-70",
           "points": 0,
           "br": 0,
           
@@ -319,7 +319,7 @@
 },
     {
           "id": "su-northag-fsu-armoured-reconnaissance-patrol-3",
-          "name": "Infantry Teams ride in BMP-1",
+          "name": "BMP-1",
           "points": 9,
           "br": 0,
           
@@ -330,7 +330,7 @@
 },
     {
           "id": "su-northag-fsu-armoured-reconnaissance-patrol-4",
-          "name": "Infantry Teams ride in BMP-2",
+          "name": "BMP-2",
           "points": 13,
           "br": 0,
           
