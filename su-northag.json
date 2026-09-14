@@ -1121,8 +1121,7 @@
         }
 	  ]
     },
-    
-    {
+{
       "id": "su-northag-mc-tactical-command-centre",
       "name": "Tactical Command Centre",
       "category": "Main Column",
@@ -1132,44 +1131,29 @@
       "br": 3,
       "morale": "C",
       "unitComposition": [
-        {"qty": 1, "name": "Infantry Command Team","equipmentId": "su-northag-infantry-command-team"}
+        {"qty": 1, "name": "Infantry Command Team","equipmentId": "su-northag-infantry-command-team"},
+{"qty": 1, "name": "ACRV-2","equipmentId": "su-northag-acrv-2"}
+
       ],
       "specialRules": [
         {"name": "Officer"},
          {"name": "Communications"}
       ],
-      "unlocks": ["su-northag-mc-ambulance",
-"su-northag-mc-supply-truck",
-"su-northag-mc-ground-surveillance-radar-team",
+      "unlocks": [
+"su-northag-mc-forward-air-controller",
 "su-northag-mc-electronic-warfare-team",
-"su-northag-mc-forward-air-controller"
+"su-northag-mc-supply-truck",
+"su-northag-mc-ambulance"
       ],
-      "optionGroupLimits": [
-
-{ "ids": ["su-northag-mc-tactical-command-centre-1", "su-northag-mc-tactical-command-centre-2"], "min": 0, "max": 1 }
-
-],
-      "options": [
-        {
-          "id": "su-northag-mc-tactical-command-centre-1",
-          "name": "Infantry Command Team rides in FV439",
-          "points": 0,
-          "br": 0,
-          "composition": [
-              {"qty": 1, "name": "FV439", "mode": "append","equipmentId": "su-northag-fv439" }  
-            ]
-          },
-       {
-          "id": "su-northag-mc-tactical-command-centre-2",
-          "name": "Infantry Command Team rides in FV105 Sultan",
-          "points": 0,
-          "br": 0,
-          "composition": [
-              {"qty": 1, "name": "FV105 Sultan","mode": "append","equipmentId": "su-northag-fv105-sultan"}
-          ]
-            }
-          ]
+      
+      "options": []
         },
+
+
+
+
+	 
+    
   {
       "id": "su-northag-mc-forward-air-controller",
       "name": "Forward Air Controller",
