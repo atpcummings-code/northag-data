@@ -779,7 +779,7 @@
       ],
       "optionGroupLimits": [
 
-{ "groupName": "Choose vehicle","options": ["uk-northag-mc-ambulance-1", "uk-northag-mc-ambulance-2"], "min": 0, "max": 1 }
+{"groupName": "Choose vehicle","options": ["uk-northag-mc-ambulance-1", "uk-northag-mc-ambulance-2"], "min": 0, "max": 1 }
 
 ],
       "options": [
