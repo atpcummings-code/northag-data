@@ -1288,7 +1288,7 @@
             ]
           }
 		  
-          ]
+          ],
       "specialRules": [
         {"name": "Resupply"}
       ]
@@ -1328,45 +1328,116 @@
       ],
       "specialRules": [{"name": "AA"}],
       "optionGroupLimits": [
-	{ "groupName": "Replace SA-9 with:","options": ["su-northag-mc-supply-truck-1", "su-northag-mc-supply-truck-2"], "min": 0, "max": 1 }
+	{ "groupName": "Replace SA-9 with:","options": ["su-northag-mc-surface-to-air-missile-launcher-1","su-northag-mc-surface-to-air-missile-launcher-2","su-northag-mc-surface-to-air-missile-launcher-3","su-northag-mc-surface-to-air-missile-launcher-4"], "min": 0, "max": 1 }
 
 ],
       "options": [
         {
           "id": "su-northag-mc-surface-to-air-missile-launcher-1",
-          "name": "Replace Infantry Weapon Team, Towed Rapier SAM and Land Rover (1 tonne) with Tracked Rapier",
-          "points": 2,
-          "restricted": "yes",
+          "name": "SA-13 Gopher",
+          "points": 0,
           "br": 0,
           
           "composition": [
-              {"qty": 1, "name": "Tracked Rapier"}
+              {"qty": 1, "name": "SA-9 Gopher","equipmentId": "su-northag-sa-13-gopher"}
+          ]
+        },
+		  {
+          "id": "su-northag-mc-surface-to-air-missile-launcher-2",
+          "name": "SA-8 Gecko",
+          "points": 4,
+          "br": 0,
+          
+          "composition": [
+              {"qty": 1, "name": "SA-9 Gopher","equipmentId": "su-northag-sa-8-gecko"}
+          ]
+        },
+		  {
+          "id": "su-northag-mc-surface-to-air-missile-launcher-3",
+          "name": "SA-8 Gainful",
+          "points": 6,
+          "br": 0,
+          
+          "composition": [
+              {"qty": 1, "name": "SA-6 Gainful","equipmentId": "su-northag-sa-6-gainful"}
+          ]
+        },
+		   {
+          "id": "su-northag-mc-surface-to-air-missile-launcher-4",
+          "name": "SA-11 Gadfly",
+          "points": 10,
+          "br": 0,
+          
+          "composition": [
+              {"qty": 1, "name": "SA-11 Gadfly","equipmentId": "su-northag-sa-11-gadfly"}
           ]
         }
       ]
     },
-    {
-      "id": "su-northag-mc-mine-clearance-vehicle",
-      "name": "Mine Clearance Vehicle", 
+    
+      "id": "su-northag-mc-armoured-engineer-vehicle",
+      "name": "Armoured Engineer Vehicle", 
       "category": "Main Column",
       "minQty": 0,
       "maxQty": 1,
-      "points": 12,
+      "points": 10,
       "br": 1,
-      "morale": "C",
+      "morale": "",
       "unitComposition": [
-        {"qty": 1, "name": "FV180 CET","equipmentId": "su-northag-fv180-cet" },
-        {"qty": 1, "name": "Giant Viper"}
+        {"qty": 1, "name": "UR-67 Mine Clearance vehicle","equipmentId": "su-northag-ur-67" }
       ],
       "specialRules": [
         {"name": "Engineer"}
       ],
       
-      "options": []
+     "optionGroupLimits": [
+	{ "groupName": "Replace UR-67 with:","options": ["su-northag-mc-armoured-engineer-vehicle-1", "su-northag-mc-armoured-engineer-vehicle-2"], "min": 0, "max": 1 }
+
+],
+      "options": [
+    {
+          "id": "su-northag-mc-armoured-engineer-vehicle-1",
+          "name": "T-62 with KMT Mine Plough",
+          "points": 10,
+          "br": 0,
+          "composition": [
+              {"qty": 1, "name": "T-62 with KMT Mine Plough", "mode": "append","equipmentId": "su-northag-t-62" }  
+            ]
+          },
+      {
+          "id": "su-northag-mc-armoured-engineer-vehicle-2",
+          "name": "T-64A with KMT Mine Plough",
+          "points": 22,
+          "br": 0,
+          "composition": [
+              {"qty": 1, "name": "T-64A with KMT Mine Plough", "mode": "append","equipmentId": "su-northag-t-64a" }  
+            ]
+          }
+		  
+          ]
     },
 {
-      "id": "su-northag-mc-81mm-mortar-battery",
-      "name": "81mm Mortar Battery", 
+      "id": "su-northag-mc-82mm-mortar-battery",
+      "name": "82mm Mortar Battery", 
+      "category": "Main Column",
+      "minQty": 0,
+      "maxQty": 1,
+      "points": 32,
+      "br": 0,
+      "morale": "",
+      "notes": "Requires a unit with the Mortar Spotter (or Artillery Spotter) rule to use.",
+      "unitComposition": [
+        {"qty": 4, "name": "82mm Mortar","equipmentId": "su-northag-82mm-mortar" }
+      ],
+      "specialRules": [
+        {"name": "Off-table"}
+      ],
+      
+      "options": []
+    },
+  {
+      "id": "su-northag-mc-120mm-mortar-battery",
+      "name": "120mm Mortar Battery", 
       "category": "Main Column",
       "minQty": 0,
       "maxQty": 1,
@@ -1375,7 +1446,7 @@
       "morale": "",
       "notes": "Requires a unit with the Mortar Spotter (or Artillery Spotter) rule to use.",
       "unitComposition": [
-        {"qty": 6, "name": "81mm Mortar","equipmentId": "su-northag-81mm-mortar" }
+        {"qty": 4, "name": "120mm Mortar","equipmentId": "su-northag-120mm-mortar" }
       ],
       "specialRules": [
         {"name": "Off-table"}
@@ -1383,25 +1454,6 @@
       
       "options": []
     },
-{
-      "id": "su-northag-mc-105mm-abbot-battery",
-      "name": "105mm Abbot Battery", 
-      "category": "Main Column",
-      "minQty": 0,
-      "maxQty": 1,
-      "points": 64,
-      "br": 0,
-      "morale": "",
-      "notes": "Requires a unit with the Artillery Spotter rule to use.",
-      "unitComposition": [
-        {"qty": 4, "name": "105mm Abbot","equipmentId": "su-northag-105mm" }
-      ],
-      "specialRules": [
-        {"name": "Off-table"}
-      ],
-      
-      "options": []
-    },  
     {
       "id": "su-northag-afs-timed-harrier-gr3-air-strike",
       "name": "Timed Harrier GR3 Air Strike", 
