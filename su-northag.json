@@ -526,7 +526,6 @@
           "name": "BTR-60",
           "points": 0,
           "br": 0,
-          
           "composition": [ 
           {"qty": 9, "name": "BTR-60", "mode": "append","equipmentId": "su-northag-btr-60"}
           ]
@@ -536,7 +535,6 @@
           "name": "BTR-70",
           "points": 0,
           "br": 0,
-          
           "composition": [
             {"qty": 9, "name": "BTR-70", "mode": "append","equipmentId": "su-northag-btr-70"}
           ]
@@ -546,7 +544,6 @@
           "name": "BMP-1",
           "points": 108,
           "br": 0,
-          
           "composition": [
             {"qty": 9,"name": "BMP-1", "mode": "append","equipmentId": "su-northag-bmp-1"}
           ]
@@ -556,7 +553,6 @@
           "name": "sPKM GPMG Weapons Team",
           "points": 4,
           "br": 0,
-          "maxQty": 3,
           "composition": [
            {"qty": 1, "name": "sPKM Weapons Team", "mode": "append","equipmentId": "su-northag-infantry-spkm-team"}  
           ]
@@ -566,8 +562,6 @@
           "name": "AT-3 Sagger ATGM Weapons Team",
           "points": 10,
           "br": 0,
-          "maxQty": 3,
-          
           "composition": [
            {"qty": 1, "name": "AT-3 Sagger ATGM Weapons Team", "mode": "append","equipmentId": "su-northag-at-3-sagger"} 
           ]
@@ -576,9 +570,7 @@
           "id": "su-northag-vu-motor-rifle-company-6",
           "name": "AT-4 Spigot ATGM Weapons Team",
           "points": 10,
-          "br": 0,
-          "maxQty": 3,
-          
+          "br": 0,    
           "composition": [
            {"qty": 1, "name": "AT-4 Spigot ATGM Weapons Team", "mode": "append","equipmentId": "su-northag-at-4-spigot"}  
           ]
@@ -588,8 +580,6 @@
           "name": "AGS-17 AGL Weapons Team",
           "points": 5,
           "br": 0,
-  "maxQty": 3,
-          
           "composition": [
            {"qty": 1, "name": "AGS-17 AGL Weapons Team", "mode": "append","equipmentId": "su-northag-ags-17"}  
           ]
@@ -598,9 +588,7 @@
           "id": "su-northag-vu-motor-rifle-company-8",
           "name": "SA-7 Grail AA Weapons Team",
           "points": 8,
-          "br": 0,
-          "maxQty": 3,
-          
+          "br": 0, 
           "composition": [
            {"qty": 1, "name": "SA-7 Grail AA Weapons Team", "mode": "append","equipmentId": "su-northag-sa-7-grail"}  
           ]
@@ -609,9 +597,7 @@
           "id": "su-northag-vu-motor-rifle-company-9",
           "name": "Sniper Team",
           "points": 6,
-          "br": 0,
-        "maxQty": 3,
-          
+          "br": 0,  
           "composition": [
            {"qty": 1, "name": "Sniper Team", "mode": "append","equipmentId": "su-northag-sniper-team"}  
           ]
