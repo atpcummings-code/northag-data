@@ -211,7 +211,7 @@
       "specialRules": [
         {"name": "Scout"},
         {"name": "Mortar Spotter"}
-      ], 
+      ]
 },
   {
       "id": "su-northag-fsu-brm-1-patrol",
@@ -229,7 +229,7 @@
       "specialRules": [
         {"name": "Scout"},
         {"name": "Ground Surveillance Radar"}
-      ], 
+      ]
 },
 {
       "id": "su-northag-fsu-spetnatz-long-range-patrol",
