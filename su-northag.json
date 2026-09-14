@@ -516,8 +516,8 @@
 { "groupName": "Choose Transports Platton 3", "options": ["su-northag-vu-motor-rifle-company-1b", "su-northag-vu-motor-rifle-company-2b"], "min": 1, "max": 1 },         
 { "groupName": "Add up to 2 Infantry Weapons Teams for Platoon 1", "options": ["su-northag-vu-motor-rifle-company-4", "su-northag-vu-motor-rifle-company-5", "su-northag-vu-motor-rifle-company-6", "su-northag-vu-motor-rifle-company-7", "su-northag-vu-motor-rifle-company-8", "su-northag-vu-motor-rifle-company-9"], "min": 0, "max": 2 },
 { "groupName": "Add up to 2 Infantry Weapons Teams for Platoon 2", "options": ["su-northag-vu-motor-rifle-company-10", "su-northag-vu-motor-rifle-company-11", "su-northag-vu-motor-rifle-company-12", "su-northag-vu-motor-rifle-company-13", "su-northag-vu-motor-rifle-company-14", "su-northag-vu-motor-rifle-company-15"], "min": 0, "max": 2 } ,
-{ "groupName": "Add up to 2 Infantry Weapons Teams for Platoon 3", "options": ["su-northag-vu-motor-rifle-company-16", "su-northag-vu-motor-rifle-company-17", "su-northag-vu-motor-rifle-company-18", "su-northag-vu-motor-rifle-company-19", "su-northag-vu-motor-rifle-company-20", "su-northag-vu-motor-rifle-company-21"], "min": 0, "max": 2 }
-
+{ "groupName": "Add up to 2 Infantry Weapons Teams for Platoon 3", "options": ["su-northag-vu-motor-rifle-company-16", "su-northag-vu-motor-rifle-company-17", "su-northag-vu-motor-rifle-company-18", "su-northag-vu-motor-rifle-company-19", "su-northag-vu-motor-rifle-company-20", "su-northag-vu-motor-rifle-company-21"], "min": 0, "max": 2 },
+{ "groupName": "Replace all BTRs with:", "options": ["su-northag-vu-motor-rifle-company-3", "min": 0, "max": 1 }
 ],
       "unitComposition": [
         {"qty": 9, "name": "Infantry Fire Teams","equipmentId": "su-northag-infantry-fire-team" },
