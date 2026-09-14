@@ -493,9 +493,9 @@
     "ammo": [{"HE": "Very Heavy, 8,8,8,8,8"}] 
   }, 
     { 
-    "equipmentId": "su-northag-sa-11-gopher", 
+    "equipmentId": "su-northag-sa-13-gopher", 
     "type": "weapon", 
-    "weaponName": "SA 11 Gopher", 
+    "weaponName": "SA 13 Gopher", 
     "ammo": [{"HE": "Medium, 3,3,3,3,3"}] 
   },
   { 
