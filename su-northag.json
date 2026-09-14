@@ -477,43 +477,47 @@
 
 
 
-  
-    {
-      "id": "su-northag-vu-chieftain-troop",
-      "name": "Chieftain Troop",
+ {
+      "id": "su-northag-vu-tank-company",
+      "name": "Tank Company",
       "category": "Vanguard Unit",
       "minQty": 0,
       "maxQty": 1,
-      "points": 129,
-      "br": 9,
+      "points": 180,
+      "br": 20,
       "morale": "C",
-      "unitComposition": [{"qty": 3, "name": "Mk9 Chieftains","equipmentId": "su-northag-mk9-chiftain"}],
-      "specialRules": [{"name": "Advanced Gunnery"},{"name": "Advanced Sights"},
-        {"name": "Unreliable"}],
-      
+      "unitComposition": [{"qty": 10, "name": "T-62","equipmentId": "su-northag-t-62"}],
+      "specialRules": [],
+      "optionGroupLimit": [
+{ "ids": ["su-northag-vu-tank-company-1", "su-northag-vu-tank-company-2","su-northag-vu-tank-company-3","su-northag-vu-tank-company-4"], "min": 0, "max": 1 } 
+],
       "options": [
-        { "id": "su-northag-vu-chieftain-troop-1", "name": "Upgrade all Chieftains to Stillbrew", "pointsPerQty": 4, "br": 0, "composition": [{"qty": 3, "name": "Mk9 Chieftains (Stillbrew Armour)", "mode": "modify", "replaces": "Mk9 Chieftains","equipmentId": "su-northag-mk9-chiftain-stillbrew" }] }, 
-        { "id": "su-northag-vu-chieftain-troop-2", "name": "Add 1 additional Mk9 Chieftain", "points": 43, "br": 3, "composition": [{"qtyChange": 1, "mode": "modify"}] }
+        { "id": "su-northag-vu-tank-company-1", "name": "Replace all T-62 with T-64A", "points": 30, "br": 0, "composition": [{"qty": 10, "name": "T-64A", "mode": "modify", "replaces": "T-62","equipmentId": "su-northag-t-64a" }] }, 
+        { "id": "su-northag-vu-tank-company-2", "name": "Replace all T-62 with T-64B", "points": 120, "br": 0, "composition": [{"qty": 10, "name": "T-64B", "mode": "modify", "replaces": "T-62","equipmentId": "su-northag-t-64b" }] },
+        { "id": "su-northag-vu-tank-company-3", "name": "Replace all T-62 with T-80", "points": 60, "br": 0, "restricted": "yes", "composition": [{"qty": 10, "name": "T-80", "mode": "modify", "replaces": "T-62","equipmentId": "su-northag-t-80" }] },
+        { "id": "su-northag-vu-tank-company-4", "name": "Replace all T-62 with T-80B", "points": 180, "br": 0, "restricted": "yes", "composition": [{"qty": 10, "name": "T-80B", "mode": "modify", "replaces": "T-62","equipmentId": "su-northag-t-80b" }] },
+        { "id": "su-northag-vu-tank-company-5", "name": "Upgrade one tank with KMT Mine Plough", "points": 5, "br": 0, "composition": [{"qty": 1, "name": "Tank with KMT Mine Plough", "mode": "append"}] }
       ]
     },
     {
-      "id": "su-northag-vu-mechanised-infantry-platoon",
-      "name": "Mechanised Infantry Platoon",
+      "id": "su-northag-vu-motor-rifle-company",
+      "name": "Motor Rifle Company",
       "category": "Vanguard Unit",
       "minQty": 0,
       "maxQty": 1,
-      "points": 69,
-      "br": 12,
+      "points": 132,
+      "br": 30,
       "morale": "C",
+      "notes": "3 Motorised Rifle Platoons"
       "optionGroupLimit": [
 
-{ "ids": ["su-northag-vu-mechanised-infantry-platoon-1", "su-northag-vu-mechanised-infantry-platoon-2", "su-northag-vu-mechanised-infantry-platoon-3"], "min": 1, "max": 1 }, 
+{ "ids": ["su-northag-vu-motor-rifle-company-1", "su-northag-vu-motor-rifle-company-2", "su-northag-vu-motor-rifle-company-3"], "min": 1, "max": 1 }, 
 { "ids": ["su-northag-vu-mechanised-infantry-platoon-4", "su-northag-vu-mechanised-infantry-platoon-5"], "min": 0, "max": 1 } 
 
 ],
       "unitComposition": [
-        {"qty": 7, "name": "Infantry Fire Team","equipmentId": "su-northag-infantry-fire-team" },
-         {"qty": 4, "name": "FV432","equipmentId": "su-northag-fv432" }
+        {"qty": 9, "name": "Infantry Fire Teams","equipmentId": "su-northag-infantry-fire-team" },
+        {"qty": 9, "name": "Infantry Anti-Tank Teams","equipmentId": "su-northag-infantry-anti-tank-team" }
       ],
       "specialRules": [
         {"name": "Advanced Gunnery"},
@@ -525,40 +529,41 @@
       ],
       "options": [
         {
-          "id": "su-northag-vu-mechanised-infantry-platoon-1",
-          "name": "sGPMG Weapons Team",
-          "points": 4,
+          "id": "su-northag-vu-motor-rifle-company-1",
+          "name": "BTR-60",
+          "points": 0,
           "br": 0,
           
           "composition": [ 
-          {"qty": 1, "name": "sGPMG Weapons Team)", "mode": "append","equipmentId": "su-northag-infantry-sgpmg-team"}
+          {"qty": 1, "name": "BTR-60)", "mode": "append","equipmentId": "su-northag-btr-60"}
           ]
         },
         {
-          "id": "su-northag-vu-mechanised-infantry-platoon-2",
-          "name": "Sniper Team",
+          "id": "su-northag-vu-motor-rifle-company-2",
+          "name": "BTR-70",
           "points": 6,
           "br": 0,
           
           "composition": [
-            {"qty": 1, "name": "Sniper Team", "mode": "append","equipmentId": "su-northag-infantry-sniper-team"}
+            {"qty": 1, "name": "BTR-70", "mode": "append","equipmentId": "su-northag-btr-70"}
           ]
         },
         {
-          "id": "su-northag-vu-mechanised-infantry-platoon-3",
-          "name": "Carl Gustav Weapons Team",
-          "points": 8,
+          "id": "su-northag-vu-motor-rifle-company-3",
+          "name": "BMP-1",
+          "points": 108,
           "br": 0,
           
           "composition": [
-            {"qty": 1, "name": "Carl gustav Weapons Team", "mode": "append","equipmentId": "su-northag-carl-gustav"}
+            {"qty": 1, "name": "BMP-1", "mode": "append","equipmentId": "su-northag-bmp-1"}
           ]
         },
          { "id": "su-northag-vu-mechanised-infantry-platoon-4", "name": "MILAN ATGM Weapons Team", "composition": [{"qty": 1, "name": "MILAN ATGM Weapons Team", "mode": "append","equipmentId": "su-northag-milan"},  {"qty": 1, "name": "FV103 Spartan","equipmentId": "su-northag-fv103-spartan" }], "points": 16, "br": 2, "morale": "C"},
         { "id": "su-northag-vu-mechanised-infantry-platoon-5", "name": "Blowpipe MANPAD Weapons Team", "composition": [{"qty": 1, "name": "Blowpipe MANPAD Weapons Team","mode": "append","equipmentId": "su-northag-blowpipe" },{"qty": 1, "name": "FV103 Spartan","equipmentId": "su-northag-fv103-spartan"}], "points": 11, "br": 2, "morale": "C" }
         
       ]
-    },
+    }, 
+    
     {
       "id": "su-northag-mc-chieftain-troop",
       "name": "Chieftain Troop",
