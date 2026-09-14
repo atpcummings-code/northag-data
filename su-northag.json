@@ -570,6 +570,7 @@
           "name": "BTR-60",
           "points": 0,
           "br": 0,
+          "requiresAny": ["su-northag-vu-motor-rifle-company-10", "su-northag-vu-motor-rifle-company-11", "su-northag-vu-motor-rifle-company-12", "su-northag-vu-motor-rifle-company-13", "su-northag-vu-motor-rifle-company-14", "su-northag-vu-motor-rifle-company-15"],
           "composition": [ 
           {"qty": 1, "name": "BTR-60", "mode": "append","equipmentId": "su-northag-btr-60"}
           ]
@@ -579,6 +580,7 @@
           "name": "BTR-60",
           "points": 0,
           "br": 0,
+          "requiresAny": ["su-northag-vu-motor-rifle-company-16", "su-northag-vu-motor-rifle-company-17", "su-northag-vu-motor-rifle-company-18", "su-northag-vu-motor-rifle-company-19", "su-northag-vu-motor-rifle-company-20", "su-northag-vu-motor-rifle-company-21"], 
           "composition": [ 
           {"qty": 1, "name": "BTR-60", "mode": "append","equipmentId": "su-northag-btr-60"}
           ]
@@ -625,6 +627,7 @@
           "name": "BTR-70",
           "points": 0,
           "br": 0,
+           "requiresAny": ["su-northag-vu-motor-rifle-company-10", "su-northag-vu-motor-rifle-company-11", "su-northag-vu-motor-rifle-company-12", "su-northag-vu-motor-rifle-company-13", "su-northag-vu-motor-rifle-company-14", "su-northag-vu-motor-rifle-company-15"],
           "composition": [
             {"qty": 1, "name": "BTR-70", "mode": "append","equipmentId": "su-northag-btr-70"}
           ]
@@ -634,6 +637,7 @@
           "name": "BTR-70",
           "points": 0,
           "br": 0,
+          "requiresAny": ["su-northag-vu-motor-rifle-company-16", "su-northag-vu-motor-rifle-company-17", "su-northag-vu-motor-rifle-company-18", "su-northag-vu-motor-rifle-company-19", "su-northag-vu-motor-rifle-company-20", "su-northag-vu-motor-rifle-company-21"], 
           "composition": [
             {"qty": 1, "name": "BTR-70", "mode": "append","equipmentId": "su-northag-btr-70"}
           ]
