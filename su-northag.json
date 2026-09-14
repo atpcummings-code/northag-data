@@ -834,33 +834,39 @@
       "options": [
         { "id": "su-northag-mc-tank-company-1", "name": "Replace all T-62 with T-64A", "points": 30, "br": 0, "composition": [{"qty": 10, "name": "T-64A", "mode": "modify", "replaces": "T-62","equipmentId": "su-northag-t-64a" }] }, 
         { "id": "su-northag-mc-tank-company-2", "name": "Replace all T-62 with T-64B", "points": 120, "br": 0, "composition": [{"qty": 10, "name": "T-64B", "mode": "modify", "replaces": "T-62","equipmentId": "su-northag-t-64b" }] },
-        { "id": "su-noErthag-mc-tank-company-3", "name": "Replace all T-62 with T-80", "points": 60, "br": 0, "restricted": "yes", "composition": [{"qty": 10, "name": "T-80", "mode": "modify", "replaces": "T-62","equipmentId": "su-northag-t-80" }] },
+        { "id": "su-northag-mc-tank-company-3", "name": "Replace all T-62 with T-80", "points": 60, "br": 0, "restricted": "yes", "composition": [{"qty": 10, "name": "T-80", "mode": "modify", "replaces": "T-62","equipmentId": "su-northag-t-80" }] },
         { "id": "su-northag-mc-tank-company-4", "name": "Replace all T-62 with T-80B", "points": 180, "br": 0, "restricted": "yes", "composition": [{"qty": 10, "name": "T-80B", "mode": "modify", "replaces": "T-62","equipmentId": "su-northag-t-80b" }] },
         { "id": "su-northag-mc-tank-company-5", "name": "Upgrade one tank with KMT Mine Plough", "points": 5, "br": 0, "composition": [{"qty": 1, "name": "Tank with KMT Mine Plough", "mode": "append"}] }
       ]
     },
-    {
+   
+   {
       "id": "su-northag-mc-battlegroup-commander",
       "name": "Battlegroup Commander",
       "category": "Main Column",
       "minQty": 0,
       "maxQty": 1,
-      "points": 22,
+      "points": 24,
       "br": 4,
       "morale": "C",
       "unitComposition": [
-        {"qty": 1, "name": "Infantry Command Team","equipmentId": "su-northag-infantry-command-team" },
-        {"qty": 1, "name": "FV432","equipmentId": "su-northag-fv432" }
+        {"qty": 1, "name": "Infantry Command Team","equipmentId": "su-northag-infantry-command-team" }
       ],
       "specialRules": [{"name": "Senior Officer"}],
      "options": [
-        { "id": "su-northag-mc-battlegroup-commander-1", "name": "Ferret Armoured Car", "points": 0, "br": 0, "composition": [{"qty": 1, "name": "Ferret Armoured Car", "equipmentId": "su-northag-fv701-ferret"}] }, 
-        { "id": "su-northag-mc-battlegroup-commander-2", "name": "Mk9 Chieftain (Stillbrew)", "points": 33, "br": 1, "composition": [{"qty": 1, "name": "Mk9 Chieftain (Stillbrew)","equipmentId": "su-northag-mk9-chiftain-stillbrew" }] }
+        { "id": "su-northag-mc-battlegroup-commander-1", "name": "BMP-1K", "points": 0, "br": 0, "composition": [{"qty": 1, "name": "BMP-1k", "equipmentId": "su-northag-bmp-1k"}] }, 
+        { "id": "su-northag-mc-battlegroup-commander-2", "name": "BMP-2K", "points": 0, "br": 0, "composition": [{"qty": 1, "name": "BMP-2k", "equipmentId": "su-northag-bmp-2k"}] },
+       { "id": "su-northag-mc-battlegroup-commander-3", "name": "T-62k", "points": 2, "br": 1, "composition": [{"qty": 1, "name": "T-62K", "mode": "modify", "replaces": ["BMP-1K","BMP-2k"],"equipmentId": "su-northag-t-62k" }] }, 
+        { "id": "su-northag-mc-battlegroup-commander-4", "name": "T-64AK", "points": 5, "br": 1, "composition": [{"qty": 1, "name": "T-64AK", "mode": "modify", replaces": ["BMP-1K","BMP-2k"],"equipmentId": "su-northag-t-64ak" }] },
+{ "id": "su-northag-mc-battlegroup-commander-5", "name": "T-64BK", "points": 14, "br": 1, "composition": [{"qty": 1, "name": "T-64BK", "mode": "modify", replaces": ["BMP-1K","BMP-2k"],"equipmentId": "su-northag-t-64bk" }] },
+        { "id": "su-northag-mc-battlegroup-commander-6", "name": "T-80K", "points": 8, "br": 1, "restricted": "yes", "composition": [{"qty": 1, "name": "T-80K", "mode": "modify", replaces": ["BMP-1K","BMP-2k"], "equipmentId": "su-northag-t-80k" }] },
+        { "id": "su-northag-mc-battlegroup-commander-7", "name": "T-80BK", "points": 20, "br": 0, "restricted": "yes", "composition": [{"qty": 1, "name": "T-80BK", "mode": "modify", replaces": ["BMP-1K","BMP-2k"],"equipmentId": "su-northag-t-80bk" }] }
+       
       ],
 "optionGroupLimits": [
 
-{ "ids": ["su-northag-mc-battlegroup-commander-1", "su-northag-mc-battlegroup-commander-2"], "min": 0, "max": 1 }
-
+{ "groupName": "Choose transport:","options": ["su-northag-mc-battlegroup-commander-1", "su-northag-mc-battlegroup-commander-2"], "min": 1, "max": 1 }
+{ "groupName": "Replace Infantry Command Team and BMP with:","options": ["su-northag-mc-battlegroup-commander-3", "su-northag-mc-battlegroup-commander-4", "su-northag-mc-battlegroup-commander-5", "su-northag-mc-battlegroup-commander-6", "su-northag-mc-battlegroup-commander-7"], "min": 0, "max": 1 }
 ]
     },
     {
