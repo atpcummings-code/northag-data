@@ -1102,7 +1102,7 @@
       "br": 4,
       "morale": "C",
       "unitComposition": [
-        {"qty": 2, "name": "BRDM-2 Malyutka","equipmentId": "su-northag-brdm-2-malyutka" }
+        {"qty": 2, "name": "BRDM-2 AT-3 Malyutka","equipmentId": "su-northag-brdm-2-malyutka" }
       ],
       "specialRules": [{"name": "Ambush"}],
       "optionGroupLimits": [
