@@ -5,7 +5,7 @@
   "group": "NORTHAG",
   "year": "1985",
   "colour": "#5C3A2E",
- "units": [
+ "units": [E
   {
       "id": "su-northag-fsu-tank-recce-patrol",
       "name": "Tank Recce Patrol", 
@@ -888,7 +888,7 @@
       ],
       "optionGroupLimits": [
 
-{ "groupName": "Replace Infantry Command TEam and UAZ 469 with:", "options": ["su-northag-mc-forward-observation-officer-1", "su-northag-mc-forward-observation-officer-1"], "min": 0, "max": 1 }
+{ "groupName": "Replace Infantry Command Team and UAZ 469 with:", "options": ["su-northag-mc-forward-observation-officer-1", "su-northag-mc-forward-observation-officer-2"], "min": 0, "max": 1 }
 
 ],
       "options": [
@@ -902,7 +902,7 @@
 		   ]
 		},
 			{
-          "id": "su-northag-mc-forward-observation-officer-1",
+          "id": "su-northag-mc-forward-observation-officer-2",
           "name": "ACRV-2",
           "points": 4,
           "br": 1,
@@ -1358,53 +1358,7 @@
       
       "options": []
     },
-    {
-      "id": "su-northag-mc-forward-observation-officer",
-      "name": "Forward Observation Officer",
-      "category": "Main Column",
-      "minQty": 0,
-      "maxQty": 1,
-      "points": 18,
-      "br": 2,
-      "morale": "C",
-      "unitComposition": [
-        {"qty": 1, "name": "Infantry Command Team","equipmentId": "su-northag-infantry-command-team" },
-        {"qty": 1, "name": "Land Rover","equipmentId": "su-northag-land-rover"}
-      ],
-      "specialRules": [
-        {"name": "Officer"},
-         {"name": "Artillery Spotter"}
-      ],
-      
-      "optionGroupLimits": [
-
-{ "ids": ["su-northag-mc-forward-observation-officer-1", "su-northag-mc-forward-observation-officer-2"], "min": 0, "max": 1 }
-
-],
-      "options": [
-        {
-          "id": "su-northag-mc-forward-observation-officer-1",
-          "name": "Replace Land Rover with FV432",
-          "points": 4,
-          "br": 1,
-          
-          "composition": [
-              {"qty": 1, "name": "FV432", "mode": "modify", "replaces": "Land Rover","equipmentId": "su-northag-fv432" }  
-            ]
-          },
-       {
-          "id": "su-northag-mc-forward-observation-officer-2",
-          "name": "Replace Infantry Command Team and Land Rover with Ferret Armoured Car",
-
-          "points": 0,
-          "br": 0,
-          
-          "composition": [
-              {"qty": 1, "name": "Ferret Armoured Car","equipmentId": "su-northag-fv701-ferret" }
-          ]
-            }
-          ]
-        },
+    
 {
       "id": "su-northag-mc-guided-weapons-carrier-section",
       "name": "Guided Weapons Carrier Section", 
