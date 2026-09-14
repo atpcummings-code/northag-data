@@ -528,7 +528,7 @@
           "br": 0,
           
           "composition": [ 
-          {"qty": 9, "name": "BTR-60)", "mode": "append","equipmentId": "su-northag-btr-60"}
+          {"qty": 9, "name": "BTR-60", "mode": "append","equipmentId": "su-northag-btr-60"}
           ]
         },
         {
@@ -548,7 +548,7 @@
           "br": 0,
           
           "composition": [
-            {"name": "BMP-1", "mode": "append","equipmentId": "su-northag-bmp-1"}
+            {"qty": 9,"name": "BMP-1", "mode": "append","equipmentId": "su-northag-bmp-1"}
           ]
         },
          {
