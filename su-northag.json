@@ -25,8 +25,8 @@
       "specialRules": [
         {"name": "Scout"}
       ],
-  "optionGroupLimit": [
-{ "ids": ["su-northag-fsu-tank-recce-patrol-1", "su-northag-fsu-tank-recce-patrol-2", "su-northag-fsu-tank-recce-patrol-3"], "min": 0, "max": 1 } 
+  "optionGroupLimits": [
+{ "groupName": "Upgrade to:", "options": ["su-northag-fsu-tank-recce-patrol-1", "su-northag-fsu-tank-recce-patrol-2", "su-northag-fsu-tank-recce-patrol-3"], "min": 0, "max": 1 }  
 
 ],
   "options": [
@@ -91,8 +91,8 @@
       "specialRules": [
         {"name": "AA"}
       ],
-       "optionGroupLimit": [
-{ "ids": ["su-northag-fsu-air-defence-battery-1", "su-northag-fsu-air-defence-battery-2"], "min": 0, "max": 1 } 
+       "optionGroupLimits": [
+{ "options": ["su-northag-fsu-air-defence-battery-1", "su-northag-fsu-air-defence-battery-2"], "min": 0, "max": 1 } 
 
 ],  
     "options": [
@@ -248,8 +248,8 @@
         {"name": "Mortar Spotter"},
         {"name": "Behind Enemy Lines"}
       ],
-  "optionGroupLimit": [
-{ "ids": ["su-northag-fsu-spetnatz-long-range-patrol-1", "su-northag-fsu-spetnatz-long-range-patrol-2"], "min": 0, "max": 1 } 
+  "optionGroupLimits": [
+{ "groupName": "Choose vehicle", "options": ["su-northag-fsu-spetnatz-long-range-patrol-1", "su-northag-fsu-spetnatz-long-range-patrol-2"], "min": 0, "max": 1 } 
 ],    
   "options": [
         {
@@ -291,8 +291,8 @@
       "specialRules": [
         {"name": "Scout"}
       ], 
-      "optionGroupLimit": [
-{ "ids": ["su-northag-fsu-armoured-reconnaissance-patrol-1", "su-northag-fsu-armoured-reconnaissance-patrol-2","su-northag-fsu-armoured-reconnaissance-patrol-3","su-northag-fsu-armoured-reconnaissance-patrol-4"], "min": 0, "max": 1 } 
+      "optionGroupLimits": [
+{ "groupName": "Choose Infantry Teams transport:","options": ["su-northag-fsu-armoured-reconnaissance-patrol-1", "su-northag-fsu-armoured-reconnaissance-patrol-2","su-northag-fsu-armoured-reconnaissance-patrol-3","su-northag-fsu-armoured-reconnaissance-patrol-4"], "min": 0, "max": 1 } 
 ],  
   "options": [
 {
@@ -488,8 +488,8 @@
       "morale": "C",
       "unitComposition": [{"qty": 10, "name": "T-62","equipmentId": "su-northag-t-62"}],
       "specialRules": [],
-      "optionGroupLimit": [
-{ "ids": ["su-northag-vu-tank-company-1", "su-northag-vu-tank-company-2","su-northag-vu-tank-company-3","su-northag-vu-tank-company-4"], "min": 0, "max": 1 } 
+      "optionGroupLimits": [
+{ "groupName": "Upgrades:","options": ["su-northag-vu-tank-company-1", "su-northag-vu-tank-company-2","su-northag-vu-tank-company-3","su-northag-vu-tank-company-4"], "min": 0, "max": 1 } 
 ],
       "options": [
         { "id": "su-northag-vu-tank-company-1", "name": "Replace all T-62 with T-64A", "points": 30, "br": 0, "composition": [{"qty": 10, "name": "T-64A", "mode": "modify", "replaces": "T-62","equipmentId": "su-northag-t-64a" }] }, 
@@ -509,9 +509,9 @@
       "br": 30,
       "morale": "C",
       "notes": "3 Motorised Rifle Platoons. Each with 3 Infantry Fire Teams and 3 Infantry Anti-Tank Teams. in 3 BTR-60 or BTR-70",
-      "optionGroupLimit": [
+      "optionGroupLimits": [
 
-{ "ids": ["su-northag-vu-motor-rifle-company-1", "su-northag-vu-motor-rifle-company-2", "su-northag-vu-motor-rifle-company-3"], "min": 1, "max": 1 }, 
+{ "options": ["su-northag-vu-motor-rifle-company-1", "su-northag-vu-motor-rifle-company-2", "su-northag-vu-motor-rifle-company-3"], "min": 1, "max": 1 }, 
 { "ids": ["su-northag-vu-motor-rifle-company-4", "su-northag-vu-motor-rifle-company-5", "su-northag-vu-motor-rifle-company-6", "su-northag-vu-motor-rifle-company-7", "su-northag-vu-motor-rifle-company-8", "su-northag-vu-motor-rifle-company-9"], "min": 0, "max": 6 } 
 
 ],
@@ -639,7 +639,7 @@
         { "id": "su-northag-mc-battlegroup-commander-1", "name": "Ferret Armoured Car", "points": 0, "br": 0, "composition": [{"qty": 1, "name": "Ferret Armoured Car", "equipmentId": "su-northag-fv701-ferret"}] }, 
         { "id": "su-northag-mc-battlegroup-commander-2", "name": "Mk9 Chieftain (Stillbrew)", "points": 33, "br": 1, "composition": [{"qty": 1, "name": "Mk9 Chieftain (Stillbrew)","equipmentId": "su-northag-mk9-chiftain-stillbrew" }] }
       ],
-"optionGroupLimit": [
+"optionGroupLimits": [
 
 { "ids": ["su-northag-mc-battlegroup-commander-1", "su-northag-mc-battlegroup-commander-2"], "min": 0, "max": 1 }
 
@@ -654,7 +654,7 @@
       "points": 69,
       "br": 12,
       "morale": "C",
-      "optionGroupLimit": [
+      "optionGroupLimits": [
 
 { "ids": ["su-northag-mc-mechanised-infantry-platoon-1", "su-northag-mc-mechanised-infantry-platoon-2", "su-northag-mc-mechanised-infantry-platoon-3"], "min": 1, "max": 1 }, 
 { "ids": ["su-northag-mc-mechanised-infantry-platoon-4", "su-northag-mc-mechanised-infantry-platoon-5"], "min": 0, "max": 1 } 
@@ -730,7 +730,7 @@
 "su-northag-mc-electronic-warfare-team",
 "su-northag-mc-forward-air-controller"
       ],
-      "optionGroupLimit": [
+      "optionGroupLimits": [
 
 { "ids": ["su-northag-mc-tactical-command-centre-1", "su-northag-mc-tactical-command-centre-2"], "min": 0, "max": 1 }
 
@@ -774,7 +774,7 @@
         {"name": "Officer"},
          {"name": "Air Spotter"}
       ],
-      "optionGroupLimit": [
+      "optionGroupLimits": [
 
 { "ids": ["su-northag-mc-forward-air-controller-1", "su-northag-mc-forward-air-controller-2"], "min": 0, "max": 1 }
 
@@ -817,7 +817,7 @@
         {"name": "Officer"},
          {"name": "Electronic Warfare"}
       ],
-      "optionGroupLimit": [
+      "optionGroupLimits": [
 
 { "ids": ["su-northag-mc-electronic-warfare-team-1", "su-northag-mc-electronic-warfare-team-2"], "min": 0, "max": 1 }
 
@@ -895,7 +895,7 @@
       "specialRules": [
         {"name": "Ambulance"}
       ],
-      "optionGroupLimit": [
+      "optionGroupLimits": [
 
 { "ids": ["su-northag-mc-ambulance-1", "su-northag-mc-ambulance-2"], "min": 0, "max": 1 }
 
@@ -959,7 +959,7 @@
          {"name": "Artillery Spotter"}
       ],
       
-      "optionGroupLimit": [
+      "optionGroupLimits": [
 
 { "ids": ["su-northag-mc-forward-observation-officer-1", "su-northag-mc-forward-observation-officer-2"], "min": 0, "max": 1 }
 
@@ -1103,7 +1103,7 @@
       "notes": "A single air strike by a Harrier GR3 armed with four large bombs or four Marra 68mm multiple rocket pods",
       "unitComposition": [ ],
       "specialRules": [],
-      "optionGroupLimit": [{ "ids": ["su-northag-afs-timed-harrier-gr3-air-strike-1", "su-northag-afs-timed-harrier-gr3-air-strike-2"], "min": 0, "max": 1 }],
+      "optionGroupLimits": [{ "ids": ["su-northag-afs-timed-harrier-gr3-air-strike-1", "su-northag-afs-timed-harrier-gr3-air-strike-2"], "min": 0, "max": 1 }],
       "options": [
         {
           "id": "su-northag-afs-timed-harrier-gr3-air-strike-1",
@@ -1156,7 +1156,7 @@
       "notes": "A single air strike by a Tornado GR1 armed with four very large bombs or four cluster bombs",
       "unitComposition": [],
       "specialRules": [],
-      "optionGroupLimit": [{ "ids": ["su-northag-afs-timed-tornado-gr1-air-strike-1", "su-northag-afs-timed-tornado-gr1-air-strike-2"], "min": 0, "max": 1 }],
+      "optionGroupLimits": [{ "ids": ["su-northag-afs-timed-tornado-gr1-air-strike-1", "su-northag-afs-timed-tornado-gr1-air-strike-2"], "min": 0, "max": 1 }],
       "options": [
         {
           "id": "su-northag-afs-timed-tornado-gr1-air-strike-1",
