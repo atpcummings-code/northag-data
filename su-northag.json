@@ -531,7 +531,7 @@
           "points": 0,
           "br": 0,
           "composition": [ 
-          {"qty": 9, "name": "BTR-60", "mode": "append","equipmentId": "su-northag-btr-60"}
+          {"qty": 3, "name": "BTR-60", "mode": "append","equipmentId": "su-northag-btr-60"}
           ]
         },
         {
@@ -540,7 +540,7 @@
           "points": 0,
           "br": 0,
           "composition": [ 
-          {"qty": 9, "name": "BTR-60", "mode": "append","equipmentId": "su-northag-btr-60"}
+          {"qty": 3, "name": "BTR-60", "mode": "append","equipmentId": "su-northag-btr-60"}
           ]
         },
         {
@@ -549,7 +549,7 @@
           "points": 0,
           "br": 0,
           "composition": [ 
-          {"qty": 9, "name": "BTR-60", "mode": "append","equipmentId": "su-northag-btr-60"}
+          {"qty": 3, "name": "BTR-60", "mode": "append","equipmentId": "su-northag-btr-60"}
           ]
         },
         {
@@ -558,7 +558,7 @@
           "points": 0,
           "br": 0,
           "composition": [
-            {"qty": 9, "name": "BTR-70", "mode": "append","equipmentId": "su-northag-btr-70"}
+            {"qty": 3, "name": "BTR-70", "mode": "append","equipmentId": "su-northag-btr-70"}
           ]
         },
         {
@@ -567,7 +567,7 @@
           "points": 0,
           "br": 0,
           "composition": [
-            {"qty": 9, "name": "BTR-70", "mode": "append","equipmentId": "su-northag-btr-70"}
+            {"qty": 3, "name": "BTR-70", "mode": "append","equipmentId": "su-northag-btr-70"}
           ]
         },
         {
@@ -576,7 +576,7 @@
           "points": 0,
           "br": 0,
           "composition": [
-            {"qty": 9, "name": "BTR-70", "mode": "append","equipmentId": "su-northag-btr-70"}
+            {"qty": 3, "name": "BTR-70", "mode": "append","equipmentId": "su-northag-btr-70"}
           ]
         },
         {
