@@ -899,8 +899,9 @@
           "br": 1,
            "composition": [ 
           {"qty": 1, "name": "BTR-60", "mode": "modify", "replaces": "UAZ 469","equipmentId": "su-northag-btr-60"}    
-        },
-
+		   ],
+		},
+			{
           "id": "su-northag-mc-forward-observation-officer-1",
           "name": "ACRV-2",
           "points": 4,
