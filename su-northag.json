@@ -865,7 +865,7 @@
       ],
 "optionGroupLimits": [
 
-{ "groupName": "Choose transport:","options": ["su-northag-mc-battlegroup-commander-1", "su-northag-mc-battlegroup-commander-2"], "min": 1, "max": 1 }
+{ "groupName": "Choose transport:","options": ["su-northag-mc-battlegroup-commander-1", "su-northag-mc-battlegroup-commander-2"], "min": 1, "max": 1 },
 { "groupName": "Replace Infantry Command Team and BMP with:","options": ["su-northag-mc-battlegroup-commander-3", "su-northag-mc-battlegroup-commander-4", "su-northag-mc-battlegroup-commander-5", "su-northag-mc-battlegroup-commander-6", "su-northag-mc-battlegroup-commander-7"], "min": 0, "max": 1 }
 ]
     },
