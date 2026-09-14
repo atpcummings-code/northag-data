@@ -1148,25 +1148,19 @@
       
       "options": []
         },
-
-
-
-
-	 
-    
-  {
+{
       "id": "su-northag-mc-forward-air-controller",
       "name": "Forward Air Controller",
       "category": "Main Column",
     "hiddenUntilUnlocked": true,
       "minQty": 0,
       "maxQty": 1,
-      "points": 13,
+      "points": 12,
       "br": 2,
       "morale": "C",
       "unitComposition": [
         {"qty": 1, "name": "Infantry Command Team","equipmentId": "su-northag-infantry-command-team"},
-        {"qty": 1, "name": "Land Rover","equipmentId": "su-northag-land-rover"}
+        {"qty": 1, "name": "UAZ 469","equipmentId": "su-northag-uaz-469"}
       ],
       "specialRules": [
         {"name": "Officer"},
@@ -1174,30 +1168,45 @@
       ],
       "optionGroupLimits": [
 
-{ "ids": ["su-northag-mc-forward-air-controller-1", "su-northag-mc-forward-air-controller-2"], "min": 0, "max": 1 }
+{ "groupName": "Replace UAZ 469 with:", "options": ["su-northag-mc-forward-air-controller-1", "su-northag-mc-forward-air-controller-2", "su-northag-mc-forward-air-controller-3"], "min": 0, "max": 1 }
 
 ],
       "options": [
         {
           "id": "su-northag-mc-forward-air-controller-1",
-          "name": "Replace Infantry Command Team and Land Rover with FV105 Sultam",
-          "points": 8,
+          "name": "BTR-60R",
+          "points": 5,
           "br": 1,
           "composition": [
-              {"qty": 1, "name": "FV105", "mode": "modify", "replaces": "Land Rover",  "equipmentId": "su-northag-fv105-sultan" }  
+              {"qty": 1, "name": "BTR-60R", "mode": "modify", "replaces": "UAZ 469",  "equipmentId": "su-northag-btr-60r" }  
             ]
           },
        {
           "id": "su-northag-mc-forward-air-controller-2",
-          "name": "Replace Land Rover with Ferret Armoured Car",
-          "points": 0,
-          "br": 0,
+          "name": "BMP-1K",
+          "points": 11,
+          "br": 1,
           "composition": [
-              {"qty": 1, "name": "Ferret Armoured Car","equipmentId": "su-northag-fv701-ferret" }
+              {"qty": 1, "name": "BMP-1K","equipmentId": "su-northag-bmp-1k" }
+          ]
+            },
+		  {
+          "id": "su-northag-mc-forward-air-controller-3",
+          "name": "BMP-2K",
+          "points": 11,
+          "br": 1,
+          "composition": [
+              {"qty": 1, "name": "BMP-2K","equipmentId": "su-northag-bmp-2k" }
           ]
             }
           ]
   },
+
+
+
+	 
+    
+  
 {
       "id": "su-northag-mc-electronic-warfare-team",
       "name": "Electronic Warfare Team",
