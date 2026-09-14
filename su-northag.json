@@ -1200,13 +1200,7 @@
           ]
             }
           ]
-  },
-
-
-
-	 
-    
-  
+  },  
 {
       "id": "su-northag-mc-electronic-warfare-team",
       "name": "Electronic Warfare Team",
@@ -1226,49 +1220,38 @@
       ],
       "optionGroupLimits": [
 
-{ "ids": ["su-northag-mc-electronic-warfare-team-1", "su-northag-mc-electronic-warfare-team-2"], "min": 0, "max": 1 }
+{ "groupName": "Choose Transport:","options": ["su-northag-mc-electronic-warfare-team-1", "su-northag-mc-electronic-warfare-team-2", "su-northag-mc-electronic-warfare-team-2"], "min": 0, "max": 1 }
 
 ],
       "options": [
     {
           "id": "su-northag-mc-electronic-warfare-team-1",
-          "name": "Infantry Command Team rides in FV439",
+          "name": "BMP-1K",
           "points": 0,
           "br": 0,
           "composition": [
-              {"qty": 1, "name": "FV439", "mode": "append","equipmentId": "su-northag-fv439" }  
+              {"qty": 1, "name": "BMP-1K", "mode": "append","equipmentId": "su-northag-bmp-1k" }  
             ]
           },
-       {
+      {
           "id": "su-northag-mc-electronic-warfare-team-2",
-          "name": "Infantry Command Team rides in FV105 Sultan",
+          "name": "BMP-2K",
           "points": 0,
           "br": 0,
           "composition": [
-              {"qty": 1, "name": "FV105 Sultan","mode": "append","equipmentId": "su-northag-fv105-sultan" }
+              {"qty": 1, "name": "BMP-2K", "mode": "append","equipmentId": "su-northag-bmp-2k" }  
+            ]
+          },
+		  {
+          "id": "su-northag-mc-electronic-warfare-team-2",
+          "name": "BTR-60PU",
+          "points": 0,
+          "br": 0,
+          "composition": [
+              {"qty": 1, "name": "BTR-60PU", "mode": "append","equipmentId": "su-northag-btr-60pu" }  
+            ]
+          }
           ]
-            }
-          ]
-},
-{
-      "id": "su-northag-mc-ground-surveillance-radar-team",
-      "name": "Ground Surveillance Radar Team",
-      "category": "Main Column",
-      "hiddenUntilUnlocked": true,
-      "minQty": 0,
-      "maxQty": 1,
-      "points": 16,
-      "br": 3,
-      "morale": "C",
-      "unitComposition": [
-        {"qty": 1, "name": "Infantry Command Team","equipmentId": "su-northag-infantry-command-team"},
-        {"qty": 1, "name": "Surveillance Radar Team", "equipmentId": "su-northag-infantry-command-team"},
-        {"qty": 1, "name": "SFV103 Spartan","equipmentId": "su-northag-fv103-spartan" }
-       ],
-      "specialRules": [
-        {"name": "Officer"},
-         {"name": "Electronic Warfare"}
-      ]
 },
 {
       "id": "su-northag-mc-supply-truck",
@@ -1280,9 +1263,32 @@
       "points": 9,
       "br": 0,
       "morale": "C",
-      "unitComposition": [
-        {"qty": 1, "name": "Truck", "equipmentId": "su-northag-bedford-mk4-truck"}
-       ],
+      "unitComposition": [],
+	"optionGroupLimits": [
+	{ "groupName": "Choose Truck:","options": ["su-northag-mc-supply-truck-1", "su-northag-mc-supply-truck-2"], "min": 0, "max": 1 }
+
+],
+      "options": [
+    {
+          "id": "su-northag-mc-supply-truck-1",
+          "name": "URAL-4320",
+          "points": 0,
+          "br": 0,
+          "composition": [
+              {"qty": 1, "name": "URAL-4320", "mode": "append","equipmentId": "su-northag-ural-4320" }  
+            ]
+          },
+      {
+          "id": "su-northag-mc-supply-truck-2",
+          "name": "URAL-375",
+          "points": 0,
+          "br": 0,
+          "composition": [
+              {"qty": 1, "name": "URAL-375", "mode": "append","equipmentId": "su-northag-ural-375" }  
+            ]
+          }
+		  
+          ]
       "specialRules": [
         {"name": "Resupply"}
       ]
@@ -1302,31 +1308,8 @@
       "specialRules": [
         {"name": "Ambulance"}
       ],
-      "optionGroupLimits": [
-
-{ "ids": ["su-northag-mc-ambulance-1", "su-northag-mc-ambulance-2"], "min": 0, "max": 1 }
-
-],
-      "options": [
-    {
-          "id": "su-northag-mc-ambulance-1",
-          "name": "FV104 Samaritan",
-          "points": 0,
-          "br": 0,
-          "composition": [
-              {"qty": 1, "name": "FV104 Samaritan", "equipmentId": "su-northag-fv104-samaritan"}  
-            ]
-          },
-       {
-          "id": "su-northag-mc-ambulance-2",
-          "name": "FV432 Ambulance",
-          "points": 0,
-          "br": 0,
-          "composition": [
-              {"qty": 1, "name": "FV432 Ambulance", "equipmentId": "su-northag-fv432-ambulance"}
-          ]
-            }
-          ]
+      "optionGroupLimits": [],
+      "options": []
 },
     
     
@@ -1337,16 +1320,17 @@
       "category": "Main Column",
       "minQty": 0,
       "maxQty": 1,
-      "points": 14,
+      "points": 10,
       "br": 1,
       "morale": "C",
       "unitComposition": [
-        {"qty": 1, "name": "Infantry Weapons Team","equipmentId": "su-northag-infantry-Weapons-team" },
-        {"qty": 1, "name": "Towed Rapier SAM","equipmentId": "su-northag-rapier" },
-        {"qty": 1, "name": "Land Rover (1 tonne)","equipmentId": "su-northag-land-rover-1-tonne"}
+        {"qty": 1, "name": "SA-9 Gaskin","equipmentId": "su-northag-sa-9-gaskin" }
       ],
       "specialRules": [{"name": "AA"}],
-      
+      "optionGroupLimits": [
+	{ "groupName": "Replace SA-9 with:","options": ["su-northag-mc-supply-truck-1", "su-northag-mc-supply-truck-2"], "min": 0, "max": 1 }
+
+],
       "options": [
         {
           "id": "su-northag-mc-surface-to-air-missile-launcher-1",
