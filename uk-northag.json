@@ -150,7 +150,7 @@
         {"name": "Scout"},
         {"name": "Mortar Spotter"}
       ],
-      "optionGroupLimit": [{ "ids": ["uk-northag-fsu-recce-tank-patrol-1", "uk-northag-fsu-recce-tank-patrol-2"], "min": 1, "max": 1 }],
+      "optionGroupLimits": [{ "ids": ["uk-northag-fsu-recce-tank-patrol-1", "uk-northag-fsu-recce-tank-patrol-2"], "min": 1, "max": 1 }],
       
       "options": [
 {
@@ -433,7 +433,7 @@
       "points": 69,
       "br": 12,
       "morale": "P",
-      "optionGroupLimit": [
+      "optionGroupLimits": [
 
 { "ids": ["uk-northag-vu-mechanised-infantry-platoon-1", "uk-northag-vu-mechanised-infantry-platoon-2", "uk-northag-vu-mechanised-infantry-platoon-3"], "min": 1, "max": 1 }, 
 { "ids": ["uk-northag-vu-mechanised-infantry-platoon-4", "uk-northag-vu-mechanised-infantry-platoon-5"], "min": 0, "max": 1 } 
@@ -522,7 +522,7 @@
         { "id": "uk-northag-mc-battlegroup-commander-1", "name": "Ferret Armoured Car", "points": 0, "br": 0, "composition": [{"qty": 1, "name": "Ferret Armoured Car", "equipmentId": "uk-northag-fv701-ferret"}] }, 
         { "id": "uk-northag-mc-battlegroup-commander-2", "name": "Mk9 Chieftain (Stillbrew)", "points": 33, "br": 1, "composition": [{"qty": 1, "name": "Mk9 Chieftain (Stillbrew)","equipmentId": "uk-northag-mk9-chiftain-stillbrew" }] }
       ],
-"optionGroupLimit": [
+"optionGroupLimits": [
 
 { "ids": ["uk-northag-mc-battlegroup-commander-1", "uk-northag-mc-battlegroup-commander-2"], "min": 0, "max": 1 }
 
@@ -537,7 +537,7 @@
       "points": 69,
       "br": 12,
       "morale": "P",
-      "optionGroupLimit": [
+      "optionGroupLimits": [
 
 { "ids": ["uk-northag-mc-mechanised-infantry-platoon-1", "uk-northag-mc-mechanised-infantry-platoon-2", "uk-northag-mc-mechanised-infantry-platoon-3"], "min": 1, "max": 1 }, 
 { "ids": ["uk-northag-mc-mechanised-infantry-platoon-4", "uk-northag-mc-mechanised-infantry-platoon-5"], "min": 0, "max": 1 } 
@@ -613,7 +613,7 @@
 "uk-northag-mc-electronic-warfare-team",
 "uk-northag-mc-forward-air-controller"
       ],
-      "optionGroupLimit": [
+      "optionGroupLimits": [
 
 { "ids": ["uk-northag-mc-tactical-command-centre-1", "uk-northag-mc-tactical-command-centre-2"], "min": 0, "max": 1 }
 
@@ -657,7 +657,7 @@
         {"name": "Officer"},
          {"name": "Air Spotter"}
       ],
-      "optionGroupLimit": [
+      "optionGroupLimits": [
 
 { "ids": ["uk-northag-mc-forward-air-controller-1", "uk-northag-mc-forward-air-controller-2"], "min": 0, "max": 1 }
 
@@ -700,7 +700,7 @@
         {"name": "Officer"},
          {"name": "Electronic Warfare"}
       ],
-      "optionGroupLimit": [
+      "optionGroupLimits": [
 
 { "ids": ["uk-northag-mc-electronic-warfare-team-1", "uk-northag-mc-electronic-warfare-team-2"], "min": 0, "max": 1 }
 
@@ -778,7 +778,7 @@
       "specialRules": [
         {"name": "Ambulance"}
       ],
-      "optionGroupLimit": [
+      "optionGroupLimits": [
 
 { "ids": ["uk-northag-mc-ambulance-1", "uk-northag-mc-ambulance-2"], "min": 0, "max": 1 }
 
@@ -842,7 +842,7 @@
          {"name": "Artillery Spotter"}
       ],
       
-      "optionGroupLimit": [
+      "optionGroupLimits": [
 
 { "ids": ["uk-northag-mc-forward-observation-officer-1", "uk-northag-mc-forward-observation-officer-2"], "min": 0, "max": 1 }
 
@@ -986,7 +986,7 @@
       "notes": "A single air strike by a Harrier GR3 armed with four large bombs or four Marra 68mm multiple rocket pods",
       "unitComposition": [ ],
       "specialRules": [],
-      "optionGroupLimit": [{ "ids": ["uk-northag-afs-timed-harrier-gr3-air-strike-1", "uk-northag-afs-timed-harrier-gr3-air-strike-2"], "min": 0, "max": 1 }],
+      "optionGroupLimits": [{ "ids": ["uk-northag-afs-timed-harrier-gr3-air-strike-1", "uk-northag-afs-timed-harrier-gr3-air-strike-2"], "min": 0, "max": 1 }],
       "options": [
         {
           "id": "uk-northag-afs-timed-harrier-gr3-air-strike-1",
@@ -1039,7 +1039,7 @@
       "notes": "A single air strike by a Tornado GR1 armed with four very large bombs or four cluster bombs",
       "unitComposition": [],
       "specialRules": [],
-      "optionGroupLimit": [{ "ids": ["uk-northag-afs-timed-tornado-gr1-air-strike-1", "uk-northag-afs-timed-tornado-gr1-air-strike-2"], "min": 0, "max": 1 }],
+      "optionGroupLimits": [{ "ids": ["uk-northag-afs-timed-tornado-gr1-air-strike-1", "uk-northag-afs-timed-tornado-gr1-air-strike-2"], "min": 0, "max": 1 }],
       "options": [
         {
           "id": "uk-northag-afs-timed-tornado-gr1-air-strike-1",
