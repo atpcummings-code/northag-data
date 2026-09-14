@@ -558,7 +558,7 @@
           "br": 0,
           "maxQty": 3,
           "composition": [
-           {"qty": 1, "name": "sPKM Weapons Team", "mode": "append","equipmentId": "su-northag-infantry-spkm-team"},  
+           {"qty": 1, "name": "sPKM Weapons Team", "mode": "append","equipmentId": "su-northag-infantry-spkm-team"}  
           ]
         },
 {
@@ -569,7 +569,7 @@
   "maxQty": 3,
           
           "composition": [
-           {"qty": 1, "name": "AT-3 Sagger ATGM Weapons Team", "mode": "append","equipmentId": "su-northag-at-3-sagger"},  
+           {"qty": 1, "name": "AT-3 Sagger ATGM Weapons Team", "mode": "append","equipmentId": "su-northag-at-3-sagger"} 
           ]
         },
         {
@@ -580,7 +580,7 @@
           "maxQty": 3,
           
           "composition": [
-           {"qty": 1, "name": "AT-4 Spigot ATGM Weapons Team", "mode": "append","equipmentId": "su-northag-at-4-spigot"},  
+           {"qty": 1, "name": "AT-4 Spigot ATGM Weapons Team", "mode": "append","equipmentId": "su-northag-at-4-spigot"}  
           ]
         },
 {
@@ -591,7 +591,7 @@
   "maxQty": 3,
           
           "composition": [
-           {"qty": 1, "name": "AGS-17 AGL Weapons Team", "mode": "append","equipmentId": "su-northag-ags-17"},  
+           {"qty": 1, "name": "AGS-17 AGL Weapons Team", "mode": "append","equipmentId": "su-northag-ags-17"}  
           ]
         },
         {
@@ -602,7 +602,7 @@
           "maxQty": 3,
           
           "composition": [
-           {"qty": 1, "name": "SA-7 Grail AA Weapons Team", "mode": "append","equipmentId": "su-northag-sa-7-grail"},  
+           {"qty": 1, "name": "SA-7 Grail AA Weapons Team", "mode": "append","equipmentId": "su-northag-sa-7-grail"}  
           ]
         },
         
@@ -613,7 +613,7 @@
         "maxQty": 3,
           
           "composition": [
-           {"qty": 1, "name": "Sniper Team", "mode": "append","equipmentId": "su-northag-sniper-team"},  
+           {"qty": 1, "name": "Sniper Team", "mode": "append","equipmentId": "su-northag-sniper-team"}  
           ]
         
       ]
