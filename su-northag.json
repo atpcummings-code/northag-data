@@ -259,8 +259,8 @@
           "composition": 
           [ 
           {"qty": 1, "name": "Land Rover","equipmentId": "su-northag-land-rover", "mode": "append"}
-          
-},
+          ]
+        },
       {
           "id": "su-northag-fsu-spetnatz-long-range-patrol-2",
           "name": "Rides in IuAZ-967",
