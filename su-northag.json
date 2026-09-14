@@ -1187,7 +1187,7 @@
           "points": 11,
           "br": 1,
           "composition": [
-              {"qty": 1, "name": "BMP-1K","equipmentId": "su-northag-bmp-1k" }
+              {"qty": 1, "name": "BMP-1K","mode": "modify", "replaces": "UAZ 469","equipmentId": "su-northag-bmp-1k" }
           ]
             },
 		  {
@@ -1196,7 +1196,7 @@
           "points": 11,
           "br": 1,
           "composition": [
-              {"qty": 1, "name": "BMP-2K","equipmentId": "su-northag-bmp-2k" }
+              {"qty": 1, "name": "BMP-2K","mode": "modify", "replaces": "UAZ 469","equipmentId": "su-northag-bmp-2k" }
           ]
             }
           ]
