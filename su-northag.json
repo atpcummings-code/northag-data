@@ -949,8 +949,8 @@
 
 ],
       "unitComposition": [
-        {"qty": 9, "name": "Infantry Fire Teams","equipmentId": "su-northag-infantry-fire-team" },
-        {"qty": 9, "name": "Infantry Anti-Tank Teams","equipmentId": "su-northag-infantry-anti-tank-team" }
+        {"qty": 3, "name": "Infantry Fire Teams","equipmentId": "su-northag-infantry-fire-team" },
+        {"qty": 3, "name": "Infantry Anti-Tank Teams","equipmentId": "su-northag-infantry-anti-tank-team" }
       ],
       "specialRules": [],
       "options": [
@@ -1072,71 +1072,56 @@
         
       ]
     },
-
-	 
-    {
-      "id": "su-northag-mc-mechanised-infantry-platoon",
-      "name": "Mechanised Infantry Platoon",
-      "category": "main Column",
+{
+      "id": "su-northag-mc-military-police-team",
+      "name": "Military Police Team",
+      "category": "Main Column",
       "minQty": 0,
       "maxQty": 1,
-      "points": 69,
-      "br": 12,
+      "points": 16,
+      "br": 2,
       "morale": "C",
-      "optionGroupLimits": [
-
-{ "ids": ["su-northag-mc-mechanised-infantry-platoon-1", "su-northag-mc-mechanised-infantry-platoon-2", "su-northag-mc-mechanised-infantry-platoon-3"], "min": 1, "max": 1 }, 
-{ "ids": ["su-northag-mc-mechanised-infantry-platoon-4", "su-northag-mc-mechanised-infantry-platoon-5"], "min": 0, "max": 1 } 
-
-],
       "unitComposition": [
-        {"qty": 7, "name": "Infantry Fire Team","equipmentId": "su-northag-infantry-fire-team" },
-         {"qty": 4, "name": "FV432","equipmentId": "su-northag-fv432" }
+        {"qty": 1, "name": "Infantry Command Team","equipmentId": "su-northag-infantry-command-team" },
+        {"qty": 1, "name": "UAZ 469","equipmentId": "su-northag-uaz-469"}
       ],
       "specialRules": [
-        {"name": "Advanced Gunnery"},
-        {"name": "Advanced Sights"}
+        {"name": "Officer"},
+         {"name": "Traffic Control"}
       ],
       
-       "upgrades": [
-       
-      ],
-      "options": [
-        {
-          "id": "su-northag-mc-mechanised-infantry-platoon-1",
-          "name": "sGPMG Weapons Team",
-          "points": 4,
-          "br": 0,
-          
-          "composition": [ 
-          {"qty": 1, "name": "sGPMG Weapons Team)", "mode": "append","equipmentId": "su-northag-infantry-sgpmg-team"}
-          ]
-        },
-        {
-          "id": "su-northag-mc-mechanised-infantry-platoon-2",
-          "name": "Sniper Team",
-          "points": 6,
-          "br": 0,
-          
-          "composition": [
-            {"qty": 1, "name": "Sniper Team", "mode": "append","equipmentId": "su-northag-infantry-sniper-team"}
-          ]
-        },
-        {
-          "id": "su-northag-mc-mechanised-infantry-platoon-3",
-          "name": "Carl Gustav Weapons Team",
-          "points": 8,
-          "br": 0,
-          
-          "composition": [
-            {"qty": 1, "name": "Carl gustav Weapons Team", "mode": "append","equipmentId": "su-northag-carl-gustav"}
-          ]
-        },
-         { "id": "su-northag-mc-mechanised-infantry-platoon-4", "name": "MILAN ATGM Weapons Team", "composition": [{"qty": 1, "name": "MILAN ATGM Weapons Team", "mode": "append","equipmentId": "su-northag-milan"},  {"qty": 1, "name": "FV103 Spartan","equipmentId": "su-northag-fv103-spartan"}], "points": 16, "br": 2, "morale": "C"},
-        { "id": "su-northag-mc-mechanised-infantry-platoon-5", "name": "Blowpipe MANPAD Weapons Team", "composition": [{"qty": 1, "name": "Blowpipe MANPAD Weapons Team","mode": "append","equipmentId": "su-northag-blowpipe" },{"qty": 1, "name": "FV103 Spartan","equipmentId": "su-northag-fv103-spartan"}], "points": 11, "br": 2, "morale": "C" }
-        
-      ]
+      "options": []
     },
+	 {
+      "id": "su-northag-mc-guided-weapons-carrier-section",
+      "name": "Guided Weapons Carrier Section", 
+      "category": "Main Column",
+      "minQty": 0,
+      "maxQty": 1,
+      "points": 36,
+      "br": 4,
+      "morale": "C",
+      "unitComposition": [
+        {"qty": 2, "name": "BRDM-2 Malyutka","equipmentId": "su-northag-brdm-2-malyutka" }
+      ],
+      "specialRules": [{"name": "Ambush"}],
+      "optionGroupLimits": [
+
+{ "groupName": "replace both with:", "options": ["su-northag-mc-guided-weapons-carrier-section-1"], "min": 0, "max": 1 }
+	  ],
+      "options": [
+		  {
+          "id": "su-northag-mc-guided-weapons-carrier-section-1",
+          "name": "BRDM-2 AT-5 Konkur",
+          "points": 16,
+          "br": 0, 
+          "composition": [
+           {"qty": 2, "name": "BRDM-2 AT-5 Konkur", "equipmentId": "su-northag-brdm-2-konkur"}  
+          ]
+        }
+	  ]
+    },
+    
     {
       "id": "su-northag-mc-tactical-command-centre",
       "name": "Tactical Command Centre",
@@ -1350,43 +1335,9 @@
             }
           ]
 },
-    {
-      "id": "su-northag-mc-military-police-team",
-      "name": "Military Police Team",
-      "category": "Main Column",
-      "minQty": 0,
-      "maxQty": 1,
-      "points": 18,
-      "br": 2,
-      "morale": "C",
-      "unitComposition": [
-        {"qty": 1, "name": "Infantry Command Team","equipmentId": "su-northag-infantry-command-team" },
-        {"qty": 1, "name": "Land Rover","equipmentId": "su-northag-land-rover"}
-      ],
-      "specialRules": [
-        {"name": "Officer"},
-         {"name": "Traffic Control"}
-      ],
-      
-      "options": []
-    },
     
-{
-      "id": "su-northag-mc-guided-weapons-carrier-section",
-      "name": "Guided Weapons Carrier Section", 
-      "category": "Main Column",
-      "minQty": 0,
-      "maxQty": 1,
-      "points": 56,
-      "br": 4,
-      "morale": "C",
-      "unitComposition": [
-        {"qty": 2, "name": "FV438 Swingfires","equipmentId": "su-northag-fv438-swingfire" }
-      ],
-      "specialRules": [{"name": "Ambush"}],
-      
-      "options": []
-    },
+    
+
     {
       "id": "su-northag-mc-surface-to-air-missile-launcher",
       "name": "Surface to Air Missile Launcher", 
