@@ -898,7 +898,7 @@
           "points": 4,
           "br": 1,
            "composition": [ 
-          {"qty": 1, "name": "BTR-60", "mode": "modify", "replaces": "UAZ 469","equipmentId": "su-northag-btr-60"}    
+          {"qty": 1, "name": "BTR-60", "equipmentId": "su-northag-btr-60"}    
 		   ]
 		},
 			{
@@ -907,7 +907,7 @@
           "points": 4,
           "br": 1,
            "composition": [ 
-          {"qty": 1, "name": "ACRV-2", "mode": "modify", "replaces": "UAZ 469","equipmentId": "su-northag-acrv-2"}
+          {"qty": 1, "name": "ACRV-2","equipmentId": "su-northag-acrv-2"}
 		   ]
         }
 
