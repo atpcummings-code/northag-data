@@ -903,11 +903,11 @@
 		},
 			{
           "id": "su-northag-mc-forward-observation-officer-2",
-          "name": "ACRV-2",
+          "name": "ARCV-2",
           "points": 4,
           "br": 1,
            "composition": [ 
-          {"qty": 1, "name": "ACRV-2","equipmentId": "su-northag-acrv-2"}
+          {"qty": 1, "name": "ARCV-2","equipmentId": "su-northag-arcv-2"}
 		   ]
         }
 
@@ -1132,7 +1132,7 @@
       "morale": "C",
       "unitComposition": [
         {"qty": 1, "name": "Infantry Command Team","equipmentId": "su-northag-infantry-command-team"},
-{"qty": 1, "name": "ACRV-2","equipmentId": "su-northag-acrv-2"}
+{"qty": 1, "name": "ARCV-2","equipmentId": "su-northag-arcv-2"}
 
       ],
       "specialRules": [
