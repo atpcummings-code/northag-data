@@ -1876,7 +1876,7 @@
     "vehicleName": "BMP-2", 
     "movement": [{"cat": "Fast Track", "move": "10\"/14\""}], 
     "armour": [{"Front": 1, "Side": 0, "Rear": 0}], 
-    "weapons": [{"weapon": "30mm", "mount": "Turret", "rof": "High", "range": 50,"equipmentId": "su-northag-30mm"  },{"weapon": "MG", "mount": "Co-axial", "rof": "Low", "range": 30},{"weapon": "AT-3 Spandrel (1)", "mount": "Turret","equipmentId": "su-northag-at-5-spandrel"],
+    "weapons": [{"weapon": "30mm", "mount": "Turret", "rof": "High", "range": 50,"equipmentId": "su-northag-30mm"  },{"weapon": "MG", "mount": "Co-axial", "rof": "Low", "range": 30},{"weapon": "AT-3 Spandrel (1)", "mount": "Turret","equipmentId": "su-northag-at-5-spandrel"}],
     "specialRules": ["Capacity 2","Amphibious","ATGM"] 
   },
 { 
