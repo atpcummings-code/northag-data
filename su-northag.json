@@ -1808,6 +1808,42 @@
   
   "equipment": [ 
   { 
+    "equipmentId": "su-northag-brdm-2", 
+    "type": "vehicle", 
+    "vehicleName": "BRDM-2", 
+    "movement": [{"cat": "Wheel AT", "move": "8\"/16\""}], 
+    "armour": [{"Front": 0, "Side": 0, "Rear": 0}], 
+    "weapons": [{"weapon": "HMG", "mount": "Turret","rof": "Medium", "range": 40},{"weapon": "MG", "mount": "Co-axial", "rof": "Low", "range": 30}],
+    "specialRules": ["Scout","Amphibious"] 
+  },
+	  { 
+    "equipmentId": "su-northag-brdm-2-malyutka", 
+    "type": "vehicle", 
+    "vehicleName": "BRDM-2 Malyutka", 
+    "movement": [{"cat": "Wheel AT", "move": "8\"/16\""}], 
+    "armour": [{"Front": 0, "Side": 0, "Rear": 0}], 
+    "weapons": [{"weapon": "AT-3 Sagger", "mount": "Hull","equipmentId": "su-northag-at-3-sagger"}],
+    "specialRules": ["ATGM","Amphibious"] 
+  },
+	    { 
+    "equipmentId": "su-northag-brdm-2-konkurs", 
+    "type": "vehicle", 
+    "vehicleName": "BRDM-2 Konkurs", 
+    "movement": [{"cat": "Wheel AT", "move": "8\"/16\""}], 
+    "armour": [{"Front": 0, "Side": 0, "Rear": 0}], 
+    "weapons": [{"weapon": "AT-5 Spandrel", "mount": "Hull","equipmentId": "su-northag-at-5-spandrel"}],
+    "specialRules": ["ATGM","Amphibious"] 
+  },
+	    { 
+    "equipmentId": "su-northag-brm-1", 
+    "type": "vehicle", 
+    "vehicleName": "BRM-1s", 
+    "movement": [{"cat": "Fast Track", "move": "10\"/14\""}], 
+    "armour": [{"Front": 1, "Side": 0, "Rear": 0}], 
+    "weapons": [{"weapon": "73mm Grom", "mount": "Turret","equipmentId": "su-northag-73mm-grom"}],
+    "specialRules": ["Scout","Capacity 1","Ground Surveillance Radar"] 
+  },
+	  { 
     "equipmentId": "su-northag-t-62", 
     "type": "vehicle", 
     "vehicleName": "T-62", 
@@ -1979,12 +2015,12 @@
     "specialRules": ["Flamethrower: Very Heavy HE"] 
   },
 { 
-    "equipmentId": "su-northag-to-62a", 
+    "equipmentId": "su-northag-to-62", 
     "type": "vehicle", 
-    "vehicleName": "TO-62A", 
+    "vehicleName": "TO-62", 
     "movement": [{"cat": "Med Track", "move": "8\"/12\""}], 
     "armour": [{"Front": 3, "Side": 2, "Rear": 1}], 
-    "weapons": [{"weapon": "115mmU5TS", "mount": "Turret", "equipmentId": "su-northag-115mm-u5ts"  },{"weapon": "Flamethrower", "mount": "Co-axial"},{"weapon": "MG", "mount": "Pintle", "rof": "Medium", "range": 30}],
+    "weapons": [{"weapon": "115mmU5TS", "mount": "Turret", "equipmentId": "su-northag-115mm-u5ts"  },{"weapon": "Flamethrower", "mount": "Co-axial",, "equipmentId": "su-northag-flamethrower"},{"weapon": "MG", "mount": "Pintle", "rof": "Medium", "range": 30}],
     "specialRules": ["Flamethrower: Very Heavy HE"] 
   },
 	  	  { 
@@ -2051,9 +2087,9 @@
     "specialRules": ["AA","*Roll twice for each attack"] 
   },
 { 
-    "equipmentId": "su-northag-2s1-grovzdika", 
+    "equipmentId": "su-northag-2s1-gvozdika", 
     "type": "vehicle", 
-    "vehicleName": "2S1 Grovzdika", 
+    "vehicleName": "2S1 Gvozdika", 
     "movement": [{"cat": "Med Track", "move": "8\"/12\""}], 
     "armour": [{"Front": 2, "Side": 1, "Rear": 0}], 
     "weapons": [{"weapon": "122mm*", "mount": "Turret", "equipmentId": "su-northag-122mm"}],
@@ -2079,7 +2115,7 @@
       {"weapon": "Gatling MG", "mount": "Hull", "rof": "High*", "range": 30},
       {"weapon": "UB-32 rockets (2)", "mount": "Hull"},
       {"weapon": "S24 Missiles (2)", "mount": "Hull"},
-      {"weapon": "AT-6 Spiral", "mount": "Hull"},
+      {"weapon": "AT-6 Spiral (2)", "mount": "Hull"},
       {"weapon": "MG", "mount": "Hull", "rof": "Medium", "range": 30}
     ], 
     "specialRules": ["Capacity 2", "Helicopter","ATGM"] 
@@ -2156,7 +2192,7 @@
     "equipmentId": "su-northag-73mm-grom", 
     "type": "weapon", 
     "weaponName": "73mm Grom", 
-    "ammo": [{"AP": "2,1,1,-,-"}, {"HE": "Light, 1,1,1,,-,-"}] 
+    "ammo": [{"AP": "2,2,2,-,-"}, {"HE": "Light, 1,1,1,,-,-"}] 
   },
   { 
     "equipmentId": "su-northag-100mm-d10", 
@@ -2220,7 +2256,7 @@
   { 
     "equipmentId": "su-northag-rpg-7", 
     "type": "weapon", 
-    "weaponName": "RPG 7", 
+    "weaponName": "RPG-7", 
     "ammo": [{"AP": "3,-,-,-,-"}]
   },
   { 
@@ -2230,9 +2266,9 @@
     "ammo": [{"HE": "Various, 2,2,2,2,2"}] 
   },
   { 
-    "equipmentId": "su-northag-sb4-240mm", 
+    "equipmentId": "su-northag-s24-240mm", 
     "type": "weapon", 
-    "weaponName": "SB4 (240mm)", 
+    "weaponName": "S24 (240mm)", 
     "ammo": [{"HE": "Very Heavy, 7,7,7,7,7"}] 
   },
   { 
@@ -2242,9 +2278,9 @@
     "ammo": [{"HE": "Heavy, 4,4,4,4,4"}] 
   }, 
   { 
-    "equipmentId": "su-northag-mb-27-220mm", 
+    "equipmentId": "su-northag-bm-27-220mm", 
     "type": "weapon", 
-    "weaponName": "MB 27 (220mm)", 
+    "weaponName": "BM 27 (220mm)", 
     "ammo": [{"HE": "Very Heavy, 7,7,7,7,7"}] 
   },
  { 
