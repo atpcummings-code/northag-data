@@ -1459,7 +1459,7 @@
     "movement": [{"cat": "Wheel AT", "move": "8\"/16\""}], 
     "armour": "Soft Skin", 
     "weapons": [],
-    "specialRules": ["Bridging"] 
+    "specialRules": ["Bridging","Amphibious"] 
   },
   { 
     "equipmentId": "uk-northag-chieftain-avlb", 
@@ -1583,7 +1583,6 @@
     "type": "aircraft", 
     "aircraftName": "Harrier GR3", 
     "movement": [{"cat": "Fighter", "move": "Unlimited"}], 
-    "hits": 2, 
     "weapons": ["4 Large Bombs"] 
   },
    { 
@@ -1591,23 +1590,20 @@
     "type": "aircraft", 
     "aircraftName": "Harrier GR3", 
     "movement": [{"cat": "Fighter", "move": "Unlimited"}], 
-    "hits": 2, 
     "weapons": ["4 Matra rocket pads"] 
   },
   { 
     "equipmentId": "uk-northag-jaguar-gr1", 
     "type": "aircraft", 
     "aircraftName": "Jaguar GR1", 
-    "movement": [{"cat": "Fighter-Bomber", "move": "Unlimited"}], 
-    "hits": 3, 
+    "movement": [{"cat": "Fighter-Bomber", "move": "Unlimited"}],  
     "weapons": ["8 Large Bombs"] 
   },
   { 
     "equipmentId": "uk-northag-tornado-gr1-1", 
     "type": "aircraft", 
     "aircraftName": "Tornado GR1", 
-    "movement": [{"cat": "Fighter-Bomber", "move": "Unlimited"}], 
-    "hits": 4, 
+    "movement": [{"cat": "Fighter-Bomber", "move": "Unlimited"}],  
     "weapons": ["4 very Large Bombs"] 
   },
   { 
@@ -1615,7 +1611,6 @@
     "type": "aircraft", 
     "aircraftName": "Tornado GR1", 
     "movement": [{"cat": "Fighter-Bomber", "move": "Unlimited"}], 
-    "hits": 4, 
     "weapons": ["4 Cluster Bombs"] 
   },
   { 
