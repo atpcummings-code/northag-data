@@ -38,7 +38,7 @@
       "br": 2,
       "morale": "P",
       "unitComposition": [{"qty": 1,"name": "Gazelle Scout Helicopter","equipmentId": "uk-northag-gazelle"}],
-      "specialRules": [{"name": "Helicopter"},{"name": "Scout3"},{"name": "Artillery Spotter"}],
+      "specialRules": [{"name": "Helicopter"},{"name": "Scout 3"},{"name": "Artillery Spotter"}],
       
       "options": [
       {
@@ -1540,7 +1540,7 @@
     "movement": [{"cat": "Helo", "move": "60\"/60\""}],
     "armour": "Soft Skin", 
     "weapons": [{"weapon": "", "mount": "", "rof": ""}], 
-    "specialRules": ["Scout3", "Artillery Spotter", "Helicopter"] 
+    "specialRules": ["Scout 3", "Artillery Spotter", "Helicopter"] 
   },
   { 
     "equipmentId": "uk-northag-puma", 
