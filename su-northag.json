@@ -2020,7 +2020,7 @@
     "vehicleName": "TO-62", 
     "movement": [{"cat": "Med Track", "move": "8\"/12\""}], 
     "armour": [{"Front": 3, "Side": 2, "Rear": 1}], 
-    "weapons": [{"weapon": "115mmU5TS", "mount": "Turret", "equipmentId": "su-northag-115mm-u5ts"  },{"weapon": "Flamethrower", "mount": "Co-axial",, "equipmentId": "su-northag-flamethrower"},{"weapon": "MG", "mount": "Pintle", "rof": "Medium", "range": 30}],
+    "weapons": [{"weapon": "115mmU5TS", "mount": "Turret", "equipmentId": "su-northag-115mm-u5ts"  },{"weapon": "Flamethrower", "mount": "Co-axial","equipmentId": "su-northag-flamethrower"},{"weapon": "MG", "mount": "Pintle", "rof": "Medium", "range": 30}],
     "specialRules": ["Flamethrower: Very Heavy HE"] 
   },
 	  	  { 
@@ -2185,7 +2185,7 @@
     "equipmentId": "su-northag-73mm-grom", 
     "type": "weapon", 
     "weaponName": "73mm Grom", 
-    "ammo": [{"AP": "2,2,2,-,-"}, {"HE": "Light, 1,1,1,,-,-"}] 
+    "ammo": [{"AP": "2,2,2,-,-"}, {"HE": "Light, 1,1,1,-,-"}] 
   },
   { 
     "equipmentId": "su-northag-100mm-d10", 
