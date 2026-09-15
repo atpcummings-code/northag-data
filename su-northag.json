@@ -1698,48 +1698,31 @@
       "options": []
     },
 {
-      "id": "su-northag-afs-timed-105mm-artillery-strike",
-  "equipmentId": "su-northag-175mm",
-      "name": "Timed 105mm Artillery Strike", 
+      "id": "su-northag-afs-timed-122mm-artillery-strike",
+  "equipmentId": "su-northag-122mm",
+      "name": "Timed 122mm Artillery Strike", 
+      "category": "Additional Fire Support",
+      "minQty": 0,
+      "maxQty": 8,
+      "points": 14,
+      "br": 0,
+      "morale": "",
+      "notes": "A single strike by a battery of 6 122mm field guns or 2S1 Gvozdika self propelled guns.",
+      "unitComposition": [],
+      "specialRules": [],
+      "options": []
+    },
+    {
+      "id": "su-northag-afs-timed-152mm-artillery-strike",
+      "equipmentId": "su-northag-152mm", 
+      "name": "Timed 152mm Artillery Strike", 
       "category": "Additional Fire Support",
       "minQty": 0,
       "maxQty": 4,
-      "points": 12,
+      "points": 21,
       "br": 0,
       "morale": "",
-      "notes": "A single strike by a battery of 4 105mm Abbot self-propelled guns.",
-      "unitComposition": [],
-      "specialRules": [],
-      
-      "options": []
-    },
-    {
-      "id": "su-northag-afs-timed-155mm-artillery-strike",
-      "equipmentId": "su-northag-155mm", 
-      "name": "Timed 155mm Artillery Strike", 
-      "category": "Additional Fire Support",
-      "minQty": 0,
-      "maxQty": 2,
-      "points": 18,
-      "br": 0,
-      "morale": "",
-      "notes": "A single strike by a battery of 4 155mm M109A2 self-propelled guns.",
-      "unitComposition": [],
-      "specialRules": [],
-      
-      "options": []
-    },
-    {
-      "id": "su-northag-afs-timed-175mm-artillery-strike",
-      "equipmentId": "su-northag-175mm", 
-      "name": "Timed 175mm Artillery Strike", 
-      "category": "Additional Fire Support",
-      "minQty": 0,
-      "maxQty": 1,
-      "points": 24,
-      "br": 0,
-      "morale": "",
-      "notes": "A single strike by a battery of 4 175mm M107 self-propelled guns.",
+      "notes": "A single strike by a battery of 6 152mm field guns or 2S3 Akasiya self propelled guns.",
       "unitComposition": [],
       "specialRules": [],
       
@@ -1747,34 +1730,48 @@
     },
     {
       "id": "su-northag-afs-timed-203mm-artillery-strike",
-      "equipmentId": "su-northag-203mm",
+      "equipmentId": "su-northag-203mm", 
       "name": "Timed 203mm Artillery Strike", 
       "category": "Additional Fire Support",
       "minQty": 0,
-      "maxQty": 1,
-      "points": 30,
+      "maxQty": 2,
+      "points": 34,
       "br": 0,
       "morale": "",
-      "notes": "A single strike by a battery of 4 203mm M110 self-propelled guns.",
+      "notes": "A single strike by a battery of 6 203mm 2S7 Pion self-propelled guns.",
       "unitComposition": [],
       "specialRules": [],
-      
       "options": []
     },
     {
-      "id": "su-northag-afs-timed-dpicm-artillery-strike",
-      "name": "Timed DPICM Artillery Strike", 
+      "id": "su-northag-afs-timed-bm-21-grad-rocket-launcher-strike",
+      "equipmentId": "su-northag-bm-21",
+      "name": "Timed BM-21 Grad Rocket launcher strike", 
       "category": "Additional Fire Support",
       "minQty": 0,
       "maxQty": 1,
-      "points": 44,
-      "restricted": "yes",
+      "points": 24,
       "br": 0,
       "morale": "",
-      "notes": "A single strike by a battery of 4 105mm M109A2 self-propelled guns firing DPICM ammunitions.",
+      "notes": "A single strike by a battery of 3 BM-21 rocket launchers.",
       "unitComposition": [],
       "specialRules": [],
-      
+      "options": []
+    },
+   {
+      "id": "su-northag-afs-timed-bm-27-uragan-rocket-launcher-strike",
+      "equipmentId": "su-northag-bm-27",
+      "name": "Timed BM-27 Uragan Rocket launcher strike", 
+      "category": "Additional Fire Support",
+      "minQty": 0,
+      "maxQty": 1,
+      "points": 50,
+      "br": 0,
+      "morale": "",
+	  "restricted": "yes",
+      "notes": "A single strike by a battery of 3 BM-27 rocket launchers.",
+      "unitComposition": [],
+      "specialRules": [],
       "options": []
     },
     
@@ -1785,7 +1782,6 @@
       "minQty": 1,
       "maxQty": 1,
       "points": 0,
-      
       "br": 0,
       "morale": "",
       "notes": "",
@@ -1799,9 +1795,7 @@
       "name": "Additional Reinforcement Request", 
       "category": "(Optional) Reinforcement Requests",
       "minQty": 0,
-
       "points": 30,
-      
       "br": 0,
       "morale": "",
       "notes": "",
@@ -1814,218 +1808,257 @@
   
   "equipment": [ 
   { 
+    "equipmentId": "su-northag-t-62", 
+    "type": "vehicle", 
+    "vehicleName": "T-62", 
+    "movement": [{"cat": "Med Track", "move": "8\"/12\""}], 
+    "armour": [{"Front": 4, "Side": 2, "Rear": 1}], 
+    "weapons": [{"weapon": "115U5TS", "mount": "Turret","equipmentId": "su-northag-115u5ts"  },{"weapon": "MG", "mount": "Co-axial", "rof": "Low", "range": 30},{"weapon": "MG", "mount": "Pintle", "rof": "Medium", "range": 30}],
+    "specialRules": [] 
+  },
+  { 
     "equipmentId": "su-northag-t-64a", 
     "type": "vehicle", 
     "vehicleName": "T-64A", 
     "movement": [{"cat": "Med Track", "move": "8\"/12\""}], 
     "armour": [{"Front": 5, "Side": 3, "Rear": 1}], 
     "weapons": [{"weapon": "125mmD81", "mount": "Turret","equipmentId": "su-northag-125mmd81"  },{"weapon": "MG", "mount": "Co-axial", "rof": "Low", "range": 30},{"weapon": "MG", "mount": "Pintle", "rof": "Medium", "range": 30}],
-    "specialRules": ["Scout"] 
+    "specialRules": [] 
   }, 
-  { 
-     "equipmentId": "su-northag-fv721-fox", 
+	  { 
+    "equipmentId": "su-northag-t-64b", 
     "type": "vehicle", 
-    "vehicleName": "FV721 Fox", 
+    "vehicleName": "T-64B", 
+    "movement": [{"cat": "Med Track", "move": "8\"/12\""}], 
+    "armour": [{"Front": 6, "Side": 4, "Rear": 2}], 
+    "weapons": [{"weapon": "125mmD81", "mount": "Turret","equipmentId": "su-northag-125mmd81"  },{"weapon": "MG", "mount": "Co-axial", "rof": "Low", "range": 30},{"weapon": "MG", "mount": "Pintle", "rof": "Medium", "range": 30},{"weapon": "AT-8 Kobra (2)", "mount": "Turret","equipmentId": "su-northag-at-8-kobra"],
+    "specialRules": ["ATGM"] 
+  }, 
+	  { 
+    "equipmentId": "su-northag-t-80", 
+    "type": "vehicle", 
+    "vehicleName": "T-80", 
+    "movement": [{"cat": "Fast Track", "move": "10\"/14\""}], 
+    "armour": [{"Front": 7, "Side": 5, "Rear": 2}], 
+    "weapons": [{"weapon": "125mmD81", "mount": "Turret","equipmentId": "su-northag-125mmd81"  },{"weapon": "MG", "mount": "Co-axial", "rof": "Low", "range": 30},{"weapon": "MG", "mount": "Pintle", "rof": "Medium", "range": 30}],
+    "specialRules": [] 
+  }, 
+	    { 
+    "equipmentId": "su-northag-t-80b", 
+    "type": "vehicle", 
+    "vehicleName": "T-80b", 
+    "movement": [{"cat": "Fast Track", "move": "10\"/14\""}], 
+    "armour": [{"Front": 7, "Side": 5, "Rear": 2}], 
+    "weapons": [{"weapon": "125mmD81", "mount": "Turret","equipmentId": "su-northag-125mmd81"  },{"weapon": "MG", "mount": "Co-axial", "rof": "Low", "range": 30},{"weapon": "MG", "mount": "Pintle", "rof": "Medium", "range": 30},{"weapon": "AT-8 Kobra (2)", "mount": "Turret","equipmentId": "su-northag-at-8-kobra"],
+    "specialRules": ["ATGM"] 
+  }, 
+{ 
+    "equipmentId": "su-northag-bmp-1", 
+    "type": "vehicle", 
+    "vehicleName": "BMP-1", 
+    "movement": [{"cat": "Fast Track", "move": "10\"/14\""}], 
+    "armour": [{"Front": 1, "Side": 0, "Rear": 0}], 
+    "weapons": [{"weapon": "73mm Grom", "mount": "Turret","equipmentId": "su-northag-73mm-grom"  },{"weapon": "MG", "mount": "Co-axial", "rof": "Low", "range": 30},{"weapon": "MG", "mount": "Pintle", "rof": "Medium", "range": 30},{"weapon": "AT-3 Sagger (1)", "mount": "Turret","equipmentId": "su-northag-at-3-sagger"],
+    "specialRules": ["Capacity 2","Amphibious","ATGM"] 
+  },
+{ 
+    "equipmentId": "su-northag-bmp-1k", 
+    "type": "vehicle", 
+    "vehicleName": "BMP-1K", 
+    "movement": [{"cat": "Fast Track", "move": "10\"/14\""}], 
+    "armour": [{"Front": 1, "Side": 0, "Rear": 0}], 
+    "weapons": [{"weapon": "73mm Grom", "mount": "Turret","equipmentId": "su-northag-73mm-grom"  },{"weapon": "MG", "mount": "Co-axial", "rof": "Low", "range": 30},{"weapon": "AT-3 Sagger (1)", "mount": "Turret","equipmentId": "su-northag-at-3-sagger"],
+    "specialRules": ["Capacity 1","Amphibious","ATGM"] 
+  },
+{ 
+    "equipmentId": "su-northag-bmp-2", 
+    "type": "vehicle", 
+    "vehicleName": "BMP-2", 
+    "movement": [{"cat": "Fast Track", "move": "10\"/14\""}], 
+    "armour": [{"Front": 1, "Side": 0, "Rear": 0}], 
+    "weapons": [{"weapon": "30mm", "mount": "Turret", "rof": "High", "range": 50,"equipmentId": "su-northag-30mm"  },{"weapon": "MG", "mount": "Co-axial", "rof": "Low", "range": 30},{"weapon": "AT-3 Spandrel (1)", "mount": "Turret","equipmentId": "su-northag-at-5-spandrel"],
+    "specialRules": ["Capacity 2","Amphibious","ATGM"] 
+  },
+{ 
+    "equipmentId": "su-northag-bmp-2k", 
+    "type": "vehicle", 
+    "vehicleName": "BMP-2K", 
+    "movement": [{"cat": "Fast Track", "move": "10\"/14\""}], 
+    "armour": [{"Front": 1, "Side": 0, "Rear": 0}], 
+    "weapons": [{"weapon": "30mm", "mount": "Turret", "rof": "High", "range": 50,"equipmentId": "su-northag-30mm"  },{"weapon": "MG", "mount": "Co-axial", "rof": "Low", "range": 30},{"weapon": "AT-3 Spandrel (1)", "mount": "Turret","equipmentId": "su-northag-at-5-spandrel"],
+    "specialRules": ["Capacity 1","Amphibious","ATGM"] 
+  },
+{ 
+    "equipmentId": "su-northag-btr-60", 
+    "type": "vehicle", 
+    "vehicleName": "BTR-60", 
     "movement": [{"cat": "Wheel AT", "move": "8\"/16\""}], 
     "armour": [{"Front": 1, "Side": 0, "Rear": 0}], 
-    "weapons": [{"weapon": "30mm Rarden", "mount": "Turret", "rof": "High","equipmentId": "su-northag-30mm-rarden" },{"weapon": "MG", "mount": "Co-axial", "rof": "Low", "range": 30}],
-    "specialRules": ["Scout"] 
+    "weapons": [{"weapon": "HMG", "mount": "Turret", "rof": "Medium", "range": 40},{"weapon": "MG", "mount": "Co-axial", "rof": "Low", "range": 30}],
+    "specialRules": ["Capacity 2","Amphibious"] 
   },
-  { 
-    "equipmentId": "su-northag-fv101-scorpion", 
+{ 
+    "equipmentId": "su-northag-btr-70", 
     "type": "vehicle", 
-    "vehicleName": "FV101 Scorpion", 
-    "movement": [{"cat": "Fast Track", "move": "10\"/14\""}], 
-    "armour": [{"Front": 1, "Side": 1, "Rear": 0}], 
-    "weapons": [{"weapon": "76mmL23", "mount": "Turret","equipmentId": "su-northag-76mml23" },{"weapon": "MG", "mount": "Co-axial", "rof": "Low", "range": 30}],
-    "specialRules": ["Scout"] 
-  },
-  { 
-    "equipmentId": "su-northag-fv107-scimitar", 
-    "type": "vehicle", 
-    "vehicleName": "FV107 Scimitar", 
-    "movement": [{"cat": "Fast Track", "move": "10\"/14\""}], 
-    "armour": [{"Front": 1, "Side": 1, "Rear": 0}], 
-    "weapons": [{"weapon": "30mm Rarden", "mount": "Turret", "rof": "High","equipmentId": "su-northag-30mm-rarden"},{"weapon": "MG", "mount": "Co-axial", "rof": "Low", "range": 30}],
-    "specialRules": ["Scout"] 
-  },
-  { 
-    "equipmentId": "su-northag-mk9-chiftain", 
-    "type": "vehicle", 
-    "vehicleName": "Mk9 Chieftain", 
-    "movement": [{"cat": "Med Track", "move": "8\"/12\""}], 
-    "armour": [{"Front": 7, "Side": 5, "Rear": 3}], 
-    "weapons": [{"weapon": "120mmL55", "mount": "Turret","equipmentId": "su-northag-120mml55"  },{"weapon": "MG", "mount": "Co-axial", "rof": "Low", "range": 30},{"weapon": "MG", "mount": "Pintle", "rof": "Medium", "range": 30}],
-    "specialRules": ["Advanced Sights", "Advanced Gunnery","Unreliable"] 
-  },
-  {
-    "equipmentId": "su-northag-mk9-chiftain-stillbrew", 
-    "type": "vehicle", 
-    "vehicleName": "Mk9 Chieftain (Stillbrew Armour)", 
-    "movement": [{"cat": "Med Track", "move": "8\"/12\""}], 
-    "armour": [{"Front": 8, "Side": 5, "Rear": 3}], 
-    "weapons": [{"weapon": "120mmL55", "mount": "Turret","equipmentId": "su-northag-120mml55"  },{"weapon": "MG", "mount": "Co-axial", "rof": "Low", "range": 30},{"weapon": "MG", "mount": "Pintle", "rof": "Medium", "range": 30}],
-    "specialRules": ["Advanced Sights", "Advanced Gunnery","Unreliable"] 
-  },
-  { 
-    "equipmentId": "su-northag-challenger", 
-    "type": "vehicle", 
-    "vehicleName": "Challenger", 
-    "movement": [{"cat": "Fast Track", "move": "10\"/14\""}], 
-    "armour": [{"Front": 10, "Side": 6, "Rear": 4}], 
-    "weapons": [{"weapon": "120mmL55", "mount": "Turret","equipmentId": "su-northag-120mml55"},{"weapon": "MG", "mount": "Co-axial", "rof": "Low", "range": 30},{"weapon": "MG", "mount": "Pintle", "rof": "Medium", "range": 30}],
-    "specialRules": ["Advanced Sights", "Advanced Gunnery"] 
-  },
-  { 
-    "equipmentId": "su-northag-fv432", 
-    "type": "vehicle", 
-    "vehicleName": "FV432", 
-    "movement": [{"cat": "Med Track", "move": "8\"/12\""}], 
-    "armour": [{"Front": 1, "Side": 0, "Rear": 0}], 
-    "weapons": [{"weapon": "MG", "mount": "Pintle", "rof": "Low", "range": 30}],
-    "specialRules": ["Capacity 2","Unreliable"],
-    "notes": "FV432 Special Rule: Once the infantry disembark from an FV432 it no longer counts as being equipped with a pintle mounted MG. It now has no wepaons."  
-  },
-  { 
-    "equipmentId": "su-northag-fv438-swingfire", 
-    "type": "vehicle", 
-    "vehicleName": "FV438 Swingfire", 
-    "movement": [{"cat": "Med Track", "move": "8\"/12\""}], 
-    "armour": [{"Front": 1, "Side": 0, "Rear": 0}], 
-    "weapons": [{"weapon": "Swingfire (7)", "mount": "Hull","equipmentId": "su-northag-swingfire"},{"weapon": "MG", "mount": "Pintle", "rof": "Medium", "range": 30}],
-    "specialRules": ["ATGM","Ambush","Unreliable"]
-  },
-  { 
-    "equipmentId": "su-northag-fv439", 
-    "type": "vehicle", 
-    "vehicleName": "FV439", 
-    "movement": [{"cat": "Med Track", "move": "8\"/12\""}], 
-    "armour": [{"Front": 1, "Side": 0, "Rear": 0}], 
-    "weapons": [{"weapon": "MG", "mount": "Pintle", "rof": "Medium", "range": 30}],
-    "specialRules": ["Capacity 1","Comms","Unreliable"]
-  },
-  { 
-    "equipmentId": "su-northag-fv432-ambulance", 
-    "type": "vehicle", 
-    "vehicleName": "FV432 Ambulance", 
-    "movement": [{"cat": "Med Track", "move": "8\"/12\""}], 
-    "armour": [{"Front": 1, "Side": 0, "Rear": 0}], 
-    "specialRules": ["Ambulance","Unreliable"]
-  },
-  { 
-    "equipmentId": "su-northag-fv103-spartan", 
-    "type": "vehicle", 
-    "vehicleName": "FV103 Spartan", 
-    "movement": [{"cat": "Fast Track", "move": "10\"/14\""}], 
-    "armour": [{"Front": 1, "Side": 0, "Rear": 0}], 
-    "weapons": [{"weapon": "MG", "mount": "Pintle", "rof": "Medium", "range": 30}],
-    "specialRules": ["Capacity 1"] 
-  },
-  { 
-    "equipmentId": "su-northag-fv102-striker", 
-    "type": "vehicle", 
-    "vehicleName": "FV102 Striker", 
-    "movement": [{"cat": "Fast Track", "move": "10\"/14\""}], 
-    "armour": [{"Front": 1, "Side": 0, "Rear": 0}], 
-    "weapons": [{"weapon": "Swingfire (5)", "mount": "Hull","equipmentId": "su-northag-swingfire"},{"weapon": "MG", "mount": "Pintle", "rof": "Medium", "range": 30}],
-    "specialRules": ["ATGM", "Ambush"] 
-  },
-  { 
-    "equipmentId": "su-northag-fv105-sultan", 
-    "type": "vehicle", 
-    "vehicleName": "FV105 Sultan", 
-    "movement": [{"cat": "Fast Track", "move": "10\"/14\""}], 
-    "armour": [{"Front": 1, "Side": 0, "Rear": 0}], 
-    "weapons": [{"weapon": "MG", "mount": "Pintle", "rof": "Medium", "range": 30}],
-    "specialRules": ["Capacity 1","Comms"] 
-  },
-  { "equipmentId": "su-northag-fv104-samaritan", 
-    "type": "vehicle", 
-    "vehicleName": "FV432 Ambulance", 
-    "movement": [{"cat": "Fast Track", "move": "10\"/14\""}], 
-    "armour": [{"Front": 1, "Side": 0, "Rear": 0}], 
-    "specialRules": ["Ambulance"]
-  },
-  { 
-    "equipmentId": "su-northag-m2-alligator", 
-    "type": "vehicle", 
-    "vehicleName": "M2 Alligator", 
+    "vehicleName": "BTR-70", 
     "movement": [{"cat": "Wheel AT", "move": "8\"/16\""}], 
-    "armour": "Soft Skin", 
+    "armour": [{"Front": 1, "Side": 0, "Rear": 0}], 
+    "weapons": [{"weapon": "HMG", "mount": "Turret", "rof": "Medium", "range": 40},{"weapon": "MG", "mount": "Co-axial", "rof": "Low", "range": 30}],
+    "specialRules": ["Capacity 2","Amphibious"] 
+  },
+{ 
+    "equipmentId": "su-northag-btr-60k", 
+    "type": "vehicle", 
+    "vehicleName": "BTR-60K", 
+    "movement": [{"cat": "Wheel AT", "move": "8\"/16\""}], 
+    "armour": [{"Front": 1, "Side": 0, "Rear": 0}], 
+    "weapons": [{"weapon": "HMG", "mount": "Turret", "rof": "Medium", "range": 40},{"weapon": "MG", "mount": "Co-axial", "rof": "Low", "range": 30}],
+    "specialRules": ["Capacity 1","Amphibious"] 
+  },
+{ 
+    "equipmentId": "su-northag-btr-70k", 
+    "type": "vehicle", 
+    "vehicleName": "BTR-70K", 
+    "movement": [{"cat": "Wheel AT", "move": "8\"/16\""}], 
+    "armour": [{"Front": 1, "Side": 0, "Rear": 0}], 
+    "weapons": [{"weapon": "HMG", "mount": "Turret", "rof": "Medium", "range": 40},{"weapon": "MG", "mount": "Co-axial", "rof": "Low", "range": 30}],
+    "specialRules": ["Capacity 1","Amphibious"] 
+  },
+	  { 
+    "equipmentId": "su-northag-arcv-2", 
+    "type": "vehicle", 
+    "vehicleName": "ARCV-2", 
+    "movement": [{"cat": "Med Track", "move": "8\"/12\""}], 
+    "armour": [{"Front": 0, "Side": 0, "Rear": 0}], 
+    "weapons": [{"weapon": "MG", "mount": "Co-axial", "rof": "Low", "range": 30}],
+    "specialRules": ["Capacity 1","Amphibious"] 
+  },
+{ 
+    "equipmentId": "su-northag-bts-4v", 
+    "type": "vehicle", 
+    "vehicleName": "BTS-4V", 
+    "movement": [{"cat": "Med Track", "move": "8\"/12\""}], 
+    "armour": [{"Front": 3, "Side": 2, "Rear": 1}], 
+    "weapons": [],
+    "specialRules": ["Repair","Recovery"] 
+  },
+{ 
+    "equipmentId": "su-northag-brem-1", 
+    "type": "vehicle", 
+    "vehicleName": "BREM-1", 
+    "movement": [{"cat": "Med Track", "move": "8\"/12\""}], 
+    "armour": [{"Front": 4, "Side": 2, "Rear": 1}], 
+    "weapons": [],
+    "specialRules": ["Repair","Recovery"] 
+  },
+{ 
+    "equipmentId": "su-northag-brem-2", 
+    "type": "vehicle", 
+    "vehicleName": "BREM-2", 
+    "movement": [{"cat": "Fast Track", "move": "10\"/14\""}], 
+    "armour": [{"Front": 1, "Side": 0, "Rear": 0}], 
+    "weapons": [],
+    "specialRules": ["Repair","Recovery"] 
+  },
+	  { 
+    "equipmentId": "su-northag-mtu-55-avlb", 
+    "type": "vehicle", 
+    "vehicleName": "MTU-55 AVLB", 
+    "movement": [{"cat": "Slow Track", "move": "6\"/10\""}], 
+    "armour": [{"Soft-skin"}], 
     "weapons": [],
     "specialRules": ["Bridging"] 
   },
-  { 
-    "equipmentId": "su-northag-chieftain-avlb", 
+{ 
+    "equipmentId": "su-northag-to-55", 
     "type": "vehicle", 
-    "vehicleName": "Chieftain AVLB", 
+    "vehicleName": "TO-55", 
     "movement": [{"cat": "Med Track", "move": "8\"/12\""}], 
-    "armour": [{"Front": 5, "Side": 4, "Rear": 3}],  
-    "weapons": [{"weapon": "MG", "mount": "Pintle", "rof": "Medium", "range": 30}],
-    "specialRules": ["Bridging"] 
+    "armour": [{"Front": 3, "Side": 2, "Rear": 1}], 
+    "weapons": [{"weapon": "100mmD10", "mount": "Turret", "equipmentId": "su-northag-100mm-d10"  },{"weapon": "Flamethrower", "mount": "Co-axial"},{"weapon": "MG", "mount": "Pintle", "rof": "Medium", "range": 30}],
+    "specialRules": ["Flamethrower: Very Heavy HE"] 
   },
-  { 
-    "equipmentId": "su-northag-fv106-samson", 
+{ 
+    "equipmentId": "su-northag-to-62a", 
     "type": "vehicle", 
-    "vehicleName": "FV106 Samson", 
-    "movement": [{"cat": "Fast Track", "move": "10\"/14\""}], 
-    "armour": [{"Front": 1, "Side": 0, "Rear": 0}],  
-    "weapons": [{"weapon": "MG", "mount": "Pintle", "rof": "Medium", "range": 30}],
-    "specialRules": ["Repair","Recovery"] 
-  },
-  { 
-    "equipmentId": "su-northag-fv434", 
-    "type": "vehicle", 
-    "vehicleName": "FV434n", 
+    "vehicleName": "TO-62A", 
     "movement": [{"cat": "Med Track", "move": "8\"/12\""}], 
-    "armour": [{"Front": 1, "Side": 0, "Rear": 0}],  
-    "weapons": [{"weapon": "MG", "mount": "Pintle", "rof": "Medium", "range": 30}],
-    "specialRules": ["Repair","Recovery"] 
+    "armour": [{"Front": 3, "Side": 2, "Rear": 1}], 
+    "weapons": [{"weapon": "115mmU5TS", "mount": "Turret", "equipmentId": "su-northag-115mm-u5ts"  },{"weapon": "Flamethrower", "mount": "Co-axial"},{"weapon": "MG", "mount": "Pintle", "rof": "Medium", "range": 30}],
+    "specialRules": ["Flamethrower: Very Heavy HE"] 
   },
-  { 
-    "equipmentId": "su-northag-m578", 
+	  	  { 
+    "equipmentId": "su-northag-ptsm", 
     "type": "vehicle", 
-    "vehicleName": "M578", 
-    "movement": [{"cat": "Med Track", "move": "8\"/12\""}], 
-    "armour": [{"Front": 0, "Side": 0, "Rear": 0}],  
-    "weapons": [{"weapon": "MG", "mount": "Pintle", "rof": "Medium", "range": 30}],
-    "specialRules": ["Repair","Recovery"] 
-  },
-  { 
-    "equipmentId": "su-northag-chieftain-arrv", 
-    "type": "vehicle", 
-    "vehicleName": "Chieftain ARRV", 
-    "movement": [{"cat": "Med Track", "move": "8\"/12\""}], 
-    "armour": [{"Front": 5, "Side": 4, "Rear": 3}],  
-    "weapons": [{"weapon": "MG", "mount": "Pintle", "rof": "Medium", "range": 30}],
-    "specialRules": ["Repair","Recovery"] 
-  },
-  { 
-    "equipmentId": "su-northag-centurion-avre", 
-    "type": "vehicle", 
-    "vehicleName": "Centurion AVRE", 
+    "vehicleName": "PTSM", 
     "movement": [{"cat": "Slow Track", "move": "6\"/10\""}], 
-    "armour": [{"Front": 5, "Side": 3, "Rear": 1}],  
-    "weapons": [{"weapon": "165mmL9", "mount": "Turret","equipmentId": "su-northag-165mml9"},{"weapon": "MG", "mount": "Co-axial", "rof": "Low", "range": 30},{"weapon": "MG", "mount": "Pintle", "rof": "Medium", "range": 30}],
-    "specialRules": ["Engineer"] 
+    "armour": [{"Soft-skin"}], 
+    "weapons": [],
+    "specialRules": ["Capacity 10","Amphibious"] 
   },
-  { 
-    "equipmentId": "su-northag-fv180-cet", 
+{ 
+    "equipmentId": "su-northag-sa-6-aav", 
     "type": "vehicle", 
-    "vehicleName": "FV180 CET", 
-    "movement": [{"cat": "Med Track", "move": "6\"/10\""}], 
-    "armour": [{"Front": 0, "Side": 0, "Rear": 0}],  
-    "weapons": [{"weapon": "MG", "mount": "Pintle", "rof": "Medium", "range": 30}],
-    "specialRules": ["Engineer","Recovery","Amphibious"] 
-  },
-  { 
-    "equipmentId": "su-northag-tracked-rapier", 
-    "type": "vehicle", 
-    "vehicleName": "Tracked Rapier", 
-    "movement": [{"cat": "Fast Track", "move": "6\"/10\""}], 
-    "armour": [{"Front": 0, "Side": 0, "Rear": 0}],  
-    "weapons": [{"weapon": "Rapier (4)", "mount": "Turret","equipmentId": "su-northag-rapier" }],
+    "vehicleName": "SA-6 Gainful", 
+    "movement": [{"cat": "Slow Track", "move": "6\"/10\""}], 
+    "armour": [{"Front": 0, "Side": 0, "Rear": 0}], 
+    "weapons": [{"weapon": "SA-6 (3)", "mount": "Hull", "equipmentId": "su-northag-sa-6-gainful"  }],
     "specialRules": ["AA"] 
+  },
+{ 
+    "equipmentId": "su-northag-sa-8-aav", 
+    "type": "vehicle", 
+    "vehicleName": "SA-8 Gecko", 
+    "movement": [{"cat": "Wheel AT", "move": "8\"/16\""}], 
+    "armour": [{"Front": 0, "Side": 0, "Rear": 0}], 
+    "weapons": [{"weapon": "SA-8 (6)", "mount": "Turret", "equipmentId": "su-northag-sa-8-gecko"  }],
+    "specialRules": ["AA","Amphibious"] 
+  },
+	  { 
+    "equipmentId": "su-northag-sa-9-aav", 
+    "type": "vehicle", 
+    "vehicleName": "SA-9 Gaskin", 
+    "movement": [{"cat": "Wheel AT", "move": "8\"/16\""}], 
+    "armour": [{"Front": 0, "Side": 0, "Rear": 0}], 
+    "weapons": [{"weapon": "SA-9 (4)", "mount": "Turret", "equipmentId": "su-northag-sa-9-gaskin"  }],
+    "specialRules": ["AA","Amphibious"] 
+  },
+ { 
+    "equipmentId": "su-northag-sa-11-aav", 
+    "type": "vehicle", 
+    "vehicleName": "SA-11 Gadfly", 
+    "movement": [{"cat": "Med Track", "move": "8\"/12\""}], 
+    "armour": [{"Front": 0, "Side": 0, "Rear": 0}], 
+    "weapons": [{"weapon": "SA-11 (4)", "mount": "Hull", "equipmentId": "su-northag-sa-11-gadfly"  }],
+    "specialRules": ["AA (High)"] 
+  },
+{ 
+    "equipmentId": "su-northag-sa-13-aav", 
+    "type": "vehicle", 
+    "vehicleName": "SA-13 Gopher", 
+    "movement": [{"cat": "Med Track", "move": "8\"/12\""}], 
+    "armour": [{"Front": 0, "Side": 0, "Rear": 0}], 
+    "weapons": [{"weapon": "SA-13 (6)", "mount": "Turret", "equipmentId": "su-northag-sa-13-gopher"  }],
+    "specialRules": ["AA"] 
+  },
+{ 
+    "equipmentId": "su-northag-zsu-23-4-shilka", 
+    "type": "vehicle", 
+    "vehicleName": "ZSU-23-4 Shilka", 
+    "movement": [{"cat": "Med Track", "move": "8\"/12\""}], 
+    "armour": [{"Front": 2, "Side": 1, "Rear": 0}], 
+    "weapons": [{"weapon": "Quad 23mm Cannons", "mount": "Turret", "rof": "High*", "range": 50,"equipmentId": "su-northag-23mm"  }],
+    "specialRules": ["AA","*Roll twice for each attack"] 
+  },
+{ 
+    "equipmentId": "su-northag-2s1-grovzdika", 
+    "type": "vehicle", 
+    "vehicleName": "2S1 Grovzdika", 
+    "movement": [{"cat": "Med Track", "move": "8\"/12\""}], 
+    "armour": [{"Front": 2, "Side": 1, "Rear": 0}], 
+    "weapons": [{"weapon": "122mm*", "mount": "Turret", "equipmentId": "su-northag-122mm"  }],
+    "notes: "When deploye don table a 2S1 cannot use indirect fire, only Suppressing Fire or Aimed Fire with its HE shells.",
+	"specialRules": [] 
   },
   { 
     "equipmentId": "su-northag-mi8-hip", 
