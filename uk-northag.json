@@ -1641,7 +1641,7 @@
     "equipmentId": "uk-northag-carl-gustav", 
     "type": "weapon", 
     "weaponName": "Carl Gustav", 
-    "ammo": [{"AP": "3,2,1,-,-"}, {"HE": "Light, 1,1,1,-,-"}] 
+    "ammo": [{"AP": "3,3,3,-,-"}, {"HE": "Light, 1,1,1,-,-"}] 
   },
   { 
     "equipmentId": "uk-northag-m72-law-66", 
