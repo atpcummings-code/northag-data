@@ -741,8 +741,7 @@
         {"qty": 1, "name": "SFV103 Spartan","equipmentId": "uk-northag-fv103-spartan" }
        ],
       "specialRules": [
-        {"name": "Officer"},
-         {"name": "Electronic Warfare"}
+        {"name": "Officer"}
       ]
 },
 {
