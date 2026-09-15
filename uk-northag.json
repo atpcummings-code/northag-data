@@ -1144,7 +1144,7 @@
     },
 {
       "id": "uk-northag-afs-timed-105mm-artillery-strike",
-  "equipmentId": "uk-northag-175mm",
+  "equipmentId": "uk-northag-105mm",
       "name": "Timed 105mm Artillery Strike", 
       "category": "Additional Fire Support",
       "minQty": 0,
