@@ -1454,91 +1454,200 @@
       
       "options": []
     },
-    {
-      "id": "su-northag-afs-timed-harrier-gr3-air-strike",
-      "name": "Timed Harrier GR3 Air Strike", 
+ {
+      "id": "su-northag-afs-cleared-for-chemical-attack",
+      "name": "Cleared for Chemical Attack", 
       "category": "Additional Fire Support",
       "minQty": 0,
-
-      "points": 20,
+      "maxQty": 1,
+      "points": 10,
       "br": 0,
       "morale": "",
-      "notes": "A single air strike by a Harrier GR3 armed with four large bombs or four Marra 68mm multiple rocket pods",
-      "unitComposition": [ ],
+      "notes": "",
+      "unitComposition": [],
       "specialRules": [],
-      "optionGroupLimits": [{ "ids": ["su-northag-afs-timed-harrier-gr3-air-strike-1", "su-northag-afs-timed-harrier-gr3-air-strike-2"], "min": 0, "max": 1 }],
-      "options": [
-        {
-          "id": "su-northag-afs-timed-harrier-gr3-air-strike-1",
-          "name": "Large Bombs",
-          "points": 0,
-          "br": 0,
-          
-          "composition": [
-              {"qty": 1, "name": "Harrier GR3","equipmentId": "su-northag-harrier-gr3-1"},{"qty": 4, "name": "Large Bombs"}
-          ]
-        },
-        {
-          "id": "su-northag-afs-timed-harrier-gr3-air-strike-2",
-          "name": "68mm Multiple Rocket Pods",
-          "points": 0,
-          "br": 0,
-          
-          "composition": [
-              {"qty": 1, "name": "Harrier GR3","equipmentId": "su-northag-harrier-gr3-2"},{"qty": 4, "name": "68mm Multiple Rocket Pods"}
-          ]
-        }
-      ]
+      
+      "options": []
     },
-    {
-      "id": "su-northag-afs-timed-jaguar-gr1-air-strike",
-      "name": "Timed Jaguar GR1 Air Strike", 
+	 {
+      "id": "su-northag-afs-breakthrough",
+      "name": "Breakthrough", 
       "category": "Additional Fire Support",
       "minQty": 0,
-
-      "points": 40,
+      "maxQty": 1,
+      "points": 10,
       "br": 0,
       "morale": "",
-      "notes": "A single air strike by a Jaguar GR1 armed with eight large bombs",
-      "unitComposition": [
-        {"qty": 1, "name": "Jaguar GR1","equipmentId": "su-northag-jaguar-gr1" },{"qty": 4, "name": "Large Bombs"}
-      ],
+      "notes": "",
+      "unitComposition": [],
+      "specialRules": [],
+      
+      "options": []
+    },
+	  {
+      "id": "su-northag-afs-advance-and-hold",
+      "name": "Advance and Hold", 
+      "category": "Additional Fire Support",
+      "minQty": 0,
+      "maxQty": 1,
+      "points": 10,
+      "br": 0,
+      "morale": "",
+      "notes": "",
+      "unitComposition": [],
       "specialRules": [],
       
       "options": []
     },
     {
-      "id": "su-northag-afs-timed-tornado-gr1-air-strike",
-      "name": "Timed Tornado GR1 Air Strike", 
+      "id": "su-northag-afs-critical-battlefield",
+      "name": "Critical Battlefield", 
       "category": "Additional Fire Support",
       "minQty": 0,
-
+      "maxQty": 1,
+      "points": 15,
+      "br": 0,
+      "morale": "",
+      "notes": "",
+      "unitComposition": [],
+      "specialRules": [],
+      
+      "options": []
+    },
+    {
+      "id": "su-northag-afs-deployed-smoke-screen",
+      "name": "Deployed Smoke Screen", 
+      "category": "Additional Fire Support",
+      "minQty": 0,
+      "maxQty": 1,
+      "points": 15,  
+      "br": 0,
+      "morale": "",
+      "notes": "",
+      "unitComposition": [],
+      "specialRules": [],
+      "options": []
+    },
+     {
+      "id": "su-northag-afs-vital-objective",
+      "name": "Vital Objective", 
+      "category": "Additional Fire Support",
+      "minQty": 0,
+      "maxQty": 1,
+      "points": 25,
+      
+      "br": 0,
+      "morale": "",
+      "notes": "",
+      "unitComposition": [],
+      "specialRules": [],
+      
+      "options": []
+    },	 
+    {
+      "id": "su-northag-afs-timed-su-25-frogfoot-air-strike",
+      "name": "Timed SU-25 Frogfoot Air Strike", 
+      "category": "Additional Fire Support",
+      "minQty": 0,
       "points": 30,
       "br": 0,
       "morale": "",
-      "notes": "A single air strike by a Tornado GR1 armed with four very large bombs or four cluster bombs",
-      "unitComposition": [],
+      "notes": "A single air strike by a SU-25 armed with 8 medium bombs or 4 large bombs or 4 UB32 rocket pods.",
+      "unitComposition": [ ],
       "specialRules": [],
-      "optionGroupLimits": [{ "ids": ["su-northag-afs-timed-tornado-gr1-air-strike-1", "su-northag-afs-timed-tornado-gr1-air-strike-2"], "min": 0, "max": 1 }],
+      "optionGroupLimits": [{"groupName": "Choose Payload:", "options": ["su-northag-afs-timed-su-25-frogfoot-air-strike-1", "su-northag-afs-timed-su-25-frogfoot-air-strike-2","su-northag-afs-timed-su-25-frogfoot-air-strike-3"], "min": 0, "max": 1 }],
       "options": [
         {
-          "id": "su-northag-afs-timed-tornado-gr1-air-strike-1",
-          "name": "Very Large Bombs",
+          "id": "su-northag-afs-timed-su-25-frogfoot-air-strike-1",
+          "name": "8x Medium Bombs",
           "points": 0,
           "br": 0,
-          
           "composition": [
-              {"qty": 1, "name": "Tornado GR1","equipmentId": "su-northag-tornado-gr1-1" },{"qty": 4, "name": "Very Large Bombs"}
+              {"qty": 1, "name": "SU-25 Frogfoot","equipmentId": "su-northag-su-25-1"},{"qty": 8, "name": "Medium Bombs"}
           ]
         },
-        {
-          "id": "su-northag-afs-timed-tornado-gr1-air-strike-2",
-          "name": "Cluster Bombs",
+          {
+          "id": "su-northag-afs-timed-su-25-frogfoot-air-strike-2",
+          "name": "4x Large Bombs",
           "points": 0,
           "br": 0,
-          
           "composition": [
-              {"qty": 1, "name": "Tornado GR1","equipmentId": "su-northag-tornado-gr1-2"},{"qty": 4, "name": "Cluster Bombs"}
+              {"qty": 1, "name": "SU-25 Frogfoot","equipmentId": "su-northag-su-25-2"},{"qty": 4, "name": "Large Bombs"}
+          ]
+        },
+		    {
+          "id": "su-northag-afs-timed-su-25-frogfoot-air-strike-3",
+          "name": "4x UB32 Rocket Pods",
+          "points": 0,
+          "br": 0,
+          "composition": [
+              {"qty": 1, "name": "SU-25 Frogfoot","equipmentId": "su-northag-su-25-3"},{"qty": 4, "name": "UB32 Rocket Pods"}
+          ]
+        }
+      ]
+    },
+	 {
+      "id": "su-northag-afs-timed-su-17-fitter-air-strike",
+      "name": "Timed SU-17 Fitter Air Strike", 
+      "category": "Additional Fire Support",
+      "minQty": 0,
+      "points": 40,
+      "br": 0,
+      "morale": "",
+      "notes": "A single air strike by a SU-17 armed with 8 medium bombs or 12 medium bombs or 4 cluster bombs.",
+      "unitComposition": [ ],
+      "specialRules": [],
+      "optionGroupLimits": [{"groupName": "Choose Payload:", "options": ["su-northag-afs-timed-su-17-fitter-air-strike-1", "su-northag-afs-timed-su-17-fitter-air-strike-2"], "min": 0, "max": 1 }],
+      "options": [
+        {
+          "id": "su-northag-afs-timed-su-17-fitter-air-strike-1",
+          "name": "12 Medium Bombs",
+          "points": 0,
+          "br": 0,
+          "composition": [
+              {"qty": 1, "name": "SU-17 Fitter","equipmentId": "su-northag-su-17-1"},{"qty": 12, "name": "Medium Bombs"}
+          ]
+        },
+          {
+          "id": "su-northag-afs-timed-su-17-fitter-air-strike-2",
+          "name": "4 Cluster Bombs",
+          "points": 0,
+          "br": 0,
+          "composition": [
+              {"qty": 1, "name": "SU-17 Fitter","equipmentId": "su-northag-su-17-2"},{"qty": 4, "name": "Cluster Bombs"}
+          ]
+        }
+      ]
+    },
+	 {
+      "id": "su-northag-afs-timed-mi-23-flogger-air-strike",
+      "name": "Timed MI-23 Flogger Air Strike", 
+      "category": "Additional Fire Support",
+      "minQty": 0,
+      "points": 15,
+      "br": 0,
+      "morale": "",
+      "notes": "A single air strike by a MI-23 armed with 8 medium bombs or 2 large bombs or 2 UB32 multiple rocket pods",
+      "unitComposition": [ ],
+      "specialRules": [],
+      "optionGroupLimits": [{"groupName": "Choose Payload:", "options": ["su-northag-afs-timed-mi-23-flogger-air-strike-1", "su-northag-afs-timed-mi-23-flogger-air-strike-2"], "min": 0, "max": 1 }],
+      "options": [
+        {
+          "id": "su-northag-afs-timed-mi-23-flogger-air-strike-1",
+          "name": "2 Large Bombs",
+          "points": 0,
+          "br": 0,
+          "composition": [
+              {"qty": 1, "name": "MI-23 Flogger","equipmentId": "su-northag-mi-23-1"},{"qty": 2, "name": "Large Bombs"}
+          ]
+        },
+          {
+          "id": "su-northag-afs-timed-mi-23-flogger-air-strike-2",
+          "name": "4 Cluster Bombs",
+          "points": 0,
+          "br": 0,
+          "composition": [
+              {"qty": 1, "name": "SU-17 Flogger","equipmentId": "su-northag-mi-23-2"},{"qty": 2, "name": "UB 32 Rocket Pods"}
           ]
         }
       ]
@@ -1559,36 +1668,6 @@
       "options": []
     },
     {
-      "id": "su-northag-afs-interdiction-air-strike",
-      "name": "Interdiction Air Strike", 
-      "category": "Additional Fire Support",
-      "minQty": 0,
-      "maxQty": 1,
-      "points": 30,
-      "br": 0,
-      "morale": "",
-      "notes": "",
-      "unitComposition": [],
-      "specialRules": [],
-      
-      "options": []
-    },
-    {
-      "id": "su-northag-afs-counter-battery-air-strike-3+",
-      "name": "Counter Battery Air Strike (3+)", 
-      "category": "Additional Fire Support",
-      "minQty": 0,
-      "maxQty": 1,
-      "points": 10,
-      "br": 0,
-      "morale": "",
-      "notes": "",
-      "unitComposition": [],
-      "specialRules": [],
-      
-      "options": []
-    },
-    {
       "id": "su-northag-afs-off-table-sam-cover",
       "equipmentId": "su-northag-rapier", 
       "name": "Off-table SAM Cover", 
@@ -1598,7 +1677,7 @@
       "points": 15,
       "br": 0,
       "morale": "",
-      "notes": "A Rapier Battery deployed well behind the front lines of the battle area",
+      "notes": "SA-11 Gadfly long range anti-aircraft missiles are in palce up to 10km behond the front line of the battle.",
       "unitComposition": [],
       "specialRules": [{"name": "Off-table"},{"name": "AA (High)"}],
       
@@ -1606,10 +1685,9 @@
     },
 {
       "id": "su-northag-afs-counter-battery-fire-mission",
-      "name": "Counter Battery Fire Mission (4+)", 
+      "name": "Counter Battery Fire Mission (3+)", 
       "category": "Additional Fire Support",
       "minQty": 0,
-
       "points": 5,
       "br": 0,
       "morale": "",
@@ -1699,70 +1777,7 @@
       
       "options": []
     },
-     {
-      "id": "su-northag-afs-cleared-for-chemical-attack",
-      "name": "Cleared for Chemical Attack", 
-      "category": "Additional Fire Support",
-      "minQty": 0,
-      "maxQty": 1,
-      "points": 10,
-      
-      "br": 0,
-      "morale": "",
-      "notes": "",
-      "unitComposition": [],
-      "specialRules": [],
-      
-      "options": []
-    },
-    {
-      "id": "su-northag-afs-critical-battlefield",
-      "name": "Critical Battlefield", 
-      "category": "Additional Fire Support",
-      "minQty": 0,
-      "maxQty": 1,
-      "points": 15,
-      
-      "br": 0,
-      "morale": "",
-      "notes": "",
-      "unitComposition": [],
-      "specialRules": [],
-      
-      "options": []
-    },
-    {
-      "id": "su-northag-afs-deployed-smoke-screen",
-      "name": "Deployed Smoke Screen", 
-      "category": "Additional Fire Support",
-      "minQty": 0,
-      "maxQty": 1,
-      "points": 20,
-      
-      "br": 0,
-      "morale": "",
-      "notes": "",
-      "unitComposition": [],
-      "specialRules": [],
-      
-      "options": []
-    },
-     {
-      "id": "su-northag-afs-vital-objective",
-      "name": "Vital Objective", 
-      "category": "Additional Fire Support",
-      "minQty": 0,
-      "maxQty": 1,
-      "points": 25,
-      
-      "br": 0,
-      "morale": "",
-      "notes": "",
-      "unitComposition": [],
-      "specialRules": [],
-      
-      "options": []
-    },
+    
 {
       "id": "reinforcement-request",
       "name": "Reinforcement Request", 
@@ -2037,15 +2052,23 @@
     "specialRules": ["Capacity 2", "Helicopter","ATGM"] 
   },
   { 
-    "equipmentId": "su-northag-su25-1", 
+    "equipmentId": "su-northag-su-25-1", 
     "type": "aircraft", 
     "aircraftName": "SU25", 
     "movement": [{"cat": "Fighter-Bomber", "move": "Unlimited"}], 
     "hits": 3, 
     "weapons": ["8 Medium Bombs"] 
   },
+	  { 
+    "equipmentId": "su-northag-su-25-2", 
+    "type": "aircraft", 
+    "aircraftName": "SU25", 
+    "movement": [{"cat": "Fighter-Bomber", "move": "Unlimited"}], 
+    "hits": 3, 
+    "weapons": ["4 Large Bombs"] 
+  },
    { 
-    "equipmentId": "su-northag-su25-2", 
+    "equipmentId": "su-northag-su-25-3", 
     "type": "aircraft", 
     "aircraftName": "SU25", 
     "movement": [{"cat": "Fighter-Bomber", "move": "Unlimited"}], 
@@ -2053,7 +2076,7 @@
     "weapons": ["4 UB 32 rocket pods"] 
   },
   { 
-    "equipmentId": "su-northag-su17-1", 
+    "equipmentId": "su-northag-su-17-1", 
     "type": "aircraft", 
     "aircraftName": "SU17", 
     "movement": [{"cat": "Fighter-Bomber", "move": "Unlimited"}], 
@@ -2061,7 +2084,7 @@
     "weapons": ["12 Medium Bombs"] 
   },
   { 
-    "equipmentId": "su-northag-su17-2", 
+    "equipmentId": "su-northag-su-17-2", 
     "type": "aircraft", 
     "aircraftName": "SU17", 
     "movement": [{"cat": "Fighter-Bomber", "move": "Unlimited"}], 
@@ -2069,7 +2092,7 @@
     "weapons": ["4 Cluster Bombs"] 
   },
   { 
-    "equipmentId": "su-northag-su23-1", 
+    "equipmentId": "su-northag-su-23-1", 
     "type": "aircraft", 
     "aircraftName": "SU23", 
     "movement": [{"cat": "Fighter", "move": "Unlimited"}], 
@@ -2077,7 +2100,7 @@
     "weapons": ["2 Large Bombs"] 
   },
   { 
-    "equipmentId": "su-northag-su23-2", 
+    "equipmentId": "su-northag-su-23-2", 
     "type": "aircraft", 
     "aircraftName": "SU23", 
     "movement": [{"cat": "Fighter", "move": "Unlimited"}], 
@@ -2162,7 +2185,7 @@
     "notes": "**No effect under 20\""
   },
   { 
-    "equipmentId": "su-northag-rpg7", 
+    "equipmentId": "su-northag-rpg-7", 
     "type": "weapon", 
     "weaponName": "RPG 7", 
     "ammo": [{"AP": "3,-,-,-,-"}]
@@ -2174,7 +2197,7 @@
     "ammo": [{"HE": "Various, 2,2,2,2,2"}] 
   },
   { 
-    "equipmentId": "su-northag-sb4240mm", 
+    "equipmentId": "su-northag-sb4-240mm", 
     "type": "weapon", 
     "weaponName": "SB4 (240mm)", 
     "ammo": [{"HE": "Very Heavy, 7,7,7,7,7"}] 
@@ -2392,14 +2415,6 @@
     "movement": [{"cat": "Wheel Roadster", "move": "4\"/20\""}], 
     "armour": "Soft Skin", 
     "specialRules": ["Capacity 4"] 
-  },
-  { 
-    "equipmentId": "su-northag-stalwart-truck", 
-    "type": "vehicle", 
-    "vehicleName": "Stalwart Truck", 
-    "movement": [{"cat": "Wheel AT", "move": "8\"/16\""}], 
-    "armour": "Soft Skin", 
-    "specialRules": ["Capacity 2","Amphibious"] 
   }
   ]
 }
