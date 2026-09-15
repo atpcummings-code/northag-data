@@ -1867,7 +1867,7 @@
     "vehicleName": "T-64B", 
     "movement": [{"cat": "Med Track", "move": "8\"/12\""}], 
     "armour": [{"Front": 6, "Side": 4, "Rear": 2}], 
-    "weapons": [{"weapon": "125mmD81", "mount": "Turret","equipmentId": "su-northag-125mmd81"},{"weapon": "MG", "mount": "Co-axial", "rof": "Low", "range": 30},{"weapon": "MG", "mount": "Pintle", "rof": "Medium", "range": 30},{"weapon": "AT-8 Kobra (2)", "mount": "Turret","equipmentId": "su-northag-at-8-kobra"}],
+    "weapons": [{"weapon": "125mmD81", "mount": "Turret","equipmentId": "su-northag-125mmd81"},{"weapon": "MG", "mount": "Co-axial", "rof": "Low", "range": 30},{"weapon": "MG", "mount": "Pintle", "rof": "Medium", "range": 30},{"weapon": "AT-8 Kobra (2)", "mount": "Turret","equipmentId": "su-northag-at-8-songster"}],
     "specialRules": ["ATGM"] 
   }, 
 	  { 
@@ -1885,7 +1885,7 @@
     "vehicleName": "T-80b", 
     "movement": [{"cat": "Fast Track", "move": "10\"/14\""}], 
     "armour": [{"Front": 7, "Side": 5, "Rear": 2}], 
-    "weapons": [{"weapon": "125mmD81", "mount": "Turret","equipmentId": "su-northag-125mmd81"  },{"weapon": "MG", "mount": "Co-axial", "rof": "Low", "range": 30},{"weapon": "MG", "mount": "Pintle", "rof": "Medium", "range": 30},{"weapon": "AT-8 Kobra (2)", "mount": "Turret","equipmentId": "su-northag-at-8-kobra"}],
+    "weapons": [{"weapon": "125mmD81", "mount": "Turret","equipmentId": "su-northag-125mmd81"  },{"weapon": "MG", "mount": "Co-axial", "rof": "Low", "range": 30},{"weapon": "MG", "mount": "Pintle", "rof": "Medium", "range": 30},{"weapon": "AT-8 Kobra (2)", "mount": "Turret","equipmentId": "su-northag-at-8-songster"}],
     "specialRules": ["ATGM"] 
   }, 
 { 
