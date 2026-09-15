@@ -1382,7 +1382,7 @@
       "maxQty": 1,
       "points": 10,
       "br": 1,
-      "morale": "",
+      "morale": "C",
       "unitComposition": [
         {"qty": 1, "name": "UR-67 Mine Clearance vehicle","equipmentId": "su-northag-ur-67" }
       ],
