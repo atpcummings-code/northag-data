@@ -1112,11 +1112,11 @@
       "options": [
 		  {
           "id": "su-northag-mc-guided-weapons-carrier-section-1",
-          "name": "BRDM-2 AT-5 Konkur",
+          "name": "BRDM-2 AT-5 Konkurs",
           "points": 16,
           "br": 0, 
           "composition": [
-           {"qty": 2, "name": "BRDM-2 AT-5 Konkur", "equipmentId": "su-northag-brdm-2-konkur"}  
+           {"qty": 2, "name": "BRDM-2 AT-5 Spandrel", "equipmentId": "su-northag-brdm-2-konkurs"}  
           ]
         }
 	  ]
@@ -1876,7 +1876,7 @@
     "vehicleName": "BMP-2", 
     "movement": [{"cat": "Fast Track", "move": "10\"/14\""}], 
     "armour": [{"Front": 1, "Side": 0, "Rear": 0}], 
-    "weapons": [{"weapon": "30mm", "mount": "Turret", "rof": "High", "range": 50,"equipmentId": "su-northag-30mm"  },{"weapon": "MG", "mount": "Co-axial", "rof": "Low", "range": 30},{"weapon": "AT-3 Spandrel (1)", "mount": "Turret","equipmentId": "su-northag-at-5-spandrel"}],
+    "weapons": [{"weapon": "30mm", "mount": "Turret", "rof": "High", "range": 50,"equipmentId": "su-northag-30mm"  },{"weapon": "MG", "mount": "Co-axial", "rof": "Low", "range": 30},{"weapon": "AT-5 Spandrel (1)", "mount": "Turret","equipmentId": "su-northag-at-5-spandrel"}],
     "specialRules": ["Capacity 2","Amphibious","ATGM"] 
   },
 { 
@@ -1885,7 +1885,7 @@
     "vehicleName": "BMP-2K", 
     "movement": [{"cat": "Fast Track", "move": "10\"/14\""}], 
     "armour": [{"Front": 1, "Side": 0, "Rear": 0}], 
-    "weapons": [{"weapon": "30mm", "mount": "Turret", "rof": "High", "range": 50,"equipmentId": "su-northag-30mm"  },{"weapon": "MG", "mount": "Co-axial", "rof": "Low", "range": 30},{"weapon": "AT-3 Spandrel (1)", "mount": "Turret","equipmentId": "su-northag-at-5-spandrel"}],
+    "weapons": [{"weapon": "30mm", "mount": "Turret", "rof": "High", "range": 50,"equipmentId": "su-northag-30mm"  },{"weapon": "MG", "mount": "Co-axial", "rof": "Low", "range": 30},{"weapon": "AT-5 Spandrel (1)", "mount": "Turret","equipmentId": "su-northag-at-5-spandrel"}],
     "specialRules": ["Capacity 1","Amphibious","ATGM"] 
   },
 { 
@@ -2056,8 +2056,8 @@
     "vehicleName": "2S1 Grovzdika", 
     "movement": [{"cat": "Med Track", "move": "8\"/12\""}], 
     "armour": [{"Front": 2, "Side": 1, "Rear": 0}], 
-    "weapons": [{"weapon": "122mm*", "mount": "Turret", "equipmentId": "su-northag-122mm"  }],
-    "notes: "When deploye don table a 2S1 cannot use indirect fire, only Suppressing Fire or Aimed Fire with its HE shells.",
+    "weapons": [{"weapon": "122mm*", "mount": "Turret", "equipmentId": "su-northag-122mm"}],
+    "notes": "When deployed on table a 2S1 cannot use indirect fire, only Suppressing Fire or Aimed Fire with its HE shells.",
 	"specialRules": [] 
   },
   { 
