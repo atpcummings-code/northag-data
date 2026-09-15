@@ -2125,7 +2125,6 @@
     "type": "aircraft", 
     "aircraftName": "SU25", 
     "movement": [{"cat": "Fighter-Bomber", "move": "Unlimited"}], 
-    "hits": 3, 
     "weapons": ["8 Medium Bombs"] 
   },
 	  { 
@@ -2133,23 +2132,20 @@
     "type": "aircraft", 
     "aircraftName": "SU25", 
     "movement": [{"cat": "Fighter-Bomber", "move": "Unlimited"}], 
-    "hits": 3, 
     "weapons": ["4 Large Bombs"] 
   },
    { 
     "equipmentId": "su-northag-su-25-3", 
     "type": "aircraft", 
     "aircraftName": "SU25", 
-    "movement": [{"cat": "Fighter-Bomber", "move": "Unlimited"}], 
-    "hits": 3, 
+    "movement": [{"cat": "Fighter-Bomber", "move": "Unlimited"}],  
     "weapons": ["4 UB 32 rocket pods"] 
   },
   { 
     "equipmentId": "su-northag-su-17-1", 
     "type": "aircraft", 
     "aircraftName": "SU17", 
-    "movement": [{"cat": "Fighter-Bomber", "move": "Unlimited"}], 
-    "hits": 3, 
+    "movement": [{"cat": "Fighter-Bomber", "move": "Unlimited"}],  
     "weapons": ["12 Medium Bombs"] 
   },
   { 
@@ -2157,7 +2153,6 @@
     "type": "aircraft", 
     "aircraftName": "SU17", 
     "movement": [{"cat": "Fighter-Bomber", "move": "Unlimited"}], 
-    "hits": 3, 
     "weapons": ["4 Cluster Bombs"] 
   },
   { 
@@ -2165,7 +2160,6 @@
     "type": "aircraft", 
     "aircraftName": "SU23", 
     "movement": [{"cat": "Fighter", "move": "Unlimited"}], 
-    "hits": 4, 
     "weapons": ["2 Large Bombs"] 
   },
   { 
@@ -2173,7 +2167,6 @@
     "type": "aircraft", 
     "aircraftName": "SU23", 
     "movement": [{"cat": "Fighter", "move": "Unlimited"}], 
-    "hits": 4, 
     "weapons": ["1 UB-32 rocket pods"] 
   },
   { 
