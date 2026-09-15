@@ -1992,7 +1992,7 @@
     "type": "vehicle", 
     "vehicleName": "PTSM", 
     "movement": [{"cat": "Slow Track", "move": "6\"/10\""}], 
-    "armour": [{"Soft-skin"}], 
+    "armour": ["Soft-skin"], 
     "weapons": [],
     "specialRules": ["Capacity 10","Amphibious"] 
   },
