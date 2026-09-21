@@ -648,7 +648,7 @@
           "points": 108,
           "br": 0,
           "composition": [
-            { "name": "BMP-1", "mode": "replace", "replaces": ["BTR-60", "BTR-70"], "keepQty": true }
+            { "name": "BMP-1", "mode": "replace", "replaces": ["BTR-60", "BTR-70"], "keepQty": true, "equipmentId": "su-northag-bmp-1" }
           ]
         },
 
