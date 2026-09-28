@@ -69,7 +69,6 @@
   {
       "id": "su-northag-fsu-air-defence-battery",
       "name": "Air Defence Battery",
-      "name": "Armoured Car Patrol",
       "category": "Forward Screen Units",
       "minQty": 0,
       "maxQty": 1,
@@ -254,7 +253,7 @@
   "options": [
         {
           "id": "su-northag-fsu-spetnatz-long-range-patrol-1",
-          "name": "Rides in IuAZ-967",
+          "name": "Rides in Land Rover",
           "points": 0,
           "br": 0,
           "composition": 
